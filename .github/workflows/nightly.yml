@@ -37,7 +37,7 @@ jobs:
           git config --global user.email 'bot@gemini-studio.dev'
           
           # Stage the new data file
-          git add public/data/brief.json
+          git add public/data/
           
           # Check for changes before committing to avoid empty commit errors
           if git diff --staged --quiet; then
