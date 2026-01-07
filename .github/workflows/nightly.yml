@@ -1,0 +1,48 @@
+name: Nightly AI Brief Crawl
+
+on:
+  schedule:
+    # Runs at 02:00 UTC every day
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    # Allows manual triggering from the GitHub Actions tab
+
+jobs:
+  generate-brief:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push the generated JSON back to the repo
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Nightly Crawl
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        # uses npx tsx to execute the typescript file without a separate build step
+        run: npx tsx scripts/nightly-crawl.ts
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name 'Gemini Crawler Bot'
+          git config --global user.email 'bot@gemini-studio.dev'
+          
+          # Stage the new data file
+          git add public/data/brief.json
+          
+          # Check for changes before committing to avoid empty commit errors
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update daily AI brief [skip ci]"
+            git push
+          fi
