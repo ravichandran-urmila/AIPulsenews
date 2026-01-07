@@ -52,7 +52,14 @@
     </script>
 </head>
 <body>
-    <div id="root"></div>
+    <h2>[DEBUG] BEFORE ROOT</h2>
+    <div id="root">
+        <p style="color: red;">Waiting for React to mount...</p>
+    </div>
+    <h2>[DEBUG] AFTER ROOT / BEFORE SCRIPT</h2>
+
     <script type="module" src="./index.tsx"></script>
+
+    <h2>[DEBUG] AFTER SCRIPT</h2>
 </body>
 </html>
