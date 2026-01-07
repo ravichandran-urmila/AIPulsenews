@@ -1,38 +1,38 @@
 {
-  "editorsNote": "The AI landscape in early 2026 is defined by a decisive pivot from 'prediction' to 'action,' with Meta's $2B acquisition of Manus and Google DeepMind's push into 'continual learning' signaling the dawn of the autonomous agent era. In healthcare, AI has become the 'informal front door' for millions, prompting urgent calls for clinical-grade validation and privacy safeguards.",
+  "editorsNote": "The first week of 2026 marks a decisive pivot from 'chatbots' to 'autonomous agents' and 'physical AI.' Major moves by Meta and Google DeepMind signal that the industry is moving beyond language prediction toward systems that can reason, act, and interact with the physical world.",
   "healthcareStories": [
     {
-      "headline": "OpenAI Report: AI Becomes the 'Informal Front Door' to Global Healthcare",
-      "summary": "OpenAI's January 2026 report, 'AI as a Healthcare Ally,' reveals that ChatGPT has effectively become a primary entry point for medical information, with over 40 million people daily using the platform for health-related queries. Health prompts now account for more than 5% of global ChatGPT traffic. The data shows a significant shift in patient behavior: 70% of these conversations occur outside traditional clinic hours, and usage is particularly high in rural or underserved regions where physical access to care is limited.\n\nWhile the report highlights AI's role in absorbing demand that traditional systems struggle to manage—such as clarifying medical jargon or navigating insurance—it also underscores critical risks. Clinicians warn that generative AI can produce authoritative-sounding but incorrect guidance, and a concurrent report from The Mesothelioma Center found that 52% of Americans now turn to AI for symptom checking. Alarmingly, one in three users admitted they would skip or delay seeing a doctor if an AI characterized their symptoms as 'low risk.'\n\nWhy it matters: This 'informal' adoption is outpacing formal clinical integration. Healthcare leaders must now address the 'validation gap,' ensuring that AI tools used for triage meet the same rigorous standards as medical devices to prevent misdiagnosis and delayed care at scale.",
-      "source": "OpenAI / STAT News / PYMNTS",
+      "headline": "Utah Launches Nation's First Autonomous AI Prescription Renewal Pilot",
+      "summary": "On January 6, 2026, Utah officially launched a historic 12-month pilot program allowing AI to autonomously renew routine prescriptions for chronic conditions like diabetes and hypertension. This program operates within the state's regulatory sandbox, marking the first time a U.S. state has authorized an AI system to legally participate in clinical refill decisions without immediate human sign-off for every instance. To ensure safety, the pilot excludes controlled substances, ADHD medications, and injectables.\n\nThe system's implementation includes rigorous guardrails: the first 250 prescriptions in each medication class require manual physician review before the AI can act independently. Preliminary data from the developer showed a 99.2% match rate with physician treatment plans in 500 test cases. State officials emphasize that the goal is to reduce administrative burdens on clinicians and improve medication adherence, which is a significant driver of preventable healthcare costs.\n\nHowever, the move has sparked intense debate. Critics, including physician advocacy groups and Public Citizen, argue that the program 'perverts medical practice' by removing doctors from the care loop. They express concern that blurring the line between human and machine decision-making could lead to unforeseen safety risks. The results of this pilot are expected to set a national precedent for how other states regulate autonomous clinical AI.",
+      "source": "Nurse.org / MobiHealthNews",
       "tags": [
-        "Patient Care",
-        "Public Health",
-        "Policy"
+        "Policy",
+        "Clinical",
+        "Autonomous AI"
       ],
-      "cluster": "OpenAI",
-      "date": "Jan 7, 2026",
-      "url": "https://www.pymnts.com/ai/2026/openai-says-ai-is-now-informal-front-door-to-healthcare/"
+      "cluster": "Regulatory",
+      "date": "Jan 6, 2026",
+      "url": "https://www.nurse.org/articles/utah-ai-prescription-refill-pilot/"
     },
     {
       "headline": "MIT Study Warns EHR-Trained AI Models May Leak Sensitive Patient Data",
-      "summary": "A new study from the Massachusetts Institute of Technology (MIT) has found that foundation AI models trained on Electronic Health Records (EHRs) can inadvertently 'memorize' and expose identifiable patient information. Researchers developed structured 'extraction tests' demonstrating that an attacker with partial knowledge—such as specific lab results or demographic details—could successfully retrieve sensitive data from the model's weights.\n\nThe vulnerability is most acute for patients with rare conditions, whose unique data signatures are more easily isolated by the model. While general disclosures like age or gender were noted, the study flagged high-risk exposures related to HIV status and substance use disorders. This research challenges the assumption that de-identification of training sets is sufficient to protect privacy in the era of large-scale clinical models.\n\nWhy it matters: As health systems move toward 'digital operating systems' powered by AI, this study highlights a critical security flaw. Developers must implement more robust differential privacy techniques and 'unlearning' protocols to ensure that clinical AI generalizes patterns without retaining individual identities.",
-      "source": "MIT Tech Review / Becker's Hospital Review",
+      "summary": "Researchers at the Massachusetts Institute of Technology (MIT) released a study on January 6, 2026, revealing that foundation AI models trained on Electronic Health Records (EHRs) can 'memorize' and inadvertently expose identifiable patient information. The study found that attackers with partial knowledge—such as specific lab results or demographic details—could potentially extract sensitive data from these models, even when the training sets were supposedly de-identified.\n\nThe risk is particularly high for patients with rare conditions, whose unique clinical profiles make them easier to re-identify within a model's latent space. While general disclosures like age or gender were deemed lower risk, the researchers flagged potential leaks regarding HIV status or substance use as highly harmful. This finding challenges the current industry trend of using large-scale clinical data for model fine-tuning without more robust privacy-preserving techniques like differential privacy.\n\nWhy it matters: As health systems increasingly deploy 'private' LLMs trained on their own data, this research highlights a critical security vulnerability. It suggests that current de-identification standards may be insufficient for the era of generative AI, necessitating a rethink of how clinical data is 'sanitized' before being used in model training pipelines.",
+      "source": "Becker's Hospital Review / MIT",
       "tags": [
         "Privacy",
-        "Cybersecurity",
-        "EHR"
+        "Research",
+        "Security"
       ],
-      "cluster": "Regulatory",
+      "cluster": "Healthcare Systems",
       "date": "Jan 6, 2026",
       "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ehr-trained-ai-could-compromise-patient-privacy-mit.html"
     }
   ],
   "techStories": [
     {
-      "headline": "Meta Acquires Agentic Startup Manus for $2B to Lead 'Action' Era",
-      "summary": "Meta has officially acquired Singapore-based startup Manus in a deal valued at over $2 billion, marking a strategic shift from developing foundation models to deploying autonomous software agents. Manus, which reached $100M ARR in just eight months, specializes in 'agentic AI'—systems that can reason, plan, and execute multi-stage digital tasks like market research, coding, and data analysis with minimal human intervention.\n\nThe acquisition follows the recent restructuring of Meta's AI labs under new Chief AI Officer Alexandr Wang (formerly of Scale AI). Manus will reportedly remain a standalone product while its core technology is integrated into Meta AI across Facebook, Instagram, and WhatsApp. This move is seen as Meta's definitive answer to the agentic ecosystems being built by OpenAI and Google.\n\nWhy it matters: The 'foundation model' era is giving way to the 'agent' era. Meta's willingness to pay a 4x premium on Manus's 2025 valuation signals that the industry's new North Star is 'measurable economic utility'—AI that doesn't just talk, but does work.",
-      "source": "Meta / TechCrunch / Reuters",
+      "headline": "Meta Acquires Agentic AI Startup Manus in $2B+ Strategic Shift",
+      "summary": "Meta has kicked off 2026 with a massive acquisition of Manus, a Singapore-based developer of autonomous AI agents, in a deal valued between $2 billion and $3 billion. Manus, which emerged from the startup Butterfly Effect, specializes in 'agentic AI'—systems that don't just chat but can reason, plan, and execute multi-stage digital tasks from start to finish. This move signals Meta's transition from focusing solely on foundation models (like Llama) to building an 'execution layer' for commercial software.\n\nManus is designed to act as a general-purpose AI agent capable of screening CVs, analyzing stocks, and creating complex travel itineraries. Unlike standard chatbots, it can run virtual machines and edit content independently. Meta plans to integrate Manus's technology across its entire ecosystem, including Facebook, Instagram, and WhatsApp, while also maintaining it as a standalone enterprise service. This acquisition is seen as a direct response to the rise of 'thinking' models and agents from competitors like OpenAI and DeepSeek.\n\nIndustry analysts view this as a 'practical' step for Meta to monetize its multi-billion dollar AI investments. By acquiring a functioning business with paying customers and proven infrastructure, Meta is positioning itself to lead the 'agent economy,' where AI moves from being a 'bicycle for the mind' to an autonomous 'teammate' capable of generating measurable business value.",
+      "source": "AI Magazine / Silicon Republic",
       "tags": [
         "M&A",
         "Agents",
@@ -40,26 +40,39 @@
       ],
       "cluster": "Meta AI",
       "date": "Jan 6, 2026",
-      "url": "https://aimagazine.com/ai-strategy/inside-metas-groundbreaking-acquisition-of-manus"
+      "url": "https://aimagazine.com/ai-applications/inside-metas-groundbreaking-acquisition-of-manus"
     },
     {
-      "headline": "Google DeepMind Predicts 2026 as the Year of 'Continual Learning'",
-      "summary": "Researchers at Google DeepMind have released a forecast identifying 2026 as the 'turning point' for continual learning in AI. Unlike current models that are 'frozen' after training, continual learning allows AI to autonomously absorb new knowledge and improve its performance in real-time without forgetting previous tasks. This capability is considered the final hurdle for truly autonomous research and programming agents.\n\nDeepMind points to the 'nested method' presented at NeurIPS 2025 as the technical foundation for this shift, which significantly enhances context processing and memory retention. The lab predicts that by 2030, this will lead to full automation in software engineering, and by 2050, AI systems will be the primary drivers of Nobel Prize-level scientific discoveries.\n\nWhy it matters: For developers and enterprises, this means the end of the 'static model' lifecycle. Systems will soon require infrastructure that supports constant, incremental updates, fundamentally changing how AI products are maintained and scaled.",
-      "source": "Google DeepMind / Nature",
+      "headline": "Google DeepMind & Boston Dynamics Partner to Bring 'Gemini Robotics' to Atlas",
+      "summary": "At CES 2026, Google DeepMind and Boston Dynamics announced a landmark partnership to integrate DeepMind's 'Gemini Robotics' foundation models into the new electric Atlas humanoid. This collaboration aims to combine Boston Dynamics' world-leading 'athletic intelligence' with DeepMind's advanced reasoning and multimodal capabilities. The goal is to create robots that can perceive, reason, and interact with the physical world in complex industrial environments.\n\nThe partnership will focus on developing 'Visual-Language-Action' (VLA) models that allow humanoids to perform a wide variety of tasks without being explicitly programmed for each one. This marks a shift toward 'Physical AI,' where the intelligence of large-scale models is embodied in hardware. Hyundai Motor Group, which owns Boston Dynamics, supported the announcement with a commitment of $26 billion in U.S. investments to expand robotics and autonomous technology development.\n\nThis move is significant because it represents the convergence of two AI frontiers: the cognitive power of LLMs and the physical dexterity of advanced robotics. If successful, it could accelerate the deployment of humanoid robots in manufacturing and logistics, moving them from research labs to the factory floor by the end of the decade.",
+      "source": "Boston Dynamics / Google DeepMind",
       "tags": [
-        "Research",
-        "Future of Work",
-        "Models"
+        "Robotics",
+        "Partnership",
+        "Physical AI"
       ],
       "cluster": "Google / DeepMind",
-      "date": "Jan 4, 2026",
-      "url": "https://www.aibase.com/news/7845"
+      "date": "Jan 5, 2026",
+      "url": "https://bostondynamics.com/blog/boston-dynamics-google-deepmind-partnership/"
+    },
+    {
+      "headline": "OpenAI Ordered to Produce 20 Million Chat Logs in Landmark Copyright Case",
+      "summary": "In a major legal blow to OpenAI, a federal judge in the Southern District of New York ruled on January 5, 2026, that the company must produce 20 million de-identified ChatGPT logs as part of discovery in a consolidated copyright lawsuit. The case, brought by major news organizations including The New York Times, seeks to prove that OpenAI's models reproduce protected journalistic content.\n\nOpenAI's legal team argued that such a massive disclosure would infringe on user privacy and constitute an 'administrative burden.' However, Judge Sidney H. Stein rejected these arguments, noting that users voluntarily transmit their data to the platform and therefore lack a compelling privacy interest that would halt discovery. The ruling effectively dismantles the 'privacy shield' that many AI developers have used to avoid disclosing raw output evidence in intellectual property disputes.\n\nThis precedent is expected to have a 'chokepoint' effect on the broader Silicon Valley ecosystem. It signals that user-submitted queries are no longer a protected sanctuary in federal court. For OpenAI and other LLM providers, this means a significant increase in litigation costs and a higher likelihood of being forced into expensive licensing settlements with content creators.",
+      "source": "Lawyer Monthly",
+      "tags": [
+        "Legal",
+        "Copyright",
+        "Policy"
+      ],
+      "cluster": "OpenAI",
+      "date": "Jan 6, 2026",
+      "url": "https://www.lawyer-monthly.com/2026/01/openai-discovery-breach-20m-chat-logs-mandated/"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "Declared LLMs a 'dead end' for superintelligence in a viral thread. Argues that language-only training lacks the 'world model' necessary for human-level reasoning. Advocates for V-JEPA (Advanced Machine Intelligence) which learns from physical reality and video data. 'You can't learn how the world works just by reading about it.'",
+      "content": "Large Language Models (LLMs) are a 'dead end' for achieving superintelligence. They are constrained by language and lack an understanding of the physical world. We must pivot to 'World Models' (like V-JEPA) that learn from video and spatial data to achieve Advanced Machine Intelligence (AMI).",
       "authorName": "Yann LeCun",
       "date": "Today",
       "type": "Opinion",
@@ -67,90 +80,96 @@
     },
     {
       "handle": "@AndrewYNg",
-      "content": "Highlighted the shift from 'Passive Prediction' to 'Active Systems' in the latest Batch. Emphasized that 2026 must be the year we stop measuring AI by its ability to generate text and start measuring it by its ability to complete complex, long-horizon tasks safely.",
+      "content": "2026 will be the year of the 'Agentic Explosion.' We have the models, the tools, and the memory banks. The focus now shifts from models that predict to systems that act. It's time to build applications that actually do work, not just talk about it.",
       "authorName": "Andrew Ng",
-      "date": "Yesterday",
+      "date": "Today",
       "type": "Research",
       "url": "https://x.com/AndrewYNg"
     },
     {
       "handle": "@karpathy",
-      "content": "Shared a 'deep dive' on the efficiency of the new NVIDIA Nemotron models on Hugging Face. Noted that the 1B-v2 model's ability to handle multimodal RAG (PDFs with charts/tables) out-of-the-box is a 'game changer' for local, private AI agents.",
+      "content": "The 'bottleneck' in AI is no longer the model; it's the human. We have models capable of 10x more than what the average user is extracting. The next frontier is 'Human-AI Orchestration'—building the interfaces that let us actually use the intelligence we've already created.",
       "authorName": "Andrej Karpathy",
-      "date": "Today",
-      "type": "Research",
+      "date": "Yesterday",
+      "type": "Opinion",
       "url": "https://x.com/karpathy"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a 'Continual Learning' Agent with Vertex AI Agent Engine",
-      "description": "Leverage the newly GA 'Memory Bank' and 'Sessions' features to build an agent that remembers user preferences and past interactions across multiple sessions.",
+      "title": "Building an Autonomous Healthcare Agent with Vertex AI Agent Engine",
+      "description": "Create a clinical support agent that uses the new GA 'Sessions' and 'Memory Bank' features to maintain patient context across multiple interactions.",
       "tools": [
         "Vertex AI Agent Engine",
         "Gemini 1.5 Pro",
-        "Memory Bank"
+        "Agent Builder"
       ],
       "skills": [
         "Persistent Memory",
-        "Agentic Workflows",
-        "State Management"
+        "Session Management",
+        "Clinical Context Retention"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Initialize Agent with Memory Bank",
-          "instruction": "Create a new agent in Vertex AI and enable the 'Memory Bank' feature to allow the model to store and retrieve long-term context.",
-          "codeSnippet": "agent = aiplatform.Agent(display_name='PersistentAssistant', memory_bank_enabled=True)"
+          "stepTitle": "Initialize Agent Engine",
+          "instruction": "Enable the Vertex AI Agent Engine API and create a new agent instance using the Python SDK.",
+          "codeSnippet": "from google.cloud import aiplatform\nagent = aiplatform.AgentEngine(display_name='clinical-support-agent')"
         },
         {
-          "stepTitle": "Configure Session Persistence",
-          "instruction": "Set up session IDs to link multiple interactions to a single user profile, allowing the agent to 'learn' from previous conversations.",
-          "codeSnippet": "response = agent.ask('Remember my preference for Python over Java.', session_id='user_123')"
+          "stepTitle": "Configure Memory Bank",
+          "instruction": "Set up a Memory Bank to store patient history. Use the new 'Sessions' feature to ensure data is isolated per patient but persistent across visits.",
+          "codeSnippet": "agent.configure_memory(type='memory_bank', session_id='patient_123')"
         },
         {
-          "stepTitle": "Test Knowledge Retrieval",
-          "instruction": "Start a new session and verify the agent retrieves the stored preference without being re-prompted.",
-          "codeSnippet": "response = agent.ask('What language should we use for this project?', session_id='user_123')"
+          "stepTitle": "Deploy and Test",
+          "instruction": "Deploy the agent to an endpoint and test its ability to recall a patient's allergy mentioned in a previous session.",
+          "codeSnippet": "response = agent.query('What was the patient\\'s reaction to penicillin noted last week?')"
         }
       ],
       "date": "Jan 7, 2026",
       "prerequisites": [
         "Google Cloud Project",
-        "Vertex AI SDK installed"
+        "Vertex AI SDK installed",
+        "Basic Python knowledge"
       ],
       "sourceUrl": "https://cloud.google.com/vertex-ai/docs/release-notes"
     },
     {
-      "title": "Multimodal RAG for Clinical PDFs using Gemini 1.5 Flash",
-      "description": "Create a pipeline that extracts and reasons over complex medical charts and tables within PDF documents using Gemini's native multimodal capabilities.",
+      "title": "Multimodal RAG for Medical Imaging with Gemini 1.5",
+      "description": "Build a system that retrieves relevant medical literature based on both a text query and an uploaded X-ray image.",
       "tools": [
         "Gemini 1.5 Flash",
-        "Vertex AI Search",
-        "Document AI"
+        "Vertex AI Vector Search",
+        "Cloud Storage"
       ],
       "skills": [
-        "Multimodal RAG",
-        "Medical Data Extraction",
+        "Multimodal Embeddings",
+        "Vector Retrieval",
         "Prompt Engineering"
       ],
       "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Ingest Multimodal Data",
-          "instruction": "Upload clinical PDFs containing both text and imagery (e.g., lab results, X-rays) to a Vertex AI Search data store.",
-          "codeSnippet": "gsutil cp clinical_records/*.pdf gs://your-bucket/medical-data/"
+          "stepTitle": "Generate Multimodal Embeddings",
+          "instruction": "Use the multimodal embedding model to convert both medical images and text into a shared vector space.",
+          "codeSnippet": "embeddings = model.get_embeddings(image=image_path, text='chest x-ray findings')"
         },
         {
-          "stepTitle": "Enable Multimodal Reasoning",
-          "instruction": "Configure the Gemini 1.5 Flash model to use the PDF as a direct input, bypassing traditional OCR-only methods.",
-          "codeSnippet": "model = GenerativeModel('gemini-1.5-flash')\nresponse = model.generate_content([pdf_file, 'Summarize the trend in the blood glucose table on page 3.'])"
+          "stepTitle": "Perform Vector Search",
+          "instruction": "Query your Vertex AI Vector Search index to find the most similar research papers or clinical guidelines.",
+          "codeSnippet": "results = index.find_neighbors(embedding_value=embeddings, neighbor_count=5)"
+        },
+        {
+          "stepTitle": "Generate Synthesis",
+          "instruction": "Pass the retrieved documents and the original image to Gemini 1.5 Flash to generate a summarized clinical insight.",
+          "codeSnippet": "final_report = gemini.generate_content([image, retrieved_docs, 'Summarize findings'])"
         }
       ],
       "date": "Jan 7, 2026",
       "prerequisites": [
-        "Vertex AI API enabled",
-        "Sample medical PDFs"
+        "Vertex AI Vector Search Index",
+        "Dataset of medical PDFs in GCS"
       ],
       "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/multimodal/overview"
     }
@@ -158,15 +177,15 @@
   "deepLearningSpotlight": [
     {
       "title": "The Batch: From Prediction to Action",
-      "summary": "In the 2026 New Year special, Tanmay Gupta of the Allen Institute argues that the AI industry has fallen for the 'prediction fallacy'—the belief that generating bounding boxes or fluent text is equivalent to real-world utility. He asserts that 2026 must focus on 'systems that act.' This requires moving beyond proxy tasks to long-horizon planning where models can execute complex workflows. Andrew Ng supports this, noting that while we've mastered 'passive' AI, the economic value of 2026 lies in 'agentic' systems that can autonomously navigate the web and physical world to achieve goals.",
-      "url": "https://www.deeplearning.ai/the-batch/new-year-special-2026/",
+      "summary": "In the first 2026 edition of 'The Batch,' Tanmay Gupta of the Allen Institute argues that AI research must move past 'passive prediction.' For years, the industry has focused on transcribing audio, generating text, and identifying objects in images. Gupta calls these 'proxy tasks' that don't necessarily translate to economic utility. He posits that the real breakthrough of 2026 will be 'systems that act'—AI that can execute long-horizon tasks in the real world.\n\nAndrew Ng echoes this sentiment in his editorial, suggesting that the 'Cambrian Explosion' of intelligent applications is finally here because the underlying pieces (reasoning, memory, and tool-use) have matured. Ng believes that 2026 will be the year we stop asking what AI can say and start asking what AI can do. This shift requires a new evaluation framework that measures 'task success' rather than just 'token accuracy.'",
+      "url": "https://www.deeplearning.ai/the-batch/issue-332/",
       "category": "The Batch",
       "author": "Andrew Ng / Tanmay Gupta",
       "date": "Jan 2, 2026"
     },
     {
       "title": "Multimodal Models for Biomedicine",
-      "summary": "Pengtao Xie of UC-San Diego explores why 2026 is the year multimodal models finally mature for healthcare. Historically, models for text, imaging, and genomic data were fragmented. Xie highlights new architectures that jointly reason over 'tiny chemicals and large organs,' allowing for a holistic view of patient health. The technical challenge remains 'interpretability'—ensuring that when a model links a specific molecular sequence to a clinical image, the reasoning is transparent to the physician. This shift is critical for moving from general-purpose models to precision medicine tools.",
+      "summary": "Pengtao Xie of UC San Diego highlights a critical gap in medical AI: the fragmentation of multimodal reasoning. While we have models that can look at an image or read a chart, they often fail to 'jointly reason' across text, images, sequences (like DNA), and time series data. In 2026, the focus is shifting toward models that can visualize 'tiny chemicals and large organs' simultaneously.\n\nXie argues that for AI to be truly useful in a clinical setting, it must be interpretable. A model that flags a potential tumor must be able to explain its reasoning by pointing to specific pixels in an MRI and correlating them with specific markers in a lab report. This 'holistic' approach is the next frontier for biomedical AI, moving away from brittle, single-modality tools toward integrated diagnostic partners.",
       "url": "https://www.deeplearning.ai/the-batch/multimodal-models-for-biomedicine/",
       "category": "Research Highlight",
       "author": "Pengtao Xie",
@@ -177,18 +196,26 @@
     {
       "title": "NVIDIA Nemotron RAG Cookbook",
       "provider": "Hugging Face",
-      "summary": "A hands-on guide to using the new 1B-v2 Nemotron models for high-accuracy, low-latency visual document retrieval. Ideal for building agents that need to 'see' charts and tables in enterprise PDFs.",
+      "summary": "A hands-on guide to using the new Llama Nemotron models for high-accuracy multimodal RAG. Learn how to ground AI responses in complex PDF data using NVIDIA's latest reranker models.",
       "url": "https://huggingface.co/blog/nvidia-nemotron-rag",
       "type": "Tutorial",
       "difficulty": "Intermediate"
     },
     {
-      "title": "OpenAI Grove: Talent Building Program",
+      "title": "OpenAI Grove: Collaborative AI Development",
       "provider": "OpenAI",
-      "summary": "A 5-week mentorship program at OpenAI HQ for individuals to co-build with researchers. Focuses on leveraging OpenAI's latest resources for agentic AI development. Applications close Jan 12.",
+      "summary": "A 5-week residency program at OpenAI HQ for developers to co-build with researchers. Focuses on leveraging OpenAI's internal resources for talent development and advanced model orchestration.",
       "url": "https://openai.com/blog/apply-to-openai-grove",
       "type": "Course",
       "difficulty": "Advanced"
+    },
+    {
+      "title": "Agentic AI Foundation (AAIF) Open Standards",
+      "provider": "Linux Foundation / Anthropic",
+      "summary": "An open-source initiative to define interoperability standards for AI agents. Essential for developers building agents that need to communicate across different platforms and payment systems.",
+      "url": "https://agentic-ai-foundation.org",
+      "type": "Tool",
+      "difficulty": "Beginner"
     }
   ]
 }
