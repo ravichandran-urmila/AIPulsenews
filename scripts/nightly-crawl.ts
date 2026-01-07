@@ -2,15 +2,11 @@ import { generateBrief } from '../services/geminiService';
 import * as fs from 'fs';
 import * as path from 'path';
 
-// Map the GitHub Secret GEMINI_API_KEY to the expected API_KEY env var
-// This allows the shared service code to work without modification.
 if (process.env.GEMINI_API_KEY && !process.env.API_KEY) {
   process.env.API_KEY = process.env.GEMINI_API_KEY;
 }
 
 const run = async () => {
-  // 1. Generate the date string in the same format as the frontend
-  // This ensures consistency when/if the frontend reads this static file.
   const today = new Date();
   const options: Intl.DateTimeFormatOptions = { 
     weekday: 'long', 
@@ -19,26 +15,58 @@ const run = async () => {
     day: 'numeric' 
   };
   const dateStr = today.toLocaleDateString('en-US', options);
+  const fileDateStamp = today.toISOString().split('T')[0];
 
   console.log(`[Nightly Crawl] Starting generation for: ${dateStr}`);
 
   try {
-    // 2. Run the Gemini generation with search enabled (useSearch = true)
-    // The empty string is for inputText, which is ignored when search is enabled.
     const briefData = await generateBrief("", true, dateStr);
     
-    // 3. Prepare output directory (public/data)
-    // This allows the generated JSON to be served statically by the web host.
     const outputDir = path.join((process as any).cwd(), 'public', 'data');
-    if (!fs.existsSync(outputDir)) {
-      fs.mkdirSync(outputDir, { recursive: true });
+    const archivesDir = path.join(outputDir, 'archives');
+    const outputPath = path.join(outputDir, 'brief.json');
+    const manifestPath = path.join(outputDir, 'manifest.json');
+
+    if (!fs.existsSync(archivesDir)) {
+      fs.mkdirSync(archivesDir, { recursive: true });
     }
 
-    // 4. Write to JSON file
-    const outputPath = path.join(outputDir, 'brief.json');
+    // 1. Archive previous today's brief if it exists
+    if (fs.existsSync(outputPath)) {
+      try {
+        const stats = fs.statSync(outputPath);
+        const mtime = new Date(stats.mtime);
+        const prevDateStamp = mtime.toISOString().split('T')[0];
+        const archivePath = path.join(archivesDir, `brief-${prevDateStamp}.json`);
+        
+        fs.copyFileSync(outputPath, archivePath);
+        console.log(`[Nightly Crawl] Archived previous brief to: ${archivePath}`);
+      } catch (archiveError) {
+        console.error("[Nightly Crawl] Warning: Archive error:", archiveError);
+      }
+    }
+
+    // 2. Write new today's brief
     fs.writeFileSync(outputPath, JSON.stringify(briefData, null, 2));
 
-    console.log(`[Nightly Crawl] Success! Saved brief to ${outputPath}`);
+    // 3. Update Manifest
+    let manifest: string[] = [];
+    if (fs.existsSync(manifestPath)) {
+      try {
+        manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+      } catch (e) { manifest = []; }
+    }
+    
+    // Add both the pretty date string and the raw datestamp for easier lookup
+    // Using the pretty date as the primary key to match frontend state
+    if (!manifest.includes(dateStr)) {
+      manifest.push(dateStr);
+      // Keep unique and sorted (newest first happens in frontend, but we can store chronologically)
+      manifest = Array.from(new Set(manifest));
+    }
+    fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2));
+
+    console.log(`[Nightly Crawl] Success! Updated brief and manifest.`);
     
   } catch (error) {
     console.error("[Nightly Crawl] Failed:", error);

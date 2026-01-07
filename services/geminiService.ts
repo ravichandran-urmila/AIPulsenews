@@ -1,8 +1,10 @@
-import { GoogleGenAI, Type, Schema } from "@google/genai";
+
+import { GoogleGenAI, Type } from "@google/genai";
 import { BriefData } from "../types";
 
 // Define the response schema to ensure Gemini returns structured data suitable for our UI
-const storySchema: Schema = {
+// Fix: Removed Schema type annotation as per @google/genai guidelines
+const storySchema = {
   type: Type.OBJECT,
   properties: {
     cluster: {
@@ -38,7 +40,7 @@ const storySchema: Schema = {
   required: ["headline", "summary", "source", "tags"],
 };
 
-const socialPostSchema: Schema = {
+const socialPostSchema = {
   type: Type.OBJECT,
   properties: {
     handle: { type: Type.STRING, description: "The X handle (e.g. @ylecun)." },
@@ -51,7 +53,7 @@ const socialPostSchema: Schema = {
   required: ["handle", "content"]
 };
 
-const pocStepSchema: Schema = {
+const pocStepSchema = {
   type: Type.OBJECT,
   properties: {
     stepTitle: { type: Type.STRING, description: "Short title for this step (e.g. 'Set up API Key')." },
@@ -61,7 +63,7 @@ const pocStepSchema: Schema = {
   required: ["stepTitle", "instruction"]
 };
 
-const pocItemSchema: Schema = {
+const pocItemSchema = {
   type: Type.OBJECT,
   properties: {
     title: { type: Type.STRING },
@@ -96,7 +98,7 @@ const pocItemSchema: Schema = {
   required: ["title", "description", "tools", "skills", "complexity", "guide"]
 };
 
-const deepLearningPostSchema: Schema = {
+const deepLearningPostSchema = {
   type: Type.OBJECT,
   properties: {
     title: { type: Type.STRING, description: "Headline of the blog post or newsletter segment." },
@@ -112,7 +114,7 @@ const deepLearningPostSchema: Schema = {
   required: ["title", "summary", "url", "category"]
 };
 
-const learningResourceSchema: Schema = {
+const learningResourceSchema = {
   type: Type.OBJECT,
   properties: {
     title: { type: Type.STRING },
@@ -125,7 +127,7 @@ const learningResourceSchema: Schema = {
   required: ["title", "provider", "summary", "url", "type"]
 };
 
-const briefSchema: Schema = {
+const briefSchema = {
   type: Type.OBJECT,
   properties: {
     editorsNote: {
@@ -260,14 +262,10 @@ SPECIAL INSTRUCTION - QUANTITY:
 `;
 
   try {
+    // Fix: Using correct property access for text and adhering to generationConfig and tools rules
     const response = await ai.models.generateContent({
       model: "gemini-3-flash-preview", 
-      contents: [
-        {
-          role: "user",
-          parts: [{ text: promptText }],
-        },
-      ],
+      contents: promptText,
       config: {
         systemInstruction: systemInstruction,
         responseMimeType: "application/json",
