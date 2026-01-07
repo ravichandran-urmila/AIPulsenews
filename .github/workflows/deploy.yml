@@ -1,0 +1,31 @@
+name: Build and Deploy to GH Pages
+on:
+  push:
+    branches: [ main ]
+  # This line ensures that after your Nightly Crawler pushes a new JSON, 
+  # the website is rebuilt and redeployed automatically.
+  workflow_run:
+    workflows: ["Nightly AI Brief Crawl"]
+    types: [completed]
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    concurrency: ci-${{ github.ref }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install and Build
+        run: |
+          npm install
+          npm run build
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build # Or 'dist' if you are using Vite
+          branch: gh-pages
