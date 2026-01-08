@@ -140,7 +140,7 @@ const App: React.FC = () => {
       
       // 1. Sync Archives List from Manifest
       try {
-        const manifestRes = await fetch('/data/manifest.json');
+        const manifestRes = await fetch('./data/manifest.json');
         if (manifestRes.ok) {
           const manifestDates = await manifestRes.json() as string[];
           const localDates = getAvailableEditions();
@@ -163,7 +163,7 @@ const App: React.FC = () => {
       }
 
       try {
-        const response = await fetch('/data/brief.json');
+        const response = await fetch('./data/brief.json');
         if (response.ok) {
           const staticData = await response.json() as BriefData;
           setBrief(staticData);
@@ -217,7 +217,7 @@ const App: React.FC = () => {
     // 2. Try fetching datestamped archive from server
     setLoading(true);
     const fileDate = formatToFileDate(dateKey);
-    const archiveUrl = `/data/archives/brief-${fileDate}.json`;
+    const archiveUrl = `./data/archives/brief-${fileDate}.json`;
 
     try {
       const res = await fetch(archiveUrl);
@@ -228,7 +228,7 @@ const App: React.FC = () => {
         setCurrentDate(dateKey);
       } else if (dateKey === todayStr) {
         // Fallback for today if brief.json is used instead of archives
-        const todayRes = await fetch('/data/brief.json');
+        const todayRes = await fetch('./data/brief.json');
         if (todayRes.ok) {
           const data = await todayRes.json() as BriefData;
           setBrief(data);
