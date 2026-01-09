@@ -3,7 +3,7 @@ name: Nightly AI Brief Crawl
 on:
   schedule:
     # Runs at 02:00 UTC every day
-    - cron: '0 2 * * *'
+    - cron: '17 8 * * *'
   workflow_dispatch:
     # Allows manual triggering from the GitHub Actions tab
 
