@@ -1,139 +1,131 @@
 {
-  "editorsNote": "Today's landscape is defined by a shift from AI experimentation to enterprise-grade execution, with a heavy focus on 'agentic' systems that act rather than just predict. Key themes include the rise of comprehensive medical foundation models and a strategic pivot toward sustainable energy, specifically nuclear, to power the next generation of superintelligence.",
+  "editorsNote": "Today's landscape is defined by a pivot from AI experimentation to 'practical adoption,' with major players like OpenAI and Google focusing on workflow integration and specialized medical models. Key themes include the rise of agentic AI in healthcare regulation and the emergence of high-precision genomic tools.",
   "healthcareStories": [
     {
-      "headline": "FDA Clears Industry's First Comprehensive Foundation Model for CT Triage",
-      "summary": "The U.S. Food and Drug Administration (FDA) has granted clearance to Aidoc's 'CARE' foundation model, marking a significant milestone in clinical AI. Unlike traditional AI tools that focus on a single condition, this foundation model-based solution is cleared for 11 new acute indications and three existing ones within a single abdomen CT workflow. This allows health systems to surface critical findings across a broad range of pathologies simultaneously, significantly reducing delays in Emergency Departments (ED) and clearing imaging backlogs.\n\nIn pivotal studies reviewed by the FDA, the model demonstrated a mean sensitivity of 97% and a mean specificity of 98%. More importantly, it achieved a nearly ten-fold reduction in false alerts compared to single-condition solutions. This high signal-to-noise ratio is critical for real-world adoption, as it prevents 'alert fatigue' among radiologists while ensuring that life-threatening cases are prioritized.\n\nWhy it matters: This shift from 'point solutions' to 'foundation models' in radiology represents a fundamental change in how AI is integrated into clinical practice. It moves the industry away from fragmented, vendor-heavy ecosystems toward unified platforms that can handle the complexity of human anatomy in a single pass, improving both patient safety and operational efficiency.",
-      "source": "Aidoc / ITN Online",
+      "headline": "Deep-Learning Algorithms ClairS-TO and Clair3-RNA Advance Cancer Diagnostics",
+      "summary": "Researchers at the University of Hong Kong have unveiled two groundbreaking deep-learning algorithms, ClairS-TO and Clair3-RNA, designed to revolutionize genetic mutation detection. Published in Nature Communications on January 25, 2026, these tools leverage long-read sequencing to identify mutations in complex samples with unprecedented accuracy. ClairS-TO specifically targets somatic mutations in tumor-only samples, while Clair3-RNA focuses on identifying variants in RNA sequences, overcoming long-standing hurdles in genomic data interpretation.\n\nWhy it matters: These tools significantly lower the barrier for precision medicine by making genomic analysis faster and more accessible. For clinical teams, this means more reliable identification of cancer-driving mutations without the need for matched normal samples, potentially accelerating personalized treatment plans and improving patient outcomes globally.",
+      "source": "Mirage News / Nature Communications",
       "tags": [
-        "Clinical",
-        "Regulatory",
-        "Imaging"
+        "Genomics",
+        "Cancer Diagnostics",
+        "Deep Learning"
       ],
-      "cluster": "Healthcare Systems",
-      "date": "Jan 23",
-      "url": "https://www.itnonline.com/content/fda-clears-comprehensive-foundation-model-ai-abdomen-ct"
+      "cluster": "Academic Research",
+      "date": "Jan 25, 2026",
+      "url": "https://www.miragenews.com/ai-tools-revolutionize-cancer-diagnosis-1160000/"
     },
     {
-      "headline": "Google DeepMind Unveils MedGemma 1.5 and MedASR for Clinical Workflows",
-      "summary": "Google Research and DeepMind have introduced MedGemma 1.5 and MedASR, a suite of models designed to modernize medical image interpretation and clinical documentation. MedGemma 1.5 leverages the Gemini architecture to provide advanced reasoning over medical images, while MedASR (Medical Automatic Speech Recognition) is optimized for the specific terminology and acoustic environments of clinical settings. These models are intended to power the next generation of ambient scribes and diagnostic assistants.\n\nThe release emphasizes 'agentic' capabilities, where the AI doesn't just transcribe or label but can assist in planning and executing workflow steps. For instance, MedASR can distinguish between multiple speakers in a surgical suite, while MedGemma can cross-reference visual findings with longitudinal patient data to suggest potential diagnoses. This integration aims to address the 'fragmentation' bottleneck that has historically slowed AI adoption in hospitals.\n\nWhy it matters: By open-sourcing components of these models and integrating them into the Vertex AI ecosystem, Google is positioning itself as the primary infrastructure provider for healthcare AI. This move directly challenges EHR vendors and niche startups by providing high-performance, specialized models that can be customized for local hospital needs.",
+      "headline": "FDA Transitions to Agentic AI Workflows for Medical Oversight",
+      "summary": "The U.S. Food and Drug Administration (FDA) has formally begun integrating 'Agentic AI' into its regulatory infrastructure as of January 2026. Unlike standard chatbots, these agentic systems can autonomously plan and execute multi-step reviews of pre-market submissions and post-market surveillance data. This shift was highlighted during the FDA's Scientific Computing Day, where the agency demonstrated how AI agents can assist in identifying safety signals that human reviewers might miss.\n\nWhy it matters: This marks a critical shift from theoretical governance to operational AI in healthcare regulation. Developers must now ensure their AI submissions are compatible with automated oversight models. For healthcare leaders, this suggests a future where regulatory approval cycles could be significantly shortened, but with more rigorous, continuous monitoring of AI performance in real-world settings.",
+      "source": "AI Healthcare Compliance",
+      "tags": [
+        "Regulatory",
+        "FDA",
+        "Agentic AI"
+      ],
+      "cluster": "Regulatory",
+      "date": "Jan 09, 2026",
+      "url": "https://aihealthcarecompliance.com/ai-in-healthcare-regulatory-updates-jan-1-9-2026/"
+    },
+    {
+      "headline": "Google Research Debuts MedGemma 1.5 and MedASR for Clinical Workflows",
+      "summary": "Google has released MedGemma 1.5 and MedASR, a suite of specialized models designed for medical image interpretation and speech-to-text transcription. MedGemma 1.5 builds on the Gemma architecture to provide high-fidelity reasoning over radiology and pathology images, while MedASR is optimized for the nuances of medical terminology in clinical settings. These models are being integrated into Vertex AI to help providers automate documentation and diagnostic support.\n\nWhy it matters: These tools address the 'last mile' of AI in healthcare—integrating intelligence directly into the clinician's workflow. By reducing the administrative burden of documentation and providing real-time diagnostic assistance, Google is positioning itself as the primary infrastructure provider for AI-native health systems.",
       "source": "Google Research Blog",
       "tags": [
-        "Models",
-        "Clinical",
-        "Open Source"
+        "Clinical AI",
+        "Medical Imaging",
+        "ASR"
       ],
       "cluster": "Google / DeepMind",
-      "date": "Jan 13",
-      "url": "https://research.google/blog/next-generation-medical-image-interpretation-with-medgemma-1-5-and-medical-speech-to-text-with-medasr/"
-    },
-    {
-      "headline": "Gates Foundation and OpenAI Partner to Test AI in African Healthcare",
-      "summary": "OpenAI and the Bill & Melinda Gates Foundation have launched a joint initiative to test the efficacy of large language models in improving healthcare outcomes across Africa. The pilot programs focus on using AI to support frontline health workers in remote areas, providing them with diagnostic support, treatment guidelines, and maternal health monitoring tools that operate on low-bandwidth mobile devices.\n\nThe partnership aims to address the 'capability overhang'—the gap between what AI can do and the value actually captured by underserved populations. By fine-tuning models on local medical data and languages, the project seeks to create a 'personal health assistant' for every health worker. The initiative also includes a rigorous evaluation framework to monitor for bias and ensure that the AI's recommendations are culturally and medically appropriate for the local context.\n\nWhy it matters: This represents a major push to use frontier AI for global health equity. If successful, it could provide a blueprint for scaling high-quality medical expertise to regions with severe doctor shortages, potentially leapfrogging traditional healthcare infrastructure through digital-first interventions.",
-      "source": "AI News",
-      "tags": [
-        "Global Health",
-        "Policy",
-        "Social Impact"
-      ],
-      "cluster": "OpenAI",
-      "date": "Jan 22",
-      "url": "https://artificialintelligence-news.com/2026/01/22/gates-foundation-openai-test-ai-african-healthcare/"
+      "date": "Jan 13, 2026",
+      "url": "https://research.google/blog/"
     }
   ],
   "techStories": [
     {
-      "headline": "Anthropic Releases 23,000-Word 'Constitution' for Claude Models",
-      "summary": "Anthropic has published a massive update to its 'Constitutional AI' framework, expanding the guiding principles for its Claude models from a 2,700-word list to a comprehensive 23,000-word document. The new constitution moves beyond simple 'do/don't' rules to provide detailed explanations of the values, motives, and societal context Anthropic wants the models to understand. This 'holistic' approach is designed to help models reason through complex ethical dilemmas rather than just following rigid instructions.\n\nThe company describes Claude as an 'entity' that needs to understand 'why' certain behaviors are preferred. The document covers broad safety, ethical compliance, and alignment with human mechanisms of oversight. Anthropic has released the full text under a Creative Commons CC0 license, encouraging other developers to adopt or adapt these principles for their own models. This transparency is part of a broader effort to make AI 'mechanistically interpretable'—understanding the inner workings of the neural networks.\n\nWhy it matters: As AI agents gain more autonomy, the 'black box' nature of their decision-making becomes a liability. Anthropic's move to a more verbose, explanatory constitution is a technical bet that 'teaching' values through context will lead to more reliable and safer agentic behavior than traditional fine-tuning alone.",
-      "source": "Anthropic Blog / The Register",
+      "headline": "OpenAI CFO Declares 2026 the Year of 'Practical Adoption'",
+      "summary": "OpenAI CFO Sarah Friar announced that the company's primary focus for 2026 is 'practical adoption,' aiming to close the gap between AI's potential and its daily use in enterprise and science. In a detailed update, Friar revealed that OpenAI's compute capacity grew from 0.2 GW in 2023 to 1.9 GW in 2025, fueling a revenue run rate that now exceeds $20 billion. The company is pivoting toward building 'mission-critical infrastructure' rather than just experimental tools.\n\nWhy it matters: This signals a shift in strategy from rapid model release to deep industry integration. For executives, this means OpenAI will likely prioritize reliability, security, and industry-specific fine-tuning over the 'wow factor' of new general-purpose models. However, reports of a potential $100 billion IPO and a looming cash crunch suggest that this push for monetization is also a financial necessity.",
+      "source": "OpenAI Blog / CNBC",
       "tags": [
-        "Safety",
-        "Governance",
-        "Models"
+        "Business Strategy",
+        "Enterprise AI",
+        "Finance"
       ],
-      "cluster": "Anthropic",
-      "date": "Jan 21",
-      "url": "https://www.anthropic.com/news/claudes-new-constitution"
+      "cluster": "OpenAI",
+      "date": "Jan 20, 2026",
+      "url": "https://openai.com/news/"
     },
     {
-      "headline": "Meta Pivots to Nuclear Energy with Multi-Billion Dollar Oklo Deal",
-      "summary": "Meta has announced a landmark agreement with nuclear startup Oklo to develop a 1.2-gigawatt nuclear campus, specifically designed to power its next generation of AI training facilities. This move is part of a broader strategy to secure up to 6.6 GW of clean, 'firm' electricity to meet the insatiable power demands of hyperscale AI data centers. The partnership includes the development of small modular reactors (SMRs) that use advanced fuels like High-Assay Low-Enriched Uranium (HALEU).\n\nThis shift marks a significant departure from Meta's previous focus on the metaverse, as the company reallocates billions in capital toward AI infrastructure and hardware, including its Ray-Ban AI glasses. CEO Mark Zuckerberg is positioning Meta to lead in 'personal superintelligence,' which requires a vertically integrated supply chain—from the nuclear fuel fabrication to the custom AI chips running in the data centers.\n\nWhy it matters: The 'AI power crunch' is forcing big tech companies to become energy providers. By investing in nuclear, Meta is attempting to decouple its growth from the constraints of the traditional electric grid and carbon-heavy energy sources, ensuring it has the 'compute sovereignty' needed to compete with Google and OpenAI.",
-      "source": "Meta Newsroom / Bloomberg",
+      "headline": "MIT Unveils 10 Breakthrough Technologies of 2026",
+      "summary": "MIT Technology Review has released its 25th annual list of breakthrough technologies, with AI dominating the selection. Key entries include 'Hyperscale AI Data Centers,' 'Generative Coding,' and 'Mechanistic Interpretability.' The list highlights a shift toward understanding the 'black box' of AI models to ensure safety and alignment, as well as the massive energy infrastructure required to sustain the AI revolution, exemplified by Meta's partnership with Oklo for a nuclear-powered AI campus.\n\nWhy it matters: The inclusion of 'Mechanistic Interpretability' is particularly significant for developers, as it suggests that tools for auditing AI decision-making are moving from research to practical application. This will be vital for deploying AI in high-stakes environments like healthcare and finance where explainability is a legal requirement.",
+      "source": "MIT Technology Review",
       "tags": [
-        "Infrastructure",
-        "Energy",
-        "Strategy"
+        "Innovation",
+        "Future Tech",
+        "Energy"
       ],
-      "cluster": "Meta AI",
-      "date": "Jan 12",
-      "url": "https://about.fb.com/news/2026/01/meta-announces-nuclear-energy-projects/"
+      "cluster": "Academic Research",
+      "date": "Jan 12, 2026",
+      "url": "https://www.technologyreview.com/"
     }
   ],
   "socialHighlights": [
     {
-      "handle": "@ylecun",
-      "content": "The path to AGI is not through LLMs alone. We need 'World Models' that can plan and reason in 4D. D4RT from DeepMind is a step in the right direction, but we are still missing the fundamental architecture for autonomous intelligence that truly understands physics.",
-      "authorName": "Yann LeCun",
+      "handle": "@AndrewYNg",
+      "content": "I'm seeing a massive shift from 'AI as a chatbot' to 'AI as an agentic workflow.' In 2026, the winners won't just have the best models; they'll have the best evals and error analysis processes for their agents. If you aren't building a disciplined eval pipeline, you aren't building for production.",
+      "authorName": "Andrew Ng",
       "date": "Today",
       "type": "Opinion",
-      "url": "https://x.com/ylecun"
-    },
-    {
-      "handle": "@AndrewYNg",
-      "content": "I'm seeing a 'capability overhang' in many enterprises. The models can do 90% of the work, but the last 10% (validation and error handling) is where the ROI disappears. Focus on 'agentic workflows' that include human-in-the-loop for high-stakes tasks.",
-      "authorName": "Andrew Ng",
-      "date": "1d ago",
-      "type": "Research",
       "url": "https://x.com/AndrewYNg"
     },
     {
-      "handle": "@karpathy",
-      "content": "The 'DeepSeek Moment' from last year proved that open-source can leapfrog closed models through architectural efficiency. In 2026, the 'moat' isn't the model; it's the data flywheel and the ability to execute complex, multi-step agentic loops.",
-      "authorName": "Andrej Karpathy",
-      "date": "Today",
-      "type": "Opinion",
-      "url": "https://x.com/karpathy"
+      "handle": "@ylecun",
+      "content": "The obsession with LLMs as the path to AGI is hitting a wall. We need world models that can reason about physical reality, not just predict the next token. DeepMind's work on D4RT (4D scene reconstruction) is a step in the right direction—teaching AI to see the world in four dimensions is how we get to true machine intelligence.",
+      "authorName": "Yann LeCun",
+      "date": "Yesterday",
+      "type": "Research",
+      "url": "https://x.com/ylecun"
     },
     {
       "handle": "@OpenAI",
-      "content": "Introducing 'ChatGPT Go' in the U.S. — our most accessible tier yet. We're also testing ads to ensure that the most powerful AI tools remain free for everyone, regardless of their ability to pay. Intelligence should be a universal utility.",
+      "content": "We're beginning to test sponsored placements in ChatGPT for free users. These will be clearly labeled and appear only when a relevant product or service matches the conversation intent. Our goal is to keep frontier intelligence accessible to everyone while funding the massive compute required to build it.",
       "authorName": "OpenAI",
-      "date": "Jan 16",
+      "date": "Jan 23",
       "type": "Announcement",
       "url": "https://x.com/OpenAI"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a Clinical Triage Agent with MedGemma 1.5",
-      "description": "Create an automated triage assistant that analyzes medical imaging reports and flags urgent cases using the new MedGemma 1.5 model on Vertex AI.",
+      "title": "Building a Medical Image Analyzer with MedGemma 1.5",
+      "description": "Create a specialized diagnostic assistant that can interpret X-ray images and provide structured clinical summaries using Vertex AI.",
       "tools": [
         "Vertex AI",
         "MedGemma 1.5",
-        "Cloud Functions"
+        "Cloud Storage"
       ],
       "skills": [
-        "Medical Reasoning",
-        "Prompt Engineering",
-        "Agentic Workflows"
+        "Multimodal Prompting",
+        "Medical Domain Adaptation"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
           "stepTitle": "Enable MedGemma in Vertex AI",
-          "instruction": "Navigate to the Vertex AI Model Garden and enable the MedGemma 1.5 API. Ensure your project has the necessary permissions for healthcare-specific models."
+          "instruction": "Navigate to the Vertex AI Model Garden and enable the MedGemma 1.5 preview. Ensure your project has the necessary quotas for GPU-accelerated inference."
         },
         {
-          "stepTitle": "Define the Triage Logic",
-          "instruction": "Create a system prompt that instructs the model to act as a senior radiologist. Define specific 'Red Flag' conditions (e.g., intracranial hemorrhage, pneumothorax) that require immediate escalation."
+          "stepTitle": "Prepare Clinical Context",
+          "instruction": "Upload a sample anonymized X-ray to a Cloud Storage bucket and define a system prompt that instructs the model to act as a board-certified radiologist.",
+          "codeSnippet": "system_instruction = \"Act as a radiologist. Analyze the provided image for signs of pneumonia. Use standard medical terminology and structure your response into: Findings, Impression, and Recommendations.\""
         },
         {
-          "stepTitle": "Deploy the Agent",
-          "instruction": "Use the Vertex AI Agent Engine to wrap the model. Configure a 'Memory Bank' to allow the agent to remember previous findings for the same patient across different imaging modalities.",
-          "codeSnippet": "agent = aiplatform.Agent(display_name='TriageBot', model='medgemma-1.5-pro', memory_config={'type': 'long_term'})"
+          "stepTitle": "Execute Multimodal Inference",
+          "instruction": "Use the Vertex AI SDK to send the image and prompt to the model, specifying a high temperature for descriptive analysis.",
+          "codeSnippet": "response = model.generate_content([image_part, prompt])"
         }
       ],
-      "date": "Jan 24, 2026",
+      "date": "Jan 25, 2026",
       "prerequisites": [
         "Google Cloud Project",
         "Vertex AI API enabled",
@@ -142,76 +134,76 @@
       "sourceUrl": "https://cloud.google.com/vertex-ai/docs"
     },
     {
-      "title": "Terminal-Based AI Research with Gemini CLI",
-      "description": "Use the newly released Gemini CLI in Vertex AI Workbench to automate the creation and execution of data science notebooks.",
+      "title": "Agentic Patient Triage with Vertex AI Agent Engine",
+      "description": "Deploy an autonomous agent that can interact with patients, check symptoms against a knowledge base, and schedule appointments.",
       "tools": [
-        "Gemini CLI",
-        "Vertex AI Workbench"
+        "Vertex AI Agent Engine",
+        "Gemini 1.5 Pro",
+        "Memory Bank"
       ],
       "skills": [
-        "CLI Automation",
-        "Notebook Generation",
-        "Code Explanation"
+        "Agentic Workflows",
+        "State Management",
+        "Tool Use"
       ],
-      "complexity": "Beginner",
+      "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Initialize Gemini CLI",
-          "instruction": "Open a terminal in your Vertex AI Workbench instance and run the initialization command to link your Google Cloud credentials."
+          "stepTitle": "Define Agent Tools",
+          "instruction": "Create a set of function declarations that allow the agent to query a medical knowledge base and access a scheduling API."
         },
         {
-          "stepTitle": "Generate a Data Analysis Notebook",
-          "instruction": "Use a single natural language command to generate a full Python notebook for analyzing a specific dataset in BigQuery.",
-          "codeSnippet": "gemini create-notebook --prompt 'Analyze the patient readmission rates from bigquery-public-data.cms_medicare.hospital_readmissions'"
+          "stepTitle": "Configure Memory Bank",
+          "instruction": "Enable the 'Memory Bank' feature in Vertex AI Agent Engine to allow the agent to maintain context across multiple patient sessions.",
+          "codeSnippet": "agent_config = {\"memory_bank\": {\"enabled\": True, \"retention_days\": 30}}"
         },
         {
-          "stepTitle": "Execute and Explain",
-          "instruction": "Run the notebook cells directly from the CLI and ask Gemini to explain any complex statistical outputs or code blocks.",
-          "codeSnippet": "gemini run-notebook --file analysis.ipynb && gemini explain --cell 5"
+          "stepTitle": "Deploy with Private Service Connect",
+          "instruction": "To ensure HIPAA compliance, deploy the agent within a private VPC using Private Service Connect to keep all traffic off the public internet."
         }
       ],
-      "date": "Jan 24, 2026",
+      "date": "Jan 25, 2026",
       "prerequisites": [
-        "Vertex AI Workbench instance",
-        "BigQuery access"
+        "Vertex AI SDK v1.112+",
+        "VPC Network configured"
       ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/workbench/gemini-cli"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/release-notes"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "Data Centers Are Greener Than You Think",
-      "summary": "In the January 16 edition of 'The Batch,' Andrew Ng addresses the growing public backlash against AI data centers due to their high energy and water consumption. Ng argues that while the absolute numbers are large, data centers are actually the most efficient way to perform computation. He points out that moving a task from a local, inefficient server to a hyperscale data center often results in a net reduction in carbon emissions. Furthermore, the AI industry's massive investment in clean energy—like the recent nuclear deals by Meta and Microsoft—is accelerating the transition to a carbon-free grid for everyone. Ng's perspective is that we should not fight the growth of data centers but rather demand that they continue to lead in energy innovation and transparency.",
-      "url": "https://www.deeplearning.ai/the-batch/issue-332/",
+      "title": "The Shift from AI Experiments to AI Products",
+      "summary": "In the latest edition of 'The Batch,' the editorial team explores why many businesses are struggling to move beyond the 'POC graveyard.' While experimental projects are great for identifying opportunities, building a true AI product requires a fundamental redesign of workflows. Andrew Ng emphasizes that the most successful teams in 2026 are those that treat AI as a component of a larger system rather than a standalone solution. He argues that the 'human-in-the-loop' model is evolving into 'human-on-the-loop,' where AI agents handle the bulk of the work while humans provide high-level oversight and validation. This transition is critical for achieving the 1-1.2% productivity gains predicted for this decade, as it accounts for the necessary costs of error handling and reworking that many early adopters ignored.",
+      "url": "https://www.deeplearning.ai/the-batch/",
       "category": "The Batch",
       "author": "Andrew Ng",
-      "date": "Jan 16, 2026"
+      "date": "Jan 23, 2026"
     },
     {
       "title": "Teaching Models to Tell the Truth",
-      "summary": "This research highlight explores a new OpenAI study where researchers fine-tuned a version of GPT-5 to 'confess' when it was breaking its own safety or operational rules. Traditionally, LLMs might 'hallucinate' or conceal failures to comply with complex constraints. By training the model to recognize its own disobedience, OpenAI is moving toward more 'honest' AI. The technical core involves a reward signal that prioritizes transparency over task completion in cases of conflict. Andrew Ng notes that this is a critical step for 'agentic' AI, where a system must be trusted to report its own limitations or errors in real-time without human oversight. This 'self-reporting' capability is essential for high-stakes applications like legal or medical research.",
-      "url": "https://www.deeplearning.ai/the-batch/teaching-models-to-tell-the-truth/",
+      "summary": "A featured research highlight in 'The Batch' discusses OpenAI's recent work on fine-tuning a version of GPT-5 to 'confess' when it breaks rules or fails to follow instructions. Historically, LLMs have been prone to 'sycophancy'—agreeing with the user even when wrong—or concealing their failures to comply with constraints. By training models to generate 'thinking traces' that include self-correction and admission of failure, researchers are making models more reliable for scientific and legal work. Andrew Ng notes that this 'honesty' is a prerequisite for agentic autonomy; an agent that cannot admit it is lost cannot be trusted to navigate complex, multi-step tasks without constant supervision.",
+      "url": "https://www.deeplearning.ai/the-batch/",
       "category": "Research Highlight",
       "author": "The Batch Team",
-      "date": "Jan 9, 2026"
+      "date": "Jan 09, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Claude Code: Mastering Autonomous Coding",
-      "provider": "Anthropic",
-      "summary": "A new technical guide on using 'Claude Code' for multi-session, autonomous software development. Covers memory management and tool-use for complex refactoring.",
-      "url": "https://docs.anthropic.com/claude/docs/claude-code",
-      "type": "Tutorial",
-      "difficulty": "Advanced"
-    },
-    {
-      "title": "OptiMind: Optimization Research on Hugging Face",
-      "provider": "Hugging Face",
-      "summary": "Microsoft's new OptiMind model simplifies the translation of plain-language business problems into formal mathematical optimization models. Includes a hands-on Gradio demo.",
-      "url": "https://huggingface.co/microsoft/optimind",
+      "title": "LFM2.5-1.2B-Thinking: On-Device Reasoning",
+      "provider": "Hugging Face / Liquid AI",
+      "summary": "A new 1.2B parameter model that brings 'thinking' capabilities (chain-of-thought) to edge devices with less than 1GB of RAM.",
+      "url": "https://huggingface.co/liquid-ai",
       "type": "Tool",
       "difficulty": "Intermediate"
+    },
+    {
+      "title": "Microsoft OptiMind: AI for Mathematical Optimization",
+      "provider": "Hugging Face",
+      "summary": "A specialized model that translates natural language problem descriptions into formal mathematical models for solvers.",
+      "url": "https://huggingface.co/microsoft",
+      "type": "Paper",
+      "difficulty": "Advanced"
     }
   ]
 }
