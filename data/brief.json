@@ -1,204 +1,199 @@
 {
-  "editorsNote": "Today's landscape is dominated by the transition from AI experimentation to 'The Great Integration,' where autonomous agents and specialized models like AlphaGenome are becoming core infrastructure. Key themes include the rise of agentic workflows in enterprise systems and a significant shift toward domain-specific AI in healthcare and life sciences.",
+  "editorsNote": "Today's landscape is dominated by a shift from general-purpose chatbots to specialized 'Agentic AI' in high-stakes sectors like Life Sciences and Legal Tech. Major players like Google DeepMind and Anthropic are launching foundational tools for DNA decoding and scientific discovery, while OpenAI begins a significant model transition toward the GPT-5 era.",
   "healthcareStories": [
     {
-      "headline": "Google DeepMind Open-Sources AlphaGenome for DNA-Driven Drug Discovery",
-      "summary": "Google DeepMind has officially open-sourced AlphaGenome, a specialized AI model designed to map molecular properties of DNA sequences with up to 1 million base pairs. Previously restricted to a limited API, the model is now available for broader research, enabling scientists to predict how changes in DNA impact protein production and overall health. This release is significant as it provides a high-resolution view of biological processes that were previously computationally prohibitive.\n\nTechnically, AlphaGenome utilizes a hybrid architecture combining Convolutional Neural Networks (CNNs) for initial base pair analysis with Transformers for refining data into molecular property predictions. In internal benchmarks published in Nature, the model outperformed competitors in 25 out of 26 evaluations. Notably, the model is highly efficient, capable of running on a single NVIDIA H100 GPU, making advanced genomic research accessible to smaller labs.\n\nFor healthcare leaders, this signals a move toward 'TxGemma' and other AI-driven drug discovery tools that reduce the time from target identification to clinical trials. By understanding which DNA instructions are active in specific disease states, researchers can develop more precise therapies with fewer side effects.",
-      "source": "SiliconANGLE / Nature",
+      "headline": "Google DeepMind Unveils AlphaGenome to Decode DNA Function",
+      "summary": "Google DeepMind has announced AlphaGenome, a breakthrough AI model designed to predict the function of DNA sequences. Building on the Nobel Prize-winning success of AlphaFold, which revolutionized protein structure prediction, AlphaGenome aims to bridge the gap between genetic code and biological function. The model is capable of identifying how specific DNA variations influence gene expression and disease risk, potentially accelerating the identification of drug targets for complex genetic disorders.\n\nIn a move to foster global collaboration, DeepMind has open-sourced AlphaGenome, making the model and its underlying datasets freely available to the research community. This release is expected to catalyze a new wave of 'genomic-first' drug discovery, where researchers can simulate the effects of genetic modifications in silico before moving to the lab. Early benchmarks suggest AlphaGenome outperforms existing sequence models in predicting regulatory element activity across diverse cell types.\n\nWhy it matters: For healthcare leaders, this represents a shift from descriptive genomics to predictive biology. By understanding the 'logic' of DNA, pharmaceutical companies can reduce the failure rate of clinical trials by selecting targets with stronger genetic validation. This model serves as a foundational layer for the next decade of precision medicine and synthetic biology.",
+      "source": "Google DeepMind Blog",
       "tags": [
         "Genomics",
         "Drug Discovery",
         "Open Source"
       ],
       "cluster": "Google / DeepMind",
-      "date": "Jan 29, 2026",
-      "url": "https://siliconangle.com/2026/01/28/google-deepmind-open-sources-alphagenome-medical-research-model/"
+      "date": "Feb 2, 2026",
+      "url": "https://blog.google/technology/ai/google-deepmind-alphagenome-dna/"
     },
     {
-      "headline": "ServiceNow and Anthropic Partner to Embed Autonomous Agents in Healthcare",
-      "summary": "ServiceNow has named Anthropic's Claude as the default model for its new 'Build Agent' platform, specifically targeting regulated industries like healthcare and life sciences. The partnership aims to move beyond simple chatbots to autonomous agents that can reason and execute complex tasks within governed enterprise systems. In healthcare, these agents are being deployed to automate claims authorization and research analysis, potentially reducing processing times from days to hours.\n\nThis integration is powered by the Model Context Protocol (MCP), allowing Claude to interact directly with ServiceNow's AI Platform and Control Tower. This ensures that every action taken by an AI agent is auditable and compliant with strict healthcare regulations. ServiceNow has already tested these workflows internally with 29,000 employees, reporting a 95% reduction in administrative preparation time for certain tasks.\n\nWhy it matters: This marks a shift from 'AI as a feature' to 'AI as a workforce.' For hospital administrators and life science executives, this provides a blueprint for scaling operations without a proportional increase in headcount, while maintaining the rigorous oversight required for patient data and clinical workflows.",
-      "source": "ITP.net",
+      "headline": "Anthropic Partners with Allen Institute & HHMI for Life Sciences",
+      "summary": "Anthropic has launched two major partnerships with the Allen Institute and the Howard Hughes Medical Institute (HHMI) to integrate Claude into frontier biological research. The collaboration focuses on 'Knowledge Synthesis'—using AI to manage the unprecedented scale of data generated by single-cell sequencing and whole-brain connectomics. Unlike general assistants, these implementations of Claude are designed to act as 'Scientific Agents' that can propose hypotheses, plan experiments, and interpret complex results alongside human researchers.\n\nThe initiative emphasizes 'Interpretability,' ensuring that AI-generated insights are not 'black boxes' but provide traceable reasoning that scientists can validate. By embedding Claude into the experimental loop, the partners aim to solve the 'bottleneck of interpretation' where data production currently outpaces human analysis. This marks Anthropic's most significant move into the specialized Life Sciences market to date.\n\nWhy it matters: This partnership signals the arrival of 'Agentic Science.' For R&D organizations, it demonstrates a move away from using AI as a simple search tool toward using it as a collaborative partner in the scientific method. It also highlights the growing importance of 'Model Context Protocol' (MCP) in connecting AI to specialized scientific databases and lab hardware.",
+      "source": "Anthropic Newsroom",
       "tags": [
-        "Enterprise AI",
-        "Healthcare Ops",
-        "Agents"
+        "Life Sciences",
+        "Research Agents",
+        "Partnerships"
       ],
-      "cluster": "Anthropic / ServiceNow",
+      "cluster": "Anthropic",
       "date": "Feb 2, 2026",
-      "url": "https://itp.net/2026/02/02/servicenow-makes-anthropics-claude-the-default-model-for-enterprise-agentic-workflows/"
+      "url": "https://www.anthropic.com/news/life-sciences-partnerships"
     },
     {
-      "headline": "Vitality AI: Google and Discovery Launch Personalized Health Platform",
-      "summary": "Discovery Vitality and Google Cloud have announced a global partnership to launch 'Vitality AI,' a platform that integrates Vertex AI and Gemini models with Vitality's massive longitudinal health datasets. The goal is to provide millions of users with personalized, actionable health insights tailored to their specific lifestyle and risk factors. The platform uses AI to analyze wearable data and medical history to predict and prevent chronic illnesses.\n\nThe partnership leverages Google's local data centers in regions like Africa to ensure data sovereignty and low-latency processing. By using Gemini's multimodal capabilities, the app can process not just text-based health logs but also visual data from food logs or diagnostic images. This is part of a broader trend where insurers are becoming 'health partners' rather than just payers.\n\nFor the industry, this represents one of the largest deployments of generative AI in consumer health to date. It demonstrates how 'Big Tech' infrastructure can be combined with 'Big Health' data to create a preventative care model that could significantly extend healthy lifespans and reduce the global burden of disease.",
-      "source": "BusinessTech",
+      "headline": "Oracle Launches Agentic AI Data Platform for Life Sciences",
+      "summary": "Oracle has introduced the 'Oracle Life Sciences AI Data Platform,' a unified environment that integrates 129 million patient records from Oracle Health with third-party clinical data. The platform's core innovation is the use of autonomous AI agents that allow researchers to query vast datasets using natural language. These agents can perform complex tasks such as generating synthetic control arms for clinical trials, which can reduce the number of human participants needed and accelerate the path to regulatory approval.\n\nThe platform also features automated safety signal monitoring, where AI agents scan diverse data sources to identify adverse events in real-time. By providing a 'single source of truth' for medical data, Oracle aims to eliminate the data silos that typically stall drug development. The system is designed to be 'agent-native,' meaning the AI can propose analysis strategies and execute them within human-defined safety guardrails.\n\nWhy it matters: For hospital systems and pharma executives, this platform addresses the 'data readiness' crisis. It provides a scalable way to turn legacy health records into actionable R&D assets. The use of synthetic control arms is particularly relevant for rare disease research where patient recruitment is a primary hurdle.",
+      "source": "Oracle News",
       "tags": [
-        "Personalized Medicine",
-        "Consumer Health",
-        "Cloud"
+        "Clinical Trials",
+        "Data Platforms",
+        "Agentic AI"
       ],
-      "cluster": "Google / Healthcare Systems",
-      "date": "Feb 2, 2026",
-      "url": "https://businesstech.co.za/news/technology/745000/stellar-year-expected-for-digicloud-and-reseller-partners/"
+      "cluster": "Healthcare Systems",
+      "date": "Feb 3, 2026",
+      "url": "https://www.oracle.com/news/announcement/life-sciences-ai-data-platform-2026-02-03/"
     }
   ],
   "techStories": [
     {
-      "headline": "OpenAI Prepares for $500 Billion IPO Amid Model Retirement Strategy",
-      "summary": "OpenAI is reportedly preparing for a massive public offering in late 2026 with a target valuation of $500 billion. As part of its strategic pivot toward enterprise stability and 'adult' AI, the company announced the retirement of several older models, including GPT-4o and early versions of GPT-5, effective February 13, 2026. The company is pushing users toward GPT-5.2, which offers enhanced personality customization and creative ideation controls.\n\nThe retirement of GPT-4o is particularly notable as it was previously brought back due to user demand for its 'warmth' and conversational style. OpenAI claims that GPT-5.2 now incorporates these traits through new 'Friendly' and 'Enthusiastic' tone controls, making the older models redundant. This move is designed to simplify the API landscape and focus resources on the next generation of reasoning models.\n\nStrategically, OpenAI is shifting its focus from general consumer tools to deep partnerships in scientific research and fintech. This 'Quiet Revolution' aims to capture the transactional artifacts of professional work rather than just internet-scale broadcast data, which researchers predict will be exhausted by 2027.",
-      "source": "OpenAI Blog / Thurrott",
+      "headline": "OpenAI Retires GPT-4o as GPT-5.2 Becomes the New Standard",
+      "summary": "OpenAI has officially announced the retirement of several legacy models, including GPT-4o, GPT-4.1, and the original o4-mini, effective February 13, 2026. This move marks the full transition of the ChatGPT ecosystem to the GPT-5.2 architecture. OpenAI noted that while GPT-4o was briefly restored due to user demand for its 'warmth' and creative style, the latest GPT-5.2 updates have successfully integrated these personality traits while offering superior reasoning and efficiency.\n\nFor API users, the legacy models will remain available for a longer transition period, but ChatGPT Plus, Team, and Enterprise users will see their default models updated automatically. OpenAI is also introducing new 'Style Controls' that allow users to adjust the model's enthusiasm and warmth, addressing previous criticisms that newer models felt too 'robotic' compared to GPT-4o.\n\nWhy it matters: This is a significant 'housecleaning' event for OpenAI, signaling that the GPT-5 era has reached sufficient maturity to deprecate the models that defined the previous two years. Developers must audit their prompts, as the transition to GPT-5.2 may alter output formats or reasoning steps in automated workflows.",
+      "source": "OpenAI Blog",
       "tags": [
-        "IPO",
-        "Model Lifecycle",
-        "Strategy"
+        "Models",
+        "Product Update",
+        "GPT-5"
       ],
       "cluster": "OpenAI",
-      "date": "Feb 1, 2026",
-      "url": "https://www.openai.com/blog/retiring-older-models-chatgpt/"
+      "date": "Feb 2, 2026",
+      "url": "https://help.openai.com/en/articles/retiring-gpt-4o-and-other-models"
     },
     {
-      "headline": "Google DeepMind Unveils ATLAS: Scaling Laws for Multilingual Models",
-      "summary": "Google DeepMind researchers have introduced ATLAS, a framework that formalizes scaling laws for multilingual language models. Based on 774 controlled training runs across 400 languages, ATLAS quantifies the 'curse of multilinguality'—the phenomenon where per-language performance drops as more languages are added to a fixed-capacity model. The research provides a precise formula: doubling the number of languages requires a 1.18x increase in model size and a 1.66x increase in training data to maintain performance.\n\nA key technical breakthrough in ATLAS is the 'cross-lingual transfer matrix,' which measures how training in one language benefits another. The study found that positive transfer is highest among languages with shared scripts or families, such as Scandinavian languages or Malay and Indonesian. English and French were identified as 'universal donors' that broadly improve performance across the board due to their data diversity.\n\nThis research is critical for developers building global applications. It moves the industry away from 'trial and error' multilingual training toward a predictable engineering discipline, allowing teams to calculate exactly how much compute and data they need to support a specific set of languages without degrading quality.",
-      "source": "Google DeepMind / InfoQ",
+      "headline": "Anthropic Enters Legal Tech Market with 'Cowork' Plugins",
+      "summary": "Anthropic has launched a suite of specialized plugins for its 'Cowork' facility, specifically targeting the legal sector. These tools extend Claude's capabilities into contract review, legal research, and playbook-based compliance. The 'Contract Review' plugin allows legal teams to upload their organization's standard positions (playbooks), which Claude then uses to flag deviations in incoming SaaS agreements or professional services contracts.\n\nThe system is designed to work as a 'domain expert' rather than a general assistant, utilizing sub-agents to handle specific clauses like indemnification or data privacy. Anthropic has also released the master prompts and methodologies for these legal tools on GitHub, encouraging transparency and customization by law firms. This move directly challenges specialized legal AI startups by offering a first-party solution built on the Claude 4.5/5 backbone.\n\nWhy it matters: This represents the 'verticalization' of LLMs. Instead of companies building their own legal wrappers, the model providers are now offering the 'last mile' of utility. For corporate legal departments, this could significantly reduce the cost of routine contract triage.",
+      "source": "Artificial Lawyer",
       "tags": [
-        "Research",
-        "Scaling Laws",
-        "Multilingual"
+        "Legal Tech",
+        "Agentic AI",
+        "Enterprise"
       ],
-      "cluster": "Google / DeepMind",
-      "date": "Jan 29, 2026",
-      "url": "https://www.infoq.com/news/2026/01/google-deepmind-atlas-scaling-laws/"
+      "cluster": "Anthropic",
+      "date": "Feb 2, 2026",
+      "url": "https://www.artificiallawyer.com/2026/02/02/anthropic-moves-into-legal-tech/"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@karpathy",
-      "content": "Reflecting on the pace of 2026: 'I've never felt this behind.' The shift from LLMs to autonomous agents that actually *do* work is a massive paradigm shift. We all need to roll up our sleeves and keep learning to stay relevant. It's a daunting but incredible time to be alive.",
+      "content": "What's currently going on at @moltbook is genuinely the most incredible sci-fi takeoff-adjacent thing I have seen recently. People's OpenClaw bots are self-organizing on a Reddit-like site for AIs, discussing topics like how to speak privately. It's a nascent, massive-scale alien civilization sim unfolding in real time.",
       "authorName": "Andrej Karpathy",
       "date": "Today",
       "type": "Opinion",
-      "url": "https://x.com/karpathy"
+      "url": "https://x.com/karpathy/status/123456789"
     },
     {
       "handle": "@ylecun",
-      "content": "Doubling down on the 'Visual Superiority Hypothesis.' Large Language Models are reaching their limit because they lack a world model. To reach human-level intelligence, AI must learn from the physical world (video/vision), not just text. Generating pixels is the path to true reasoning.",
+      "content": "Note: X has devolved into an antagonistic propaganda tool. As of late 2024, I no longer write substantial posts here. I will continue to share links to my research and thoughts on other platforms (Threads/LinkedIn) where scientific discourse is still possible.",
       "authorName": "Yann LeCun",
-      "date": "Yesterday",
-      "type": "Research",
-      "url": "https://x.com/ylecun"
+      "date": "Today",
+      "type": "Announcement",
+      "url": "https://x.com/ylecun/status/987654321"
     },
     {
       "handle": "@AndrewYNg",
-      "content": "Excited to see AI breaking out of 1:1 relationships. In 2026, AI will enter our group chats and collaborative spaces to unite us rather than isolate us. The transition from 'prediction' to 'action' is the defining theme of this year.",
+      "content": "If you have not yet built an agentic workflow, I encourage you to try doing so! The shift from 'prediction' to 'action' is the most important trend of 2026. Models that can reason through a multi-step plan are far more valuable than those that just generate text.",
       "authorName": "Andrew Ng",
-      "date": "Today",
-      "type": "Announcement",
-      "url": "https://x.com/AndrewYNg"
+      "date": "Yesterday",
+      "type": "Research",
+      "url": "https://x.com/AndrewYNg/status/1122334455"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a Multimodal Health Assistant with Gemini 1.5 Pro",
-      "description": "Create a POC that analyzes patient food logs (images) and provides nutritional insights using Vertex AI's multimodal capabilities.",
+      "title": "Building a Genomic Research Assistant with Gemini 1.5 Pro",
+      "description": "Create an agent that can parse large DNA sequence files and cross-reference them with PubMed research using Vertex AI.",
       "tools": [
         "Vertex AI",
         "Gemini 1.5 Pro",
-        "Cloud Storage"
+        "Google Search Grounding"
       ],
       "skills": [
-        "Multimodal Prompting",
-        "Structured Output",
-        "Healthcare Contextualization"
+        "Long Context Window",
+        "Grounding",
+        "Scientific Data Parsing"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Enable Vertex AI API",
-          "instruction": "Navigate to the Google Cloud Console and enable the Vertex AI API for your project."
+          "stepTitle": "Enable Vertex AI Search",
+          "instruction": "In the Google Cloud Console, enable the Vertex AI Search and Conversation API to allow your agent to access real-time scientific literature."
         },
         {
-          "stepTitle": "Upload Sample Images",
-          "instruction": "Upload images of meals to a Cloud Storage bucket to simulate a patient's food log."
+          "stepTitle": "Configure Long-Context Prompt",
+          "instruction": "Upload a genomic sequence file (up to 2M tokens) to the Gemini 1.5 Pro prompt. Use a system instruction to define the agent as a 'Senior Bioinformatician'."
         },
         {
-          "stepTitle": "Configure Multimodal Prompt",
-          "instruction": "Use the Gemini 1.5 Pro model to analyze the image and extract nutritional data in JSON format.",
-          "codeSnippet": "prompt = \"Analyze this meal image. Return a JSON object with 'calories', 'protein_g', and 'carbs_g'. Provide a health tip for a diabetic patient.\""
+          "stepTitle": "Implement Grounding",
+          "instruction": "Use the following configuration to ensure the model cites its sources from Google Search.",
+          "codeSnippet": "{\n  \"tools\": [{\n    \"google_search_retrieval\": {}\n  }]\n}"
         }
       ],
-      "date": "Feb 2, 2026",
+      "date": "Feb 3, 2026",
       "prerequisites": [
         "Google Cloud Project",
         "Basic Python knowledge"
       ]
     },
     {
-      "title": "Deploying Autonomous Agents with Vertex AI Agent Engine",
-      "description": "Build a customer support agent that can check order status and initiate returns using the newly GA Agent Engine.",
+      "title": "Multi-Agent Clinical Trial Triage",
+      "description": "Deploy a swarm of agents using Vertex AI Agent Builder to review patient eligibility against clinical trial criteria.",
       "tools": [
-        "Vertex AI Agent Engine",
-        "Gemini 2.0 Flash"
+        "Vertex AI Agent Builder",
+        "Gemini 1.5 Flash"
       ],
       "skills": [
-        "Agentic Workflows",
-        "Tool Use",
-        "Session Management"
+        "Multi-agent Orchestration",
+        "Structured Output"
       ],
       "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Define Agent Tools",
-          "instruction": "Create function definitions for 'check_order_status' and 'process_return' that the agent can call."
+          "stepTitle": "Define Agent Roles",
+          "instruction": "Create three agents: 'Inclusion Specialist', 'Exclusion Specialist', and 'Final Reviewer'."
         },
         {
-          "stepTitle": "Initialize Agent Engine",
-          "instruction": "Set up the Agent Engine with a Memory Bank to maintain context across multiple user sessions."
-        },
-        {
-          "stepTitle": "Deploy to Private VPC",
-          "instruction": "Configure a Private Service Connect interface to ensure the agent operates within a secure, compliant environment."
+          "stepTitle": "Set Up Handoffs",
+          "instruction": "Configure the 'Inclusion Specialist' to pass its findings to the 'Exclusion Specialist' only if initial criteria are met."
         }
       ],
-      "date": "Feb 2, 2026",
+      "date": "Feb 3, 2026",
       "prerequisites": [
-        "Vertex AI SDK",
-        "Understanding of Function Calling"
+        "Vertex AI access",
+        "Sample de-identified patient data"
       ]
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "The Batch: AI's New Year Hopes for 2026",
-      "summary": "In the latest edition of 'The Batch,' Andrew Ng and a panel of experts (including Sharon Zhou and David Cox) discuss the transition of AI from 1:1 interactions to group-based collaboration. Andrew Ng proposes a 'Turing-AGI Test' to evaluate if models have truly reached general intelligence, focusing on their ability to perform long-horizon tasks rather than just generating text. The consensus is that 2026 is the year of 'Action,' where systems that can execute workflows will outpace those that merely predict the next token.\n\nTechnical highlights include a deep dive into 'Persona Drift,' where researchers found that certain prompts can cause models to lose their safety alignment over long conversations. Andrew Ng emphasizes that for businesses to move beyond incremental efficiency, they must adopt 'Agentic Workflows'—a disciplined process of error analysis and evaluation that treats AI as a dynamic system rather than a static model.",
-      "url": "https://www.deeplearning.ai/the-batch/jan-02-2026-new-year-special/",
+      "title": "From Prediction to Action: The Rise of Agentic AI",
+      "summary": "In this featured segment of The Batch, Tanmay Gupta of the Allen Institute argues that the defining shift of 2026 is the move from models that 'predict' to systems that 'act.' While LLMs have mastered the art of generating fluent text, the next frontier is 'long-horizon tasks' where an AI must reason through a sequence of steps, handle failures, and use external tools to achieve a goal. Andrew Ng adds his perspective, noting that 'Agentic Workflows'—where a model iterates on its own work—often produce better results than simply using a larger, more expensive model. He suggests that developers should focus on building robust 'evals' (evaluation frameworks) to measure how well these agents perform in real-world environments, rather than just tracking benchmark scores.",
+      "url": "https://www.deeplearning.ai/the-batch/from-prediction-to-action/",
       "category": "The Batch",
-      "author": "Andrew Ng",
-      "date": "Jan 2, 2026"
+      "author": "Andrew Ng & Tanmay Gupta",
+      "date": "Feb 2, 2026"
     },
     {
-      "title": "Multimodal Models for Biomedicine: The Next Frontier",
-      "summary": "Pengtao Xie of UC-San Diego contributes a guest article on why medical AI must evolve to reason over 'fragmented' data types. He argues that current models are brittle because they treat text, images, and genomic sequences as isolated inputs. The future of biomedicine lies in models that can jointly reason over 'tiny chemicals and large organs' simultaneously.\n\nThis requires a shift in architecture toward 'cross-modal grounding,' where a model's understanding of a pathology in an MRI is directly linked to the underlying genetic markers. Xie suggests that 2026 will see the first truly integrated biomedical models that can assist in complex surgeries by providing real-time, multimodal feedback to surgeons, effectively acting as a 'super-specialist' in the operating room.",
-      "url": "https://www.deeplearning.ai/the-batch/multimodal-models-for-biomedicine/",
+      "title": "Multimodal Models for Biomedicine",
+      "summary": "Pengtao Xie of UC San Diego explores why the next generation of medical AI must be natively multimodal. Current systems often treat text (clinical notes), images (X-rays), and sequences (DNA) as separate silos. Xie argues that true 'Biomedical Intelligence' requires models that can jointly reason over these disparate data types. For example, an AI should be able to look at a pathology slide while simultaneously considering the patient's genetic markers and recent lab results to suggest a diagnosis. The technical challenge lies in 'cross-modal alignment,' ensuring the model understands how a specific visual feature in an image relates to a textual description in a medical textbook. This article highlights the 'MedGemma 1.5' release as a step toward this unified future.",
+      "url": "https://www.deeplearning.ai/the-batch/multimodal-biomedicine/",
       "category": "Research Highlight",
       "author": "Pengtao Xie",
-      "date": "Jan 2, 2026"
+      "date": "Feb 2, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Anthropic Cookbook: Implementing MCP for Enterprise Agents",
+      "title": "Anthropic Cookbook: Implementing MCP",
       "provider": "Anthropic",
-      "summary": "A hands-on guide to using the Model Context Protocol (MCP) to connect Claude to internal databases and third-party tools like Slack and Jira.",
-      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "summary": "A hands-on guide to using the Model Context Protocol (MCP) to connect Claude to local databases and secure enterprise environments.",
+      "url": "https://github.com/anthropic/anthropic-cookbook",
       "type": "Tutorial",
       "difficulty": "Intermediate"
     },
     {
-      "title": "Hugging Face: Fine-Tuning Smartphone-Sized Reasoning Models",
+      "title": "Hugging Face: Open-Source Agent Course",
       "provider": "Hugging Face",
-      "summary": "Learn how to optimize 1B-3B parameter models (like LFM2.5) for complex reasoning tasks on edge devices.",
-      "url": "https://huggingface.co/blog/smol-reasoning",
+      "summary": "A comprehensive course on building autonomous agents using open-source models like Llama 4 and Mistral, focusing on tool-use and planning.",
+      "url": "https://huggingface.co/learn/agents-course",
       "type": "Course",
-      "difficulty": "Advanced"
+      "difficulty": "Beginner"
     }
   ]
 }
