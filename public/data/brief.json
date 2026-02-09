@@ -1,91 +1,78 @@
 {
-  "editorsNote": "Today's landscape is dominated by the 'SaaSpocalypse' market shift triggered by Anthropic's new legal and financial plugins, alongside OpenAI's release of GPT-5.3-Codex, a model that notably assisted in its own development. In healthcare, the focus has shifted from experimental pilots to 'Agentic' integration, with major FDA clearances for AI-driven cardiac diagnostics and the launch of MedGemma 1.5.",
+  "editorsNote": "Today's landscape is dominated by the shift from 'chat' to 'action' as Anthropic and OpenAI launch advanced agentic models, while the healthcare sector moves from AI pilots to enterprise-scale infrastructure. A major theme is the 'agentic era,' where AI systems are increasingly capable of self-improvement and autonomous task execution across professional domains.",
   "healthcareStories": [
     {
-      "headline": "FDA Clears eMurmur AI for Heart Murmur Detection via Digital Stethoscopes",
-      "summary": "The U.S. Food and Drug Administration (FDA) has granted clearance to eMurmur, an Ontario-based AI startup, for a suite of algorithms designed to identify heart murmurs using recordings from digital stethoscopes. This regulatory milestone allows the software to be used in clinical settings to assist healthcare providers in the early detection of structural heart disease, which is often missed during traditional physical exams.\n\nThe system works by analyzing the acoustic data captured during a standard auscultation and comparing it against a vast database of heart sounds to flag abnormalities with high sensitivity. This is particularly significant for primary care physicians and rural clinics where access to specialized cardiologists or echocardiograms may be limited. By providing an immediate 'second opinion' at the point of care, the technology aims to reduce unnecessary referrals while ensuring that patients with genuine pathologies are fast-tracked for treatment.\n\nWhy it matters: This clearance signals a maturing of AI in the diagnostic space, moving from research to 'plug-and-play' clinical tools. It addresses a critical bottleneck in cardiac care—early screening—and sets a precedent for how AI can augment the capabilities of standard medical hardware like the stethoscope.",
-      "source": "GIANT Health / FDA",
+      "headline": "Nvidia and Eli Lilly Launch Landmark AI Drug Discovery Lab",
+      "summary": "At the 2026 J.P. Morgan Healthcare Conference, Nvidia and Eli Lilly announced a strategic partnership to establish a state-of-the-art AI drug discovery laboratory. This initiative aims to unite elite talent from pharmaceutical research and computer science to accelerate the identification of novel drug candidates. The collaboration leverages Nvidia's high-performance computing and generative AI capabilities to simulate molecular interactions at an unprecedented scale, potentially reducing the time and cost of early-stage drug development.\n\nThis partnership reflects a broader trend in 2026 where technology and pharmaceutical giants are deepening their integration. By moving beyond traditional R&D silos, the lab will focus on 'digital-first' solutions for drug discovery, data management, and diagnostics. The goal is to create a more efficient pipeline that can address complex diseases more rapidly than traditional methods.\n\nWhy it matters: For healthcare leaders, this signals that AI is no longer just an administrative tool but a core driver of clinical innovation. The involvement of a major tech player like Nvidia in direct drug discovery indicates that the infrastructure for the next generation of medicine will be built on proprietary AI platforms, necessitating new strategic alliances for traditional healthcare providers.",
+      "source": "J.P. Morgan Healthcare Conference / Forbes",
       "tags": [
-        "Clinical",
-        "Regulatory",
-        "Diagnostics"
+        "Drug Discovery",
+        "Partnerships",
+        "Pharma"
       ],
-      "cluster": "Healthcare Systems",
-      "date": "Feb 06, 2026",
-      "url": "https://www.giant.health/news"
+      "cluster": "Nvidia / Eli Lilly",
+      "date": "Feb 9, 2026",
+      "url": "https://www.jpmorgan.com/insights/healthcare/five-trends-shaping-healthcare-2026"
     },
     {
-      "headline": "Google Releases MedGemma 1.5 and MedASR for Advanced Medical Reasoning",
-      "summary": "Google Research has unveiled MedGemma 1.5 4B, an updated suite of open medical models designed to handle high-dimensional imaging such as CT, MRI, and histopathology. Alongside this, they introduced MedASR, a specialized medical speech-to-text model fine-tuned for clinical dictation. These models are part of the Health AI Developer Foundations (HAI-DEF) program, intended to provide developers with a robust starting point for building specialized healthcare applications.\n\nMedGemma 1.5 shows significant improvements in anatomical localization and medical document understanding, such as extracting structured data from lab reports. The 4B parameter size is optimized for efficiency, allowing it to be deployed on-premises or scaled via Vertex AI. Google also launched the MedGemma Impact Challenge on Kaggle to encourage community-driven innovation in applying these models to real-world clinical workflows.\n\nWhy it matters: By providing high-quality, open-weights models specifically for medicine, Google is lowering the barrier to entry for health-tech startups. The integration of speech (MedASR) and reasoning (MedGemma) suggests a future where 'AI Scribes' do more than just record—they interpret and structure data in real-time for the Electronic Health Record (EHR).",
-      "source": "Google Research Blog",
+      "headline": "Google DeepMind Unveils AlphaGenome for Precision Medicine",
+      "summary": "Google DeepMind has released AlphaGenome, a specialized AI model capable of analyzing DNA sequences up to one million base pairs long. Unlike previous models, AlphaGenome can predict how specific genetic variations affect human health with atomic-level precision. The tool is already being utilized by nearly 3,000 scientists globally to pinpoint cancer-driving mutations and understand rare genetic disorders that have previously eluded diagnosis.\n\nAlphaGenome represents a significant leap from AlphaFold 3, moving from protein structure prediction to the functional interpretation of the entire genome. Isomorphic Labs, DeepMind's drug discovery arm, has already integrated AlphaGenome into its workflow and expects its first AI-designed drug candidates to enter Phase I clinical trials by the end of 2026. The model's ability to process long-range genetic dependencies allows it to identify 'dark matter' in the genome—regions that do not code for proteins but regulate gene expression.\n\nWhy it matters: This technology shifts the paradigm of genomic medicine from observation to prediction. For health systems, this means the eventual arrival of highly personalized treatment plans based on a patient's unique genetic blueprint, potentially transforming oncology and rare disease management.",
+      "source": "Google DeepMind / Forbes",
       "tags": [
-        "Models",
-        "Research",
-        "Imaging"
+        "Genomics",
+        "Precision Medicine",
+        "Research"
       ],
       "cluster": "Google / DeepMind",
-      "date": "Feb 05, 2026",
-      "url": "https://research.google/blog/medgemma-1-5"
+      "date": "Feb 5, 2026",
+      "url": "https://www.forbes.com/sites/jonmarkman/2026/02/05/the-most-impactful-ai-is-the-technology-you-will-never-chat-with/"
     },
     {
-      "headline": "Vista AI Secures $295M to Scale Automated MRI Interpretation",
-      "summary": "Vista AI has closed a massive $295 million Series B funding round, led by a consortium of health systems and private equity firms. The capital is earmarked for the global expansion of its automated MRI interpretation platform, which aims to eliminate the chronic backlog in radiology departments. The technology automates the scanning process and provides preliminary interpretations, significantly increasing patient throughput.\n\nThe funding comes at a time when healthcare private equity is reaching record levels, with $191 billion invested in 2025 alone. Vista AI's success reflects a broader industry trend where investors are moving away from 'experimental' AI and toward 'operational' AI that demonstrates immediate ROI by increasing hospital revenue and reducing clinician burnout.\n\nWhy it matters: This is one of the largest single investments in a clinical AI company to date. It underscores the shift toward 'Agentic' workflows in hospitals, where AI doesn't just assist but manages entire segments of the diagnostic pipeline to solve systemic capacity issues.",
-      "source": "STAT News / Morning Star",
+      "headline": "Mayo Clinic AI Model Simplifies Cardiac Assessment",
+      "summary": "Researchers at the Mayo Clinic have developed a breakthrough AI model that can estimate left ventricular ejection fraction (LVEF)—a critical measure of heart function—from a single echocardiogram frame. Traditionally, this assessment requires a full video study and specialized expertise to interpret. The new AI-driven approach allows for rapid, point-of-care evaluations, significantly expanding access to cardiac screening in resource-limited settings.\n\nThe model was trained on a massive dataset of echocardiograms and validated against gold-standard clinical measurements. By reducing the complexity of the procedure, the Mayo Clinic aims to empower non-specialist clinicians to perform accurate heart function checks during routine visits. This could lead to earlier detection of heart failure and other cardiovascular conditions.\n\nWhy it matters: This is a prime example of AI 'democratizing' specialized medical knowledge. For hospital administrators, it offers a way to improve diagnostic throughput and patient outcomes without necessarily increasing the burden on specialized cardiology departments.",
+      "source": "Mayo Clinic News Network / OpenLoop Health",
       "tags": [
-        "Investment",
-        "Radiology",
-        "Operations"
+        "Cardiology",
+        "Diagnostics",
+        "Clinical AI"
       ],
       "cluster": "Healthcare Systems",
-      "date": "Feb 05, 2026",
+      "date": "Feb 5, 2026",
       "url": "https://www.openloophealth.com/blog/digital-health-trends-february-2026"
     }
   ],
   "techStories": [
     {
-      "headline": "OpenAI Unveils GPT-5.3-Codex: The First Model to 'Build Itself'",
-      "summary": "OpenAI has announced GPT-5.3-Codex, a new frontier model for software engineering that is reportedly 25% faster than its predecessor. The most provocative claim in the announcement is that the model was 'instrumental in creating itself.' According to OpenAI, the development team used early versions of the model to debug its own training code, manage deployments, and diagnose evaluation results, effectively accelerating the R&D cycle through recursive assistance.\n\nWhile the company clarified that this is not yet 'recursive self-improvement' in the sci-fi sense, it marks a significant milestone in AI-assisted development. The model features enhanced reasoning and professional knowledge, allowing it to handle complex, multi-file codebases with higher reliability. It is being integrated into the new 'Codex app for macOS,' which allows users to manage multiple AI agents simultaneously.\n\nWhy it matters: This release signals the beginning of a 'flywheel effect' in AI development. As models become better at coding, they speed up the creation of the next generation of models. For enterprises, this means the pace of AI capability expansion is likely to move from linear to exponential, requiring much faster adaptation cycles.",
-      "source": "OpenAI Blog / Futurism",
+      "headline": "Anthropic Launches Claude Opus 4.6 with 1M Token Context",
+      "summary": "Anthropic has officially released Claude Opus 4.6, its most advanced model to date, featuring a massive one-million-token context window in beta. The model is specifically engineered for 'agentic' tasks, showing a 144 Elo point lead over OpenAI's GPT-5.2 on the GDPval-AA benchmark, which measures performance in professional domains like finance and law. Opus 4.6 introduces 'agent teams,' a research preview feature that allows multiple coordinated agents to divide and execute complex project tasks autonomously.\n\nThe release triggered a significant market reaction, with shares in major data and legal software companies like Relx and Pearson falling as investors weighed the potential for AI to disintermediate traditional professional services. Anthropic's new 'Cowork' platform enables these agents to multitask across documents, spreadsheets, and presentations, effectively acting as an autonomous digital workforce for enterprises.\n\nWhy it matters: The shift from 'chatbots' to 'agent teams' marks the beginning of the operational era of AI. For developers, the 1M token window and improved reasoning mean that AI can now handle entire codebases or massive legal discovery sets in a single pass, fundamentally changing how software and professional services are delivered.",
+      "source": "Anthropic Blog / Bloomberg",
       "tags": [
         "Models",
-        "Coding",
-        "Agents"
-      ],
-      "cluster": "OpenAI",
-      "date": "Feb 07, 2026",
-      "url": "https://openai.com/blog"
-    },
-    {
-      "headline": "Anthropic Plugins Trigger 'SaaSpocalypse' as Software Stocks Tumble",
-      "summary": "The launch of 11 open-source plugins for Anthropic's 'Claude Cowork' tool has caused a massive sell-off in the software sector, wiping out an estimated $285 billion in market value. The plugins target high-value workflows in legal, finance, and software engineering, leading investors to fear that traditional SaaS (Software as a Service) business models are being rendered obsolete by 'Agentic AI' that can perform these tasks autonomously.\n\nLegal tech firms like Thomson Reuters and RELX saw double-digit declines after Anthropic demonstrated a plugin that can automate complex legal discovery and contract analysis. Simultaneously, Anthropic released Claude Opus 4.6, which features a 1-million-token context window and leads industry benchmarks in 'economically valuable' tasks. CEO Dario Amodei sparked further debate by suggesting that traditional software engineering as a profession could be fundamentally transformed or 'obsolete' within 12 months.\n\nWhy it matters: This is a 'Netscape moment' for the AI era. It marks the point where AI is no longer just a feature within software, but a replacement for the software itself. Companies are now forced to pivot from selling 'tools' to selling 'outcomes' as agents take over the execution layer.",
-      "source": "The Times of India / Anthropic Blog",
-      "tags": [
-        "Market",
-        "Policy",
-        "Agents"
+        "Agents",
+        "Enterprise"
       ],
       "cluster": "Anthropic",
-      "date": "Feb 07, 2026",
+      "date": "Feb 5, 2026",
       "url": "https://www.anthropic.com/news/introducing-claude-opus-4-6"
     },
     {
-      "headline": "Waymo Introduces 'World Model' Based on Google's Genie 3",
-      "summary": "Waymo has unveiled the 'Waymo World Model,' a hyper-realistic generative simulator designed to train autonomous drivers in 'edge-case' scenarios. Built on Google DeepMind's Genie 3 architecture, the model can generate photorealistic, interactive 3D environments—including rare events like tornadoes or animals on the road—from simple language prompts. This allows Waymo to simulate billions of miles in virtual worlds that are indistinguishable from reality.\n\nThe model generates multi-sensor outputs, including both camera and LiDAR data, ensuring that the AI 'Driver' learns to interpret the world exactly as it would on the street. This breakthrough is expected to significantly accelerate the deployment of autonomous vehicles in new, complex urban environments without the need for extensive real-world testing in every city.\n\nWhy it matters: This represents the convergence of Generative AI and Robotics. By creating a 'perfect' simulator, Google is solving the data scarcity problem for physical AI. This technology has implications far beyond driving, potentially being used to train surgical robots or industrial automatons in highly variable environments.",
-      "source": "Waymo Blog / Google DeepMind",
+      "headline": "OpenAI Debuts GPT-5.3-Codex: The First 'Self-Created' Model",
+      "summary": "OpenAI has announced GPT-5.3-Codex, a new coding-centric model that the company claims was instrumental in its own development. According to OpenAI, the Codex team used early versions of the model to debug training runs, manage deployments, and diagnose evaluation results. This 'recursive' development process reportedly accelerated the model's release and resulted in a 25% increase in speed compared to its predecessor.\n\nAlongside the model, OpenAI launched 'Frontier,' a new service designed to help enterprises build and manage fleets of AI agents within their existing infrastructure. Frontier acts as an orchestration layer, allowing different agents to share context and learn from human feedback in real-time. This move positions OpenAI as a direct competitor to enterprise software platforms, moving beyond simple API access to providing a full 'intelligence layer' for corporate operations.\n\nWhy it matters: The concept of a model helping to build itself is a significant milestone toward more autonomous AI development. For CTOs, the launch of Frontier signals that the focus is shifting from 'which model to use' to 'how to orchestrate hundreds of agents' across a business ecosystem.",
+      "source": "OpenAI Blog / Mashable",
       "tags": [
-        "Robotics",
-        "Simulation",
-        "Computer Vision"
+        "Coding",
+        "Agents",
+        "Infrastructure"
       ],
-      "cluster": "Google / DeepMind",
-      "date": "Feb 06, 2026",
-      "url": "https://waymo.com/blog"
+      "cluster": "OpenAI",
+      "date": "Feb 9, 2026",
+      "url": "https://mashable.com/article/openai-gpt-5-3-codex-self-improving"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "The 'SaaSpocalypse' is a misnomer. We aren't seeing the end of software; we are seeing the end of 'dumb' interfaces. The value is shifting from the UI to the underlying world model. If your software doesn't have a 'reasoning engine' at its core by 2027, you're just building a digital paperweight.",
+      "content": "The 'agentic' hype is real, but we must distinguish between LLMs that 'act' based on probabilistic next-token prediction and true world models that reason about physics and causality. We are still missing the 'objective-driven' architecture that allows an agent to plan safely in the real world without constant human supervision.",
       "authorName": "Yann LeCun",
       "date": "Today",
       "type": "Opinion",
@@ -93,141 +80,137 @@
     },
     {
       "handle": "@AndrewYNg",
-      "content": "Seeing a lot of hype about 'self-creating models.' Let's be clear: GPT-5.3-Codex is a powerful tool for human engineers, not a replacement for them. The 'recursive' part is about automating the drudgery of debugging and eval, which is exactly where Agentic workflows should be focused. Focus on the workflow, not the 'singularity.'",
+      "content": "In 2026, the most successful AI implementations are moving from 1:1 chat to 'group chat' and multi-agent workflows. If your AI strategy is still just a 'copilot' for individuals, you're missing the bigger picture of organizational transformation through agentic orchestration.",
       "authorName": "Andrew Ng",
-      "date": "12h ago",
+      "date": "Today",
       "type": "Research",
       "url": "https://x.com/AndrewYNg"
     },
     {
       "handle": "@karpathy",
-      "content": "The 1M context window in Claude 4.6 is the real story. We are moving from 'chatting' with AI to 'uploading' entire companies into the prompt. The bottleneck is no longer the model's memory, but our ability to provide high-quality, structured context. Data engineering is the new prompt engineering.",
+      "content": "The rise of 'Vibe Coding'—where you describe the intent and the AI handles the entire stack—is the final nail in the coffin for 'syntax-first' programming. We are moving to a world where the 'Product Manager' and the 'Software Engineer' roles are merging into a single 'Architect' role.",
       "authorName": "Andrej Karpathy",
-      "date": "Today",
-      "type": "Announcement",
+      "date": "Yesterday",
+      "type": "Opinion",
       "url": "https://x.com/karpathy"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a Clinical Decision Support Agent with MedGemma 1.5",
-      "description": "Create an agent that can ingest patient lab reports and provide evidence-based reasoning for potential diagnoses using the new MedGemma 1.5 4B model.",
+      "title": "Building a Multi-Modal Medical Image Analyzer",
+      "description": "Create a POC that uses MedGemma 1.5 to analyze high-dimensional medical images (CT/MRI) and generate structured clinical summaries.",
       "tools": [
         "Vertex AI",
         "MedGemma 1.5 4B",
         "Cloud Storage"
       ],
       "skills": [
-        "Medical Reasoning",
-        "Structured Data Extraction",
-        "Agentic Workflows"
+        "Multi-modal RAG",
+        "Medical Prompt Engineering",
+        "Structured Data Extraction"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Model Deployment",
-          "instruction": "Deploy the MedGemma 1.5 4B model from the Vertex AI Model Garden to a dedicated endpoint.",
-          "codeSnippet": "gcloud ai endpoints deploy-model {ENDPOINT_ID} --model={MEDGEMMA_MODEL_ID}"
+          "stepTitle": "Model Provisioning",
+          "instruction": "Enable the MedGemma 1.5 4B model in the Vertex AI Model Garden. Ensure your service account has 'Vertex AI User' permissions."
         },
         {
-          "stepTitle": "Contextual Prompting",
-          "instruction": "Configure the system prompt to enforce 'Chain of Thought' reasoning, requiring the model to cite specific lab values before suggesting a diagnosis.",
-          "codeSnippet": "{\n  \"system_instruction\": \"You are a clinical assistant. Analyze the provided lab results. Step 1: List abnormal values. Step 2: Correlate with clinical guidelines. Step 3: Provide differential diagnoses.\"\n}"
+          "stepTitle": "Image Pre-processing",
+          "instruction": "Upload a sample DICOM or high-res JPEG of a chest X-ray to a GCS bucket. Use the Vertex AI SDK to create a reference to the image URI."
         },
         {
-          "stepTitle": "Inference with PDF Ingestion",
-          "instruction": "Use the Vertex AI SDK to send a base64 encoded PDF of a lab report to the model for analysis.",
-          "codeSnippet": "response = model.generate_content([pdf_file, \"Analyze this report.\"])"
+          "stepTitle": "Inference with Medical Context",
+          "instruction": "Construct a prompt that includes the image URI and a system instruction for clinical extraction.",
+          "codeSnippet": "response = model.generate_content([\n    Part.from_uri(uri='gs://med-bucket/xray_01.jpg', mime_type='image/jpeg'),\n    'Extract LVEF percentage and identify any anatomical abnormalities in the cardiac silhouette.'\n])"
         }
       ],
-      "date": "Feb 08, 2026",
+      "date": "Feb 9, 2026",
       "prerequisites": [
         "Google Cloud Project",
         "Vertex AI API enabled",
         "Basic Python knowledge"
       ],
-      "sourceUrl": "https://github.com/google-research/health-ai-developer-foundations"
+      "sourceUrl": "https://research.google/blog/next-generation-medical-image-interpretation-with-medgemma-1-5/"
     },
     {
-      "title": "Real-time Medical Speech-to-Text with MedASR",
-      "description": "Implement a low-latency transcription service for clinical notes that recognizes medical terminology with high precision.",
+      "title": "Deploying an Autonomous Agent with Vertex AI Agent Engine",
+      "description": "Set up a persistent AI agent that uses the new 'Memory Bank' feature to maintain long-term context across user sessions.",
       "tools": [
-        "Vertex AI",
-        "MedASR",
-        "Vertex AI SDK"
+        "Vertex AI Agent Engine",
+        "Gemini 1.5 Pro",
+        "Memory Bank"
       ],
       "skills": [
-        "ASR (Automatic Speech Recognition)",
-        "Medical Dictation",
-        "Streaming Inference"
+        "Agent Orchestration",
+        "State Management",
+        "Tool Use"
       ],
-      "complexity": "Beginner",
+      "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Initialize MedASR",
-          "instruction": "Load the MedASR model via the Vertex AI SDK. This model is specifically tuned for medical jargon and pharmaceutical names.",
-          "codeSnippet": "from google.cloud import aiplatform\nmodel = aiplatform.Model('medasr-v1')"
+          "stepTitle": "Initialize Agent Engine",
+          "instruction": "Create a new Agent Engine instance. Define the 'Memory Bank' configuration to store session history in a managed Vector Search index."
         },
         {
-          "stepTitle": "Stream Audio",
-          "instruction": "Set up a bidirectional stream to send audio chunks from a microphone to the Vertex AI endpoint.",
-          "codeSnippet": "stream = model.stream_generate_content(audio_generator())"
+          "stepTitle": "Define Toolset",
+          "instruction": "Register a set of Function Declarations (e.g., 'search_patient_records', 'update_schedule') that the agent can call."
         },
         {
-          "stepTitle": "Post-processing",
-          "instruction": "Pass the transcribed text to a Gemini 1.5 Flash instance to format the raw dictation into a SOAP note structure.",
-          "codeSnippet": "formatted_note = gemini.generate_content(f\"Format this as a SOAP note: {transcription}\")"
+          "stepTitle": "Deploy and Test",
+          "instruction": "Deploy the agent to a managed endpoint. Test the 'Memory Bank' by asking the agent to recall a detail from a previous session.",
+          "codeSnippet": "agent = vertexai.preview.extensions.Agent(\n    display_name='ClinicalAssistant',\n    memory_config={'type': 'MEMORY_BANK', 'vector_search_index': 'index_id'}\n)"
         }
       ],
-      "date": "Feb 08, 2026",
+      "date": "Feb 9, 2026",
       "prerequisites": [
-        "Vertex AI SDK installed",
-        "Access to MedASR model"
+        "Vertex AI SDK v1.40+",
+        "Access to Gemini 1.5 Pro"
       ],
-      "sourceUrl": "https://research.google/blog/medasr-release"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/release-notes#February_04_2026"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "How AI is Affecting the Job Market — And What You Can Do About It",
-      "summary": "In the latest edition of 'The Batch,' Andrew Ng addresses the growing anxiety surrounding AI-driven layoffs. He argues that while some CEOs have cited AI as a reason for staff reductions, the reality is that many of these moves are 'corrections' for pandemic-era overhiring rather than true automation. Ng points out that current AI models are not yet capable of replacing entire job functions, though they are beginning to impact specific roles like call-center operators and translators.\n\nHis core thesis remains: 'AI won't replace workers, but workers who use AI will replace workers who don't.' He emphasizes that the demand for AI-literate professionals is surging, particularly for those who can build 'Agentic' systems. Ng encourages professionals to move beyond simple prompting and learn how to design multi-agent workflows, which he sees as the next major frontier in productivity. He also notes that the single biggest predictor of a team's success in AI is their discipline in building robust evaluation (eval) pipelines, rather than just chasing the latest model.",
-      "url": "https://www.deeplearning.ai/the-batch/issue-339/",
+      "title": "The Rise of Agentic Evals",
+      "summary": "In the latest edition of 'The Batch,' Andrew Ng emphasizes that as we move from simple LLMs to complex agentic systems, our evaluation methods must evolve. Traditional benchmarks like MMLU are no longer sufficient for systems that operate over long horizons. Ng proposes a disciplined 'evals and error analysis' process where developers must simulate multi-step workflows and measure success at each node of the agent's decision tree.\n\nHe argues that the biggest bottleneck in 2026 isn't model intelligence, but 'verification debt'—the difficulty of proving that an autonomous agent will behave reliably in edge cases. The article highlights new tools like 'Terminal-Bench 2.0' which specifically test an agent's ability to navigate real-world software environments. Ng's editorial stance is clear: the winners of the agentic era will be those who master the 'science of scaling' through rigorous, automated testing rather than those who simply have the largest models.",
+      "url": "https://www.deeplearning.ai/the-batch/issue-284/",
       "category": "The Batch",
       "author": "Andrew Ng",
-      "date": "Feb 06, 2026"
+      "date": "Feb 6, 2026"
     },
     {
-      "title": "Nvidia's Quantization Breakthrough for Reasoning Models",
-      "summary": "This technical highlight explores Nvidia's new quantization method specifically designed for 'Thinking' or 'Reasoning' models (like OpenAI's o-series or DeepSeek-V3). Traditional quantization often degrades the complex logical chains required for multi-step reasoning. Nvidia's new approach uses 'Activation-Aware' scaling to preserve the precision of the most critical neurons involved in logical inference while compressing the rest of the model.\n\nThis matters because it allows massive reasoning models to run on consumer-grade hardware or smaller enterprise servers without a significant drop in 'intelligence.' The Batch team notes that this could lead to a 'democratization of reasoning,' where high-level cognitive tasks can be performed locally, ensuring data privacy and reducing latency. Andrew Ng adds that this technical efficiency is what will ultimately enable 'Agentic' systems to scale across the global economy, as the cost per 'thought' continues to plummet.",
-      "url": "https://www.deeplearning.ai/the-batch/data-points-feb-4-2026/",
+      "title": "Mistral's Recipe for 'Ministral' Distillation",
+      "summary": "DeepLearning.AI highlights Mistral's recent success in 'cascade distillation,' a technique used to compress the Mistral Small 3.1 model into the 'Ministral' family of vision-language models. This process involves pruning redundant parameters and then using the larger model as a 'teacher' to train the smaller 'student' model on a curated dataset of its own high-quality outputs.\n\nThe result is a family of models that are small enough to run on-device (edge AI) while maintaining performance that rivals models ten times their size. This is particularly relevant for 2026 as privacy concerns and latency requirements drive a shift toward local processing. The technical takeaway is that 'intelligence' is becoming more portable, allowing for sophisticated AI agents to live on smartphones and medical devices without requiring a constant cloud connection.",
+      "url": "https://www.deeplearning.ai/the-batch/mistral-distillation/",
       "category": "Research Highlight",
       "author": "The Batch Team",
-      "date": "Feb 04, 2026"
+      "date": "Feb 6, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Anthropic Cookbook: Building with Claude 4.6 Plugins",
-      "provider": "Anthropic",
-      "summary": "A comprehensive guide to using the new open-source plugins for legal and financial workflows, including code for custom tool-calling.",
-      "url": "https://github.com/anthropics/anthropic-cookbook",
-      "type": "Tutorial",
+      "title": "Building Towards Computer Use with Anthropic",
+      "provider": "Anthropic / DeepLearning.AI",
+      "summary": "A new short course focusing on the 'Computer Use' API, teaching developers how to build agents that can view a screen, move a cursor, and click buttons to automate legacy software.",
+      "url": "https://www.deeplearning.ai/short-courses/building-towards-computer-use-with-anthropic/",
+      "type": "Course",
       "difficulty": "Intermediate"
     },
     {
-      "title": "Hugging Face: Community Evals and Leaderboards",
+      "title": "Hugging Face Community Evals",
       "provider": "Hugging Face",
-      "summary": "Learn how to use the new decentralized evaluation system on the Hub to verify model performance using your own datasets.",
+      "summary": "A new decentralized platform for model evaluation where the community can submit verified, reproducible scores for open-source models, moving away from 'black-box' leaderboards.",
       "url": "https://huggingface.co/blog/community-evals",
       "type": "Tool",
-      "difficulty": "Advanced"
+      "difficulty": "Beginner"
     },
     {
-      "title": "OpenAI: Managing Multi-Agent Systems with Codex",
+      "title": "OpenAI Codex for macOS",
       "provider": "OpenAI",
-      "summary": "A new technical guide on orchestrating multiple specialized agents using the Codex API for complex software engineering tasks.",
-      "url": "https://platform.openai.com/docs/guides/agents",
-      "type": "Tutorial",
+      "summary": "A new desktop interface for managing multiple AI agents simultaneously, designed for developers to orchestrate complex coding and research workflows locally.",
+      "url": "https://openai.com/blog/codex-macos",
+      "type": "Tool",
       "difficulty": "Intermediate"
     }
   ]
