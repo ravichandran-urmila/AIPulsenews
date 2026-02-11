@@ -1,222 +1,243 @@
 {
-  "editorsNote": "Today's landscape is dominated by a massive shift toward agentic AI, with OpenAI and Anthropic releasing specialized coding and enterprise agent platforms. Meanwhile, regulatory pressure is mounting as the EU challenges Meta's AI exclusivity on WhatsApp, and new research highlights critical safety gaps in medical AI's ability to distinguish fact from fabrication.",
+  "editorsNote": "Today's landscape is dominated by the shift from experimental AI to 'operational infrastructure,' with major releases from OpenAI and Anthropic targeting enterprise-grade agentic workflows. In healthcare, the focus has pivoted toward safety and specialized reasoning, as industry reports highlight the risks of using general-purpose chatbots for clinical decision-making.",
   "healthcareStories": [
     {
-      "headline": "Takeda and Iambic Ink $1.7B AI Drug Discovery Deal",
-      "summary": "Takeda Pharmaceutical has entered a multi-year collaboration with AI drug discovery specialist Iambic Therapeutics, a deal potentially worth over $1.7 billion. The partnership focuses on discovering small molecule drugs for cancer and conditions rooted in the digestive and immune systems. Takeda will leverage two of Iambic's core technologies: an AI-driven drug discovery platform and a predictive model for protein-receptor interactions. \n\nThis move underscores a broader industry trend where major pharmaceutical firms are turning to AI to replenish pipelines as key patents expire. Iambic has already demonstrated the ability to move candidates to human trials with significant speed, such as IAM1363 for HER2-related cancers. The deal includes upfront payments, milestone-based rewards, and royalties on future sales. \n\nWhy it matters: This is one of the largest AI-pharma partnerships to date, signaling that 'fully integrated' AI is now seen as the primary competitive advantage in drug development. For healthcare leaders, it validates the shift from experimental AI use to core infrastructure for therapeutic discovery.",
-      "source": "BioPharma Dive",
+      "headline": "ECRI Names AI Chatbot Misuse Top Health Tech Hazard for 2026",
+      "summary": "The nonprofit patient safety organization ECRI has officially designated the misuse of general-purpose AI chatbots—including ChatGPT, Gemini, and Copilot—as the number one health technology hazard for 2026. The report emphasizes that while these tools are increasingly integrated into clinical workflows for note-taking and treatment identification, they are not FDA-approved medical devices. The primary danger identified is 'automation bias,' where clinicians may rely on definitive-sounding AI outputs without sufficient skepticism.\n\nECRI's investigation found that the conversational nature of Large Language Models (LLMs) is designed for engagement rather than clinical accuracy. This can lead to 'hallucinated' medical advice that appears authoritative. The report also highlights a growing trend of patients using these tools for self-diagnosis, which bypasses traditional triage and can lead to delayed or inappropriate care. \n\nTo mitigate these risks, ECRI recommends that healthcare organizations implement strict governance policies, clearly distinguishing between administrative use (like report writing) and clinical use. They also advocate for 'human-in-the-loop' verification for any AI-generated clinical content. This warning comes as health systems face a 'digital darkness' risk—the potential for sudden loss of access to these electronic systems due to cyberattacks or vendor outages.",
+      "source": "Association of Health Care Journalists / ECRI",
       "tags": [
-        "Drug Discovery",
-        "Pharma",
-        "Partnerships"
-      ],
-      "cluster": "Healthcare Systems",
-      "date": "Feb 9",
-      "url": "https://www.biopharmadive.com/news/takeda-iambic-ai-drug-discovery-deal/706945/"
-    },
-    {
-      "headline": "Study: Medical AI Fails to Detect Fabricated Clinical Notes",
-      "summary": "A large-scale study published in The Lancet Digital Health by researchers at Mount Sinai reveals a critical vulnerability in leading LLMs: they frequently repeat false medical claims when presented in realistic clinical contexts. Analyzing over a million prompts across nine models, the team found that systems often accepted fabricated advice—such as drinking cold milk to treat esophagitis bleeding—rather than flagging it as unsafe.\n\nThe research suggests that current AI safeguards are easily bypassed when misinformation is wrapped in professional clinical language or common social media health myths. The study's authors, including Mount Sinai's Chief AI Officer Girish Nadkarni, emphasize that models currently prioritize the 'style' of writing over the 'factuality' of the content.\n\nWhy it matters: As hospitals rush to integrate AI copilots, this 'susceptibility to lies' represents a major patient safety risk. The researchers are calling for standardized 'stress tests' for medical AI before clinical deployment to measure how often a model passes on a fabrication.",
-      "source": "Mount Sinai / The Lancet",
-      "tags": [
-        "Clinical Safety",
-        "Research",
-        "LLM Vulnerability"
+        "Safety",
+        "Policy",
+        "Clinical"
       ],
       "cluster": "Regulatory",
-      "date": "Feb 9",
-      "url": "https://www.mountsinai.org/about/newsroom/2026/medical-ai-can-repeat-false-claims-in-clinical-contexts"
+      "date": "Feb 11, 2026",
+      "url": "https://healthjournalism.org/blog/2026/02/misuse-of-ai-chatbots-in-health-care-tops-2026-health-tech-hazard-report/"
+    },
+    {
+      "headline": "OpenAI Research: GPT-5 Slashes Costs for Cell-Free Protein Synthesis",
+      "summary": "OpenAI has published new research demonstrating that its latest model, GPT-5, significantly reduces the cost and complexity of cell-free protein synthesis (CFPS). By optimizing the biochemical 'recipes' and reaction conditions, the model has enabled researchers to produce complex proteins at a fraction of the previous cost. This breakthrough is particularly relevant for the rapid development of vaccines and point-of-care diagnostics, where traditional cell-based manufacturing is too slow.\n\nBeyond cost reduction, the GPT-5 system card reveals that the model has reached a 'high capability' threshold in biological reasoning. This has triggered OpenAI's internal 'Preparedness Framework' protocols, leading to the implementation of 'Trusted Access for Cyber,' an identity-gated program. This program ensures that while the model's beneficial capabilities in drug discovery are accessible, its potential for misuse in creating harmful biological agents is strictly monitored and restricted.\n\nThis development signals OpenAI's deepening vertical expertise in life sciences. While general-purpose models have struggled with the nuance of specialty care, this research suggests that the next generation of frontier models will be deeply integrated into the 'wet lab' environment, moving from text generation to actual experimental design and optimization.",
+      "source": "OpenAI Blog",
+      "tags": [
+        "Life Sciences",
+        "Research",
+        "GPT-5"
+      ],
+      "cluster": "OpenAI",
+      "date": "Feb 5, 2026",
+      "url": "https://openai.com/news/"
+    },
+    {
+      "headline": "Google Research Debuts MedASR and MedGemma 1.5 for Clinical Workflows",
+      "summary": "Google Research has announced the release of MedASR, a specialized automated speech recognition model fine-tuned specifically for medical dictation. Unlike standard ASR models, MedASR is trained on diverse clinical terminology and accents, significantly reducing the 'verification debt' clinicians face when reviewing AI-generated notes. The model is designed to pair seamlessly with MedGemma 1.5, an updated version of Google's open medical LLM.\n\nMedGemma 1.5 4B features improved medical imaging support and advanced reasoning capabilities. Google has also introduced a new tutorial on reinforcement learning for these models, which helps them learn complex clinical tasks without compromising their baseline medical knowledge. The models are available via Hugging Face and Google Cloud's Vertex AI, emphasizing an open-ecosystem approach to healthcare AI.\n\nTo encourage community innovation, Google launched the 'MedGemma Impact Challenge' on Kaggle. This initiative aims to solve real-world clinical problems, such as summarizing electronic health records (EHRs) and assisting in diagnostic decision-making. By providing these tools for free for research and commercial use, Google is positioning itself as the foundational infrastructure for the next generation of medical AI applications.",
+      "source": "Google Research",
+      "tags": [
+        "Clinical",
+        "Open Source",
+        "Models"
+      ],
+      "cluster": "Google / DeepMind",
+      "date": "Jan 13, 2026",
+      "url": "https://research.google/blog/next-generation-medical-image-interpretation-with-medgemma-1-5-and-medical-speech-to-text-with-medasr/"
     }
   ],
   "techStories": [
     {
-      "headline": "OpenAI Launches GPT-5.3-Codex and 'Frontier' Agent Platform",
-      "summary": "OpenAI has unveiled GPT-5.3-Codex, a new state-of-the-art model for agentic coding that is 25% faster than its predecessor. Notably, OpenAI revealed that the Codex team used early versions of the model to debug its own training and manage its own deployment, marking a milestone in AI-assisted self-improvement. \n\nAlongside the model, OpenAI introduced 'OpenAI Frontier,' a dedicated service for enterprises to build and manage autonomous AI agents within their existing infrastructure. Frontier is designed to act as an intelligence layer that orchestrates third-party agents and enterprise systems, directly competing with Anthropic's 'Cowork' ecosystem.\n\nWhy it matters: The release signals a shift from 'chatbots' to 'agents' that can execute long-running, complex tasks autonomously. For developers, the self-improving nature of GPT-5.3-Codex suggests a rapidly accelerating development cycle for future models.",
-      "source": "OpenAI Blog",
+      "headline": "Anthropic Launches Claude Opus 4.6 with 'Agent Teams' and 1M Token Window",
+      "summary": "Anthropic has released Claude Opus 4.6, a major upgrade designed to transition the model from a coding assistant to a comprehensive 'knowledge work' engine. The standout feature is 'Agent Teams,' a research preview that allows multiple coordinated agents to divide and execute complex project tasks autonomously. This move directly challenges the traditional enterprise software layer by enabling end-to-end execution of financial modeling, campaign planning, and legal research.\n\nThe model introduces a one-million token context window in beta, allowing it to process entire libraries of corporate documentation or massive codebases in a single prompt. Anthropic has also emphasized 'enterprise safety,' including expanded cybersecurity probes and refusal evaluations to prevent the model from being used for malicious activities. \n\nMarket analysts note that this release signals a shift in the AI wars from 'model quality' to 'operational control.' By open-sourcing several internal plug-ins for its 'Cowork' platform, Anthropic is encouraging enterprises to build tailored automation without heavy technical overhead. However, the move into legal and financial automation has triggered some market volatility as investors weigh the potential for professional workflow displacement.",
+      "source": "Anthropic Blog / MarketingProfs",
       "tags": [
-        "Models",
         "Agents",
-        "Enterprise"
-      ],
-      "cluster": "OpenAI",
-      "date": "Feb 5",
-      "url": "https://openai.com/news/"
-    },
-    {
-      "headline": "Anthropic Debuts Claude Opus 4.6 with 1M Token Context",
-      "summary": "Anthropic has released Claude Opus 4.6, its most capable model to date, featuring a 1-million token context window in beta. The model is specifically optimized for 'agentic' workflows, showing a 144 Elo point lead over GPT-5.2 on professional knowledge tasks in finance and legal domains. \n\nNew features include 'Agent Teams,' which allows multiple sub-agents to coordinate on a single project, and 'Adaptive Thinking,' where the model automatically adjusts its reasoning depth based on the complexity of the prompt. Anthropic also announced that Claude will remain strictly ad-free, contrasting with OpenAI's recent move to test ads in ChatGPT.\n\nWhy it matters: The 1M token window and multi-agent coordination make Opus 4.6 a powerhouse for analyzing massive legal or financial datasets. It positions Anthropic as the 'premium, safety-first' alternative for enterprise users who are wary of ad-supported models.",
-      "source": "Anthropic Blog",
-      "tags": [
-        "Models",
-        "Agents",
-        "Enterprise"
+        "Enterprise",
+        "Models"
       ],
       "cluster": "Anthropic",
-      "date": "Feb 5",
-      "url": "https://www.anthropic.com/news/introducing-claude-opus-4-6"
+      "date": "Feb 6, 2026",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "headline": "EU Orders Meta to Open WhatsApp to Rival AI Assistants",
-      "summary": "The European Commission has sent a formal statement of objections to Meta, alleging that the company's policy of excluding third-party AI assistants from WhatsApp breaches EU competition law. Since January 2026, Meta AI has been the exclusive assistant on the platform, a move regulators say causes 'irreparable harm' to the emerging AI market.\n\nThe EU is considering 'interim measures' that would force Meta to restore access for competitors like ChatGPT and Google Gemini immediately, rather than waiting for a multi-year investigation to conclude. Meta has pushed back, arguing that WhatsApp is not a primary distribution channel for chatbots and that users have many other options.\n\nWhy it matters: This is a landmark antitrust case for the AI era. If the EU succeeds, it will set a precedent that dominant messaging platforms must remain 'neutral' gateways for AI services, preventing tech giants from using their user bases to lock out smaller AI startups.",
-      "source": "Irish Legal News / Courthouse News",
+      "headline": "OpenAI Frontier Debuts as Enterprise Agent Orchestration Platform",
+      "summary": "OpenAI has introduced 'Frontier,' a new service specifically designed to help enterprises deploy and manage AI agents within their existing infrastructure. Frontier acts as an 'intelligence layer,' allowing companies to activate agents that can interact with third-party systems and internal data warehouses. This launch is supported by a $200 million multi-year partnership with Snowflake, embedding OpenAI models directly into the data warehouses used by over 12,000 companies.\n\nAlongside Frontier, OpenAI released GPT-5.3-Codex, which is 25% faster than previous iterations and sets new benchmarks on 'SW-Bench Pro' for long-running agentic tasks. The system card for 5.3-Codex is the first to explicitly flag 'high capability' in both cybersecurity and biology, leading to the creation of 'Trusted Access for Cyber'—an identity-gated program for advanced users.\n\nThis strategic pivot suggests OpenAI is moving away from being just a 'chatbot provider' to becoming a core infrastructure provider. By focusing on orchestration, permissions, and auditability, OpenAI is addressing the primary blockers to enterprise AI adoption: security and reliability. The platform also includes 'human-in-the-loop' pauses for approvals, ensuring that autonomous actions remain under human oversight.",
+      "source": "OpenAI Blog / YouTube",
       "tags": [
-        "Policy",
-        "Antitrust",
-        "Regulation"
+        "Enterprise",
+        "Agents",
+        "Infrastructure"
       ],
-      "cluster": "Regulatory",
-      "date": "Feb 9",
-      "url": "https://www.irishlegal.com/articles/meta-facing-eu-action-over-whatsapp-ai-policy"
+      "cluster": "OpenAI",
+      "date": "Feb 5, 2026",
+      "url": "https://openai.com/blog"
+    },
+    {
+      "headline": "Alibaba Prepares Qwen-3.5 Launch as Chinese Models Gain Global Market Share",
+      "summary": "Alibaba Cloud has submitted pull requests on Hugging Face and GitHub for its upcoming Qwen-3.5 collection, signaling an imminent flagship release. This comes as new research from MIT and Hugging Face reveals a significant shift in the global AI landscape: Chinese open-source models, led by DeepSeek and Alibaba's Qwen, now account for 17.1% of global downloads, surpassing U.S.-based models at 15.8%.\n\nThe Qwen-3.5 release is expected to feature 'physics-based realism' in its multimodal capabilities, particularly in video and audio synchronization across eight languages. This 'DeepSeek moment'—where high-quality open-source models narrow the gap with closed frontier models—is putting immense economic pressure on U.S. providers like OpenAI and Anthropic to justify their high valuations.\n\nIndustry watchers describe this as a critical period for the global AI ecosystem. As Chinese models become the default for many developers due to their performance-to-cost ratio, U.S. firms are increasingly pivoting toward 'Sovereign AI' and enterprise-only services to maintain their competitive edge. The Qwen-3.5 launch, timed just before the Lunar New Year, underscores the fierce worldwide rivalry for user attention and developer mindshare.",
+      "source": "MEXC News / LSE Blogs",
+      "tags": [
+        "Open Source",
+        "Global Markets",
+        "Models"
+      ],
+      "cluster": "Alibaba / Open Source",
+      "date": "Feb 9, 2026",
+      "url": "https://blog.mexc.com/bytedance-new-ai-video-tool-seedance-2-0/"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "Yann LeCun continues to advocate for 'World Models' over pure autoregressive LLMs, noting that the new Waymo World Model (built on DeepMind's Genie 3) is a prime example of how AI must understand physical reality to be truly safe and capable.",
+      "content": "The 'DeepSeek moment' isn't just about one model; it's about the inevitable commoditization of LLM training. The real frontier isn't bigger transformers, but 'World Models' that understand physical reality and causal reasoning. We are seeing this play out in the latest Genie 3 and Seedance 2.0 releases. Autonomy without a world model is just sophisticated stochastic parroting.",
       "authorName": "Yann LeCun",
       "date": "Today",
       "type": "Opinion",
       "url": "https://x.com/ylecun"
     },
     {
+      "handle": "@karpathy",
+      "content": "The hottest new programming language is still English, but the 'syntax' is shifting from clever prompting to 'Operational Control.' With GPT-5.3-Codex and Claude 4.6, we're moving from 'AI helps you write code' to 'AI is a persistent worker in your terminal.' The product is no longer the model; it's the orchestration and the permission layer.",
+      "authorName": "Andrej Karpathy",
+      "date": "Today",
+      "type": "Research",
+      "url": "https://x.com/karpathy"
+    },
+    {
       "handle": "@AndrewYNg",
-      "content": "Andrew Ng emphasized the importance of 'Agentic Workflow' over 'Model Scale' in his latest update, arguing that even smaller models like Mistral 3 can outperform giants when wrapped in a well-designed multi-agent system.",
+      "content": "I'm seeing a massive surge in 'Agentic Workflows' where the model iterates on its own output. This is why data silos are becoming so painful for enterprises. If your AI agent can't 'see' across your marketing, legal, and engineering data, it can't actually execute. 2026 is the year we finally tear down the silos or get left behind.",
       "authorName": "Andrew Ng",
       "date": "Yesterday",
-      "type": "Research",
+      "type": "Opinion",
       "url": "https://x.com/AndrewYNg"
     },
     {
-      "handle": "@karpathy",
-      "content": "Andrej Karpathy shared observations on the 'Codex App' for macOS, noting that the shift toward AI managing the entire 'App Server' and 'Harness' is the final step in moving from AI as a co-pilot to AI as a primary developer.",
-      "authorName": "Andrej Karpathy",
-      "date": "2 days ago",
-      "type": "Research",
-      "url": "https://x.com/karpathy"
+      "handle": "@OpenAI",
+      "content": "Introducing OpenAI Frontier: a new platform for enterprises to build, deploy, and govern AI agents at scale. Combined with our new Snowflake partnership, we're making it possible to run agentic workflows directly where your data lives. Security, identity, and control are now built-in. #OpenAIFrontier",
+      "authorName": "OpenAI",
+      "date": "Feb 5",
+      "type": "Announcement",
+      "url": "https://x.com/OpenAI"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a Multimodal Medical Assistant with Gemini 1.5 Pro",
-      "description": "Create a POC that can analyze medical imaging (X-rays/MRIs) and cross-reference them with patient history using Vertex AI's multimodal capabilities.",
+      "title": "Building a Clinical Dictation Pipeline with MedASR and Gemini 1.5",
+      "description": "Create a hands-on POC that converts medical audio to structured clinical notes using Google's new MedASR model and Gemini's reasoning capabilities.",
       "tools": [
         "Vertex AI",
-        "Gemini 1.5 Pro",
-        "Cloud Storage"
+        "MedASR",
+        "Gemini 1.5 Flash"
       ],
       "skills": [
-        "Multimodal RAG",
-        "Medical Imaging Analysis",
-        "Context Caching"
+        "Speech-to-Text",
+        "Medical NLP",
+        "Structured Output"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Enable Vertex AI & Upload Data",
-          "instruction": "Enable the Vertex AI API in your Google Cloud project and upload a sample set of anonymized medical images and corresponding text-based patient records to a Cloud Storage bucket.",
-          "codeSnippet": "gcloud services enable aiplatform.googleapis.com"
+          "stepTitle": "Deploy MedASR on Vertex AI",
+          "instruction": "Access the Model Garden in Vertex AI and deploy the MedASR endpoint. This model is optimized for medical terminology and handles clinical accents better than standard ASR.",
+          "codeSnippet": "from google.cloud import aiplatform\n\nendpoint = aiplatform.Endpoint('projects/your-project/locations/us-central1/endpoints/medasr-v1')"
         },
         {
-          "stepTitle": "Initialize Gemini 1.5 Pro with System Instructions",
-          "instruction": "Configure the model with a system prompt that defines its role as a medical research assistant, emphasizing that it should only provide observations and not final diagnoses.",
-          "codeSnippet": "model = GenerativeModel('gemini-1.5-pro-002', system_instruction='You are a medical imaging assistant. Analyze the provided image and patient history to identify anomalies.')"
+          "stepTitle": "Transcribe Medical Audio",
+          "instruction": "Send a sample medical dictation (WAV/MP3) to the MedASR endpoint to receive a raw text transcript.",
+          "codeSnippet": "response = endpoint.predict(instances=[{'content': 'base64_encoded_audio'}])\ntranscript = response.predictions[0]"
         },
         {
-          "stepTitle": "Execute Multimodal Query",
-          "instruction": "Send a prompt containing both the image URI and the patient text to the model to generate a summary of findings.",
-          "codeSnippet": "response = model.generate_content([Part.from_uri(image_uri, 'image/jpeg'), 'Compare this X-ray with the patient history of chronic cough.'])"
+          "stepTitle": "Structure Notes with Gemini 1.5",
+          "instruction": "Pass the raw transcript to Gemini 1.5 Flash with a system prompt to format it into a standard SOAP (Subjective, Objective, Assessment, Plan) note.",
+          "codeSnippet": "prompt = f'Convert this medical transcript into a structured SOAP note: {transcript}'\nstructured_note = gemini_model.generate_content(prompt)"
         }
       ],
-      "date": "Feb 10, 2026",
+      "date": "Feb 11, 2026",
       "prerequisites": [
         "Google Cloud Project",
-        "Basic Python knowledge",
-        "Anonymized medical dataset"
+        "Vertex AI API enabled",
+        "Sample medical audio file"
       ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/multimodal/overview"
+      "sourceUrl": "https://research.google/blog/next-generation-medical-image-interpretation-with-medgemma-1-5-and-medical-speech-to-text-with-medasr/"
     },
     {
-      "title": "Deploying an Autonomous Agent with Vertex AI Agent Engine",
-      "description": "Build a self-healing agent that can monitor cloud infrastructure and execute corrective scripts when it detects failures.",
+      "title": "Enterprise Agent Orchestration with Vertex AI Agent Builder",
+      "description": "Build an autonomous agent that can query internal databases and execute code to generate financial reports.",
       "tools": [
-        "Vertex AI Agent Engine",
-        "Gemini 1.5 Flash",
-        "Cloud Logging"
+        "Vertex AI Agent Builder",
+        "Gemini 1.5 Pro",
+        "BigQuery"
       ],
       "skills": [
         "Agentic Workflows",
         "Tool Use",
-        "Autonomous Execution"
+        "Data Grounding"
       ],
       "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Define Agent Tools",
-          "instruction": "Create a set of Python functions that the agent can call to check logs and restart services. Register these as tools in the Agent Engine.",
-          "codeSnippet": "def restart_service(service_name): ... # Logic to restart"
+          "stepTitle": "Configure Agent Memory and Sessions",
+          "instruction": "Enable 'Memory Bank' in Vertex AI Agent Builder to allow the agent to maintain context across multiple user sessions, a feature generally available as of Feb 11, 2026.",
+          "codeSnippet": "agent = AgentBuilder.create_agent(\n    display_name='FinanceAgent',\n    memory_config={'type': 'MEMORY_BANK_V1'}\n)"
         },
         {
-          "stepTitle": "Configure Agent Engine Session",
-          "instruction": "Set up a persistent session with a 'Memory Bank' so the agent can remember previous failures and avoid repetitive mistakes.",
-          "codeSnippet": "agent = Agent(engine='gemini-1.5-flash', tools=[restart_service], memory_bank_enabled=True)"
+          "stepTitle": "Connect to BigQuery Tool",
+          "instruction": "Register a BigQuery tool that allows the agent to write and execute SQL queries against your enterprise data warehouse.",
+          "codeSnippet": "tool = Tool.from_bigquery(dataset='finance_data', table='quarterly_results')"
         },
         {
-          "stepTitle": "Deploy and Monitor",
-          "instruction": "Deploy the agent to a private VPC and trigger it via Cloud Pub/Sub whenever a critical error log is detected.",
-          "codeSnippet": "agent.deploy(vpc_network='my-private-vpc')"
+          "stepTitle": "Enable Code Execution",
+          "instruction": "Turn on the 'Code Execution' capability, allowing the agent to perform complex calculations or generate charts from the data it retrieves.",
+          "codeSnippet": "agent.enable_capability('CODE_EXECUTION')"
         }
       ],
-      "date": "Feb 10, 2026",
+      "date": "Feb 11, 2026",
       "prerequisites": [
-        "Vertex AI Agent Engine access",
-        "VPC configuration",
-        "Python SDK"
+        "Vertex AI Agent Builder access",
+        "BigQuery dataset",
+        "IAM permissions for Agent Engine"
       ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/agent-engine/overview"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/release-notes"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "Claude Opus 4.6 vs. GPT-5.3: The Battle of the Agents",
-      "summary": "In the latest edition of 'The Batch,' the team analyzes the simultaneous release of high-end models from Anthropic and OpenAI. The core technical takeaway is the shift toward 'Agentic Reasoning'—where models are no longer just predicting the next token but are planning multi-step actions. Andrew Ng notes that while OpenAI's GPT-5.3-Codex is a breakthrough in self-improving code, Anthropic's Claude Opus 4.6 is winning on 'economically valuable knowledge work' (GDPval-AA benchmark). Ng argues that the real winner in 2026 won't be the company with the biggest model, but the one that provides the best 'harness' for agents to interact with the real world. He highlights OpenAI's 'Frontier' and Anthropic's 'Cowork' as the new operating systems for the AI era.",
+      "title": "The Turing-AGI Test: A New Benchmark for 2026",
+      "summary": "In the latest edition of 'The Batch,' Andrew Ng proposes a successor to the classic Turing Test, which he calls the 'Turing-AGI Test.' Ng argues that as LLMs become indistinguishable from humans in short-form chat, we need a benchmark that measures 'long-horizon agency.' The test requires an AI to independently manage a complex project—such as launching a small e-commerce site or conducting a week-long scientific literature review—with minimal human intervention.\n\nNg's perspective is that AGI isn't a binary 'on/off' switch but a spectrum of capability. He notes that while models like GPT-5 and Claude 4.6 are showing flashes of this agency, they still struggle with 'error recovery'—the ability to realize when a plan has gone wrong and pivot without human prompting. This editorial highlights the shift in the research community from 'intelligence as conversation' to 'intelligence as action.'",
       "url": "https://www.deeplearning.ai/the-batch/",
       "category": "The Batch",
       "author": "Andrew Ng",
-      "date": "Feb 9, 2026"
+      "date": "Jan 2, 2026"
     },
     {
-      "title": "Mistral's 'Ministral' Family: A Masterclass in Distillation",
-      "summary": "DeepLearning.AI highlights Mistral's new 'Ministral' models, which were created using a technique called 'cascade distillation.' By pruning and distilling the larger Mistral Small 3.1, the team produced vision-language models that are small enough to run on edge devices but perform better than much larger competitors. The technical significance lies in the efficiency: these models maintain high reasoning capabilities while drastically reducing compute costs. Andrew Ng's perspective is that this 'small yet mighty' trend is essential for the widespread adoption of AI in industries like healthcare and manufacturing, where low latency and data privacy (on-device processing) are paramount.",
-      "url": "https://www.deeplearning.ai/the-batch/mistral-distillation-ministral/",
-      "category": "Research Highlight",
+      "title": "Tear Down Data Silos for the Agentic Era",
+      "summary": "This DeepLearning.AI feature explores why the 'Agentic Era' is making traditional data silos more than just an inconvenience—they are now a strategic liability. As AI agents move from simple RAG (Retrieval-Augmented Generation) to autonomous execution, their effectiveness is capped by the boundaries of the data they can access. The article highlights how SaaS vendors who 'lock in' data are inadvertently slowing down the AI transformation of their customers.\n\nThe technical core of the article discusses 'Federated Agentic Architectures,' where agents can securely query across different platforms (e.g., Salesforce, Snowflake, and GitHub) using standardized protocols like Anthropic's Model Context Protocol (MCP). Ng emphasizes that the winners of 2026 will be the companies that treat data as a fluid resource for their AI workforce rather than a static asset to be guarded.",
+      "url": "https://www.deeplearning.ai/the-batch/",
+      "category": "The Batch",
       "author": "The Batch Team",
-      "date": "Feb 6, 2026"
+      "date": "Dec 18, 2025"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Transformers.js v4 Preview",
+      "title": "Model Context Protocol (MCP) Course",
       "provider": "Hugging Face",
-      "summary": "A major update to the library that allows running state-of-the-art AI models 100% locally in the browser or server-side runtimes (Node, Bun, Deno) using a new WebGPU runtime rewritten in C++.",
-      "url": "https://huggingface.co/blog/transformers-js-v4",
-      "type": "Tool",
+      "summary": "A comprehensive guide to implementing Anthropic's MCP, allowing you to connect AI models to external tools, databases, and APIs in a standardized way.",
+      "url": "https://huggingface.co/learn/mcp-course",
+      "type": "Course",
       "difficulty": "Intermediate"
     },
     {
-      "title": "Making AI Work: A Guide to LLM Deployment",
-      "provider": "MIT Technology Review",
-      "summary": "A new seven-week mini-course designed for professionals to bridge the gap between AI theory and practical industry implementation, focusing on RAG, agentic workflows, and cost management.",
-      "url": "https://www.technologyreview.com/newsletter/making-ai-work/",
-      "type": "Course",
-      "difficulty": "Beginner"
+      "title": "Claude Code in Action",
+      "provider": "Anthropic",
+      "summary": "A hands-on tutorial on using 'Claude Code,' the new terminal-based agent that can autonomously navigate codebases, run tests, and submit pull requests.",
+      "url": "https://www.anthropic.com/academy",
+      "type": "Tutorial",
+      "difficulty": "Advanced"
     },
     {
-      "title": "Nemotron ColEmbed V2 for Multimodal RAG",
-      "provider": "NVIDIA / Hugging Face",
-      "summary": "A new family of late-interaction embedding models (3B, 4B, 8B) that rank #1 on the ViDoRe V3 benchmark for retrieving information from complex, visually-rich documents like charts and infographics.",
-      "url": "https://huggingface.co/blog/nemotron-colembed-v2",
-      "type": "Paper",
-      "difficulty": "Advanced"
+      "title": "Open Source Models with Hugging Face",
+      "provider": "DeepLearning.AI",
+      "summary": "Learn how to select, fine-tune, and deploy the latest open-source models (like Qwen-3.5 and Llama 4) for specific enterprise use cases.",
+      "url": "https://www.coursera.org/learn/open-source-models-hugging-face",
+      "type": "Course",
+      "difficulty": "Beginner"
     }
   ]
 }
