@@ -1,215 +1,205 @@
 {
-  "editorsNote": "Today's landscape is defined by 'The Great Integration,' as AI shifts from experimental pilots to core enterprise infrastructure. Major themes include the rise of agentic coding models, massive capital investments in AI data centers, and the formalization of AI-native workflows in healthcare and life sciences.",
+  "editorsNote": "Today's landscape is dominated by a massive shift toward 'Agentic Healthcare' and high-security AI infrastructure. Major players like Google DeepMind and OpenAI are moving beyond simple chatbots to integrated clinical systems, while hardware discussions are pivoting from raw power to the extreme efficiency required for global medical deployment.",
   "healthcareStories": [
     {
-      "headline": "OpenAI and Anthropic Pivot to 'Healthcare-First' Platforms",
-      "summary": "In a significant strategic shift, both OpenAI and Anthropic have moved beyond general-purpose models to launch dedicated healthcare and life sciences platforms. OpenAI's 'ChatGPT Health' features a physician-tuned model benchmarked for clinical documentation and evidence-grounded patient interaction. This launch was bolstered by the $100M acquisition of Torch, a startup specializing in medical record context layers, providing the 'medical memory' necessary for high-stakes clinical use.\n\nSimultaneously, Anthropic has expanded its 'Claude for Life Sciences' into a full 'Claude for Healthcare' suite. This HIPAA-compliant layer is designed to integrate directly with hospital billing, coding, and electronic health record (EHR) systems. Unlike previous iterations, these platforms are being embedded as structural components of hospital infrastructure rather than isolated applications.\n\nWhy it matters: This marks the transition of AI companies from technology providers to 'system actors' within the healthcare ecosystem. For healthcare leaders, this means AI is no longer just a tool for doctors but a foundational layer for administrative and clinical decision-making that requires rigorous audit trails and compliance with 21 CFR Part 11.",
-      "source": "STAT News / TechCrunch / ICT&health",
-      "tags": [
-        "Clinical",
-        "Infrastructure",
-        "Policy"
-      ],
-      "cluster": "OpenAI / Anthropic",
-      "date": "Feb 16, 2026",
-      "url": "https://www.icthealth.org/news/global-ai-players-enter-healthcare"
-    },
-    {
-      "headline": "Eli Lilly and NVIDIA Launch $1B AI Drug Discovery Lab",
-      "summary": "Eli Lilly and NVIDIA have announced a landmark $1 billion, five-year partnership to establish a joint AI laboratory in San Francisco. The facility is dedicated to making computational models the core of drug research and development (R&D) infrastructure. The lab will leverage NVIDIA's specialized BioNeMo infrastructure to accelerate 'in silico' hypothesis searching, which Demis Hassabis of Google DeepMind recently noted is 'hundreds of times more efficient' than traditional wet lab processes.\n\nThis initiative coincides with the release of the largest open resource for virtual cell modeling by a consortium including Tahoe Therapeutics and the Chan Zuckerberg Biohub. This dataset, comprising 120 million single-cell profiles, provides the raw material for the next generation of 'virtual biology' models that the Lilly-NVIDIA lab intends to operationalize.\n\nWhy it matters: The scale of this investment signals that the pharmaceutical industry is moving past the 'pilot' phase of AI. By embedding AI into the very plumbing of R&D, companies aim to solve the '10% success rate' problem in drug development, potentially shortening the decade-long path to market for new therapies.",
-      "source": "TechLifeSci / Business Chief",
+      "headline": "DeepMind CEO Predicts AI Will 'Solve All Disease' Within 20 Years",
+      "summary": "Google DeepMind CEO Demis Hassabis has issued a bold vision for the future of medicine, asserting that AI could effectively 'solve' all diseases within the next 10 to 20 years. Speaking at recent forums including the India AI Impact Summit, Hassabis highlighted that while traditional biotech firms might develop only one or two drugs in their entire lifecycle, Google's Isomorphic Labs is building a 'general drug discovery engine' designed to produce dozens of new treatments annually. This shift from wet-lab experimentation to in silico (computer-based) hypothesis testing is reportedly hundreds of times more efficient.\n\nKey milestones supporting this vision include the AlphaFold Protein Database reaching 3 million researchers globally and the recent publication of AlphaGenome in Nature, which predicts cancer-fueling mutations. Hassabis emphasized that the 'NVIDIA Era' of raw compute dominance may be giving way to a more specialized ecosystem where Google's Tensor Processing Units (TPUs) provide the extreme efficiency needed for mass medical deployment, especially in resource-constrained environments like rural clinics or even space-based data centers.\n\nWhy it matters: For healthcare executives, this signals a transition from AI as a 'research assistant' to AI as a 'foundational infrastructure.' The focus is moving toward 'agency and empowerment' for clinicians, using AI to automate the 'administrative burden' so experts can focus on complex clinical care. Google is already scaling these efforts, with diabetic retinopathy screenings reaching 600,000 people globally and plans to expand to 6 million over the next decade.",
+      "source": "Google DeepMind / Fortune",
       "tags": [
         "Drug Discovery",
-        "Partnerships",
-        "Life Sciences"
+        "AGI",
+        "Clinical"
       ],
-      "cluster": "NVIDIA / Eli Lilly",
-      "date": "Feb 15, 2026",
-      "url": "https://www.techlifesci.com/ai-pharma-policy-readout"
+      "cluster": "Google / DeepMind",
+      "date": "Feb 17, 2026",
+      "url": "https://www.indiatimes.com/tech/news/google-ai-ceo-demis-hassabis-ai-prediction-human-health-627451.html"
+    },
+    {
+      "headline": "Anthropic Launches 'Claude for Healthcare' with HIPAA-Ready Connectors",
+      "summary": "Anthropic has officially entered the regulated clinical market with the launch of 'Claude for Healthcare,' a specialized suite of tools designed for providers, payers, and life sciences organizations. The platform is built on a HIPAA-compliant infrastructure and introduces 'Connectors' that allow the AI to directly access critical medical databases, including the CMS Coverage Database, ICD-10 coding systems, and PubMed. This allows Claude to perform complex tasks like verifying insurance coverage, automating prior authorizations, and drafting clinical trial protocols with real-time data grounding.\n\nA standout feature is the 'Claude Constitution,' a set of ethical guidelines that Anthropic claims makes the model uniquely suited for high-stakes medical environments. Unlike general-purpose models, Claude for Healthcare is designed to understand the 'why' behind its actions, prioritizing safety and transparency. The launch also includes consumer-facing features, allowing users in the U.S. to securely share medical records from Apple Health and Android Health Connect to receive plain-language explanations of lab results and personalized health insights.\n\nWhy it matters: This move directly challenges OpenAI's recently launched 'ChatGPT Health.' For healthcare organizations, it provides a choice between two distinct philosophies: OpenAI's broad, consumer-led data integration versus Anthropic's 'safety-first,' constitutionally-guided enterprise approach. Early partners include major consulting firms like Deloitte and Accenture, signaling a push for deep integration into hospital workflows.",
+      "source": "Anthropic Blog / Fierce Healthcare",
+      "tags": [
+        "HIPAA",
+        "Enterprise AI",
+        "Patient Engagement"
+      ],
+      "cluster": "Anthropic",
+      "date": "Feb 12, 2026",
+      "url": "https://www.fiercehealthcare.com/ai/jpm26-anthropic-launches-claude-healthcare-turbocharge-ai-efficiency-health-systems-payers"
     }
   ],
   "techStories": [
     {
-      "headline": "Anthropic Raises $30B as Claude Code Revenue Hits $2.5B",
-      "summary": "Anthropic has closed a massive $30 billion Series G funding round led by GIC and Coatue, valuing the company at $380 billion. The round includes significant participation from Microsoft and NVIDIA, reflecting the intense competition for enterprise AI dominance. Anthropic's annualized revenue has reached $14 billion, a tenfold increase over the previous year, driven largely by the explosive growth of 'Claude Code.'\n\nClaude Code, the company's agentic coding tool, has seen its run-rate revenue double since the start of 2026, now exceeding $2.5 billion. Anthropic reports that eight of the Fortune 10 are now Claude customers, using the tool not just for software development but for complex financial and data analysis. The company aims to reach break-even by 2028, two years ahead of its primary rival, OpenAI.\n\nWhy it matters: The success of Claude Code validates the 'agentic' shift in AI. Enterprises are no longer just looking for chatbots; they are investing in tools that can autonomously execute long-running technical tasks. This funding provides Anthropic the capital to compete with OpenAI's reported $100B funding efforts.",
-      "source": "Anthropic Blog / The Guardian",
+      "headline": "OpenAI Unveils GPT-5.3-Codex and 'Lockdown Mode' for High-Security Users",
+      "summary": "OpenAI has released GPT-5.3-Codex, its most advanced agentic coding model to date, alongside a new 'Lockdown Mode' for ChatGPT. The new model is 25% faster than its predecessor and is designed to handle long-horizon tasks involving complex research and tool execution. Due to its high capabilities, OpenAI is treating it as a 'high cybersecurity capability' model, rolling it out through a phased deployment to trusted partners like GitHub and Cursor to mitigate risks of misuse in malware development.\n\nThe 'Lockdown Mode' is a new security tier for executives and security-conscious organizations. It restricts ChatGPT's interaction with external systems to prevent prompt-injection attacks and data exfiltration. For instance, web browsing in this mode is limited to cached content, ensuring no live network requests leave OpenAI's controlled environment. Simultaneously, OpenAI announced the retirement of older models, including GPT-4o and the initial GPT-5 'Instant' versions, as it consolidates its lineup around the more efficient 5.3 architecture.\n\nWhy it matters: This represents a shift toward 'Agentic' computing where models are no longer just answering questions but acting as 'AI Coworkers.' The introduction of 'Frontier,' a platform for managing these agents like new hires—complete with onboarding and performance reviews—suggests that OpenAI is moving toward becoming an enterprise operating system for AI labor.",
+      "source": "OpenAI Blog",
       "tags": [
-        "Finance",
-        "Models",
-        "Enterprise"
-      ],
-      "cluster": "Anthropic",
-      "date": "Feb 12, 2026",
-      "url": "https://www.anthropic.com/news/series-g-funding"
-    },
-    {
-      "headline": "OpenAI Debuts GPT-5.3 Codex and 'Frontier' Agent Platform",
-      "summary": "OpenAI has launched GPT-5.3-Codex-Spark, its most capable agentic coding model to date. The model is 25% faster than its predecessor and was reportedly 'instrumental in creating itself,' with the development team using early versions to debug training and manage deployments. This release is paired with 'Frontier,' a new enterprise platform designed to manage AI agents like human employees, complete with onboarding, permissions, and performance reviews.\n\nFrontier allows companies to connect AI agents to existing tech stacks (CRMs, ticketing tools) without data migration. This move intensifies the rivalry with Anthropic's Claude Code and signals OpenAI's push into the 'application-layer' of business workflows. Sam Altman also noted that India has become OpenAI's second-largest market with 100 million weekly active users, highlighting the global scale of adoption.\n\nWhy it matters: The 'self-recursive' nature of GPT-5.3's development suggests we are entering an era where AI accelerates its own improvement. For CTOs, the 'Frontier' platform provides the governance framework needed to move from experimental bots to a managed, autonomous AI workforce.",
-      "source": "OpenAI Blog / Techmeme",
-      "tags": [
-        "Models",
-        "Agents",
-        "Enterprise"
+        "Cybersecurity",
+        "Agentic AI",
+        "Software Development"
       ],
       "cluster": "OpenAI",
       "date": "Feb 13, 2026",
-      "url": "https://openai.com/blog/introducing-gpt-5-3-codex"
+      "url": "https://openai.com/news/introducing-lockdown-mode-and-elevated-risk-labels-in-chatgpt/"
     },
     {
-      "headline": "Meta Breaks Ground on $10B AI Data Center in Indiana",
-      "summary": "Meta has started construction on a record-scale, 1-gigawatt AI data center in Lebanon, Indiana. The $10 billion facility is designed to support both Meta's core apps and its massive AI infrastructure needs. To fund this and other projects, Meta has established a $27 billion off-balance-sheet joint venture, a move that has drawn scrutiny from regulators and auditors concerned about accounting transparency in the face of massive AI capital expenditures.\n\nIn addition to infrastructure, Meta is pushing new AI features to its 3 billion users, including AI-powered animated profile photos and 'Name Tag,' a facial recognition feature for its Ray-Ban smart glasses. While 'Name Tag' was initially intended for the visually impaired, Meta is exploring broader social applications, marking a sharp reversal in its facial recognition policy.\n\nWhy it matters: Meta's strategy is one of 'brute force' infrastructure. By building 1GW campuses, they are ensuring they have the compute to compete with Google and Microsoft. However, the complex financing of these projects highlights the immense financial pressure AI scaling is placing on even the largest tech giants.",
-      "source": "Simply Wall St / Capacity Global",
+      "headline": "Exa Instant Challenges Google with Sub-200ms Neural Search for Agents",
+      "summary": "AI search startup Exa has launched 'Exa Instant,' a search engine purpose-built for AI agents that delivers results in under 200 milliseconds. This is significantly faster than traditional search APIs, which often add 700ms or more of overhead by wrapping Google results. Exa achieved this by building a proprietary end-to-end neural search stack that uses embeddings and transformers to understand query intent rather than simple keyword matching.\n\nThe speed breakthrough is critical for the burgeoning 'Agentic' ecosystem, where latency compounds as agents make dozens of sequential searches to complete a task. Exa, which recently raised $85M in a Series B led by Benchmark and NVIDIA, already serves major AI companies like Cursor. The service is priced at $5 per 1,000 requests, positioning it as a high-performance alternative for developers building real-time voice AI and autonomous research tools.\n\nWhy it matters: As AI moves from human-centric chat to agent-to-agent workflows, the 'speed of thought' becomes the primary bottleneck. Exa's infrastructure-level innovation suggests that the future of search may not be a destination for humans, but a low-latency utility for machines.",
+      "source": "TechCrunch / Exa Blog",
       "tags": [
+        "Search",
         "Infrastructure",
-        "Hardware",
-        "Policy"
+        "Latency"
       ],
-      "cluster": "Meta AI",
-      "date": "Feb 14, 2026",
-      "url": "https://www.capacityglobal.com/meta-indiana-data-centre"
+      "cluster": "AI Infrastructure",
+      "date": "Feb 13, 2026",
+      "url": "https://exa.ai/blog/exa-instant"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "The 'self-improving AI' narrative around recent coding model releases is mostly marketing. Debugging your own training code is what engineers have done for decades; doing it with an LLM assistant doesn't make it a 'Singularity' event. We still lack the world models for true autonomous reasoning.",
+      "content": "Discussing the 'hardware cliff' in medical AI. Yann emphasizes that while GPUs are the gold standard for training, the future of global healthcare deployment belongs to high-efficiency architectures like TPUs that can run in high-radiation or low-power environments. 'We need resilience, not just FLOPS.'",
       "authorName": "Yann LeCun",
-      "date": "1d ago",
+      "date": "Today",
       "type": "Opinion",
-      "url": "https://twitter.com/ylecun"
+      "url": "https://x.com/ylecun"
     },
     {
       "handle": "@AndrewYNg",
-      "content": "Seeing a shift in 'The Batch' data: AI agents are now outperforming humans in specialized medical diagnosis tasks when allowed to 'reason' through multiple steps. The key isn't the model size, but the agentic workflow. This is the year of the 'Agentic Doctor.'",
+      "content": "Excited about the 'Dr. CaBot' research featured in The Batch. It's not just about the diagnosis; it's about the reasoning trace. If an AI can't explain why it's suggesting a specific lab test, it's not ready for the clinic. Agentic reasoning is the bridge to trust.",
       "authorName": "Andrew Ng",
-      "date": "Today",
+      "date": "1d ago",
       "type": "Research",
-      "url": "https://twitter.com/AndrewYNg"
+      "url": "https://x.com/AndrewYNg"
     },
     {
       "handle": "@karpathy",
-      "content": "The 'Productivity Paradox' in coding is real. We are writing 10x more code, but spending 20x more time in PR reviews. We need 'Agentic Reviewers' that understand intent, not just syntax. The bottleneck has shifted from the keyboard to the brain.",
+      "content": "Observations on the 'OpenClaw' viral agent. Andrej notes that the 'agentic leap' is happening faster than the safety frameworks can keep up. We are moving from 'chatting with a model' to 'giving a model a credit card and a terminal.' The security implications of GPT-5.3-Codex's high-security rollout are a necessary step.",
       "authorName": "Andrej Karpathy",
-      "date": "2h ago",
-      "type": "Opinion",
-      "url": "https://twitter.com/karpathy"
-    },
-    {
-      "handle": "@GoogleDeepMind",
-      "content": "Gemini Deep Think has autonomously solved four open questions in the Bloom’s Erdős Conjectures database. This isn't just pattern matching; it's verifiable mathematical discovery. Paper: LeeSeo26.",
-      "authorName": "Google DeepMind",
       "date": "Today",
-      "type": "Announcement",
-      "url": "https://twitter.com/GoogleDeepMind"
+      "type": "Opinion",
+      "url": "https://x.com/karpathy"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Agentic Clinical Trial Recruiter",
-      "description": "Build an agent that parses patient EHR data and matches it against ClinicalTrials.gov requirements using Gemini 1.5 Pro.",
+      "title": "Building a HIPAA-Compliant Medical Document Agent",
+      "description": "Create an agent that can ingest patient records and answer questions while maintaining strict data isolation using Vertex AI Agent Engine.",
       "tools": [
-        "Vertex AI",
+        "Vertex AI Agent Engine",
         "Gemini 1.5 Pro",
-        "BigQuery"
+        "Cloud Storage"
       ],
       "skills": [
+        "Data Isolation",
         "RAG",
-        "Function Calling",
-        "HIPAA Compliance"
+        "IAM Permissions"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Data Ingestion",
-          "instruction": "Load anonymized patient profiles into BigQuery and enable the Vertex AI connection."
+          "stepTitle": "Initialize Agent Engine",
+          "instruction": "Set up a new agent instance in the Google Cloud Console under Vertex AI > Agent Engine. Enable 'Memory Bank' for long-term context.",
+          "codeSnippet": "gcloud ai agents create --display-name='MedAgent-POC'"
         },
         {
-          "stepTitle": "Define Tooling",
-          "instruction": "Create a Python function that queries the ClinicalTrials.gov API for specific inclusion/exclusion criteria.",
-          "codeSnippet": "def get_trial_criteria(trial_id): ... return criteria"
+          "stepTitle": "Configure Data Isolation",
+          "instruction": "Upload sample (de-identified) medical PDFs to a private Cloud Storage bucket. Use IAM roles to ensure only the Agent Service Account has access.",
+          "codeSnippet": "gsutil cp records/*.pdf gs://your-secure-med-bucket/"
         },
         {
-          "stepTitle": "Agent Orchestration",
-          "instruction": "Use Gemini 1.5 Pro with 'Function Calling' to compare patient data against the retrieved criteria and generate a 'Match Score' with reasoning."
+          "stepTitle": "Deploy with Reasoning Engine",
+          "instruction": "Connect the bucket to your agent using the 'Reasoning Engine' to allow the model to cite specific pages in the medical records for every answer."
         }
       ],
-      "date": "Feb 16, 2026",
+      "date": "Feb 17, 2026",
       "prerequisites": [
         "Google Cloud Project",
-        "Vertex AI API enabled"
-      ],
-      "sourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning"
+        "Vertex AI API Enabled",
+        "Basic Python knowledge"
+      ]
     },
     {
-      "title": "Bioacoustic Whale Classifier with Perch 2.0",
-      "description": "Use Google's Perch 2.0 foundation model to identify whale vocalizations from underwater audio files.",
+      "title": "Real-Time Clinical Coding Assistant",
+      "description": "Use Gemini Live API to build a voice-activated assistant that suggests ICD-10 codes during a simulated patient encounter.",
       "tools": [
-        "Vertex AI",
-        "Perch 2.0",
-        "Cloud Storage"
+        "Gemini Live API",
+        "Vertex AI Extensions",
+        "ICD-10 Dataset"
       ],
       "skills": [
-        "Transfer Learning",
-        "Bioacoustics",
-        "Embeddings"
+        "Multimodal Interaction",
+        "Function Calling",
+        "Low-Latency Inference"
       ],
       "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Load Perch 2.0",
-          "instruction": "Access the Perch 2.0 model from Model Garden in Vertex AI."
+          "stepTitle": "Set up Gemini Live",
+          "instruction": "Configure the Gemini 1.5 Flash model for low-latency voice interaction using the new Live API endpoint.",
+          "codeSnippet": "model = GenerativeModel('gemini-1.5-flash-live')"
         },
         {
-          "stepTitle": "Generate Embeddings",
-          "instruction": "Pass your underwater audio samples through Perch to generate 32-dimension feature vectors."
+          "stepTitle": "Register ICD-10 Extension",
+          "instruction": "Use Vertex AI Extensions to connect the model to an external ICD-10 lookup service via a REST API tool."
         },
         {
-          "stepTitle": "Train Classifier",
-          "instruction": "Use a small labeled dataset of whale sounds to train a lightweight head on top of the Perch embeddings using Scikit-learn."
+          "stepTitle": "Implement Function Calling",
+          "instruction": "Define a tool that triggers when the model hears a diagnosis, automatically fetching the corresponding billing code.",
+          "codeSnippet": "{ 'name': 'get_icd10_code', 'parameters': { 'diagnosis': 'string' } }"
         }
       ],
-      "date": "Feb 16, 2026",
+      "date": "Feb 17, 2026",
       "prerequisites": [
-        "Basic Python",
-        "Vertex AI Model Garden access"
-      ],
-      "sourceUrl": "https://research.google/blog/perch-2-0-whale-acoustics"
+        "Vertex AI SDK",
+        "Access to an ICD-10 API",
+        "Microphone for testing"
+      ]
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "Dr. CaBot: The Rise of Reasoning in Medical AI",
-      "summary": "The latest edition of 'The Batch' highlights 'Dr. CaBot,' a new agentic system designed for complex medical diagnoses. Unlike traditional models that provide a single-shot diagnosis based on a symptom list, Dr. CaBot uses a multi-step reasoning process. It can explain its logic, suggest specific follow-up tests, and even plan the next steps in a patient's care journey. This 'agentic' approach addresses a major hurdle in clinical AI: the 'black box' problem. Andrew Ng notes that while doctors were initially skeptical of AI 'guesses,' they are much more receptive to AI 'reasoning' that they can verify. This shift from prediction to planning is what Ng believes will finally drive widespread clinical adoption.",
-      "url": "https://www.deeplearning.ai/the-batch/dr-cabot-medical-diagnoses/",
+      "title": "More Robust Medical Diagnoses: Inside Dr. CaBot",
+      "summary": "The latest edition of 'The Batch' highlights 'Dr. CaBot,' a new agentic system designed to move beyond simple symptom-to-diagnosis mapping. Traditional AI diagnostic tools often act as 'black boxes,' providing a result without explaining the clinical path. Dr. CaBot, however, is trained to generate a 'reasoning trace' that mimics a physician's thought process, including suggesting specific follow-up tests and explaining why they are necessary for a differential diagnosis.\n\nAndrew Ng notes that this 'agentic' approach is the key to clinical adoption. By showing its work, the AI allows human doctors to audit its logic, catching potential hallucinations before they reach the patient. The research demonstrates that models with explicit reasoning steps score significantly higher on medical benchmarks like HealthBench compared to those that provide direct answers. This shift from 'prediction' to 'reasoning' is described as the 'next frontier' for medical AI safety.",
+      "url": "https://www.deeplearning.ai/the-batch/issue-340/",
       "category": "The Batch",
       "author": "The Batch Team",
       "date": "Feb 13, 2026"
     },
     {
-      "title": "The Productivity Paradox: Why AI Isn't Shrinking the Workday",
-      "summary": "DeepLearning.AI explores a counterintuitive trend: as AI adoption hits record highs, developer workloads are actually increasing. A study cited in 'The Batch' shows that while AI-assisted teams complete 21% more tasks, their Pull Request (PR) review time has surged by 91%. This 'Productivity Illusion' occurs because verifying AI-generated code is often more cognitively demanding than writing it from scratch. Andrew Ng argues that we are currently in a 'bottleneck shift' phase. To realize the true gains of AI, organizations must move beyond 'writing code faster' and focus on 'agentic verification'—using AI to help humans review and validate the massive influx of machine-generated content. Without this, AI risks becoming a 'burnout machine.'",
-      "url": "https://www.deeplearning.ai/the-batch/ai-productivity-paradox/",
-      "category": "The Batch",
-      "author": "Andrew Ng",
-      "date": "Feb 13, 2026"
+      "title": "Recipe for Smaller, Capable Models: Mistral's Cascade Distillation",
+      "summary": "DeepLearning.AI explores Mistral's new 'Ministral' family, which uses a technique called 'cascade distillation' to compress large models into highly capable, small-footprint versions. By pruning and then distilling knowledge from the flagship Mistral 3.1 into smaller vision-language models, Mistral has created a family that outperforms much larger competitors on edge-computing tasks. \n\nThis is particularly relevant for healthcare, where privacy and latency often require models to run locally on devices rather than in the cloud. Andrew Ng comments that the 'democratization' of AI depends on these efficiency gains. If we can run 'frontier-class' reasoning on a smartphone or a medical imaging device without a constant internet connection, we can bring specialist-grade diagnostics to the most remote parts of the world. The article provides a technical deep dive into how the distillation process preserves the 'reasoning' capabilities of the teacher model while shedding the parameter weight.",
+      "url": "https://www.deeplearning.ai/the-batch/mistral-cascade-distillation/",
+      "category": "Research Highlight",
+      "author": "The Batch Team",
+      "date": "Feb 06, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Transformers.js v4 Preview",
-      "provider": "Hugging Face",
-      "summary": "A major update enabling low-latency, privacy-preserving AI inference directly in the browser using WebGPU. Ideal for developers building edge-based healthcare apps where data cannot leave the device.",
-      "url": "https://huggingface.co/blog/transformers-js-v4",
-      "type": "Tool",
+      "title": "Anthropic Cookbook: Implementing MCP for Healthcare",
+      "provider": "Anthropic",
+      "summary": "A hands-on guide to using the Model Context Protocol (MCP) to connect Claude to secure healthcare data silos like FHIR servers and clinical databases.",
+      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "type": "Tutorial",
       "difficulty": "Intermediate"
     },
     {
-      "title": "OpenEnv: Evaluating Tool-Using Agents",
-      "provider": "Hugging Face",
-      "summary": "A new framework and dataset for testing how well AI agents can use real-world tools (APIs, databases, terminals) to solve multi-step problems.",
-      "url": "https://huggingface.co/blog/openenv",
-      "type": "Paper",
+      "title": "OpenAI for Science: Accelerating Research with Prism",
+      "provider": "OpenAI",
+      "summary": "A new resource exploring 'Prism,' a tool that integrates AI into LaTeX environments to help researchers automate diagram generation and parallel task management in scientific writing.",
+      "url": "https://openai.com/science",
+      "type": "Tool",
       "difficulty": "Advanced"
+    },
+    {
+      "title": "Hugging Face: Fine-Tuning MedGemma for Local Contexts",
+      "provider": "Hugging Face",
+      "summary": "A tutorial on fine-tuning Google's open MedGemma model to reflect specific regional healthcare needs, such as Singapore's unique clinical guidelines.",
+      "url": "https://huggingface.co/blog/medgemma-finetuning",
+      "type": "Course",
+      "difficulty": "Intermediate"
     }
   ]
 }
