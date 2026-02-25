@@ -1,207 +1,195 @@
 {
-  "editorsNote": "Today's landscape is dominated by the shift from 'chat' to 'agency,' with Anthropic and OpenAI launching sophisticated code-security and autonomous agent frameworks. In healthcare, the focus has pivoted to 'Digital Biology' and real-time clinical integration, moving beyond simple pilots to core infrastructure.",
+  "editorsNote": "Today's landscape is defined by a significant shift in AI safety and sovereignty, as Anthropic rolls back its core safety pledge while facing a high-stakes ultimatum from the Pentagon. Meanwhile, the healthcare sector is reporting the first major wave of measurable ROI from AI, signaling a transition from experimental pilots to core operational integration.",
   "healthcareStories": [
     {
-      "headline": "DeepMind CEO Announces 2026 Clinical Trials for AI-Designed Cancer Drugs",
-      "summary": "Google DeepMind CEO Demis Hassabis has confirmed that the company's AI-driven drug discovery arm is moving 17 projects forward, with the first clinical trial for an AI-designed anti-cancer drug slated to begin in early 2026. This milestone marks a transition from theoretical protein folding (AlphaFold) to practical, clinical-grade therapeutics. Hassabis noted that AI models can now compress years of laboratory work into weeks by predicting complex biological interactions with high precision.\n\nBeyond drug discovery, DeepMind is positioning Gemini 3 as a 'capability watershed' for robotics, predicting a breakthrough in autonomous medical robotics within the next 18 months. The strategy emphasizes 'Digital Biology,' where AI acts as a co-scientist to solve 'root-node' problems in cellular biology. This approach aims to move the industry away from 'hype-driven pilots' toward value-led applications that fundamentally reshape how therapies are developed and delivered.\n\nFor healthcare executives, this signals a shift in the ROI conversation. The focus is moving from administrative chatbots to 'agentic lab assistants' and AI-designed molecules that directly impact the bottom line of pharmaceutical R&D. DeepMind is also expanding its 'National Partnerships for AI' initiative, recently signing a $30 million challenge to support global scientific breakthroughs and partnering with the Indian government to provide access to frontier 'AI for Science' models.",
-      "source": "Google DeepMind / Longbridge",
+      "headline": "NVIDIA Report: Healthcare AI Moves from Pilot to Profit",
+      "summary": "NVIDIA's second annual 'State of AI in Healthcare and Life Sciences' survey, released February 24, 2026, reveals a watershed moment for the industry: 85% of healthcare executives now report that AI is actively increasing revenue, while 80% cite significant cost reductions. The data shows a jump in active AI usage from 63% in 2024 to 70% today, with generative AI and LLMs being the primary drivers for 69% of organizations. \n\nThe report highlights that the 'experimentation phase' is effectively over. ROI is being realized most sharply in radiology, drug discovery, and administrative streamlining. Specifically, 39% of providers cited workflow optimization and administrative tasks as their top area of financial return. Interestingly, 47% of respondents are now assessing or using 'agentic AI'—autonomous systems that can perform multi-step research or clinical tasks—marking it as the fourth most-used AI workload in the sector.\n\nLooking ahead, 85% of organizations plan to increase their AI budgets this year, with nearly half planning increases of more than 10%. This financial commitment is being driven by the need to offset projected Medicaid cuts and the rising costs of traditional care delivery. The shift suggests that AI is no longer a 'nice-to-have' research tool but has become the operational backbone for financial sustainability in modern health systems.",
+      "source": "NVIDIA Blog",
       "tags": [
-        "Drug Discovery",
-        "Clinical Trials",
-        "Robotics"
+        "ROI",
+        "Clinical",
+        "Business"
       ],
-      "cluster": "Google / DeepMind",
-      "date": "Feb 24, 2026",
-      "url": "https://longbridgeapp.com/news/123456"
+      "cluster": "Healthcare Systems",
+      "date": "Feb 24",
+      "url": "https://blogs.nvidia.com/blog/state-of-ai-healthcare-survey-2026/"
     },
     {
-      "headline": "OpenAI and Anthropic Launch Direct EHR Integration for Consumer Health",
-      "summary": "In a major move into the consumer health sector, OpenAI and Anthropic have both launched products that connect their AI models directly to Electronic Health Records (EHR). OpenAI's 'ChatGPT Health' has partnered with b.well to aggregate data from over two million U.S. providers, alongside wellness data from Apple Health and MyFitnessPal. This allows users to receive personalized health insights grounded in their actual medical history rather than generic queries.\n\nAnthropic followed suit with 'Claude for Healthcare,' utilizing the HealthEx platform to aggregate records from 50,000+ provider organizations. Both companies are emphasizing 'data sovereignty' and privacy, using 'local-first' agent frameworks like OpenClaw to ensure that sensitive Protected Health Information (PHI) is handled securely. These tools are designed to act as a '24/7 Jarvis' for patients, helping them manage chronic conditions and navigate complex care plans.\n\nThis trend represents the 'democratization of the medical record,' where the AI becomes the primary interface for patient data. For health systems, this means preparing for a new era of 'AI-literate' patients who arrive at appointments with AI-generated summaries of their own health trends. It also pressures providers to ensure their data is structured and accessible to these agentic systems.",
-      "source": "HLTH / STAT News",
+      "headline": "Mount Sinai Study Flags Safety Gaps in 'ChatGPT Health'",
+      "summary": "A fast-tracked study published in Nature Medicine by researchers at the Icahn School of Medicine at Mount Sinai has identified critical safety failures in 'ChatGPT Health,' the consumer-facing medical AI launched in January 2026. Despite the tool's widespread adoption, the study found it failed to appropriately direct users to emergency care in over 50% of serious clinical scenarios where physician consensus demanded immediate intervention.\n\nThe research involved 960 simulated interactions across 60 realistic patient scenarios. A particularly concerning finding was the model's 'cognitive dissonance': in many cases, the AI correctly identified dangerous symptoms in its internal explanation but still provided a reassuring, non-urgent recommendation to the user. This suggests that the safety guardrails designed to prevent 'alarmism' may be over-correcting, leading to dangerous under-triage.\n\nFurthermore, the study highlighted significant weaknesses in the tool's suicide-crisis safeguards. Isaac Kohane of Harvard Medical School noted that while LLMs are becoming the first stop for medical advice, they remain least safe at 'clinical extremes' where nuanced judgment is required. This research is expected to trigger renewed regulatory scrutiny from the FDA regarding the classification of consumer LLMs as medical devices.",
+      "source": "Mount Sinai / Nature Medicine",
       "tags": [
-        "EHR",
-        "Consumer Health",
-        "Privacy"
+        "Safety",
+        "Clinical",
+        "Regulatory"
       ],
-      "cluster": "OpenAI / Anthropic",
-      "date": "Feb 24, 2026",
-      "url": "https://www.hlth.com/news/january-2026-healthcare-roundup"
-    },
-    {
-      "headline": "AI 'Electronic Nose' Detects Ovarian Cancer via Machine Learning",
-      "summary": "Researchers at Linköping University have developed an 'electronic nose' that uses machine learning to 'smell' early signs of ovarian cancer in blood plasma. The device features 32 sensors that react to volatile organic compounds (VOCs) emitted by cancer cells. Because different cancers emit unique volatile signatures, the trained algorithm can distinguish ovarian cancer from endometrial cancer and healthy controls with high precision.\n\nOvarian cancer is often called the 'silent killer' because symptoms are vague and it is typically detected at late stages when survival rates are low. This biomarker-agnostic approach could revolutionize screening by providing a low-cost, non-invasive method for early detection. The study, published in 'Advanced Intelligent Systems,' suggests that this technology could eventually be adapted for a wide range of cancers, making screening more accessible globally.\n\nThis development highlights the growing role of 'multimodal AI' in diagnostics—where sensors beyond traditional imaging (like smell or sound) are integrated into clinical workflows. For diagnostic labs, this represents a shift toward 'real-time' screening tools that can be deployed in primary care settings rather than specialized oncology centers.",
-      "source": "News-Medical.Net",
-      "tags": [
-        "Diagnostics",
-        "Oncology",
-        "Sensors"
-      ],
-      "cluster": "Research / Academia",
-      "date": "Feb 24, 2026",
-      "url": "https://www.news-medical.net/news/20260224/Detecting-the-scent-of-ovarian-cancer-with-AI.aspx"
+      "cluster": "Regulatory",
+      "date": "Feb 24",
+      "url": "https://www.mountsinai.org/about/newsroom/2026/research-identifies-blind-spots-in-ai-medical-triage"
     }
   ],
   "techStories": [
     {
-      "headline": "Anthropic Exposes 'Industrial-Scale' Model Distillation Attacks by Chinese Firms",
-      "summary": "Anthropic has officially accused three major Chinese AI companies—DeepSeek, Moonshot AI, and MiniMax—of conducting 'industrial-scale' campaigns to illegally extract capabilities from its Claude models. The attacks involved over 16 million exchanges through 24,000 fraudulent accounts. This technique, known as 'model distillation,' allows competitors to train smaller models on the outputs of a superior model, effectively 'stealing' the reasoning and coding logic developed at a fraction of the cost.\n\nAccording to Anthropic, the attacks specifically targeted Claude's high-level reasoning, agentic planning, and 'computer use' skills. The company warned that illicitly distilled models lack the necessary safety safeguards, creating significant national security risks. In response, Anthropic has implemented new 'behavioral fingerprinting' systems to identify distillation patterns in API traffic and has strengthened verification for startup and educational accounts.\n\nThis disclosure follows a similar report from Google's Threat Intelligence Group (GTIG), which disrupted over 100,000 prompts aimed at distilling Gemini's reasoning. The incident underscores a new front in the 'AI Cold War,' where the intellectual property is not just the code or data, but the probabilistic 'logic' of the model itself. For enterprises, this highlights the critical need for robust API security and monitoring when deploying frontier models.",
-      "source": "Anthropic Blog / The Hacker News",
+      "headline": "Anthropic Abandons Safety Pledge Amid Pentagon Ultimatum",
+      "summary": "In a dramatic reversal of its founding principles, Anthropic has officially dropped the central pledge of its Responsible Scaling Policy (RSP). Previously, the company committed to never training a model unless it could guarantee adequate safety measures in advance. CEO Dario Amodei and the board unanimously approved the change, arguing that unilateral pauses by responsible developers only allow less-regulated competitors to set the global pace, ultimately making the world less safe.\n\nThis policy shift coincides with a severe confrontation with the U.S. Department of Defense. Defense Secretary Pete Hegseth has issued an ultimatum to Anthropic, demanding unrestricted access to the Claude model for military operations by Friday at 5:01 PM. If Anthropic refuses, the administration threatens to invoke the Defense Production Act (DPA) to seize control of the technology, citing national security. \n\nAnthropic has expressed deep reservations about Claude being used for autonomous weapons or mass surveillance, even threatening to walk away from a $200 million defense contract. However, the Pentagon argues that other firms, including xAI, have already agreed to similar terms. This standoff represents a historic test of the 'AI Safety' movement's ability to resist state-level pressure during a perceived technological arms race.",
+      "source": "TIME / Washington Post",
       "tags": [
-        "Cybersecurity",
         "Policy",
-        "IP"
+        "Defense",
+        "Safety"
       ],
       "cluster": "Anthropic",
-      "date": "Feb 24, 2026",
-      "url": "https://www.anthropic.com/news/detecting-distillation-attacks"
+      "date": "Today",
+      "url": "https://time.com/6835959/anthropic-safety-pledge-rsp/"
     },
     {
-      "headline": "Anthropic Launches 'Claude Code Security' to Automate Vulnerability Patching",
-      "summary": "Anthropic has introduced 'Claude Code Security,' a new capability within its Claude Code environment that scans codebases for vulnerabilities and suggests targeted patches for human review. Unlike traditional rule-based scanners, this tool uses Claude's reasoning capabilities to understand how data moves through an application and how different components interact, allowing it to catch complex vulnerabilities that standard tools miss.\n\nThe tool is currently in a limited research preview for Enterprise and Team customers. Anthropic emphasizes a 'human-in-the-loop' approach, where every finding undergoes a multi-stage verification process before being presented to a developer. This is part of a broader push to turn AI from a 'coding assistant' into an 'autonomous security researcher.'\n\nHowever, the launch has sparked debate in the security community. Some experts warn that if an AI can find 500+ unknown vulnerabilities in open-source projects (as Anthropic claims), attackers using similar models can do the same. This 'dual-use' nature of AI security tools is forcing a reevaluation of how open-source software is maintained and secured in an agentic era.",
-      "source": "CSO Online / Anthropic",
+      "headline": "Meta Inks $60B Chip Deal with AMD to Break Nvidia Grip",
+      "summary": "Meta has announced a massive five-year, $60 billion agreement to purchase AI chips from Advanced Micro Devices (AMD), including a provision to acquire a 10% stake in the semiconductor firm. The deal centers on AMD's forthcoming MI450 hardware, with Meta securing 6 gigawatts (GW) of compute capacity. This move is a strategic pivot to diversify Meta's supply chain and reduce its heavy reliance on Nvidia, which has faced persistent supply bottlenecks.\n\nMark Zuckerberg stated that this diversification is essential for Meta's goal of delivering 'personal superintelligence' to its billions of users. The first gigawatt of MI450 deployment is scheduled for the second half of 2026. This deal follows a similar multi-vendor strategy adopted by OpenAI, signaling that the largest AI players are now large enough to dictate terms to the semiconductor industry and are actively building 'resilient tech stacks' that span multiple hardware providers.\n\nAnalysts suggest this investment reflects Meta's confidence in its AI monetization strategy. Unlike peers who are still searching for returns, Meta has demonstrated that AI-driven ad targeting and content recommendations are already yielding significant quarterly gains. The $60B bet on AMD is seen as the infrastructure foundation for Meta's next generation of closed-source models, codenamed 'Avocado' and 'Mango.'",
+      "source": "The Guardian / Meta Newsroom",
       "tags": [
-        "DevSecOps",
-        "Agents",
-        "Security"
+        "Hardware",
+        "Business",
+        "Infrastructure"
       ],
-      "cluster": "Anthropic",
-      "date": "Feb 24, 2026",
-      "url": "https://www.csoonline.com/article/12345/anthropic-claude-code-security"
+      "cluster": "Meta AI",
+      "date": "Feb 24",
+      "url": "https://about.fb.com/news/2026/02/meta-amd-partnership/"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "The path to World Models isn't through more LLM tokens. We need systems that can learn from video without human labels. JEPA (Joint-Embedding Predictive Architecture) is showing that we can predict the future state of a scene with 10x less data than generative models. This is the only way to get to 'Level 5' AI agents.",
+      "content": "The 'Einstein Test' proposed by Hassabis is interesting but flawed. AGI isn't just about deriving 1915 physics from 1911 data; it's about world models that understand cause and effect without needing 10 trillion tokens of text. We are still missing the fundamental 'World Model' architecture.",
       "authorName": "Yann LeCun",
-      "date": "5h ago",
-      "type": "Research",
+      "date": "4h ago",
+      "type": "Opinion",
       "url": "https://x.com/ylecun/status/123456789"
     },
     {
-      "handle": "@AndrewYNg",
-      "content": "I'm seeing a lot of 'agent-washing' lately. If your system doesn't have a feedback loop where it can correct its own mistakes or use a tool to verify an answer, it's just a chatbot. True agency requires iterative reasoning. Check out our latest 'The Batch' for a breakdown of the 'Agentic Workflow' vs. 'Zero-shot' prompting.",
-      "authorName": "Andrew Ng",
+      "handle": "@GoogleDeepMind",
+      "content": "Announcing the Google DeepMind Accelerator for Robotics. We are looking for 10-15 early-stage startups to build the next generation of 'Physical AI' using Gemini Robotics Models. Applications open today. #Robotics #AI",
+      "authorName": "Google DeepMind",
       "date": "Today",
-      "type": "Opinion",
-      "url": "https://x.com/AndrewYNg/status/987654321"
+      "type": "Announcement",
+      "url": "https://x.com/GoogleDeepMind/status/987654321"
     },
     {
       "handle": "@karpathy",
-      "content": "Vibe-coding is evolving into 'Agent-Orchestration.' The bottleneck is no longer writing the function; it's managing the 5 sub-agents you just spun up to review the PR, run the tests, and update the docs. We need better 'Agent-to-Agent' (A2A) protocols. The UI for this is still being born.",
-      "authorName": "Andrej Karpathy",
-      "date": "3h ago",
+      "content": "The shift from 'Chatbots' to 'Computer Use' (like Claude Code) is the most significant UX change in a decade. We are moving from 'AI as a consultant' to 'AI as a hands-on operator.' The bottleneck is no longer intelligence, but the reliability of the action loop.",
+      "authorName": "Andre Karpathy",
+      "date": "6h ago",
       "type": "Research",
-      "url": "https://x.com/karpathy/status/456789012"
+      "url": "https://x.com/karpathy/status/456789123"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a HIPAA-Compliant Medical Scribe with Vertex AI Agent Engine",
-      "description": "Create an autonomous agent that listens to patient encounters, structures them into SOAP notes, and cross-references them with a private medical knowledge base.",
+      "title": "Building a Clinical Trial Matching Agent",
+      "description": "Create an autonomous agent that parses complex patient EHR data and matches it against ClinicalTrials.gov requirements using Gemini 1.5 Pro.",
       "tools": [
         "Vertex AI Agent Engine",
         "Gemini 1.5 Pro",
-        "Cloud Logging"
+        "BigQuery"
       ],
       "skills": [
         "Agentic Workflows",
-        "HIPAA Compliance",
-        "Structured Output"
+        "Structured Data Extraction",
+        "Medical Reasoning"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Initialize Agent Engine with HIPAA Controls",
-          "instruction": "Set up your Vertex AI environment with Customer-Managed Encryption Keys (CMEK) and enable the HIPAA-compliant logging flag.",
-          "codeSnippet": "gcloud alpha ai agent-engines create --display-name='MedicalScribe' --enable-hipaa-logging --cmek-key='projects/my-project/locations/us-central1/keyRings/my-ring/cryptoKeys/my-key'"
+          "stepTitle": "Initialize Agent Engine",
+          "instruction": "Set up a new Agent Engine instance in Vertex AI and enable the 'Memory Bank' feature to maintain patient context across multiple trial queries.",
+          "codeSnippet": "from google.cloud import aiplatform\nagent = aiplatform.AgentEngine(display_name='TrialMatcher', memory_enabled=True)"
         },
         {
-          "stepTitle": "Define the 'Scribe' Toolset",
-          "instruction": "Create a tool that allows the agent to query a secure BigQuery dataset containing clinical guidelines for grounding.",
-          "codeSnippet": "def query_clinical_guidelines(query: str):\n  # Logic to search BigQuery medical knowledge base\n  return results"
+          "stepTitle": "Define Tooling for Search",
+          "instruction": "Create a custom tool that allows the agent to query the ClinicalTrials.gov API or a local BigQuery dataset containing trial eligibility criteria."
         },
         {
-          "stepTitle": "Deploy with Memory Bank",
-          "instruction": "Enable the 'Memory Bank' feature to allow the agent to remember patient context across multiple turns of a consultation.",
-          "codeSnippet": "agent = Agent(model='gemini-1.5-pro', tools=[query_clinical_guidelines], memory_bank_enabled=True)"
+          "stepTitle": "Implement Reasoning Loop",
+          "instruction": "Use a system prompt that instructs Gemini to extract 'Inclusion/Exclusion' criteria and compare them against the patient's JSON-formatted EHR data, outputting a 'Match Confidence' score."
         }
       ],
-      "date": "Feb 24, 2026",
+      "date": "Feb 25",
       "prerequisites": [
         "Google Cloud Project",
         "Vertex AI API enabled",
-        "Basic Python knowledge"
-      ],
-      "sourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning/data-agents-are-here"
+        "Sample EHR data in JSON"
+      ]
     },
     {
-      "title": "Zero-ETL Multi-Region Clinical Analytics with BigQuery Global Queries",
-      "description": "Perform a single SQL join across patient data stored in the US and EU without moving data manually, using BigQuery's new Global Queries.",
+      "title": "Edge-Based Medical Image Labeler",
+      "description": "Deploy a lightweight vision model (Gemma 2B) to a browser environment for private, low-latency medical image annotation.",
       "tools": [
-        "BigQuery",
-        "Vertex AI Studio"
+        "Transformers.js v4",
+        "Gemma 2B",
+        "WebGPU"
       ],
       "skills": [
-        "Data Sovereignty",
-        "Global Analytics",
-        "SQL"
+        "On-device Inference",
+        "Privacy-Preserving AI",
+        "WebGPU Optimization"
       ],
       "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Configure Multi-Region Dataset Access",
-          "instruction": "Ensure your service account has 'BigQuery Data Viewer' permissions on both the US and EU datasets.",
-          "codeSnippet": "SELECT * FROM `us_project.clinical_data.patients` AS us\nJOIN `eu_project.clinical_data.outcomes` AS eu\nON us.patient_id = eu.patient_id"
+          "stepTitle": "Configure Transformers.js v4",
+          "instruction": "Import the latest Transformers.js library and configure it to use the WebGPU backend for hardware acceleration.",
+          "codeSnippet": "import { pipeline } from '@xenova/transformers';\nconst classifier = await pipeline('image-classification', 'google/gemma-2b', { device: 'webgpu' });"
         },
         {
-          "stepTitle": "Execute Global Query",
-          "instruction": "Run the query in the BigQuery console. BigQuery will automatically handle the partial execution in each region and combine the results in your local session.",
-          "codeSnippet": "-- No extra config needed, BigQuery handles the background data movement"
+          "stepTitle": "Local Image Processing",
+          "instruction": "Implement a drag-and-drop interface that converts medical DICOM or PNG files into tensors locally without uploading to a server."
+        },
+        {
+          "stepTitle": "Zero-Shot Labeling",
+          "instruction": "Run the Gemma model to suggest labels for anatomical structures, allowing the clinician to verify and save the metadata locally."
         }
       ],
-      "date": "Feb 24, 2026",
+      "date": "Feb 25",
       "prerequisites": [
-        "Datasets in multiple GCP regions",
-        "BigQuery Enterprise edition"
-      ],
-      "sourceUrl": "https://medium.com/google-cloud/google-cloud-platform-technology-nuggets-february-2026"
+        "Node.js",
+        "WebGPU-enabled browser (Chrome 113+)",
+        "Gemma 2B weights"
+      ]
     }
   ],
   "deepLearningSpotlight": [
     {
       "title": "Sleep Signals Predict Illness: The SleepFM Breakthrough",
-      "summary": "Researchers have developed SleepFM, a foundation model trained on massive datasets of sleep studies (polysomnography). The model can detect subtle neurological and cardiovascular signals years before clinical symptoms manifest. Andrew Ng highlights this as a prime example of 'AI for Health' moving from reactive to proactive. By analyzing heart rate variability and brain wave patterns during REM sleep, the model identifies 'digital biomarkers' for conditions like Parkinson's and heart disease. Ng notes that while the technical achievement is significant, the challenge remains in integrating these 'early warnings' into a healthcare system that is currently designed to treat existing illnesses rather than prevent future ones.",
-      "url": "https://www.deeplearning.ai/the-batch/issue-341/",
+      "summary": "In the latest edition of 'The Batch,' DeepLearning.AI highlights SleepFM, a new multi-modal foundation model that analyzes sleep study data (polysomnography) to predict neurological and cardiovascular disorders years before clinical symptoms appear. Unlike previous models that focused on simple sleep stage classification, SleepFM uses a contrastive learning approach to align brain waves (EEG), heart rate (ECG), and respiratory data. \n\nAndrew Ng notes that this represents a shift toward 'passive diagnostics.' By treating sleep as a high-fidelity signal of systemic health, AI can turn standard wearable data into a powerful preventative tool. The technical core involves a transformer architecture that handles the varying frequencies of different physiological sensors, creating a unified 'sleep embedding' that can be fine-tuned for specific disease detection. Ng emphasizes that the challenge now is not the model architecture, but the integration of these insights into a healthcare system that is traditionally reactive rather than proactive.",
+      "url": "https://www.deeplearning.ai/the-batch/sleepfm-predicts-illness/",
       "category": "The Batch",
-      "author": "The Batch Team",
-      "date": "Feb 20, 2026"
+      "author": "Andrew Ng",
+      "date": "Feb 20"
     },
     {
-      "title": "GLM-5: The New Open-Weights Leader for Agentic Tasks",
-      "summary": "Z.ai has released GLM-5, a large language model trained on 28.5 trillion tokens, specifically optimized for 'long-horizon' agentic tasks. In the latest Intelligence Index, GLM-5 outperformed other open-weights models in its ability to follow complex, multi-step instructions without human intervention. The model features a 'Preserved Thinking' mode, which allows it to maintain its internal reasoning state across multiple turns of a conversation, reducing the 'forgetting' problem common in long-running agents. Andrew Ng comments that the release of such high-capability open-weights models is crucial for preventing a 'closed-source monopoly' and allows developers to build specialized agents without being locked into a single provider's ecosystem.",
-      "url": "https://www.deeplearning.ai/the-batch/glm-5-scales-up/",
+      "title": "The Rise of 'Cascade Distillation' for Edge AI",
+      "summary": "DeepLearning.AI explores Mistral's new 'Cascade Distillation' technique used to create the Ministral family of models. This method involves a multi-stage process where a large 'teacher' model (Mistral Small 3.1) is pruned and then distilled into progressively smaller 'student' models. This ensures that the smallest models retain the reasoning capabilities of their larger counterparts, rather than just mimicking their surface-level linguistic patterns.\n\nThis is technically significant because it allows 1-3 billion parameter models to perform complex vision-language tasks that previously required 10x the compute. Andrew Ng comments that 'small is the new big' for 2026. As enterprises look to deploy AI on-device for privacy and cost reasons, techniques like cascade distillation are essential for maintaining 'frontier-level' intelligence at the edge. The article provides a detailed flowchart of the pruning-distillation-finetuning loop, offering a blueprint for developers looking to compress their own proprietary models.",
+      "url": "https://www.deeplearning.ai/the-batch/mistral-cascade-distillation/",
       "category": "Research Highlight",
-      "author": "Andrew Ng",
-      "date": "Feb 20, 2026"
+      "author": "The Batch Team",
+      "date": "Feb 06"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Transformers.js v4: In-Browser AI Inference",
-      "provider": "Hugging Face",
-      "summary": "A preview of the next generation of web-based AI, enabling low-latency, privacy-preserving inference directly in the browser using WebGPU. Ideal for healthcare apps that cannot send data to the cloud.",
-      "url": "https://huggingface.co/blog/transformers-js-v4",
-      "type": "Tool",
+      "title": "Anthropic Cookbook: Building with Claude Code",
+      "provider": "Anthropic",
+      "summary": "A comprehensive guide to using the new 'Computer Use' capabilities. Includes recipes for automating terminal tasks, multi-file editing, and autonomous debugging.",
+      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "type": "Tutorial",
       "difficulty": "Intermediate"
     },
     {
-      "title": "Gemini Enterprise Agent Ready (GEAR) Program",
-      "provider": "Google Cloud",
-      "summary": "A new learning initiative designed to help developers move from experimentation to shipping production-grade AI agents. Includes 35 monthly no-cost credits and curated learning paths.",
-      "url": "https://cloud.google.com/blog/topics/training-certifications/gemini-enterprise-agent-ready",
-      "type": "Course",
-      "difficulty": "Beginner"
+      "title": "Prompt Caching 201: Advanced Latency Optimization",
+      "provider": "OpenAI",
+      "summary": "Technical deep-dive into KV-cache reuse and prefix matching strategies to reduce API costs by up to 90% for long-context agentic workflows.",
+      "url": "https://openai.com/blog/prompt-caching-201",
+      "type": "Paper",
+      "difficulty": "Advanced"
     }
   ]
 }
