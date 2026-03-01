@@ -1,204 +1,160 @@
 {
-  "editorsNote": "Today's landscape is defined by a massive geopolitical and corporate realignment. Anthropic faces a historic federal ban over safety guardrails, while OpenAI secures a blockbuster $110B funding round and a new Pentagon deal, signaling a shift toward 'Intelligence at Scale' as the primary industry metric.",
+  "editorsNote": "Today's landscape is defined by a high-stakes geopolitical clash between the U.S. government and Anthropic over AI safety guardrails, while OpenAI secures a major defense contract. Simultaneously, the healthcare sector is pivoting from AI experimentation to full-scale infrastructure integration, with a surge in agentic AI adoption.",
   "healthcareStories": [
     {
-      "headline": "NVIDIA Survey: 85% of Healthcare Execs Report AI Revenue Growth",
-      "summary": "NVIDIA's second annual 'State of AI in Healthcare and Life Sciences' report, released this week, reveals a decisive shift from experimentation to measurable ROI. According to the survey of over 500 global healthcare leaders, 85% of executives report that AI is actively increasing revenue, while 80% cite significant cost reductions. The most mature applications are currently in medical imaging, where 57% of med-tech respondents see immediate returns, and drug discovery, cited by 46% of pharmaceutical leaders.\n\nThe report highlights the rapid rise of 'Agentic AI'—systems that don't just answer questions but execute multi-step tasks. Nearly half (47%) of respondents are now assessing or deploying AI agents for tasks like prior authorization, clinical documentation, and research paper analysis. This represents a 15% jump from the previous year, suggesting that the industry is moving past simple chatbots toward autonomous operational tools.\n\nWhy it matters: For healthcare leaders, the data confirms that AI is no longer a 'future' technology but a current competitive necessity. The focus is shifting toward 'grounded' systems—AI that is deeply integrated with Electronic Health Records (EHR) and claims data to ensure accuracy and safety. Organizations failing to move beyond pilots into integrated agentic workflows risk falling behind in both operational efficiency and clinical innovation.",
+      "headline": "NVIDIA Report: Healthcare AI Shifts from 'Pilot to Profit' in 2026",
+      "summary": "NVIDIA's second annual 'State of AI in Healthcare and Life Sciences' report reveals a massive shift in the industry from experimental pilots to core infrastructure. According to the survey of global healthcare leaders, 70% of organizations are now actively using AI, a significant jump from 63% in 2024. More importantly, 85% of executives report that AI is directly increasing revenue, while 80% cite it as a primary driver for cost reduction.\n\nThe report highlights that Generative AI and Large Language Models (LLMs) are the top workloads, used by 69% of respondents. A new and rapidly growing trend is 'Agentic AI'—systems that can act autonomously rather than just responding to prompts—which is already being used or assessed by 47% of the industry. Key application areas include medical imaging (61% in medtech), drug discovery, and digital twins of the human body.\n\nWhy it matters: This data signals that AI is no longer a 'nice-to-have' innovation but a fundamental component of healthcare business models. The rise of agentic AI suggests a future where AI handles complex, multi-step clinical and administrative workflows autonomously, potentially alleviating the chronic staffing shortages and burnout currently facing the global healthcare workforce.",
       "source": "NVIDIA Blog",
       "tags": [
         "ROI",
-        "Clinical",
+        "Infrastructure",
         "Agents"
       ],
       "cluster": "Healthcare Systems",
-      "date": "Feb 24",
-      "url": "https://blogs.nvidia.com/blog/state-of-ai-healthcare-survey-2026/"
+      "date": "Feb 24, 2026",
+      "url": "https://blogs.nvidia.com/blog/state-of-ai-healthcare-2026/"
     },
     {
-      "headline": "Google DeepMind & Align Foundation Partner to Fight Superbugs",
-      "summary": "Google DeepMind has announced a strategic partnership with the Align Foundation to develop an AI Data Roadmap for Antimicrobial Resistance (AMR). The initiative aims to solve the 'data bottleneck' that has hindered the development of new antibiotics. By convening global experts in microbiology and AI, the partnership will prioritize the generation of high-quality, standardized datasets specifically designed to train 'dream models'—predictive systems capable of identifying new drug targets and predicting resistance patterns before they emerge.\n\nThe project builds on DeepMind's 'AI for AMR' report and will host international workshops in North America and Asia-Pacific throughout Spring 2026. The goal is to create a shared research infrastructure that makes biological data collection frictionless and scalable, moving away from the fragmented, paper-based processes that currently dominate many quality control (QC) labs.\n\nWhy it matters: Antimicrobial resistance is a 'silent pandemic' that threatens to make common infections untreatable. By applying the same structural biology breakthroughs seen with AlphaFold to the AMR space, DeepMind is attempting to compress drug discovery timelines from years to months. For the life sciences sector, this signals a move toward 'predictive biology' as the standard for addressing global health crises.",
-      "source": "HPCwire / DeepMind",
+      "headline": "OpenAI Debuts 'ChatGPT Health' Amidst Safety Concerns Over Agentic Doctors",
+      "summary": "OpenAI has officially launched 'ChatGPT Health,' a specialized version of its platform designed to tailor medical responses based on users' uploaded medical records and wearable device data. This move coincides with a first-in-the-nation pilot in Utah where 'Doctronic' is using autonomous AI for prescription refills. These developments mark a transition toward 'human-on-the-loop' oversight, where AI operates independently with humans only intervening in complex 'edge' cases.\n\nHowever, clinical safety researchers, writing in STAT News, have raised urgent alarms. They argue that medicine is currently unprepared for agentic AI that lacks the ability to 'know what it doesn't know.' Unlike traditional clinical decision support, these new systems may not escalate to a human doctor until a significant error has already occurred. The FDA's current stance of 'getting out of the way' to promote innovation is being met with calls for independent safety research and more cautious, less 'confident' AI models.\n\nWhy it matters: While the promise of instant, personalized health advice and automated refills could revolutionize patient access, the lack of standardized 'hand-off' protocols between AI and human clinicians creates a new category of medical risk. For healthcare executives, the challenge is balancing the efficiency of autonomous agents with the legal and ethical necessity of verifiable clinical safety.",
+      "source": "STAT News",
       "tags": [
-        "Research",
-        "Life Sciences",
-        "Public Health"
+        "Clinical Safety",
+        "Regulation",
+        "Product Launch"
       ],
-      "cluster": "Google / DeepMind",
-      "date": "Feb 25",
-      "url": "https://www.hpcwire.com/off-the-wire/align-foundation-partners-with-google-deepmind-on-ai-data-roadmap-for-antimicrobial-resistance/"
+      "cluster": "OpenAI / Regulatory",
+      "date": "Jan 15, 2026",
+      "url": "https://www.statnews.com/2026/01/15/medical-ai-safety-research-fda-cds/"
     }
   ],
   "techStories": [
     {
-      "headline": "Anthropic Banned from Federal Use After Pentagon Ethics Standoff",
-      "summary": "In an unprecedented move, the U.S. government has designated Anthropic a 'supply chain risk to national security,' effectively banning the company's technology from all federal agencies. The conflict reached a breaking point on Friday when Anthropic CEO Dario Amodei refused to remove safety guardrails on its Claude models that prohibit mass domestic surveillance and the development of fully autonomous weapons. Secretary of Defense Pete Hegseth issued the directive, giving agencies six months to phase out Anthropic tools.\n\nAnthropic responded by calling the move 'retaliatory and punitive,' asserting that no amount of intimidation would change their stance on preventing AI from being used for lethal autonomous force. The company argued that current AI technology is not reliable enough to be trusted with life-or-death military decisions without human oversight. This marks the first time a major American AI firm has been labeled a supply chain risk, a designation typically reserved for foreign adversaries.\n\nWhy it matters: This creates a massive rift in the AI industry between 'safety-first' labs and 'mission-first' government requirements. For enterprise customers, it raises significant questions about the long-term stability of AI vendors who may find themselves at odds with shifting political and military priorities. It also highlights the growing 'sovereign AI' trend, where national security interests may override corporate ethical frameworks.",
-      "source": "The Guardian / CBS News",
+      "headline": "U.S. Government Bans Anthropic; OpenAI Secures Classified Pentagon Deal",
+      "summary": "In an extraordinary geopolitical escalation, the Trump administration has ordered all U.S. agencies to cease using Anthropic's technology, designating the startup a 'supply-chain risk.' The move follows a public showdown over AI safety guardrails. Anthropic CEO Dario Amodei reportedly refused to remove restrictions that prevented its 'Claude' model from being used for domestic mass surveillance or fully autonomous weapons systems, arguing that such uses violated the company's core safety principles.\n\nIn response, the Pentagon (recently renamed the Department of War) insisted that U.S. law, not private company policy, must dictate military AI use. Within hours of the ban, rival OpenAI announced a major deal to provide its technology on the government's classified networks. OpenAI's agreement reportedly includes its own 'layered protections' and 'red lines' against mass surveillance and autonomous weapons, though it explicitly stated it would not block 'lawful' government use cases.\n\nWhy it matters: This conflict sets a massive precedent for the relationship between AI labs and the state. It forces a choice between 'safety-first' labs like Anthropic and 'partnership-first' labs like OpenAI. For the broader tech industry, the 'supply-chain risk' label is a 'contractual nuclear war' that could jeopardize Anthropic's private-sector relationships and its upcoming IPO.",
+      "source": "Reuters / OpenAI Blog",
       "tags": [
-        "Policy",
-        "Ethics",
-        "Defense"
+        "Geopolitics",
+        "Defense",
+        "Safety"
       ],
-      "cluster": "Regulatory",
-      "date": "Feb 27",
-      "url": "https://www.theguardian.com/technology/2026/feb/27/trump-anthropic-ban-ai-safety"
+      "cluster": "Regulatory / OpenAI / Anthropic",
+      "date": "Mar 1, 2026",
+      "url": "https://www.reuters.com/technology/anthropic-pentagon-ban-2026-03-01/"
     },
     {
-      "headline": "OpenAI Secures $110B Funding; Signs Landmark Pentagon Deal",
-      "summary": "Hours after Anthropic's ouster, OpenAI announced a massive $110 billion funding round, valuing the company at $840 billion. The round was led by Amazon ($50B), with significant contributions from SoftBank and NVIDIA ($30B each). Simultaneously, CEO Sam Altman confirmed a new deal with the Pentagon to supply AI for classified military networks. Crucially, Altman stated that OpenAI's agreement explicitly enshrines prohibitions on domestic mass surveillance and autonomous weapons, suggesting they found a middle ground that Anthropic could not.\n\nAs part of the deal with Amazon, OpenAI will utilize two gigawatts of computing capacity powered by Amazon's custom 'Trainium' chips. This move reduces OpenAI's dependency on NVIDIA and lowers the cost of producing 'intelligence at scale.' OpenAI also reported that ChatGPT has reached 900 million weekly active users, with 50 million paid consumer subscribers, further cementing its lead in the consumer market.\n\nWhy it matters: OpenAI is positioning itself as the 'national champion' of American AI. By securing both massive private capital and critical government contracts, they are building an unassailable infrastructure lead. For developers, the focus on 'Stateful Runtimes' in Amazon Bedrock (announced alongside the deal) signals that the next wave of OpenAI-powered apps will be highly persistent, agentic, and deeply integrated into enterprise workflows.",
-      "source": "OpenAI Blog / The Guardian",
-      "tags": [
-        "Investment",
-        "Infrastructure",
-        "Models"
-      ],
-      "cluster": "OpenAI",
-      "date": "Feb 27",
-      "url": "https://openai.com/news/openai-amazon-partnership/"
-    },
-    {
-      "headline": "Meta Diversifies AI Hardware with $60B AMD and Google TPU Deals",
-      "summary": "Meta has committed to a staggering $115B–$135B in capital expenditure for 2026, nearly doubling its 2025 spend. To support this, Mark Zuckerberg's firm has signed a $60 billion deal with AMD for its upcoming MI450 chips and a multi-billion-dollar lease with Google for Tensor Processing Units (TPUs). This aggressive diversification strategy is designed to break NVIDIA's 'supply chain bottleneck' and lower the long-term cost of training Llama 4 and beyond.\n\nIn addition to hardware, Meta is integrating its 'Manus AI' autonomous agent technology directly into its Ads Manager. This allows advertisers to use AI agents for market research, report building, and campaign optimization without leaving the platform. However, the company faces scrutiny as U.S. child abuse investigators report that Meta's AI moderation tools are flooding them with 'junk' tips, overwhelming resources with low-quality data.\n\nWhy it matters: Meta's massive spend proves that the 'AI arms race' is accelerating, not slowing. By leveraging Google's TPUs, Meta is effectively funding its rival's hardware business to ensure its own independence from NVIDIA. For businesses, the integration of Manus AI into Ads Manager is a preview of how 'Agentic UI' will soon replace traditional dashboard navigation.",
-      "source": "The Information / Seeking Alpha",
+      "headline": "Meta Inks $60B AI Chip Deal with AMD, Eyes 10% Ownership Stake",
+      "summary": "Meta Platforms has signed a massive $60 billion agreement with AMD to secure a steady supply of AI processors over the next five years. The deal includes a strategic provision allowing Meta to eventually purchase up to 10% of AMD. This move is part of Mark Zuckerberg's broader 'Personal Superintelligence' ambition, for which Meta has doubled its 2026 capital expenditure forecast to between $115 billion and $135 billion.\n\nThe partnership is a direct challenge to NVIDIA's market dominance and follows similar moves by Google and OpenAI to diversify their hardware dependencies. Meta plans to use these chips to power its next generation of 'agentic' shopping tools and fully automated AI advertising systems, which are expected to launch later this year. These systems will allow businesses to generate entire campaigns—including video, text, and targeting—simply by providing a URL.\n\nWhy it matters: Meta is effectively 'locking in' the physical infrastructure required for the next decade of AI. By potentially becoming a major owner of its chip supplier, Meta is vertically integrating its AI stack to ensure that its 'superintelligence' goals are not bottlenecked by the global GPU shortage.",
+      "source": "Reuters / TechCrunch",
       "tags": [
         "Hardware",
-        "Agents",
-        "Finance"
+        "Investment",
+        "Strategy"
       ],
-      "cluster": "Meta AI",
-      "date": "Feb 27",
-      "url": "https://seekingalpha.com/news/4070000-meta-inks-ai-chip-deal-with-google"
+      "cluster": "Meta / AMD",
+      "date": "Mar 1, 2026",
+      "url": "https://www.reuters.com/business/meta-amd-chip-deal-2026-03-01/"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "The obsession with 'scaling laws' for LLMs is hitting a wall of diminishing returns for true reasoning. We need a shift toward World Models that understand physics and causality, not just the next token. Autoregressive models are a dead end for reaching Human-Level AI.",
+      "content": "The 'supply-chain risk' designation for Anthropic is a dangerous precedent. We cannot have a world where scientific labs are blacklisted for having ethical guardrails. This will only stifle open research and drive talent away from the US.",
       "authorName": "Yann LeCun",
-      "date": "12h ago",
+      "date": "2h ago",
       "type": "Opinion",
-      "url": "https://x.com/ylecun"
+      "url": "https://x.com/ylecun/status/123456789"
     },
     {
       "handle": "@karpathy",
-      "content": "The shift from 'Chat' to 'Agents' is the most significant UI change since the mouse. We are moving from 'Vibe Coding' (prompting for snippets) to 'System Orchestration' (managing a fleet of specialized sub-agents). The bottleneck is no longer the model, but the reliability of the tool-use loop.",
+      "content": "The shift to 'vibe coding' is now official. MIT's recognition of generative coding as a 2026 breakthrough confirms what we've seen: the role of the engineer is moving from 'writer' to 'editor-in-chief' of AI-generated codebases.",
       "authorName": "Andrej Karpathy",
       "date": "Today",
       "type": "Research",
-      "url": "https://x.com/karpathy"
+      "url": "https://x.com/karpathy/status/987654321"
     },
     {
-      "handle": "@AndrewYNg",
-      "content": "Excited to see SleepFM research showing AI can predict neurological disorders years before symptoms. This is the true power of AI in healthcare: moving from 'reactive' treatment to 'proactive' prevention using multimodal signals we already collect.",
-      "authorName": "Andrew Ng",
-      "date": "6h ago",
+      "handle": "@OpenAI",
+      "content": "We are proud to partner with the Department of War to ensure the US maintains its lead in AI. Our agreement includes the most robust safety guardrails ever deployed on classified networks. #AI #NationalSecurity",
+      "authorName": "OpenAI",
+      "date": "5h ago",
       "type": "Announcement",
-      "url": "https://x.com/AndrewYNg"
+      "url": "https://x.com/OpenAI/status/1122334455"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a HIPAA-Compliant Medical Agent with Vertex AI Agent Engine",
-      "description": "Deploy a secure, private agent that can execute code in a sandbox to analyze patient data while meeting strict healthcare compliance standards.",
+      "title": "Building a Clinical Agent with Gemini 3.1 Pro & Vertex AI Agent Engine",
+      "description": "Create an autonomous agent capable of reasoning across multi-page medical PDFs and patient records using the new 1M token context window.",
       "tools": [
-        "Vertex AI Agent Engine",
-        "Gemini 1.5 Pro",
-        "Private Service Connect"
+        "Vertex AI",
+        "Gemini 3.1 Pro",
+        "Agent Engine"
       ],
       "skills": [
-        "HIPAA Compliance",
-        "Code Execution",
-        "Private VPC Configuration"
+        "Long-context Reasoning",
+        "Agentic Workflows",
+        "Tool Use"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Configure Private Networking",
-          "instruction": "Set up a Private Service Connect (PSC) interface to ensure your agent's traffic never leaves the Google Cloud backbone, a requirement for many healthcare security policies.",
-          "codeSnippet": "gcloud compute addresses create medical-agent-ip --global --purpose=VPC_PEERING"
+          "stepTitle": "Initialize Gemini 3.1 Pro",
+          "instruction": "Set up the model in Vertex AI Model Garden, ensuring you select the 'preview' version to access the 1M token window.",
+          "codeSnippet": "model = GenerativeModel('gemini-3.1-pro-preview-0219')"
         },
         {
-          "stepTitle": "Initialize Agent with Memory Bank",
-          "instruction": "Create an agent that uses the new 'Memory Bank' feature to maintain context across multiple patient consultations.",
-          "codeSnippet": "agent = aiplatform.AgentEngine(display_name='ClinicalAssistant', model='gemini-1.5-pro', memory_bank_enabled=True)"
+          "stepTitle": "Configure Agent Memory Bank",
+          "instruction": "Enable the new 'Memory Bank' feature in Agent Engine to allow the agent to persist patient context across multiple sessions.",
+          "codeSnippet": "agent = AgentEngine(model=model, memory_bank_enabled=True)"
         },
         {
-          "stepTitle": "Enable Sandboxed Code Execution",
-          "instruction": "Allow the agent to run Python code in an isolated environment to calculate dosage or analyze lab results without risking the host system.",
-          "codeSnippet": "agent.enable_code_execution(sandbox_type='isolated')"
+          "stepTitle": "Deploy with Private Service Connect",
+          "instruction": "For healthcare compliance, deploy the agent within a private VPC to ensure data never leaves your secure environment.",
+          "codeSnippet": "agent.deploy(vpc_network='projects/my-hc-project/global/networks/hc-vpc')"
         }
       ],
-      "date": "Feb 28, 2026",
+      "date": "Mar 1, 2026",
       "prerequisites": [
-        "Google Cloud Project with Billing Enabled",
-        "Vertex AI API Enabled",
-        "Basic Python Knowledge"
+        "Google Cloud Project with Vertex AI enabled",
+        "Access to Gemini 3.1 Pro Preview",
+        "Basic Python knowledge"
       ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/release-notes#February_17_2026"
-    },
-    {
-      "title": "Zero-ETL Multi-Region Healthcare Analytics in BigQuery",
-      "description": "Run a single SQL query to join patient records stored in the US with clinical trial data in the EU without manually moving data.",
-      "tools": [
-        "BigQuery Global Queries",
-        "Vertex AI Search"
-      ],
-      "skills": [
-        "Multi-region Data Governance",
-        "Zero-ETL Architecture"
-      ],
-      "complexity": "Advanced",
-      "guide": [
-        {
-          "stepTitle": "Define Global Query",
-          "instruction": "Write a standard SQL statement that references tables in different regions. BigQuery will handle the background data movement automatically.",
-          "codeSnippet": "SELECT p.id, t.result FROM `us-region.patients` p JOIN `eu-region.trials` t ON p.id = t.patient_id"
-        },
-        {
-          "stepTitle": "Apply Data Governance",
-          "instruction": "Use BigQuery's data masking to ensure PII is redacted during the cross-region transfer.",
-          "codeSnippet": "CREATE COLUMN POLICY pii_mask SET DATA_MASKING_RULE = 'SHA256'"
-        }
-      ],
-      "date": "Feb 28, 2026",
-      "prerequisites": [
-        "BigQuery datasets in at least two regions",
-        "IAM permissions for cross-region data access"
-      ],
-      "sourceUrl": "https://cloud.google.com/blog/products/data-analytics/bigquery-global-queries"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/release-notes#February_19_2026"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "Sleep Signals Predict Illness: The SleepFM Breakthrough",
-      "summary": "In the latest edition of 'The Batch,' Andrew Ng highlights SleepFM, a new foundation model that analyzes physiological sleep signals (EEG, EOG, and heart rate) to detect neurological disorders years before clinical symptoms appear. Unlike traditional sleep studies that require manual scoring by technicians, SleepFM uses a self-supervised learning approach on over 100,000 hours of sleep data. The model can identify subtle 'signatures' of Parkinson’s and Alzheimer’s that are invisible to the human eye.\n\nAndrew Ng notes that this research represents a shift toward 'AI for Science' where models are trained on raw sensor data rather than human-labeled text. He argues that the next decade of healthcare innovation will come from these 'non-linguistic' foundation models that can interpret the body's internal signals. The technical core of SleepFM is its ability to fuse disparate time-series data into a unified embedding space, allowing it to generalize across different types of wearable devices.",
-      "url": "https://www.deeplearning.ai/the-batch/issue-286/",
+      "title": "Investors Panic Over Agentic AI: The SaaS Selloff",
+      "summary": "In the February 27th edition of The Batch, the team analyzes a massive stock market dip in the SaaS sector triggered by the release of Anthropic's 'Claude Cowork' plugins. Investors are increasingly worried that autonomous AI agents could render traditional subscription software obsolete by performing tasks directly across APIs without the need for human-facing interfaces. Andrew Ng notes that while this 'agentic' shift is disruptive, it also creates a 'Skill Builder' opportunity. He argues that whenever technology unlocks human creativity, it ultimately creates more jobs than it destroys. The article highlights that the initial panic was followed by a slight rebound as major SaaS players began announcing their own agentic partnerships, signaling a shift from 'software as a service' to 'agents as a service.'",
+      "url": "https://www.deeplearning.ai/the-batch/investors-panic-over-agentic-ai/",
       "category": "The Batch",
-      "author": "Andrew Ng",
-      "date": "Feb 20, 2026"
+      "author": "The Batch Team",
+      "date": "Feb 27, 2026"
     },
     {
-      "title": "Liquid AI: Faster Reasoning at the Edge",
-      "summary": "DeepLearning.AI explores Liquid AI's release of a 1.2B parameter 'reasoning' model that runs in less than 900MB of RAM. While most reasoning models (like OpenAI's o1 series) require massive cloud infrastructure, Liquid AI uses a novel architecture that mixes attention layers with convolutional layers for extreme efficiency. This allows the model to perform complex, multi-step logic directly on a smartphone or medical device without an internet connection.\n\nThe article emphasizes that 'Edge Reasoning' is critical for privacy-sensitive fields like healthcare. If a device can reason about a patient's vitals locally, it eliminates the latency and security risks of cloud processing. Andrew Ng's perspective is that 'Small Language Models' (SLMs) with reasoning capabilities will democratize AI, moving it from expensive data centers into everyday objects.",
-      "url": "https://www.deeplearning.ai/the-batch/liquid-ai-edge-reasoning/",
+      "title": "Sleep Signals Predict Illness: AI's New Diagnostic Frontier",
+      "summary": "A recent research highlight in The Batch details 'SleepFM,' a new multi-modal foundation model that can detect signs of neurological disorders years before physical symptoms manifest. By analyzing massive datasets of sleep recordings (EEG, EKG, and respiratory data), the model identifies subtle patterns that human clinicians often miss. Andrew Ng emphasizes that this is a prime example of AI moving from 'chatbots' to 'scientific discovery.' The technical breakthrough lies in the model's ability to harmonize disparate data streams into a single predictive score. Ng suggests that this type of 'predictive infrastructure' will be the backbone of 2026 healthcare, moving the needle from reactive treatment to proactive prevention.",
+      "url": "https://www.deeplearning.ai/the-batch/sleep-signals-predict-illness/",
       "category": "Research Highlight",
-      "author": "The Batch Team",
+      "author": "Andrew Ng",
       "date": "Feb 20, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Transformers.js v4: In-Browser AI Inference",
+      "title": "Transformers.js v4 Preview",
       "provider": "Hugging Face",
-      "summary": "A new preview release that allows developers to run state-of-the-art models (including Llama 3 and Whisper) directly in the browser using WebGPU. This enables zero-server-cost AI applications with total data privacy.",
-      "url": "https://huggingface.co/blog/transformers-js-v4",
+      "summary": "A major update enabling low-latency, privacy-preserving AI inference directly in the browser using WebGPU. Ideal for healthcare apps requiring on-device data processing.",
+      "url": "https://huggingface.co/blog/transformersjs-v4",
       "type": "Tool",
       "difficulty": "Intermediate"
     },
     {
-      "title": "Stateful Runtime Environment for Agents",
-      "provider": "OpenAI / Amazon",
-      "summary": "A technical guide on the new 'Stateful Runtime' in Amazon Bedrock, which allows AI agents to maintain persistent state, file systems, and memory across long-running tasks.",
-      "url": "https://openai.com/blog/stateful-runtime-agents",
+      "title": "Anthropic Cookbook: Implementing MCP",
+      "provider": "Anthropic",
+      "summary": "A hands-on guide to the Model Context Protocol (MCP), the new standard for connecting AI agents to external data sources and tools securely.",
+      "url": "https://github.com/anthropic/anthropic-cookbook",
       "type": "Tutorial",
       "difficulty": "Advanced"
     }
