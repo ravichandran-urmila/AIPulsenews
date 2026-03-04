@@ -1,220 +1,219 @@
 {
-  "editorsNote": "Today's landscape is dominated by a massive $110B funding round for OpenAI and a strategic pivot toward 'agentic' AI in healthcare and enterprise. We are seeing a shift from AI as a passive assistant to an autonomous actor, raising critical new questions about safety, governance, and the 'human-on-the-loop' oversight model.",
+  "editorsNote": "Today's landscape is defined by a pivot from AI experimentation to deep enterprise and clinical integration. Major themes include the rise of 'agentic' systems in life sciences, a massive $110B capital infusion into OpenAI, and a growing divide between 'open' and 'closed' ecosystem strategies.",
   "healthcareStories": [
     {
-      "headline": "FDA Grants De Novo Clearance to Ultrasound AI for Predictive Delivery",
-      "summary": "On March 2, 2026, the FDA granted De Novo clearance to Ultrasound AI for its 'Delivery Date AI' technology. This cloud-based Software as a Medical Device (SaMD) is designed to predict a patient's delivery date using only standard ultrasound images, bypassing the need for traditional methods like last menstrual period (LMP) or manual gestational-age measurements which are often unreliable.\n\nThe platform serves as an adjunctive tool to support clinical decision-making. By analyzing fetal development patterns directly from imaging data, the AI provides a more objective and consistent estimate of delivery timing. This is particularly critical for high-risk pregnancies where precise dating influences the timing of interventions and labor induction.\n\nWhy it matters: This marks a significant step in 'Perinatal AI,' moving beyond simple diagnostic assistance to predictive clinical milestones. For healthcare leaders, it demonstrates the FDA's increasing comfort with cloud-based AI tools that directly impact obstetric care pathways, provided they are framed as 'adjunctive' to human expertise.",
-      "source": "Contemporary OB/GYN",
+      "headline": "Cleveland Clinic AI Study Slashes Rare Disease Trial Enrollment Time",
+      "summary": "A landmark study published in the Journal of Cardiac Failure by Cleveland Clinic and Dyania Health has demonstrated that medically-trained Large Language Models (LLMs) can identify eligible patients for rare disease clinical trials with unprecedented speed and accuracy. Using the 'Synapsis AI' platform, the system screened 1,476 electronic medical records (EMRs) in just one week, identifying 46 potential matches for a Phase 3 transthyretin amyloid cardiomyopathy (ATTR-CM) trial. \n\nCrucially, 29 of the 30 patients identified by the AI had been missed by traditional recruitment methods. The AI achieved 96.2% accuracy across 7,700 trial-specific questions and maintained a 99% negative predictive value. Beyond speed, the AI-driven process significantly improved enrollment equity: 36.6% of AI-identified patients were Black, compared to only 7.1% found through routine screening. \n\nWhy it matters: This marks a shift from AI as a 'chatbot' to AI as a high-precision clinical workflow tool. For healthcare leaders, it proves that AI can solve the 'last mile' problem of clinical trial recruitment, which is often the most expensive and time-consuming phase of drug development, while simultaneously addressing long-standing diversity gaps in medical research.",
+      "source": "Cleveland Clinic Newsroom",
       "tags": [
-        "Clinical",
-        "Regulatory",
-        "Imaging"
+        "Clinical Trials",
+        "Rare Disease",
+        "Equity"
       ],
       "cluster": "Healthcare Systems",
-      "date": "March 2, 2026",
-      "url": "https://www.contemporaryobgyn.net/view/ultrasound-ai-receives-de-novo-clearance-for-predictive-delivery-date-technology"
+      "date": "Mar 03",
+      "url": "https://newsroom.clevelandclinic.org/2026/03/03/ai-driven-chart-review-accurately-identifies-potential-rare-disease-trial-participants-in-new-study/"
     },
     {
-      "headline": "China's 'AQ' App Hits 100M Users with 1,000+ Expert AI Clones",
-      "summary": "China's healthcare sector is undergoing a radical transformation as the 'AQ' (Afu) app surpasses 100 million users. The platform features over 1,000 'digital doubles' of renowned medical experts, including top obstetricians like Duan Tao. These AI clones are trained on textbooks, clinical case studies, and the doctors' own social media content to mimic their specific tone and expertise.\n\nWhile the chatbots cannot prescribe medication, they are being used to 'democratize access' to medical knowledge in a system where patients often wait hours for a three-minute appointment. The initiative is part of a broader state-driven digitization effort ahead of China's 15th Five-Year Plan, which prioritizes 'intelligent healthcare solutions' to manage an overstretched workforce.\n\nWhy it matters: This represents the world's largest-scale deployment of 'expert-persona' AI in medicine. It highlights a cultural shift where AI is not just a backend tool but a front-facing 'digital twin' of human providers, potentially solving the primary care bottleneck but raising significant questions about the 'dilution' of professional reputation and liability.",
-      "source": "Indo Premier Sekuritas / AFP",
+      "headline": "FDA Clears First Cloud-Based AI for Predicting Delivery Dates",
+      "summary": "Ultrasound AI has received FDA De Novo clearance for its 'Delivery Date AI' technology, a cloud-based Software as a Medical Device (SaMD). The system uses deep-learning neural networks to analyze standard ultrasound images and maternal characteristics to forecast a Predicted Delivery Date (PDD) in real-time. \n\nThe technology is specifically designed for pregnancies where traditional dating methods—such as last menstrual period or standard gestational-age ultrasound—are unreliable. By integrating directly into existing OB/MFM (Obstetrics/Maternal-Fetal Medicine) workflows, it provides clinicians with an objective, data-driven second opinion to help manage the risks of preterm birth. \n\nWhy it matters: This is a significant regulatory milestone for generative and predictive AI in maternal health. It validates the use of 'ensemble' neural networks for high-stakes diagnostic support and sets a precedent for cloud-based medical imaging analysis that doesn't require specialized hardware on-site.",
+      "source": "News-Medical",
       "tags": [
-        "Global",
-        "Patient Access",
-        "Models"
+        "FDA",
+        "Diagnostics",
+        "Maternal Health"
       ],
-      "cluster": "Healthcare Systems",
-      "date": "March 3, 2026",
-      "url": "https://www.indopremier.com/news/china-s-overstretched-healthcare-looks-to-ai-boom"
+      "cluster": "Regulatory",
+      "date": "Mar 03",
+      "url": "https://www.news-medical.net/news/20260303/FDA-clears-cloud-based-AI-system-to-forecast-predicted-delivery-date.aspx"
     },
     {
-      "headline": "Innovaccer's 'Comet AI' Automates 80% of Patient Interactions",
-      "summary": "Innovaccer has received the 2026 U.S. New Product Innovation Recognition from Frost & Sullivan for its AI-driven patient access solutions. The centerpiece, 'Comet AI,' unifies electronic medical records (EMR), scheduling, and referral management into a single interface. According to the company, the system allows healthcare staff to manage 70% to 80% of routine patient interactions autonomously.\n\nThe platform is currently utilized by major health systems including Orlando Health and Banner Health. By applying AI to automate administrative workflows and patient navigation, these organizations are reporting measurable margin expansion and reduced provider burnout. The AI handles the 'fragmented workflows' of patient access, reserving human staff for complex clinical cases.\n\nWhy it matters: For hospital executives, this is a blueprint for 'autonomous healthcare operations.' The focus has shifted from AI as a diagnostic aid to AI as an operational engine that directly addresses the labor crisis in healthcare administration.",
-      "source": "PR Newswire",
+      "headline": "Life Sciences 2026: The Shift to Cross-Platform Agentic AI",
+      "summary": "Industry analysis for 2026 indicates a major transition in life sciences from single-platform AI tools to 'cross-platform agentic ecosystems.' Organizations are moving away from 'LLM wrappers' toward systems that can plan and execute workflows across ERP, LIMS (Laboratory Information Management Systems), and QMS (Quality Management Systems). \n\nKey trends include the integration of AI agents into GxP-compliant environments (21 CFR Part 11) and the rise of 'physical automation' where AI-driven robotics handle laboratory and manufacturing tasks. Research shows that 94% of life sciences leaders now view AI agents as essential for operational scaling, particularly in drug development cycles which are rapidly shrinking due to AI-led digitalization. \n\nWhy it matters: For pharmaceutical and biotech executives, the competitive advantage is no longer the 'raw power' of a model, but the ability to orchestrate that power across regulated data silos. The focus has shifted from 'Can AI do this?' to 'Can AI do this within our compliance framework?'",
+      "source": "Contract Pharma",
       "tags": [
-        "Operations",
-        "Administrative",
-        "ROI"
+        "Pharma Tech",
+        "Agents",
+        "Compliance"
       ],
-      "cluster": "Healthcare Systems",
-      "date": "March 2, 2026",
-      "url": "https://www.prnewswire.com/news-releases/innovaccer-receives-frost--sullivans-2026-united-states-new-product-innovation-recognition-for-excellence-in-ai-driven-patient-access-solutions-302391234.html"
+      "cluster": "Life Sciences",
+      "date": "Mar 02",
+      "url": "https://www.contractpharma.com/contents/view_online-exclusives/2026-03-02/beyond-regulation-four-ai-trends-transforming-life-sciences-technology-in-2026/"
     }
   ],
   "techStories": [
     {
-      "headline": "OpenAI Secures Record $110B Funding Led by Amazon and Nvidia",
-      "summary": "OpenAI has reached a historic $110 billion funding milestone, marking one of the largest private investment rounds in history. The round was led by Amazon ($50B), SoftBank ($30B), and Nvidia ($30B). This capital injection coincides with a massive $100 billion extension of OpenAI's partnership with AWS, ensuring the lab has access to approximately 2 gigawatts of Trainium capacity for future model development.\n\nAs part of the deal, AWS will serve as the exclusive third-party cloud provider for 'OpenAI Frontier,' a new environment for building and managing teams of AI agents. This move signals a shift in the 'AI arms race' toward infrastructure-heavy partnerships where compute access is as valuable as the capital itself.\n\nWhy it matters: This funding level suggests that the industry expects the next generation of models to require unprecedented capital. For enterprises, the AWS-OpenAI tie-up simplifies the path to deploying 'agentic' systems within a secure, stateful runtime environment (Amazon Bedrock).",
-      "source": "Mean CEO / AWS Blog",
+      "headline": "OpenAI Secures Record $110B Funding; Partners with Amazon",
+      "summary": "OpenAI has reached a historic $110 billion funding milestone, led by Amazon, Nvidia, and SoftBank. This round, one of the largest private investments in history, signals a massive bet on the 'agentic' future of AI. As part of the deal, Amazon will invest an initial $15 billion (scaling to $50 billion) and AWS will become the exclusive third-party cloud provider for 'OpenAI Frontier.' \n\nThe partnership includes the co-creation of a 'Stateful Runtime Environment' on Amazon Bedrock. This environment allows AI agents to maintain long-term context, remember prior work across different software tools, and access massive compute resources. This move directly challenges the traditional 'chat' interface, positioning OpenAI as an operating layer for autonomous business agents. \n\nWhy it matters: This capital injection and infrastructure deal provide OpenAI with the 'war chest' needed to compete with Google and Meta in the race for AGI. For developers, the 'Stateful Runtime' on Bedrock is a major technical shift, enabling more complex, multi-step agentic workflows that were previously difficult to manage due to context loss.",
+      "source": "AWS News Blog / Mean CEO",
       "tags": [
         "Investment",
+        "Cloud",
+        "Agents"
+      ],
+      "cluster": "OpenAI",
+      "date": "Mar 02",
+      "url": "https://aws.amazon.com/blogs/aws/aws-weekly-roundup-openai-partnership-march-2-2026/"
+    },
+    {
+      "headline": "Meta Forms 'Superintelligence' Engineering Unit; Spends $135B",
+      "summary": "Meta is restructuring its AI efforts by forming a new 'Applied AI Engineering' organization led by Maher Saba. This unit will work alongside Meta's Superintelligence Lab to accelerate model development, focusing specifically on reinforcement learning and post-training 'flywheels.' The new org will feature a high manager-to-employee ratio (1:50) to maintain a flat, fast-moving structure. \n\nSimultaneously, Meta announced it will spend up to $135 billion in 2026 on AI infrastructure, nearly doubling its 2025 capital expenditures. This includes a major new deal with AMD to deploy 'Venice' EPYC CPUs and Instinct GPUs in Meta's data centers. Meta also signed a $50M/year content licensing deal with News Corp to fuel its model training with high-quality, reliable news data. \n\nWhy it matters: Meta is doubling down on its 'Open Weights' strategy by building the industrial-scale engineering needed to match proprietary labs. The massive infrastructure spend and content deals suggest that Meta believes 'data quality' and 'compute scale' remain the primary levers for achieving the next level of intelligence.",
+      "source": "Business Insider / WSJ",
+      "tags": [
         "Infrastructure",
-        "Partnerships"
-      ],
-      "cluster": "OpenAI",
-      "date": "March 1, 2026",
-      "url": "https://mean.ceo/open-ai-news-march-2026-startup-edition/"
-    },
-    {
-      "headline": "OpenAI Amends Pentagon Deal Following Internal Ethics Backlash",
-      "summary": "OpenAI CEO Sam Altman confirmed on March 2 that the company is amending its contract with the Department of Defense (DoD) following significant pushback from employees and safety researchers. The updated agreement explicitly prohibits the use of OpenAI tools for 'domestic surveillance of U.S. persons' and clarifies that the National Security Agency (NSA) will not be using GPT models under this specific contract.\n\nThe controversy erupted after researchers like Leo Gao and Cameron Raymond publicly questioned the 'window dressing' nature of the original safety language. The new terms aim to create a 'pathway for other labs' to work with the government while maintaining strict guardrails against mass surveillance and autonomous lethal weapons.\n\nWhy it matters: This highlights the ongoing tension between AI labs' commercial/national security ambitions and their foundational safety principles. It also sets a precedent for 'transparency-by-backlash,' where employee activism directly shapes multi-billion dollar defense contracts.",
-      "source": "Platformer / Business Insider",
-      "tags": [
-        "Policy",
-        "Ethics",
-        "Defense"
-      ],
-      "cluster": "OpenAI",
-      "date": "March 3, 2026",
-      "url": "https://www.platformer.news/openai-pentagon-deal-altman-amendment/"
-    },
-    {
-      "headline": "Meta Launches 'Manus' AI Agent for Autonomous Ad Buying",
-      "summary": "Meta has integrated a new AI agent tool called 'Manus' into its Ads Manager, signaling the start of 'autonomous media buying.' Manus is designed to handle competitor analysis, audience research, and campaign execution with minimal human intervention. It leverages Meta's extensive ad library and real-time performance data to optimize spend across Facebook and Instagram.\n\nWhile early testers report that the tool is still prone to errors and requires 'experienced traders' to oversee, Meta's goal is to have AI agents handle the majority of ad planning and measurement by the end of 2026. This move follows Meta's acquisition of the startup Manus and its massive $100B deal to purchase MI450 chips from AMD to power these agentic workloads.\n\nWhy it matters: This is the first major 'agentic' pivot for a big-tech revenue engine. It suggests that the future of digital marketing is not just 'AI-assisted' but 'AI-led,' potentially displacing thousands of entry-level media planning roles.",
-      "source": "Digiday / The Hindu",
-      "tags": [
-        "Agents",
-        "Marketing",
-        "Hardware"
+        "Hardware",
+        "Strategy"
       ],
       "cluster": "Meta AI",
-      "date": "March 3, 2026",
-      "url": "https://digiday.com/media/wtf-is-metas-manus-tool/"
+      "date": "Mar 03",
+      "url": "https://www.businessinsider.com/meta-new-ai-engineering-org-superintelligence-push-2026-3"
+    },
+    {
+      "headline": "Google DeepMind Launches 'Nano Banana 2' for Fast Image Gen",
+      "summary": "Google DeepMind has released 'Nano Banana 2' (also known as Gemini 3.1 Flash Image), a state-of-the-art image generation model designed for speed without sacrificing the reasoning capabilities of the 'Pro' series. The model integrates real-time web search data to improve the accuracy of specific subjects and includes advanced 'subject consistency' for production-ready workflows. \n\nAlongside the model, Google highlighted new content provenance and verification tools to ensure responsible generation. The model is being rolled out across the Google ecosystem and is available via the Gemini API for early access users. \n\nWhy it matters: This release targets the 'Flash' tier of AI—models that are fast enough for real-time applications like gaming, live content creation, and interactive UI. It demonstrates Google's strategy of distilling high-end 'Deep Think' capabilities into smaller, more efficient models for mass-market adoption.",
+      "source": "Google Blog",
+      "tags": [
+        "Multimodal",
+        "Generative AI",
+        "Models"
+      ],
+      "cluster": "Google / DeepMind",
+      "date": "Mar 02",
+      "url": "https://blog.google/technology/ai/google-deepmind-nano-banana-2/"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@karpathy",
-      "content": "The deepest unintuitive disconnect about the psychology of LLMs is that they don't get 'time to think'. They have a fixed amount of compute per token. It's like a human forced to speak at 100mph without pausing. Asking for more text (Chain of Thought) is literally giving the model more time to process.",
+      "content": "The 'memory problem' is the final frontier for coding agents. Tools like 'claude-mem' are showing that session continuity—where the agent remembers your specific project patterns and previous edits—is what turns a 'tool' into a 'teammate.' We are moving from 'stateless' chat to 'stateful' collaboration.",
       "authorName": "Andrej Karpathy",
       "date": "Today",
-      "type": "Opinion",
-      "url": "https://twitter.com/karpathy"
+      "type": "Research",
+      "url": "https://x.com/karpathy"
     },
     {
       "handle": "@ylecun",
-      "content": "Reality check: Superintelligence may not emerge in our lifetime. Current auto-regressive LLMs are limited by their lack of a world model. They amplify human intelligence, they don't surpass it. We need to move beyond just 'predicting the next token' to reach true AGI.",
+      "content": "AGI is not a 'scaling' problem alone. You cannot reach the moon by climbing a taller tree. Current LLMs lack a world model; they are 'reading' the world, not 'experiencing' it. We need objective-driven AI that learns from physical reality, not just text tokens.",
       "authorName": "Yann LeCun",
       "date": "Yesterday",
-      "type": "Research",
-      "url": "https://twitter.com/ylecun"
+      "type": "Opinion",
+      "url": "https://x.com/ylecun"
     },
     {
       "handle": "@OpenAI",
-      "content": "We've updated our agreement with the Department of Defense to make our principles explicit: our tools will not be used for domestic surveillance of U.S. persons. We are committed to working with the government to ensure AI is used safely and lawfully.",
+      "content": "We've updated our agreement with the Department of War to be explicit: our models will NOT be used for mass domestic surveillance or fully autonomous weapons. We believe in a 'human-in-the-loop' safety stack for all high-stakes applications.",
       "authorName": "OpenAI",
       "date": "Today",
       "type": "Announcement",
-      "url": "https://twitter.com/OpenAI"
+      "url": "https://x.com/OpenAI"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a 'Human-on-the-Loop' Medical Triage Agent",
-      "description": "Create an autonomous agent that analyzes patient symptoms and wearable data, but automatically pauses for human approval when 'edge case' confidence thresholds are met.",
+      "title": "Building a 'Stateful' Clinical Trial Matcher",
+      "description": "Create an agent that uses Gemini 1.5 Pro to screen patient charts against complex trial criteria while maintaining a 'memory' of previous exclusions.",
       "tools": [
-        "Vertex AI Agent Builder",
+        "Vertex AI",
         "Gemini 1.5 Pro",
-        "Agent Engine"
+        "Cloud Storage"
       ],
       "skills": [
-        "Agentic Workflows",
-        "Confidence Scoring",
-        "Human-in-the-loop (HITL)"
+        "Context Caching",
+        "Medical Prompt Engineering",
+        "RAG"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Define the Agent Goal",
-          "instruction": "In Vertex AI Agent Builder, create a new agent with the goal: 'Analyze patient symptoms and wearable data to suggest triage levels. If uncertainty is > 30%, pause and request human review.'"
+          "stepTitle": "Enable Context Caching",
+          "instruction": "Use the Vertex AI SDK to create a cached context containing the 500-page Clinical Trial Protocol. This reduces latency and cost for repeated queries.",
+          "codeSnippet": "from google.cloud import aiplatform\n# Initialize cache for the protocol PDF\ncache = aiplatform.ContextCache.create(display_name='trial-protocol-v1', document_uri='gs://my-bucket/protocol.pdf')"
         },
         {
-          "stepTitle": "Configure the Memory Bank",
-          "instruction": "Enable the 'Memory Bank' feature in Agent Engine to allow the agent to track patient history across multiple sessions without re-uploading data.",
-          "codeSnippet": "agent_engine.enable_memory(bank_id='patient_history_v1')"
+          "stepTitle": "Define the Reasoning Prompt",
+          "instruction": "Craft a system prompt that instructs Gemini to act as a clinical research coordinator, focusing on 'Negative Constraints' (Exclusion Criteria).",
+          "codeSnippet": "system_instruction = 'Analyze the patient EMR. Identify any conflicts with the Exclusion Criteria in the cached protocol. Provide a confidence score and a citation.'"
         },
         {
-          "stepTitle": "Implement the 'Pause' Logic",
-          "instruction": "Use the new ADK state management to define a 'Human-on-the-loop' trigger. Configure the agent to output a specific JSON schema when it hits an edge case.",
-          "codeSnippet": "if (confidence < 0.7) { return trigger_human_review(context); }"
+          "stepTitle": "Execute Agentic Screening",
+          "instruction": "Pass the patient EMR text to the model using the cached context. Use 'JSON Mode' to ensure the output can be integrated into a dashboard.",
+          "codeSnippet": "response = model.generate_content([patient_emr], generation_config={'response_mime_type': 'application/json'})"
         }
       ],
-      "date": "March 3, 2026",
+      "date": "Mar 04",
       "prerequisites": [
         "Google Cloud Project",
         "Vertex AI API enabled",
-        "Basic Python knowledge"
+        "Sample de-identified EMR data"
       ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/agent-builder"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/multimodal/context-caching"
     },
     {
-      "title": "Real-time Voice Diagnostics with Gemini Live",
-      "description": "Develop a voice-driven browser extension that uses the Gemini Live API to provide real-time feedback on patient-doctor interactions while suppressing 'AI narration' of tool calls.",
+      "title": "Real-time Medical Image Analysis with Nano Banana 2",
+      "description": "Deploy a lightweight image analysis pipeline that uses Gemini 3.1 Flash to identify anomalies in ultrasound frames with sub-second latency.",
       "tools": [
-        "Gemini Live API",
-        "Vertex AI SDK",
-        "WebSockets"
+        "Gemini 3.1 Flash",
+        "Vertex AI Extensions",
+        "Cloud Functions"
       ],
       "skills": [
-        "Voice-driven UI",
-        "Tool Suppression",
-        "Real-time Multimodality"
+        "Low-latency Inference",
+        "Visual Reasoning",
+        "API Integration"
       ],
       "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Set up WebSocket Proxy",
-          "instruction": "Establish a WebSocket connection to the Gemini Live API on Vertex AI GA to handle low-latency audio streaming."
+          "stepTitle": "Set up the Flash Endpoint",
+          "instruction": "Configure a Vertex AI endpoint specifically for the Gemini 3.1 Flash (Nano Banana 2) model to handle high-frequency image streams.",
+          "codeSnippet": "gcloud ai endpoints create --display-name='ultrasound-flash-v1'"
         },
         {
-          "stepTitle": "Implement 'Silent Execution'",
-          "instruction": "To prevent the AI from saying 'Let me look that up' every time it calls a medical database, add 'SILENT EXECUTION' to every tool description and implement client-side audio gating."
-        },
-        {
-          "stepTitle": "Handle Session Resumption",
-          "instruction": "Configure the agent to resume sessions without 'dead air' by injecting the last 5 minutes of conversation context into the fresh system instruction upon reconnection."
+          "stepTitle": "Implement Frame Extraction",
+          "instruction": "Use a Cloud Function to trigger on new image uploads, resizing them to the model's optimal input resolution for maximum speed.",
+          "codeSnippet": "def process_frame(event, context):\n    # Resize and encode to base64\n    return model.generate_content(image_data)"
         }
       ],
-      "date": "March 3, 2026",
+      "date": "Mar 04",
       "prerequisites": [
-        "Vertex AI GA Access",
-        "Node.js environment"
+        "Vertex AI SDK",
+        "Basic Python knowledge"
       ],
-      "sourceUrl": "https://google.dev/gemini-live-patterns"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "Sleep Signals Predict Illness Years Before Symptoms",
-      "summary": "DeepLearning.AI highlights 'SleepFM,' a new multi-modal model that analyzes sleep signals (EEG, heart rate, respiratory data) to detect neurological and psychiatric disorders years before clinical symptoms manifest. Researchers used a massive dataset of sleep studies to train the model to recognize 'hidden' patterns of physiological distress. Andrew Ng notes that this is a prime example of AI moving from 'reactive' to 'proactive' medicine. He emphasizes that while the technical achievement is high, the real challenge lies in the 'human-AI handoff'—how do we tell a patient they might develop a disease in five years based on a sleep app? Ng argues that we need 'AI that is less confident and more cautious' when dealing with such long-term predictions to avoid unnecessary patient anxiety.",
-      "url": "https://www.deeplearning.ai/the-batch/sleep-signals-predict-illness/",
+      "title": "Investors Panic Over Agentic AI",
+      "summary": "The Batch reports on a significant market event where SaaS stocks experienced a sharp selloff following the release of 'Claude Cowork' plugins. Investors are concerned that autonomous AI agents could replace the need for traditional enterprise software seats. However, Andrew Ng notes that this 'panic' is likely premature. He argues that while agents will automate tasks, they will also create a 'flywheel' of productivity that requires more, not less, software infrastructure. The article highlights that the most successful companies will be those that pivot from 'selling tools' to 'selling outcomes' powered by agentic workflows. Ng's perspective is that we are entering an era of 'Intelligence per Watt' where efficiency and agency are the primary metrics of value.",
+      "url": "https://www.deeplearning.ai/the-batch/investors-panic-over-agentic-ai/",
       "category": "The Batch",
       "author": "The Batch Team",
-      "date": "Feb 20, 2026"
+      "date": "Feb 27"
     },
     {
-      "title": "Faster Reasoning at the Edge: Liquid AI's 900MB Model",
-      "summary": "Liquid AI has released a small reasoning model (1-2B parameters) that runs in less than 900MB of RAM, significantly outperforming traditional models of its size. By mixing attention layers with convolutional layers, the model achieves 'PhD-level' reasoning on edge devices like smartphones. Andrew Ng comments that this 'Edge Reasoning' trend is critical for privacy-sensitive applications like healthcare. If a model can reason through a complex medical query locally without sending data to the cloud, it bypasses many of the security and latency hurdles currently slowing down AI adoption. Ng suggests that 2026 will be the year where 'Knowledge > Money,' as efficient local models begin to challenge expensive cloud-based APIs for specific, high-reasoning tasks.",
-      "url": "https://www.deeplearning.ai/the-batch/faster-reasoning-at-the-edge/",
-      "category": "The Batch",
-      "author": "The Batch Team",
-      "date": "Feb 20, 2026"
+      "title": "Multimodal Models for Biomedicine",
+      "summary": "In this technical deep-dive, Pengtao Xie of UC San Diego discusses why the next generation of medical AI must move beyond text-only models. He argues that biomedical AI currently suffers from 'fragmented reasoning' because it cannot jointly process text, chemical structures, and high-resolution medical imaging. The article outlines a path for 'Unified Biomedical Foundation Models' that can visualize 'tiny chemicals and large organs' simultaneously. This requires new architectures that can handle the 'long tail' of scientific data. Andrew Ng adds that the transition from 'prediction' (e.g., 'Is this a tumor?') to 'action' (e.g., 'Design a treatment plan based on this scan') is the most critical challenge for AI in 2026.",
+      "url": "https://www.deeplearning.ai/the-batch/multimodal-models-for-biomedicine/",
+      "category": "Research Highlight",
+      "author": "Pengtao Xie",
+      "date": "Jan 02"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Claude Code: Memory Infrastructure Guide",
+      "title": "Anthropic Cookbook: Building with Claude Code",
       "provider": "Anthropic",
-      "summary": "A deep dive into 'claude-mem,' a new plugin for Claude Code that uses AI compression to maintain project context across infinite sessions. Essential for developers building complex, long-term software projects.",
-      "url": "https://github.com/thedotmack/claude-mem",
-      "type": "Tool",
+      "summary": "A comprehensive guide to using the new Claude Code CLI and Agent SDK to build stateful coding assistants that maintain context across sessions.",
+      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "type": "Tutorial",
       "difficulty": "Intermediate"
     },
     {
-      "title": "Agentic Safety & 'Human-on-the-Loop' Framework",
+      "title": "Hugging Face: Training Text-to-Image in 24h",
       "provider": "Hugging Face",
-      "summary": "A research-backed guide on implementing 'reflective agents' that can recognize their own uncertainty and escalate to human operators. Includes code for 'Test-Time Compute' scaling.",
-      "url": "https://huggingface.co/blog/reflective-agents",
+      "summary": "A technical walkthrough of the 'PRX' project, demonstrating how to fine-tune high-quality image models on consumer-grade hardware in under a day.",
+      "url": "https://huggingface.co/blog/photoroom-prx-part-3",
       "type": "Tutorial",
       "difficulty": "Advanced"
     }
