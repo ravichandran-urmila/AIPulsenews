@@ -1,221 +1,214 @@
 {
-  "editorsNote": "Today's landscape is defined by a pivot from experimental AI to 'The Great Integration,' with OpenAI launching GPT-5.4 variants and Google DeepMind moving clinical reasoning into real-world hospital trials. Meanwhile, the industry is grappling with the 'black box' problem as physical AI and agentic systems become infrastructure.",
+  "editorsNote": "Today's landscape is defined by a shift from 'passive assistants' to 'agentic systems,' with Google and OpenAI leading the charge in clinical and security-focused AI. While technical breakthroughs like GPT-5.4 and Gemini 3 Deep Think push reasoning boundaries, the industry is facing a 'productivity paradox' and a moral reckoning over defense contracts and data privacy.",
   "healthcareStories": [
     {
-      "headline": "Google DeepMind & BIDMC Launch Real-World Clinical Trial for AMIE",
-      "summary": "Google DeepMind, in partnership with Beth Israel Deaconess Medical Center (BIDMC), has initiated a first-of-its-kind prospective clinical study to evaluate the Articulate Medical Intelligence Explorer (AMIE) in a live ambulatory primary care setting. This marks a critical transition for AMIE from simulated diagnostic challenges with patient actors to real-world clinical workflows. The study, which is IRB-approved and pre-registered, focuses on how the conversational AI can assist in gathering patient information before visits and how both clinicians and patients perceive the AI's role in the care experience.\n\nWhy it matters: While AI has shown diagnostic promise in controlled environments, this study addresses the 'translation gap' by testing safety and practical feasibility in a high-stakes, real-world environment. It signals Google's commitment to evidence-based deployment of clinical reasoning tools, moving beyond benchmarks to actual patient outcomes.",
-      "source": "Google DeepMind Research",
+      "headline": "Google DeepMind Debuts AMIE: Real-World Clinical AI Feasibility Study",
+      "summary": "Google DeepMind, in partnership with Beth Israel Deaconess Medical Center (BIDMC), has released the results of a first-of-its-kind prospective clinical feasibility study for AMIE (Articulate Medical Intelligence Explorer). The study moved beyond synthetic simulations to evaluate how a conversational diagnostic AI can assist in gathering patient information before primary care visits. Results indicate that AMIE can effectively support clinical reasoning and dialogue in ambulatory settings, potentially increasing access to expertise while reducing physician administrative burden.\n\nWhy it matters: This marks a critical transition from 'lab-tested' to 'workflow-native' AI. As healthcare systems face extreme burnout, the ability for AI to handle pre-visit triage and diagnostic reasoning under 'human-on-the-loop' supervision is becoming a strategic necessity. However, researchers warn that the system must improve at 'knowing when to ask for help' to ensure patient safety in edge cases.",
+      "source": "Google DeepMind Research Blog",
       "tags": [
         "Clinical",
-        "Research",
-        "Google"
+        "Diagnostics",
+        "Research"
       ],
       "cluster": "Google / DeepMind",
       "date": "March 11, 2026",
       "url": "https://research.google/blog/exploring-the-feasibility-of-conversational-diagnostic-ai-in-a-real-world-clinical-study/"
     },
     {
-      "headline": "OpenAI's 'ChatGPT Health' Faces Scrutiny Over Triage Accuracy",
-      "summary": "A new study published in Nature Medicine has raised significant alarms regarding OpenAI's 'ChatGPT Health' product, finding that the tool provided inaccurate triage advice in more than half of the emergency cases assessed. Specifically, the AI failed to recommend hospital visits for critical conditions and struggled to detect suicidal ideation. This research contradicts OpenAI's recent promotional case studies that frame the tool as a safe complement to physician guidance for complex decisions like cancer treatment.\n\nWhy it matters: Despite OpenAI reporting that 40 million people use ChatGPT for health advice daily, the study highlights a dangerous gap between consumer trust and clinical reliability. For healthcare executives, this underscores the urgent need for rigorous validation and human-in-the-loop guardrails before integrating general-purpose LLMs into patient-facing triage or decision-support systems.",
-      "source": "Nature Medicine / STAT News",
+      "headline": "HIMSS 2026: The Rise of 'Agentic Healthcare' and Security Alarms",
+      "summary": "At the HIMSS Global Health Conference, the industry consensus shifted toward 'Agentic AI'—systems that don't just suggest, but execute workflows. Google Cloud and partners like Cognizant showcased agents for radiology governance and digital consumer concierges. However, a concurrent report from Gravitee revealed a staggering 92.7% AI agent security failure rate in healthcare production environments, with most incidents involving unauthorized data access or prompt injections.\n\nWhy it matters: The 'Agentic Era' promises massive efficiency, but the deployment velocity is outstripping governance frameworks. Executives are cautioned that while 94% of doctors are eager to adopt these tools, the lack of robust access controls for agents embedded in EHR systems poses a significant HIPAA compliance risk.",
+      "source": "STAT News / SiliconANGLE",
       "tags": [
-        "Safety",
-        "Clinical",
-        "Policy"
+        "Policy",
+        "Security",
+        "Agents"
       ],
-      "cluster": "OpenAI",
-      "date": "March 17, 2026",
-      "url": "https://www.nature.com/articles/s41591-026-03456-x"
-    },
-    {
-      "headline": "AlphaFold Database Expands to Millions of Protein Complexes",
-      "summary": "In a massive update to the AlphaFold Database, Google DeepMind, EMBL-EBI, NVIDIA, and Seoul National University have released millions of AI-predicted protein complex structures. While the original AlphaFold focused on single protein chains, this expansion addresses how proteins interact—a critical factor in understanding molecular mechanisms of disease and identifying new drug targets. The dataset prioritizes complexes relevant to human health and is now the largest open resource of its kind.\n\nWhy it matters: Most biological functions are carried out by protein complexes, not isolated chains. By democratizing access to these interactions, the collaboration lowers the barrier for researchers worldwide to design more effective therapies and understand the 'interactome' of the human body.",
-      "source": "EMBL-EBI / DeepMind",
-      "tags": [
-        "Drug Discovery",
-        "Open Science",
-        "BioTech"
-      ],
-      "cluster": "Google / DeepMind",
-      "date": "March 16, 2026",
-      "url": "https://www.embl.org/news/science-technology/millions-of-protein-complexes-added-to-alphafold-database/"
+      "cluster": "Healthcare Systems",
+      "date": "March 18, 2026",
+      "url": "https://siliconangle.com/2026/03/18/agentic-healthcare-led-years-himss-conference/"
     }
   ],
   "techStories": [
     {
-      "headline": "OpenAI Launches GPT-5.4 Mini and Nano for Efficient Coding",
-      "summary": "OpenAI has officially released GPT-5.4 mini and nano, two lightweight versions of its flagship model optimized for speed, cost-efficiency, and high-volume coding workflows. These models are designed to bring the reasoning strengths of the GPT-5.4 architecture to edge devices and low-latency applications. OpenAI claims these are their 'most capable small models yet,' specifically targeting developers who need reliable tool-use and rapid response times without the overhead of a full-scale frontier model.\n\nWhy it matters: This release reflects a broader industry shift toward 'right-sized' AI. Instead of using massive compute for every task, enterprises can now deploy specialized, smaller models for routine coding and automation, significantly reducing operational costs while maintaining high performance in professional workflows.",
+      "headline": "OpenAI Launches GPT-5.4 and Acquires Promptfoo for Agentic Security",
+      "summary": "OpenAI has officially released GPT-5.4, a frontier model that integrates the elite coding capabilities of GPT-5.3 Codex with advanced 'computer use' and spatial reasoning. Simultaneously, OpenAI announced the acquisition of Promptfoo, an AI security platform. Promptfoo's technology will be integrated into 'OpenAI Frontier' to help enterprises test agentic behavior, detect risks before deployment, and maintain audit records for autonomous 'AI coworkers.'\n\nWhy it matters: This dual move signals OpenAI's pivot from 'chatbot' to 'enterprise agent platform.' By acquiring security-testing infrastructure, OpenAI is addressing the primary barrier to enterprise adoption: the fear of autonomous agents 'going rogue' or leaking sensitive data during multi-step task execution.",
       "source": "OpenAI Blog",
       "tags": [
         "Models",
-        "Coding",
-        "Efficiency"
+        "Security",
+        "Acquisition"
       ],
       "cluster": "OpenAI",
-      "date": "March 18, 2026",
-      "url": "https://openai.com/blog/introducing-gpt-5-4-mini-and-nano"
-    },
-    {
-      "headline": "NVIDIA Unveils NemoClaw: Secure Governance for AI Agents",
-      "summary": "At the GTC 2026 conference, NVIDIA announced NemoClaw, an enterprise-grade version of the open-source agent platform OpenClaw. NemoClaw introduces critical security layers, including policy enforcement and privacy controls, allowing companies to deploy autonomous AI agents that can handle complex business tasks without exposing sensitive internal data. This follows a Gartner report identifying governance as the primary bottleneck for enterprise agent adoption.\n\nWhy it matters: As the industry moves from 'chatbots' to 'agents' that can take actions, security is the new frontier. NemoClaw provides the infrastructure needed for executives to authorize AI agents to operate across corporate systems with the confidence that they will remain within defined operational and ethical boundaries.",
-      "source": "NVIDIA GTC 2026",
-      "tags": [
-        "Agents",
-        "Security",
-        "Enterprise"
-      ],
-      "cluster": "NVIDIA",
       "date": "March 17, 2026",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-debuts-platform-for-enterprise-ai-agents"
+      "url": "https://openai.com/news/openai-to-acquire-promptfoo/"
     },
     {
-      "headline": "Yann LeCun's AMI Labs Raises $1.03B Seed for World Models",
-      "summary": "Advanced Machine Intelligence (AMI Labs), a new startup founded by AI pioneer Yann LeCun, has closed a record-breaking $1.03 billion seed round. The company aims to move beyond the limitations of Large Language Models (LLMs) by building 'World Models'—AI systems that understand physical laws, spatial relationships, and causal reasoning. Investors include NVIDIA, Bezos Expeditions, and several major European funds, valuing the Paris-based company at $3.5 billion pre-money.\n\nWhy it matters: This massive investment signals a strategic pivot in the AI industry. While LLMs excel at text, they lack a fundamental understanding of the physical world. AMI Labs' focus on world models is seen as the key to unlocking truly reliable robotics, autonomous vehicles, and grounded AI agents that can plan and reason about physical consequences.",
-      "source": "TechCrunch / Emergent",
+      "headline": "Google Cloud & NVIDIA Expand 'AI Hypercomputer' at GTC 2026",
+      "summary": "Google Cloud and NVIDIA announced a major infrastructure expansion at GTC 2026, centering on the 'AI Hypercomputer.' Key updates include the preview of G4 VMs powered by NVIDIA RTX Pro 6000 Blackwell Server Edition and upcoming support for the Vera Rubin NVL72 platform. Google also launched 'Vector Search 2.0,' a GA retrieval engine designed to serve as the 'knowledge core' for RAG-based agentic applications, featuring auto-embeddings and hybrid ranking.\n\nWhy it matters: As models move toward Mixture-of-Experts (MoE) architectures, the bottleneck has shifted from raw chips to integrated systems. Google's co-engineered stack aims to provide the ultra-low latency required for real-time agentic reasoning, positioning Vertex AI as the preferred destination for high-scale, cost-effective inference.",
+      "source": "Google Cloud Blog",
       "tags": [
-        "Investment",
-        "Research",
-        "World Models"
+        "Infrastructure",
+        "Hardware",
+        "Vertex AI"
       ],
-      "cluster": "AMI Labs",
-      "date": "March 10, 2026",
-      "url": "https://emergent.sh/world-models-ai-funding"
+      "cluster": "Google / DeepMind",
+      "date": "March 16, 2026",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-ai-infrastructure-nvidia-gtc-2026"
+    },
+    {
+      "headline": "Anthropic Blacklisted by Pentagon After Refusing Surveillance Terms",
+      "summary": "Anthropic has filed suit against the U.S. Department of Defense after being designated a 'supply chain risk.' The conflict arose when Anthropic refused to renew a $200 million contract unless the Pentagon agreed to 'red lines' prohibiting the use of Claude for mass domestic surveillance or fully autonomous lethal weapons. In contrast, OpenAI recently signed an agreement with the Department of War, claiming their framework includes superior guardrails against domestic surveillance while allowing classified deployments.\n\nWhy it matters: This highlights a growing ideological schism among AI labs. Anthropic is positioning itself as the 'moral leader' in AI safety, potentially sacrificing federal revenue to maintain its 'Constitutional AI' principles, while OpenAI is leaning into deep government integration to fund its $111 billion compute roadmap.",
+      "source": "MIT Tech Review / OpenAI Blog",
+      "tags": [
+        "Policy",
+        "Ethics",
+        "Defense"
+      ],
+      "cluster": "Regulatory",
+      "date": "March 18, 2026",
+      "url": "https://openai.com/news/our-agreement-with-the-department-of-war/"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "LLMs are a dead end for reaching human-level AI. They have no sense of the physical world, no persistent memory, and no ability to plan. AMI Labs is building the alternative: World Models that learn like a child, through observation and interaction with reality, not just predicting the next token.",
+      "content": "LeCun's 'AI Manifesto 2026' argues that scaling LLMs is hitting a wall. He claims we are making models 'vaster' but not 'smarter.' The future isn't in more tokens, but in 'Objective-Driven AI' and World Models (JEPA) that understand physical causality rather than just syntax. 'If your moat is just a prompt, you don't have a business.'",
       "authorName": "Yann LeCun",
       "date": "Today",
       "type": "Opinion",
-      "url": "https://x.com/ylecun/status/123456789"
-    },
-    {
-      "handle": "@AndrewYNg",
-      "content": "I'm seeing a lot of excitement about 'vibe coding'—using AI to build apps based on high-level descriptions. But for this to scale, we need a 'Stack Overflow for Agents' where AI systems can share their learned tool-use patterns and bug fixes. Collaboration is the next frontier for agentic workflows.",
-      "authorName": "Andrew Ng",
-      "date": "Yesterday",
-      "type": "Research",
-      "url": "https://x.com/AndrewYNg/status/987654321"
+      "url": "https://x.com/ylecun"
     },
     {
       "handle": "@karpathy",
-      "content": "Just open-sourced 'AutoResearch'—a project that lets you run AI-driven research loops on a single GPU. It's amazing how much a small, well-tuned model can accomplish when you give it the right environment to experiment, evaluate, and iterate on its own code. The era of the '1-person R&D lab' is here.",
+      "content": "Karpathy reflects on the 'alien intelligence' of current models, noting that even experts feel 'behind' due to the 30-day release cycles. He emphasizes that the 2026 engineer doesn't just write code but 'verifies Causal Inference.' He warns that models are fundamentally stochastic and 'unintelligible' black boxes that require 'massaging' rather than deterministic programming.",
       "authorName": "Andrej Karpathy",
       "date": "Today",
+      "type": "Research",
+      "url": "https://x.com/karpathy"
+    },
+    {
+      "handle": "@GoogleDeepMind",
+      "content": "Announcement of 'Gemini 3 Deep Think' achieving an unprecedented 84.6% on ARC-AGI-2. The model is now being used by researchers at Duke University to optimize recipes for complex crystal growth, successfully identifying logical flaws in human peer-reviewed papers.",
+      "authorName": "Google DeepMind",
+      "date": "Yesterday",
       "type": "Announcement",
-      "url": "https://x.com/karpathy/status/456789012"
+      "url": "https://x.com/GoogleDeepMind"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a HIPAA-Compliant Medical Triage Agent",
-      "description": "Create an agentic workflow using Vertex AI Agent Engine that can securely process patient symptoms and provide triage recommendations based on clinical guidelines.",
+      "title": "Building a Clinical RAG Agent with Vector Search 2.0",
+      "description": "Create a medical knowledge agent that uses Google's new GA Vector Search 2.0 to query clinical guidelines and provide evidence-based answers.",
       "tools": [
-        "Vertex AI Agent Engine",
-        "Gemini 1.5 Pro",
-        "Cloud Storage"
+        "Vertex AI",
+        "Vector Search 2.0",
+        "Gemini 1.5 Pro"
       ],
       "skills": [
-        "Agentic Workflows",
-        "HIPAA Compliance",
-        "Tool Use"
+        "Hybrid Search",
+        "Auto-embeddings",
+        "RAG"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Initialize Agent Engine",
-          "instruction": "Set up the Vertex AI Agent Engine environment and define the system instructions for a medical triage persona.",
-          "codeSnippet": "from google.cloud import aiplatform\nagent = aiplatform.AgentEngine(display_name='MedicalTriageAgent', system_instruction='You are a clinical triage assistant. Use provided medical protocols to assess urgency.')"
+          "stepTitle": "Initialize Vector Search 2.0 Collection",
+          "instruction": "Use the new 'Collections' feature to unify your medical PDFs and their vector representations in a single managed index.",
+          "codeSnippet": "from google.cloud import aiplatform\ncollection = aiplatform.VectorSearchCollection.create(display_name='clinical-guidelines', embedding_model='text-embedding-004')"
         },
         {
-          "stepTitle": "Connect Clinical Knowledge Base",
-          "instruction": "Use Vector Search 2.0 to connect the agent to a secure repository of clinical guidelines (e.g., Merck Manuals).",
-          "codeSnippet": "agent.set_knowledge_base(vector_search_index='projects/my-project/indexes/clinical-guidelines')"
+          "stepTitle": "Configure Hybrid Ranking",
+          "instruction": "Set up a parallel query that combines semantic vector search with full-text keyword matching to ensure rare medical terms are captured.",
+          "codeSnippet": "query_config = {'hybrid_search': True, 'reranking': 'semantic-ranker-v1'}"
         },
         {
-          "stepTitle": "Implement Escalation Logic",
-          "instruction": "Define a tool that allows the agent to flag high-urgency cases for immediate human physician review.",
-          "codeSnippet": "def escalate_to_physician(patient_id, urgency_score):\n  # Logic to alert the on-call team\n  return f'Escalated patient {patient_id} with score {urgency_score}'"
+          "stepTitle": "Deploy Gemini Agent",
+          "instruction": "Connect the collection to a Gemini 1.5 Pro model using the Vertex AI Agent Engine to handle multi-turn clinical reasoning.",
+          "codeSnippet": "agent = aiplatform.Agent(model='gemini-1.5-pro', tools=[collection.as_tool()])"
         }
       ],
-      "date": "March 18, 2026",
+      "date": "March 19, 2026",
       "prerequisites": [
         "Google Cloud Project",
         "Vertex AI API enabled",
-        "Access to clinical PDF datasets"
+        "Medical dataset (PDFs)"
       ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/agents/overview"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/vector-search/overview"
     },
     {
-      "title": "Real-time Molecular Property Prediction with BioNeMo",
-      "description": "Deploy a pipeline on Vertex AI to predict the solubility and toxicity of new molecular candidates using NVIDIA BioNeMo models.",
+      "title": "Low-Latency Triage with Gemini 3.1 Flash-Lite",
+      "description": "Deploy a high-volume, cost-sensitive triage bot using the new Flash-Lite model for sub-second response times.",
       "tools": [
-        "Vertex AI Model Garden",
-        "NVIDIA BioNeMo",
-        "A4X VM"
+        "Gemini 3.1 Flash-Lite",
+        "Vertex AI Model Garden"
       ],
       "skills": [
-        "Molecular Simulation",
-        "Bioinformatics",
-        "GPU Acceleration"
+        "Latency Optimization",
+        "Cost Management"
       ],
-      "complexity": "Advanced",
+      "complexity": "Beginner",
       "guide": [
         {
-          "stepTitle": "Deploy BioNeMo Model",
-          "instruction": "Select the ESM-2 or MegaMolBART model from the Vertex AI Model Garden and deploy it to an NVIDIA-accelerated endpoint.",
-          "codeSnippet": "endpoint = aiplatform.Endpoint.create(display_name='BioNeMo-Solubility')\nmodel.deploy(endpoint=endpoint, machine_type='a2-highgpu-1g')"
+          "stepTitle": "Access Flash-Lite Preview",
+          "instruction": "Navigate to Vertex AI Model Garden and select 'gemini-3.1-flash-lite-preview' for deployment.",
+          "codeSnippet": "model = aiplatform.GenerativeModel('gemini-3.1-flash-lite-preview')"
         },
         {
-          "stepTitle": "Preprocess SMILES Data",
-          "instruction": "Convert chemical SMILES strings into the numerical embeddings required by the transformer model.",
-          "codeSnippet": "embeddings = model.predict(instances=['CC(=O)OC1=CC=CC=C1C(=O)O'])"
+          "stepTitle": "Implement Streaming Response",
+          "instruction": "Use streaming to further reduce perceived latency for patient-facing chat interfaces.",
+          "codeSnippet": "responses = model.generate_content('Summarize these symptoms: ...', stream=True)"
         }
       ],
-      "date": "March 18, 2026",
+      "date": "March 19, 2026",
       "prerequisites": [
-        "NVIDIA AI Enterprise license",
-        "Vertex AI Model Garden access"
+        "Vertex AI SDK",
+        "Basic Python knowledge"
       ],
-      "sourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-nvidia-gtc-2026"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "The Case for a 'Stack Overflow for Agents'",
-      "summary": "In the latest edition of The Batch, Andrew Ng argues that as AI agents become more autonomous, they need a shared platform to exchange 'learned experiences.' Much like human developers use Stack Overflow to solve coding problems, AI agents could publish successful prompt recipes, tool-use patterns, and bug-fix traces. This would create a 'data network effect' where the collective intelligence of all agents improves over time. Ng emphasizes that this isn't just about efficiency; it's about creating a standardized telemetry for agent behavior that allows for better governance and reliability. He suggests that the business opportunity lies in building the 'Context Hubs' that provide agents with the just-in-time documentation they need to perform tasks correctly.",
-      "url": "https://www.deeplearning.ai/the-batch/issue-342/",
+      "title": "The AI Productivity Paradox: Hyper-Verification Overload",
+      "summary": "In the latest edition of 'The Batch,' the team explores a landmark study from UC Berkeley and BCG regarding the 'AI Productivity Paradox.' While AI has accelerated output, it has introduced a new, taxing category of work: 'Hyper-Verification.' Knowledge workers are spending more time auditing AI-generated drafts than they previously spent writing from scratch. Andrew Ng notes that we are currently in a 'Human-in-the-Loop' phase where humans serve the model's needs. He argues that to break the paradox, we must move to 'Human-in-Command' architectures where AI agents are designed for high-reliability 'first-time-right' performance, reducing the verification tax. Ng emphasizes that the winners of 2026 won't be those who generate code fastest, but those who make AI infrastructure 'boring and reliable.'",
+      "url": "https://www.deeplearning.ai/the-batch/",
       "category": "The Batch",
-      "author": "Andrew Ng",
-      "date": "March 17, 2026"
+      "author": "Andrew Ng & The Batch Team",
+      "date": "March 18, 2026"
     },
     {
-      "title": "Lightning-Fast Diffusion: Inside Feature Auto-Encoders",
-      "summary": "DeepLearning.AI highlights a new research breakthrough in image generation: Feature Auto-Encoders (FAE). Traditional diffusion models are computationally expensive because they operate on high-dimensional pixel or latent spaces. FAEs optimize this by training the generator to reconstruct embeddings from a pre-trained vision encoder (like those used for classification). This approach 'shrinks' the space the model needs to learn, leading to significantly faster training and inference times without sacrificing image quality. The technical takeaway is that by leveraging vision-task encoders for generative-task training, we can create more efficient multimodal systems that run on consumer-grade hardware.",
-      "url": "https://www.deeplearning.ai/the-batch/lightning-fast-diffusion/",
+      "title": "Measuring AGI: A New Cognitive Taxonomy",
+      "summary": "DeepLearning.AI highlights a new research paper from Google DeepMind titled 'Measuring Progress Toward AGI: A Cognitive Taxonomy.' The paper moves away from simple benchmarks like MMLU and proposes a framework based on 10 key cognitive abilities, including Metacognition (monitoring one's own processes) and Causal Reasoning. The summary explains that current models excel at 'Generation' but fail at 'Memory' and 'Learning' from single experiences. Andrew Ng comments that this framework is essential for moving past the 'vibe-based' evaluation of AI. He suggests that for AI to reach the next level, it must develop an internal 'World Model' that allows it to simulate outcomes before acting, a concept closely aligned with Yann LeCun's recent manifestos.",
+      "url": "https://www.deeplearning.ai/blog/",
       "category": "Research Highlight",
       "author": "The Batch Team",
-      "date": "March 16, 2026"
+      "date": "March 17, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Anthropic Cookbook: Implementing MCP for Enterprise Agents",
-      "provider": "Anthropic",
-      "summary": "A hands-on guide to using the Model Context Protocol (MCP) to give Claude agents secure access to internal databases and legacy systems.",
-      "url": "https://github.com/anthropic-ai/cookbook/mcp-guide",
+      "title": "Hugging Face Storage Buckets Guide",
+      "provider": "Hugging Face",
+      "summary": "Learn to use the new S3-like mutable storage on Hugging Face Hub for managing intermediate ML artifacts like checkpoints and agent traces.",
+      "url": "https://huggingface.co/blog/buckets",
       "type": "Tutorial",
       "difficulty": "Intermediate"
     },
     {
-      "title": "Hugging Face: Fine-Tuning DeepSeek-V3 for Domain-Specific Tasks",
-      "provider": "Hugging Face",
-      "summary": "Learn how to adapt the latest open-weights leader, DeepSeek-V3, for specialized industry applications using PEFT and LoRA.",
-      "url": "https://huggingface.co/blog/fine-tuning-deepseek",
-      "type": "Course",
+      "title": "Anthropic: Constitutional AI for Defense",
+      "provider": "Anthropic",
+      "summary": "A new whitepaper detailing the technical implementation of 'red lines' in autonomous agents to prevent misuse in surveillance and kinetic operations.",
+      "url": "https://www.anthropic.com/research",
+      "type": "Paper",
       "difficulty": "Advanced"
+    },
+    {
+      "title": "OpenAI Agentic Security Course",
+      "provider": "OpenAI",
+      "summary": "A short course on using Promptfoo for automated security testing of AI coworkers and agentic workflows.",
+      "url": "https://platform.openai.com/docs/guides/security",
+      "type": "Course",
+      "difficulty": "Intermediate"
     }
   ]
 }
