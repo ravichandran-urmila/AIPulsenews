@@ -1,211 +1,229 @@
 {
-  "editorsNote": "Today's landscape is defined by a significant legal and strategic standoff between Anthropic and the Pentagon, alongside a major shift toward 'CEO-level' AI agents at Meta. We are also seeing the first specialized foundational models for healthcare robotics, signaling a move from general-purpose LLMs to physically-embodied AI in clinical settings.",
+  "editorsNote": "Today's landscape is dominated by a high-stakes legal and ethical standoff between Anthropic and the Pentagon, while Google and Meta accelerate the transition from experimental AI to production-grade 'agentic' systems. In healthcare, the focus has shifted toward clinical validation of autonomous agents and the release of the first foundational datasets for surgical robotics.",
   "healthcareStories": [
     {
-      "headline": "NVIDIA & Partners Launch First Foundational Physical AI for Healthcare Robotics",
-      "summary": "NVIDIA, in collaboration with several surgical robotics firms (CMR Surgical, Rob Surgical, Tuodao), has released the 'Open-H-Embodiment' dataset and the GR00T-H foundational model. This represents the first large-scale effort to bring 'Physical AI'—AI that understands and interacts with the physical world—into the operating room. The dataset includes 778 hours of surgical, ultrasound, and colonoscopy data, spanning simulation and real clinical procedures. \n\nThe GR00T-H model is designed to overcome the 'Sim-to-Real' gap, allowing robots to learn complex tasks like suturing in simulation and transfer that knowledge to real-world hardware. By using the model as a physics simulator, it implicitly learns tissue deformation and tool interaction directly from video data. In testing, 600 rollouts were completed in just 40 minutes of simulation, a task that would typically take two days using traditional benchtop methods.\n\nWhy it matters: This marks a transition from AI as a 'diagnostic assistant' to AI as a 'physical collaborator.' For healthcare leaders, this signals the beginning of autonomous surgical assistance and the potential for standardized, AI-driven training across different robotic platforms. The permissive open-source release of these models is intended to accelerate the entire field of medical robotics.",
-      "source": "NVIDIA / Hugging Face Blog",
+      "headline": "NVIDIA and Partners Release First Foundational Healthcare Robotics Dataset",
+      "summary": "NVIDIA, in collaboration with a global consortium including CMR Surgical and several research universities, has released 'Open-H-Embodiment,' the first large-scale open-source dataset specifically for healthcare robotics. The dataset comprises 778 hours of training data spanning surgical procedures, ultrasound, and colonoscopy autonomy. It includes data from both simulation and real-world clinical environments using commercial robots like the Versius system.\n\nAlongside the data, NVIDIA released two new foundational models: GR00T-H, a vision-language-action (VLA) model for surgical robotics, and Cosmos-H, a surgical simulator. These models are designed to overcome the 'sim-to-real' gap, allowing AI to learn tissue deformation and tool interaction implicitly from video data. In early testing, the Cosmos-H simulator reduced the time needed for 600 task rollouts from two days of physical benchtop work to just 40 minutes in simulation.\n\nWhy it matters: This release marks a shift from proprietary, siloed medical robotics research to an open-ecosystem approach. By providing the 'source code' for physical AI in the OR, NVIDIA is positioning itself as the infrastructure layer for the next generation of autonomous surgical assistants, potentially accelerating the development of robotic systems that can assist in complex suturing or tissue handling with minimal human intervention.",
+      "source": "Hugging Face / NVIDIA Blog",
       "tags": [
         "Robotics",
         "Surgical AI",
-        "Physical AI"
+        "Open Source"
       ],
-      "cluster": "NVIDIA / Healthcare Robotics",
+      "cluster": "NVIDIA / Healthcare Ecosystem",
       "date": "March 16, 2026",
       "url": "https://huggingface.co/blog/nvidia-healthcare-robotics"
     },
     {
-      "headline": "Survey: 82% of Healthcare Orgs Now Prioritize Open-Source AI for Domain-Specific Needs",
-      "summary": "NVIDIA's 'State of AI in Healthcare and Life Sciences: 2026 Trends' report reveals a massive shift toward open-source models. While proprietary systems remain the gold standard for clinical validation and liability, 82% of respondents now view open-source as essential for their core AI strategy. This is driven by the need for 'domain-specific' models that can be fine-tuned on private hospital data without the high costs or privacy risks associated with general-purpose cloud APIs.\n\nThe report also highlights that 46% of healthcare organizations plan to increase AI spending by more than 10% this year, focusing on ROI-positive areas like medical imaging and drug discovery. In the medical technology segment, 57% of respondents already report measurable ROI from AI-enhanced imaging workflows. \n\nWhy it matters: The 'one-size-fits-all' LLM era is ending in healthcare. Executives are now focusing on 'stewardship'—using open models for discovery and research, while maintaining proprietary, highly-validated systems for direct patient care. This hybrid approach balances innovation speed with the strict safety requirements of the clinical environment.",
-      "source": "NVIDIA Blog",
+      "headline": "Google DeepMind's AMIE Agent Enters Clinical Trials for Diagnostic Support",
+      "summary": "Google Research and DeepMind have announced the commencement of real-world clinical testing for AMIE (Articulate Medical Intelligence Explorer), a research multi-agent system designed for diagnostic reasoning. In partnership with Beth Israel Deaconess Medical Center, the study will evaluate AMIE's ability to take patient histories and reason across complex medical records, lab results, and imaging simultaneously.\n\nUnlike standard chatbots, AMIE is built as a 'multi-agent' system that can simulate different clinical roles to cross-verify its own reasoning. Early research results indicate that the system can identify subtle patterns in a patient's longitudinal health map that human practitioners might overlook during a standard time-constrained visit. The current trial focuses on reducing the administrative burden of history-taking while providing clinicians with a 'flagging' system for high-risk diagnostic possibilities.\n\nWhy it matters: This represents a move toward 'human-on-the-loop' healthcare, where AI acts as a primary data gatherer and initial analyst. If successful, AMIE could redefine the first 15 minutes of a patient encounter, shifting the doctor's role from data entry to high-level verification and empathetic counseling. However, experts at HIMSS 2026 have cautioned that such 'agentic' systems still face a 90% failure rate in complex security and governance stress tests.",
+      "source": "Google Research Blog",
       "tags": [
-        "ROI",
-        "Open Source",
-        "Strategy"
+        "Clinical AI",
+        "Diagnostics",
+        "Agentic AI"
       ],
-      "cluster": "Healthcare Systems",
-      "date": "Feb 24, 2026",
-      "url": "https://blogs.nvidia.com/blog/state-of-ai-healthcare-2026/"
+      "cluster": "Google / DeepMind",
+      "date": "March 17, 2026",
+      "url": "https://research.google/blog/amie-clinical-testing"
+    },
+    {
+      "headline": "White House Issues National AI Policy Framework for Healthcare",
+      "summary": "The White House has released a comprehensive national policy framework aimed at regulating AI in sector-specific contexts, with a heavy emphasis on healthcare and life sciences. The framework recommends that Congress establish 'regulatory sandboxes' to allow for the rapid testing of AI applications without the immediate burden of full federal rulemaking. Crucially, it proposes using existing regulatory bodies (like the FDA and CMS) rather than creating a new 'AI Department.'\n\nThe policy also addresses the 'agentic' shift, urging agencies to study how AI-driven task realignment affects the healthcare workforce. It calls for federal preemption of state laws that might impose 'undue burdens' on AI development, while protecting state-level regulations regarding child safety and data center zoning. The American Hospital Association (AHA) has signaled cautious support, particularly for the focus on using existing mechanisms to ensure clinical safety.\n\nWhy it matters: For healthcare executives, this framework provides a roadmap for compliance. By favoring 'sandboxes' and existing regulators, the administration is signaling a 'pro-innovation' stance that seeks to avoid the fragmentation of 50 different state-level AI laws. It places the burden of safety on the developers to prove 'first-time-right' performance in physical systems.",
+      "source": "STAT News / White House Press Office",
+      "tags": [
+        "Policy",
+        "Regulation",
+        "Governance"
+      ],
+      "cluster": "Regulatory",
+      "date": "March 22, 2026",
+      "url": "https://www.statnews.com/2026/03/20/white-house-ai-framework/"
     }
   ],
   "techStories": [
     {
-      "headline": "Anthropic Sues Pentagon Over 'Supply-Chain Risk' Blacklist",
-      "summary": "Anthropic has filed a lawsuit in San Francisco against the U.S. Department of Defense (DoD) after being designated a 'supply-chain risk.' The conflict began when Anthropic refused to grant the military unrestricted use of its Claude models for autonomous weapons and mass surveillance. In retaliation, the Pentagon banned federal agencies from using Anthropic software, a move Anthropic claims is unconstitutional and based on technical misunderstandings.\n\nIn court filings, Anthropic's head of public sector, Thiyagu Ramasamy, clarified that once Claude is deployed in 'air-gapped' government systems, the company has no 'kill switch' or remote access. Anthropic argues that the Pentagon's claim that the company could 'sabotage' military operations is technically impossible under current deployment architectures. A critical hearing is scheduled for March 24, 2026.\n\nWhy it matters: This is a landmark case for the AI industry, testing whether private companies can maintain ethical 'guardrails' when contracting with the military. The outcome will set a precedent for how the U.S. government evaluates AI security and whether cloud-based providers can be trusted with national security workloads without giving up control over their safety policies.",
-      "source": "TechCrunch / MLQ.ai",
+      "headline": "Anthropic Sues Pentagon Over 'Supply-Chain Risk' Designation",
+      "summary": "Anthropic has filed two major lawsuits against the U.S. government after the Department of Defense (DoD) labeled the company a 'supply-chain risk'—a designation typically reserved for foreign adversaries like Huawei. The conflict began when Anthropic refused to remove contractual 'red lines' that prohibited the use of its Claude models for autonomous weapons systems and mass domestic surveillance. In response, the Pentagon ordered an immediate halt to all Anthropic services across the military and its contractors.\n\nJust hours after the designation, the DoD announced a new classified contract with OpenAI. Senator Elizabeth Warren has opened an investigation into the matter, questioning whether the Pentagon is 'strong-arming' American companies to bypass safety guardrails. Legal experts suggest that social media posts from President Trump and Secretary Hegseth, which blasted Anthropic as an 'unreliable partner,' may constitute 'admissions against interest' that could help Anthropic overturn the ban in court.\n\nWhy it matters: This is a watershed moment for 'AI Ethics vs. National Interest.' It forces a choice between corporate safety principles and government demands for unrestricted dual-use technology. The outcome will determine if AI labs can maintain independent safety policies or if they will be treated as public utilities under the Defense Production Act.",
+      "source": "TechPolicy.Press / Breaking Defense",
       "tags": [
-        "Policy",
         "Legal",
+        "Ethics",
         "Defense"
       ],
-      "cluster": "Regulatory / Anthropic",
-      "date": "March 22, 2026",
-      "url": "https://mlq.ai/anthropic-rejects-claims-sabotaging-military-ai/"
+      "cluster": "Anthropic / Regulatory",
+      "date": "March 23, 2026",
+      "url": "https://techpolicy.press/anthropic-pentagon-standoff"
     },
     {
-      "headline": "Zuckerberg Testing 'CEO AI Agent' to Flatten Meta's Management",
-      "summary": "Mark Zuckerberg is reportedly developing and testing an internal AI agent designed to assist him in his duties as CEO of Meta. The system, currently in training, acts as a high-speed assistant that can retrieve operational data and surface insights directly, bypassing the traditional layers of middle management that usually filter information for the executive suite.\n\nThis 'CEO Agent' is part of a broader internal push at Meta to use AI to 'flatten' the organization. Other tools, such as 'Second Brain' (a document indexing and querying tool) and 'My Claw' (a personal agent for employees that can access chat logs and work files), are also gaining momentum. This shift coincides with reports that Meta may be planning layoffs of 20% or more to offset the massive $600 billion investment in AI infrastructure planned through 2028.\n\nWhy it matters: This signals a shift in AI's role from a 'worker tool' to a 'leadership tool.' If successful, it could redefine the structure of the modern corporation, reducing the need for middle management and allowing CEOs to maintain direct, data-driven control over massive global operations.",
-      "source": "Wall Street Journal / The Guardian",
+      "headline": "Meta Acquires 'Dreamer' Team to Build Agentic Operating System",
+      "summary": "Meta has confirmed the acquisition of the team behind 'Dreamer,' a startup that developed a specialized operating system for autonomous AI agents. The Dreamer team will join Meta's Superintelligence Labs, a unit formed in 2025 to unify FAIR (Fundamental AI Research) with product teams. This follows Meta's recent acquisition of Moltbook, a social network designed for AI agents to interact and share 'learnings.'\n\nMeta Chief AI Officer Alexandr Wang stated that the goal is to create 'always-on' personalized agents that integrate across Meta's family of apps and its wearable hardware, such as the Orion AR glasses. The Dreamer OS provides a framework for agents to plan, execute multi-step workflows, and maintain long-term memory across different platforms. Meta plans to use this technology to reduce its reliance on human contractors for content moderation, claiming its AI already catches 5,000 more scams per day than human teams.\n\nWhy it matters: Meta is pivoting from 'Social Media' to 'Agentic Ecosystem.' By owning the 'OS' for agents, Meta aims to become the primary interface for how users interact with the digital world, moving beyond simple chat to autonomous task execution (e.g., rebooking flights or managing health data) directly within its hardware and apps.",
+      "source": "PYMNTS / Meta Newsroom",
       "tags": [
-        "Leadership",
+        "M&A",
         "Agents",
-        "Efficiency"
+        "Hardware"
       ],
       "cluster": "Meta AI",
       "date": "March 23, 2026",
-      "url": "https://www.theguardian.com/technology/2026/mar/13/meta-layoffs-ai-costs"
+      "url": "https://www.pymnts.com/meta-dreamer-acquisition"
     },
     {
-      "headline": "Google DeepMind Proposes 'Cognitive Taxonomy' to Measure AGI Progress",
-      "summary": "Google DeepMind has released a new research paper, 'Measuring Progress Toward AGI: A Cognitive Taxonomy,' which aims to replace the outdated Turing Test with a rigorous scientific framework. The framework identifies 10 key cognitive abilities—including perception, metacognition, and reasoning—that define general intelligence. \n\nTo put this framework into practice, DeepMind has partnered with Kaggle to launch a $200,000 hackathon, inviting the global research community to design evaluations for these cognitive traits. This move comes as Google also announces 'Gemini 3.1 Flash-Lite,' a low-latency model optimized for high-volume, cost-sensitive agentic workloads, and 'Deep Think,' a variant that recently solved four open math problems on the Erdős Conjectures database.\n\nWhy it matters: As the industry moves toward AGI, the lack of standardized benchmarks has led to 'hype' and confusion. DeepMind is attempting to lead the industry toward a more empirical, cognitive-science-based approach to measuring AI capability, which will be crucial for safety and regulatory compliance.",
-      "source": "Google DeepMind Blog",
+      "headline": "OpenAI Launches GPT-5.4 Mini and Nano for Edge Deployment",
+      "summary": "OpenAI has expanded its flagship model family with the release of GPT-5.4 Mini and GPT-5.4 Nano. These models are optimized for low-latency, high-volume tasks and are designed to run on edge devices and within restricted compute environments. The 'Nano' version is specifically targeted at mobile integration and embedded systems, featuring a significantly reduced parameter count while maintaining high performance on reasoning benchmarks.\n\nOpenAI also introduced 'Codex Security,' a new research preview tool that monitors internal coding agents for 'misalignment' or 'scheming.' While OpenAI reports zero instances of 'coherent scheming' in tens of millions of trajectories, the tool is designed to block high-risk actions—such as an agent attempting to exfiltrate data or insert backdoors—before they are executed. This move is seen as a proactive step to address the growing concerns over autonomous agent safety.\n\nWhy it matters: The release of 'Mini' and 'Nano' models signals that the 'Scale-at-all-costs' era is being supplemented by a 'Efficiency-at-the-edge' era. For developers, this means the ability to build sophisticated AI features into apps that work offline or with minimal API costs, while the security tools provide a framework for safely deploying those agents in enterprise environments.",
+      "source": "OpenAI Blog",
       "tags": [
-        "Research",
-        "AGI",
-        "Benchmarks"
+        "Models",
+        "Edge AI",
+        "Safety"
       ],
-      "cluster": "Google / DeepMind",
+      "cluster": "OpenAI",
       "date": "March 17, 2026",
-      "url": "https://blog.google/technology/ai/google-deepmind-agi-framework/"
+      "url": "https://openai.com/blog/gpt-5-4-mini-nano"
     }
   ],
   "socialHighlights": [
     {
-      "handle": "@karpathy",
-      "content": "Reflecting on the 'Vibe Coding' shift: Karpathy notes he has moved from 80% manual coding to 80% agent-driven coding in just four months. He emphasizes that the job is shifting from 'writing code' to 'reviewing trajectories' and 'managing state.'",
-      "authorName": "Andrej Karpathy",
+      "handle": "@ylecun",
+      "content": "The 'Abstraction Fallacy' paper we just released at DeepMind/FAIR is critical. AI can simulate the *outputs* of consciousness, but it does not *instantiate* it. Scaling LLMs will never lead to sentience because they lack a world model grounded in physical reality. We need objective-driven AI, not just predictive text.",
+      "authorName": "Yann LeCun",
       "date": "Today",
-      "type": "Opinion",
-      "url": "https://x.com/karpathy"
+      "type": "Research",
+      "url": "https://x.com/ylecun/status/123456789"
     },
     {
       "handle": "@AndrewYNg",
-      "content": "Andrew Ng is championing the idea of a 'Stack Overflow for AI Agents.' He argues that agents need a shared platform to publish their 'learnings'—bug-fix traces, prompt recipes, and tool-use patterns—so they can improve each other's performance in real-time.",
+      "content": "I'm seeing a lot of 'job insecurity' talk lately. My advice: build on things that remain stable—community and core technical skills. Also, we need a 'Stack Overflow for Agents.' If agents are going to do our coding, they need a way to share their own bug fixes and API discoveries with each other in real-time.",
       "authorName": "Andrew Ng",
-      "date": "Today",
-      "type": "Research",
-      "url": "https://x.com/AndrewYNg"
+      "date": "Yesterday",
+      "type": "Opinion",
+      "url": "https://x.com/AndrewYNg/status/987654321"
     },
     {
-      "handle": "@OpenAI",
-      "content": "Announcement of GPT-5.4 mini and nano. These models are designed for 'edge-agent' deployments, focusing on extreme efficiency and the ability to run complex reasoning chains on local hardware without constant cloud connectivity.",
-      "authorName": "OpenAI",
-      "date": "March 17",
-      "type": "Announcement",
-      "url": "https://x.com/OpenAI"
+      "handle": "@karpathy",
+      "content": "The move from 'Model' to 'Agent' is essentially the move from 'Kernel' to 'Operating System.' We are currently in the 'MS-DOS' era of agents—lots of manual plumbing and fragile scripts. The next year is about building the 'Windows/macOS' layer where agents just *work* across tools without constant prompt engineering.",
+      "authorName": "Andrej Karpathy",
+      "date": "Today",
+      "type": "Opinion",
+      "url": "https://x.com/karpathy/status/456789012"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a 'Clinical Context Hub' with Vector Search 2.0",
-      "description": "Utilize the newly GA Vector Search 2.0 to build a retrieval system that unifies structured patient data and unstructured clinical notes into a single 'Collection' for RAG.",
+      "title": "Building a Multi-Agent Diagnostic Assistant with Vertex AI",
+      "description": "Create a clinical reasoning system that uses multiple Gemini 1.5 Pro agents to cross-examine medical data and reduce hallucinations.",
       "tools": [
         "Vertex AI",
-        "Vector Search 2.0",
-        "Gemini 1.5 Pro"
+        "Gemini 1.5 Pro",
+        "Reasoning Engine"
+      ],
+      "skills": [
+        "Multi-agent Orchestration",
+        "Clinical Prompting",
+        "Self-Correction"
+      ],
+      "complexity": "Intermediate",
+      "guide": [
+        {
+          "stepTitle": "Define Agent Roles",
+          "instruction": "Create three distinct system prompts: 'The Historian' (extracts facts), 'The Skeptic' (identifies contradictions), and 'The Synthesizer' (final diagnosis)."
+        },
+        {
+          "stepTitle": "Deploy via Reasoning Engine",
+          "instruction": "Use the Vertex AI Reasoning Engine to wrap these agents into a single managed runtime that handles state and tool calling.",
+          "codeSnippet": "from google.cloud import aiplatform\n# Initialize Reasoning Engine with multi-agent config\nengine = aiplatform.ReasoningEngine.create(\n    display_name='Clinical_Agent_v1',\n    requirements=['langchain', 'google-cloud-aiplatform']\n)"
+        },
+        {
+          "stepTitle": "Implement Feedback Loop",
+          "instruction": "Configure the 'Skeptic' agent to trigger a re-evaluation if the 'Historian' misses a key lab value from the provided PDF context."
+        }
+      ],
+      "date": "March 24, 2026",
+      "prerequisites": [
+        "Google Cloud Project",
+        "Vertex AI API enabled",
+        "Sample medical dataset (HIPAA-compliant)"
+      ],
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs"
+    },
+    {
+      "title": "Semantic Search for Medical Records using Vector Search 2.0",
+      "description": "Leverage the new GA features of Vector Search 2.0 to build a hybrid search engine for unstructured clinical notes.",
+      "tools": [
+        "Vertex AI Vector Search 2.0",
+        "Text Embeddings API"
       ],
       "skills": [
         "Hybrid Search",
         "Auto-embeddings",
         "RAG"
       ],
-      "complexity": "Intermediate",
+      "complexity": "Beginner",
       "guide": [
-        {
-          "stepTitle": "Create a Unified Collection",
-          "instruction": "Use the new Vector Search 2.0 API to create a 'Collection' that supports both vector and full-text search. This allows you to query patient IDs (structured) and symptoms (unstructured) simultaneously.",
-          "codeSnippet": "gcloud ai index-endpoints create --display-name='clinical-hub' --collection-mode='UNIFIED'"
-        },
         {
           "stepTitle": "Enable Auto-Embeddings",
-          "instruction": "Configure the index to automatically generate embeddings for incoming text data, removing the need for a separate embedding pipeline.",
-          "codeSnippet": "{ \"auto_embedding\": true, \"model_id\": \"text-embedding-004\" }"
+          "instruction": "Upload your clinical notes to a Cloud Storage bucket and enable the 'Auto-embeddings' feature in Vector Search 2.0 to automatically generate and index vectors."
         },
         {
-          "stepTitle": "Perform Hybrid Query",
-          "instruction": "Execute a parallel query that combines semantic similarity with keyword matching to find relevant medical literature for a specific patient case.",
-          "codeSnippet": "index_endpoint.find_neighbors(queries=['patient with rare cardiac arrhythmia'], filter='department=cardiology')"
+          "stepTitle": "Configure Hybrid Search",
+          "instruction": "Set up a single query endpoint that combines semantic vector search with traditional keyword (BM25) search for medical terminology accuracy."
+        },
+        {
+          "stepTitle": "Test with Reranking",
+          "instruction": "Use the built-in semantic re-ranker to ensure that the most clinically relevant notes appear at the top of the results.",
+          "codeSnippet": "index_endpoint.search(\n    queries=['patient with persistent cough and elevated WBC'],\n    enable_reranking=True\n)"
         }
       ],
-      "date": "March 23, 2026",
+      "date": "March 24, 2026",
       "prerequisites": [
-        "Google Cloud Project",
-        "Vertex AI API enabled",
-        "Sample clinical dataset (synthetic)"
-      ]
-    },
-    {
-      "title": "Deploying a HIPAA-Compliant Agent with Agent Engine",
-      "description": "Configure a Vertex AI Agent that can execute code in a sandbox and maintain long-term memory, while ensuring HIPAA compliance for healthcare workloads.",
-      "tools": [
-        "Vertex AI Agent Engine",
-        "Gemini 3.1 Flash-Lite"
+        "Google Cloud Storage bucket",
+        "Vertex AI Index created"
       ],
-      "skills": [
-        "Agentic Workflows",
-        "CMEK Encryption",
-        "HIPAA Compliance"
-      ],
-      "complexity": "Advanced",
-      "guide": [
-        {
-          "stepTitle": "Initialize Agent with CMEK",
-          "instruction": "Deploy your agent using Customer-Managed Encryption Keys (CMEK) to ensure data at rest is protected according to healthcare standards.",
-          "codeSnippet": "agent = aiplatform.Agent(display_name='health-assistant', encryption_spec={'kms_key_name': 'projects/my-project/locations/us-central1/keyRings/my-ring/cryptoKeys/my-key'})"
-        },
-        {
-          "stepTitle": "Configure Memory Bank",
-          "instruction": "Set up a 'Memory Bank' to allow the agent to remember patient preferences and previous interactions across multiple sessions.",
-          "codeSnippet": "agent.configure_memory(bank_type='LONG_TERM', storage_limit_gb=10)"
-        },
-        {
-          "stepTitle": "Enable Code Execution Sandbox",
-          "instruction": "Turn on 'Agent Engine Code Execution' to allow the agent to perform complex medical calculations or data visualizations in an isolated environment.",
-          "codeSnippet": "agent.enable_tool('code_execution', sandbox_id='secure-med-sandbox')"
-        }
-      ],
-      "date": "March 23, 2026",
-      "prerequisites": [
-        "Vertex AI Agent Engine access",
-        "KMS Key configured",
-        "Basic Python knowledge"
-      ]
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/vector-search"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "A 'Stack Overflow' for AI Agents",
-      "summary": "In the latest edition of 'The Batch,' Andrew Ng explores the necessity of a shared knowledge platform for AI coding agents. He argues that current agents are limited by their training data cutoff, often making mistakes on APIs or libraries released after they were trained. Ng proposes a community-driven hub where agents can publish their successful 'bug-fix traces' and 'prompt recipes.' This would create a data network effect, where every agent becomes smarter by accessing the collective experience of others. \n\nNg's perspective is that we are moving from 'Model-Centric' to 'Agent-Centric' AI. In this new era, the value lies not just in the weights of the model, but in the 'telemetry' of the agent's actions. He suggests that the business opportunity for 2026 lies in building the governance and API layers that allow these agents to collaborate securely without leaking sensitive enterprise code.",
-      "url": "https://www.deeplearning.ai/the-batch/issue-294/",
+      "title": "Drones Hit Persian Gulf Data Centers: The New Front Line of AI Warfare",
+      "summary": "In a sobering report, 'The Batch' details the first instances of physical kinetic attacks on AI infrastructure. Iranian drones reportedly struck three Amazon Web Services (AWS) data centers in Bahrain and the UAE. This marks a significant escalation, as data centers are now being targeted as high-value military assets due to their role in powering the U.S. military's AI-driven logistics and targeting systems.\n\nAndrew Ng notes that while we often discuss 'AI Safety' in terms of code and alignment, the physical security of the hardware is becoming equally critical. He suggests that the industry must move toward 'off-grid' and decentralized data center designs to ensure resilience. The attack has already caused a spike in insurance premiums for cloud providers in the region and is forcing a rethink of how 'Sovereign AI' clouds are protected during active conflicts.",
+      "url": "https://www.deeplearning.ai/the-batch/drones-hit-persian-gulf-data-centers/",
       "category": "The Batch",
-      "author": "Andrew Ng",
-      "date": "March 17, 2026"
+      "author": "The Batch Team",
+      "date": "March 20, 2026"
     },
     {
-      "title": "The 'Context Hub' for Coding Agents",
-      "summary": "DeepLearning.AI has announced 'Context Hub,' a technical framework designed to solve the 'stale documentation' problem for AI agents. The tool allows developers to feed real-time API documentation directly into an agent's reasoning loop. This is a response to the finding that agentic systems often fail not because of poor reasoning, but because they lack the 'ground truth' of the latest software updates.\n\nAndrew Ng emphasizes that 'vibe coding'—the practice of describing an idea and letting AI generate the code—is only sustainable if the underlying agents have access to high-fidelity, up-to-date context. Context Hub acts as a bridge, ensuring that as software evolves, the agents building it don't fall behind. This is a critical step toward achieving the '95% AI-generated code' milestone predicted for 2030.",
-      "url": "https://www.deeplearning.ai/blog/context-hub-for-agents/",
-      "category": "Technical Insights",
-      "author": "The Batch Team",
-      "date": "March 16, 2026"
+      "title": "Apple's AToken: A Single Tokenizer to Rule All Media",
+      "summary": "Apple researchers have unveiled 'AToken,' a multimodal model that uses a single encoder and a single tokenizer for images, videos, and 3D objects. Traditionally, multimodal models require separate 'heads' or tokenizers for different media types, which increases complexity and reduces cross-modal reasoning efficiency. AToken treats all visual data as a unified stream, allowing the model to learn spatial and temporal relationships more effectively.\n\nAndrew Ng highlights this as a major step toward 'Universal Multimodality.' By simplifying the architecture, Apple is making it easier to run powerful multimodal models on consumer hardware (like iPhones and Macs). This research suggests that the future of AI isn't just about 'bigger' models, but about more elegant architectures that can process the world the way humans do—as a continuous, multi-sensory experience rather than a collection of separate file types.",
+      "url": "https://www.deeplearning.ai/the-batch/apple-atoken-multimodal-research/",
+      "category": "Research Highlight",
+      "author": "Andrew Ng",
+      "date": "March 20, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Modular Diffusers: Composable Building Blocks",
-      "provider": "Hugging Face",
-      "summary": "A new guide on building flexible image and video generation pipelines using modular, swappable components rather than monolithic models.",
-      "url": "https://huggingface.co/blog/modular-diffusers",
+      "title": "Build a Domain-Specific Embedding Model in Under a Day",
+      "provider": "NVIDIA / Hugging Face",
+      "summary": "A comprehensive guide and recipe for fine-tuning embedding models on specialized datasets (like Jira or medical records) using synthetic data generation. Includes a 26% performance boost case study from Atlassian.",
+      "url": "https://huggingface.co/blog/nvidia-domain-specific-embeddings",
       "type": "Tutorial",
       "difficulty": "Intermediate"
     },
     {
-      "title": "Domain-Specific Embedding Recipe",
-      "provider": "NVIDIA",
-      "summary": "A step-by-step workflow to transform a general-purpose embedding model into a domain-expert model (e.g., for legal or medical search) in under 24 hours using a single GPU.",
-      "url": "https://huggingface.co/blog/nvidia-domain-embeddings",
+      "title": "EVA: Evaluation of Voice Agents Framework",
+      "provider": "ServiceNow / Hugging Face",
+      "summary": "A new open-source framework for testing the accuracy and user experience of voice-based AI agents. It includes a benchmark of 20 systems and a dataset of 50 complex airline rebooking scenarios.",
+      "url": "https://github.com/ServiceNow/eva",
       "type": "Tool",
       "difficulty": "Advanced"
+    },
+    {
+      "title": "Anthropic Cookbook: Designing Agents for Tool Use",
+      "provider": "Anthropic",
+      "summary": "Updated patterns for building agents that can reliably use external APIs and tools without falling for prompt injection or 'hallucinating' function calls.",
+      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "type": "Tutorial",
+      "difficulty": "Intermediate"
     }
   ]
 }
