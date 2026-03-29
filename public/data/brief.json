@@ -1,201 +1,233 @@
 {
-  "editorsNote": "Today's landscape is dominated by a high-stakes legal victory for Anthropic against the Pentagon and Meta's aggressive internal pivot toward an 'AI-first' workforce. Meanwhile, Google DeepMind is shifting the AGI conversation from model size to measurable cognitive frameworks.",
+  "editorsNote": "Today's landscape is defined by a shift from AI experimentation to 'The Great Integration,' where enterprise-scale deployment and agentic workflows are becoming the new standard. While Meta and OpenAI are pushing for 'AI-native' workforces and stateful agent infrastructure, the healthcare sector is grappling with an 'accountability gap' as autonomous agents proliferate faster than the frameworks needed to govern them.",
   "healthcareStories": [
     {
-      "headline": "Physician AI Adoption Hits 72% Amid Deepening Trust Gap",
-      "summary": "A comprehensive 2026 survey of over 2,000 physicians reveals that AI utilization in clinical settings has surged from 38% in 2023 to 72% today. The primary drivers are administrative relief, with doctors using AI for research summarization, discharge instructions, and automated billing documentation. This 'explosion' in use is largely credited to AI's ability to mitigate the 'pajama time'—the hours clinicians spend on documentation after their shifts.\n\nDespite high adoption, a significant 'enthusiasm gap' persists: only 37% of physicians report being more excited than concerned about AI. Key anxieties center on patient privacy, the potential for 'skill loss' in diagnosis, and the lack of robust liability frameworks. Doctors are increasingly calling for continuous monitoring systems to detect 'model drift' or bias that could emerge months after a tool's initial deployment.\n\nRegulatory uncertainty remains a major hurdle. While some health systems are building internal 'ChatGPT-like' interfaces for patient records, others are protesting the lack of clinical guidance in the White House's latest National Policy Framework. The framework's omission of specific nursing and clinical safety standards has sparked concerns that the burden of safety verification is being shifted entirely onto frontline providers.",
-      "source": "STAT News / AMA Survey",
+      "headline": "Physician AI Adoption Hits 72% Amid Growing 'Accountability Gap'",
+      "summary": "A new industry report and discussions at HIMSS26 reveal a dramatic surge in AI utilization among physicians, jumping from 38% in 2023 to 72% in 2026. The primary drivers are administrative relief, with AI now handling research summarization, discharge instructions, and billing code documentation. This shift is intended to alleviate the 'after-hours' documentation burden that has long plagued the profession.\n\nHowever, this rapid adoption has created a significant 'accountability gap.' A Black Book Research survey of 182 U.S. hospital leaders found that only 22% feel confident in their ability to provide auditable AI explanations to regulators or payers. As autonomous agents move from simple chatbots to complex clinical workflow participants, health systems are struggling to maintain oversight. Experts at the conference noted that AI agents are currently proliferating faster than the validation frameworks required to govern them safely.\n\nWhy it matters: For healthcare executives, the focus must shift from 'buying AI' to 'governing AI.' The transition to an agentic workforce requires robust audit trails and clear human-in-the-loop protocols to ensure that productivity gains do not come at the cost of clinical safety or regulatory compliance.",
+      "source": "STAT News / HIMSS26",
       "tags": [
         "Clinical",
-        "Policy",
-        "Workforce"
+        "Governance",
+        "Adoption"
       ],
       "cluster": "Healthcare Systems",
-      "date": "March 27, 2026",
-      "url": "https://www.statnews.com/2026/03/27/physician-ai-adoption-survey-2026"
+      "date": "Mar 26",
+      "url": "https://www.statnews.com"
     },
     {
-      "headline": "White House AI Framework Under Fire for Omitting Healthcare Standards",
-      "summary": "The White House has released its 2026 'National Policy Framework' for AI, but the document has drawn sharp criticism from the medical community for failing to address healthcare-specific risks. While the framework outlines broad priorities like child safety and energy costs, it contains no explicit guidance on clinical decision support tools, patient monitoring, or the impact of AI on the nursing workforce.\n\nProfessional nursing organizations have expressed disappointment, arguing that the lack of federal oversight could lead to 'ineffective and unsafe' AI integration. The framework's approach appears to favor industry self-regulation, a move that tech companies have welcomed but clinicians fear will leave them legally vulnerable if AI-driven recommendations lead to adverse patient outcomes.\n\nThis policy gap coincides with a rise in 'shadow AI' within hospitals, where individual departments are deploying unvetted tools for tasks ranging from prescription renewals to patient triage. Analysts warn that without a unified federal standard for clinical AI, the 'jagged frontier' of model performance—where systems excel in labs but fail in messy real-world wards—will continue to pose a systemic risk to patient safety.",
-      "source": "Nurse.org / STAT News",
+      "headline": "OpenAI Foundation Pledges $1B for Life Sciences and Disease Research",
+      "summary": "The OpenAI Foundation has announced its first major strategic roadmap following its recent recapitalization, committing to invest at least $1 billion over the next year into life sciences, disease eradication, and AI resilience. This is part of a broader $25 billion long-term commitment to global health and scientific discovery. The foundation's initial focus areas include biosecurity, AI-enabled drug discovery, and strengthening society's ability to detect and mitigate biological threats.\n\nThe initiative aims to move medical ideas from the lab to patients faster by leveraging frontier models for complex biological modeling. Beyond research, the foundation is also funding 'community-based' organizations through its People-First AI Fund to help the public adapt to AI-driven changes in healthcare and the workforce. This move signals OpenAI's intent to position itself not just as a software provider, but as a foundational player in the global scientific infrastructure.\n\nWhy it matters: This massive capital injection into life sciences suggests that the next frontier for LLMs is deep integration with wet-lab data and clinical research. Organizations in the biotech space should prepare for a new era of 'AI-native' discovery where proprietary biology is paired with massive foundation model capabilities.",
+      "source": "OpenAI Blog",
       "tags": [
-        "Policy",
+        "Life Sciences",
+        "Philanthropy",
+        "Research"
+      ],
+      "cluster": "OpenAI",
+      "date": "Mar 24",
+      "url": "https://openai.com/blog/update-on-the-openai-foundation/"
+    },
+    {
+      "headline": "FDA Clears First-of-Its-Kind ECG-AI Algorithm for Pulmonary Hypertension",
+      "summary": "Anumana has received FDA 510(k) clearance for its breakthrough ECG-AI algorithm designed for the early detection of pulmonary hypertension (PH). This algorithm is the first of its kind to be cleared by the FDA, representing a significant milestone in the use of AI for non-invasive cardiac screening. PH is often difficult to diagnose in its early stages, frequently requiring invasive right-heart catheterization for confirmation.\n\nThe AI tool analyzes standard 12-lead ECG data to identify subtle patterns indicative of PH that are often invisible to the human eye. By providing an early warning signal, the tool allows clinicians to initiate further diagnostic testing and treatment much sooner, potentially improving long-term patient outcomes. This clearance follows a series of successful clinical validations demonstrating the algorithm's high sensitivity and specificity.\n\nWhy it matters: This is a prime example of AI moving from 'general assistant' to 'specialized diagnostic tool.' It highlights the growing trend of 'software as a medical device' (SaMD) and the FDA's increasing comfort with AI-driven diagnostic aids in high-stakes clinical environments.",
+      "source": "Business Wire",
+      "tags": [
         "Regulatory",
-        "Safety"
+        "Diagnostics",
+        "FDA"
       ],
       "cluster": "Regulatory",
-      "date": "March 27, 2026",
-      "url": "https://nurse.org/articles/white-house-ai-policy-nurses-protest/"
+      "date": "Mar 28",
+      "url": "https://www.businesswire.com"
     }
   ],
   "techStories": [
     {
-      "headline": "Judge Blocks Pentagon's 'Orwellian' Ban on Anthropic",
-      "summary": "In a landmark ruling for the AI industry, U.S. District Judge Rita Lin has issued a preliminary injunction halting the Department of Defense's attempt to blacklist Anthropic. The standoff began when Anthropic refused to remove 'Autonomous Weapon Refusal' safeguards from its Claude model, leading the Pentagon to brand the company a 'supply chain risk'—a designation usually reserved for hostile foreign entities.\n\nJudge Lin described the government's actions as 'likely both contrary to law and arbitrary and capricious,' noting that an American company cannot be branded a national security threat simply for expressing a policy disagreement with the administration. The ruling prevents the DoD from forcing contractors to immediately purge Anthropic technology from their systems, a process that was already causing 'reputational harm' and leading partners to abandon pilot projects.\n\nThis case is viewed as a watershed moment for AI governance, testing whether private labs can maintain ethical 'red lines' when their technology becomes critical to national infrastructure. Anthropic, which recently saw its annual recurring revenue double to $20 billion, argued that the government was attempting to 'cripple' it for exercising its First Amendment rights regarding the risks of lethal autonomy.",
-      "source": "The Washington Post / The Guardian",
+      "headline": "Meta Mandates 'AI-Native' Coding Targets Amid 20% Workforce Restructuring",
+      "summary": "Meta has implemented aggressive new AI adoption targets for its engineering teams, requiring some divisions to write over 75% of their code using AI tools like Metamate and Google Gemini. The 'Creation Org'—responsible for Messenger, WhatsApp, and Facebook—has a 2026 goal for 65% of engineers to hit this 75% AI-assisted threshold. This 'AI-native' push is being led by Alexander Wang, co-founder of Scale AI, who was recently tapped by Mark Zuckerberg to lead Meta's AI efforts.\n\nThis mandate coincides with a significant restructuring that includes layoffs affecting hundreds of employees across Reality Labs and recruitment. Zuckerberg has framed 2026 as the year AI 'dramatically changes' work at Meta, enabling projects that once required large teams to be completed by a single 'very talented' person. To support this, Meta is also increasing its investment in its El Paso AI data center from $1.5 billion to over $10 billion, aiming for 1 gigawatt of capacity.\n\nWhy it matters: Meta is effectively running a massive live experiment on the 'flattening' of the corporate hierarchy through AI. For other tech leaders, this serves as a blueprint (and a warning) for how AI-driven efficiency can be used to fundamentally alter headcount and operational speed.",
+      "source": "Business Insider / The Guardian",
       "tags": [
-        "Legal",
-        "Safety",
-        "Defense"
-      ],
-      "cluster": "Anthropic",
-      "date": "March 27, 2026",
-      "url": "https://www.washingtonpost.com/technology/2026/03/26/anthropic-pentagon-ruling/"
-    },
-    {
-      "headline": "Meta Pivots to 'Superintelligence' with Massive Workforce Restructuring",
-      "summary": "Meta CEO Mark Zuckerberg has declared 2026 the year AI will 'dramatically change' the company's internal operations, signaling a shift from social media management to an 'AI-first architecture.' As part of this pivot, Meta is implementing 'AI Transformation Weeks,' where employees across all departments—regardless of seniority—are required to build tools using internal agents and Anthropic's Claude Code.\n\nTo support this shift, Meta has increased its capital expenditure guidance to a staggering $135 billion for 2026, nearly double its 2025 spend. This includes a $10 billion investment to expand its El Paso data center to 1 gigawatt of capacity. Zuckerberg noted that this infrastructure will lead to a 'flattening' of teams, as projects that previously required large groups can now be handled by a single 'AI-augmented' individual.\n\nHowever, the transition has a human cost: Meta has initiated a fresh round of job cuts targeting nearly 20% of its remaining workforce. The company is moving toward a model of 'agentic AI' where internal 'pods' of developers use AI to automate corporate functions, effectively decoupling revenue growth from headcount.",
-      "source": "Business Insider / AI Business",
-      "tags": [
-        "Business",
         "Workforce",
-        "Infrastructure"
+        "Infrastructure",
+        "Strategy"
       ],
       "cluster": "Meta AI",
-      "date": "March 27, 2026",
-      "url": "https://www.businessinsider.com/meta-ai-training-weeks-claude-code-2026-3"
+      "date": "Today",
+      "url": "https://www.businessinsider.com"
     },
     {
-      "headline": "Google DeepMind Launches Cognitive Framework to Measure AGI",
-      "summary": "Google DeepMind has released a new research paper, 'Measuring Progress Toward AGI: A Cognitive Taxonomy,' which proposes a shift away from simple benchmark scores toward a structured evaluation of 10 core cognitive abilities. These include reasoning, metacognition, social cognition, and memory. The framework is designed to provide a more nuanced view of how AI systems perform compared to human baselines in high-stakes environments.\n\nAlongside the paper, DeepMind partnered with Kaggle to launch a $200,000 hackathon, inviting the global research community to build the actual tests for these cognitive categories. This move is seen as a response to the 'saturation' of traditional benchmarks, where models often achieve high scores through data contamination rather than genuine reasoning.\n\nIn a related safety study, DeepMind also released a toolkit to measure 'harmful manipulation' by AI. The study, involving 10,000 participants, found that while AI is becoming more persuasive, it was notably less effective at manipulating people on health-related topics compared to other domains. This suggests that domain-specific 'cognitive resistance' may play a role in how humans interact with agentic systems.",
+      "headline": "Anthropic Wins Preliminary Injunction Against Pentagon's 'Supply Chain Risk' Label",
+      "summary": "A federal judge in California has granted Anthropic a preliminary injunction, temporarily halting the U.S. Department of Defense's (DoD) designation of the company as a 'supply chain risk.' The feud began when Anthropic refused to allow its Claude AI model to be used for domestic mass surveillance or fully autonomous lethal weapons. In response, the Trump administration ordered federal agencies to stop using Anthropic's tools, a move Anthropic challenged as a violation of its First Amendment rights.\n\nJudge Rita Lin's 43-page order suggested that the government's actions appeared to be 'punishing' the company for its safety guardrails rather than protecting national security. The designation had already caused three major contracts valued at over $180 million to collapse. While the injunction is a temporary victory, the 'supply chain risk' label remains on the books, and the government is expected to appeal. This case is being closely watched as a landmark conflict between AI safety ethics and national defense priorities.\n\nWhy it matters: This case sets a critical precedent for the 'right to refuse' in AI development. It forces a conversation on whether AI companies can maintain ethical guardrails when their technology is deemed essential for national security, and how much control the state can exert over private AI providers.",
+      "source": "The Times of India / The Register",
+      "tags": [
+        "Policy",
+        "Legal",
+        "Safety"
+      ],
+      "cluster": "Anthropic",
+      "date": "Mar 29",
+      "url": "https://www.theregister.com"
+    },
+    {
+      "headline": "Google DeepMind Releases Cognitive Framework to Measure AGI Progress",
+      "summary": "Google DeepMind has published a new research paper, 'Measuring Progress Toward AGI: A Cognitive Taxonomy,' which proposes a scientific foundation for evaluating the general intelligence of AI systems. Moving away from simple benchmarks, the framework identifies 10 key cognitive abilities—including perception, reasoning, metacognition, and memory—and suggests a three-stage protocol to map AI performance against human baselines. \n\nTo accelerate the development of these evaluations, DeepMind has partnered with Kaggle to launch a $200,000 hackathon. This move aims to standardize the definition of 'Artificial General Intelligence' (AGI), which has become increasingly diluted by marketing hype. The framework emphasizes 'held-out' test sets to prevent data contamination, a growing problem where models 'cheat' by having seen test questions during training.\n\nWhy it matters: As the industry moves toward GPT-5 and Gemini 3, the lack of objective AGI metrics has made it difficult for executives to separate capability from hype. DeepMind's taxonomy provides a more rigorous, science-based yardstick for evaluating the next generation of 'reasoning' models.",
       "source": "Google DeepMind Blog",
       "tags": [
         "Research",
         "AGI",
-        "Safety"
+        "Evals"
       ],
       "cluster": "Google / DeepMind",
-      "date": "March 26, 2026",
+      "date": "Mar 17",
       "url": "https://deepmind.google/discover/blog/measuring-progress-toward-agi/"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "The obsession with 'scaling' LLMs to AGI is hitting a wall of diminishing returns. We need world models that understand physics and cause-effect, not just the next token in a sequence. The future is objective-driven AI, not just autoregressive prediction.",
+      "content": "Yann LeCun continues to advocate for 'World Models' over purely autoregressive LLMs, noting that current models still lack a fundamental understanding of physical reality. He recently commented on the Meta/Scale AI leadership shift, emphasizing that 'vibe coding' is a useful tool for prototyping but cannot replace rigorous architectural engineering for frontier systems.",
       "authorName": "Yann LeCun",
       "date": "Today",
       "type": "Opinion",
       "url": "https://x.com/ylecun"
     },
     {
-      "handle": "@karpathy",
-      "content": "The 'vibe coding' era is officially here. Seeing teams at Meta and OpenAI build complex apps in hours using Claude Code and GPT-5.4. The bottleneck is no longer syntax; it's the ability to architect the system and verify the agent's logic.",
-      "authorName": "Andrej Karpathy",
-      "date": "Today",
-      "type": "Research",
-      "url": "https://x.com/karpathy"
-    },
-    {
-      "handle": "@OpenAI",
-      "content": "We've monitored tens of millions of internal coding trajectories over the last 5 months. Zero instances of 'scheming' or 'sabotage' detected in our frontier models. We are committed to sharing this safety data to help set industry-wide monitoring standards.",
-      "authorName": "OpenAI",
+      "handle": "@AndrewYNg",
+      "content": "Andrew Ng is highlighting the 'Agentic Workflow' as the most significant trend of 2026. He argues that the ability of an LLM to use tools and iterate on its own work is more important than the raw parameter count of the underlying model. He recently launched 'Context Hub' to help coding agents access real-time API documentation.",
+      "authorName": "Andrew Ng",
       "date": "Yesterday",
       "type": "Announcement",
-      "url": "https://x.com/OpenAI"
+      "url": "https://x.com/AndrewYNg"
+    },
+    {
+      "handle": "@karpathy",
+      "content": "Andrej Karpathy has been discussing the concept of 'LLM OS' and the move toward stateful runtimes. He noted that the OpenAI/Amazon deal to build stateful infrastructure for agents is a logical step toward making AI agents truly autonomous and persistent across sessions.",
+      "authorName": "Andrej Karpathy",
+      "date": "2d ago",
+      "type": "Research",
+      "url": "https://x.com/karpathy"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a Clinical Reasoning Agent with Gemini 3 Deep Think",
-      "description": "Create a specialized agent that uses 'Deep Think' reasoning traces to verify medical literature against patient symptoms.",
+      "title": "Building a Clinical Knowledge Core with Vector Search 2.0",
+      "description": "Create a high-performance RAG system for medical documents using the newly GA Vector Search 2.0, featuring hybrid search and auto-embeddings.",
       "tools": [
         "Vertex AI",
-        "Gemini 3 Deep Think",
-        "Vector Search 2.0"
+        "Vector Search 2.0",
+        "Gemini 1.5 Pro"
       ],
       "skills": [
-        "Reasoning Chains",
-        "Medical RAG",
-        "Grounding"
+        "Hybrid Search",
+        "Auto-embeddings",
+        "RAG"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Initialize Vector Search 2.0",
-          "instruction": "Create a new 'Collection' in Vertex AI Vector Search to store your medical corpus. Use the new 'Auto-embeddings' feature to automatically process your PDFs.",
-          "codeSnippet": "gcloud ai index-endpoints create --display-name='medical-knowledge-base'"
+          "stepTitle": "Initialize Vector Search 2.0 Collection",
+          "instruction": "Create a new collection in Vertex AI Vector Search. Unlike 1.0, you can now define schemas that unify metadata and vector fields in one place.",
+          "codeSnippet": "gcloud ai index-endpoints create --display-name='clinical-knowledge-core' --network='projects/my-project/global/networks/default'"
         },
         {
-          "stepTitle": "Configure Gemini 3 Deep Think",
-          "instruction": "Set up the model to output its internal reasoning process. This is crucial for clinical transparency.",
-          "codeSnippet": "model = GenerativeModel('gemini-3-deep-think-preview')\nresponse = model.generate_content(prompt, generation_config={'include_reasoning_trace': True})"
+          "stepTitle": "Enable Auto-embeddings",
+          "instruction": "Configure the collection to automatically generate embeddings for incoming text using a specified model (e.g., text-embedding-004), removing the need for manual embedding pipelines.",
+          "codeSnippet": "{\n  \"field_config\": {\n    \"content\": {\n      \"auto_embedding\": {\n        \"model_id\": \"text-embedding-004\"\n      }\n    }\n  }\n}"
         },
         {
-          "stepTitle": "Implement Fact-Checking Loop",
-          "instruction": "Use the reasoning trace to identify specific claims, then query your Vector Search collection to verify each claim against the source literature."
+          "stepTitle": "Perform Hybrid Query",
+          "instruction": "Execute a query that combines semantic vector search with traditional full-text keyword matching to ensure high recall for specific medical terminology.",
+          "codeSnippet": "response = index_endpoint.find_neighbors(\n    queries=['symptoms of pulmonary hypertension'],\n    search_type='HYBRID',\n    ranking_options={'semantic_reranking': True}\n)"
         }
       ],
-      "date": "March 28, 2026",
+      "date": "Mar 29, 2026",
       "prerequisites": [
-        "Google Cloud Project",
-        "Vertex AI API enabled",
-        "Access to Gemini 3 Preview"
-      ]
+        "Google Cloud Project with Vertex AI enabled",
+        "Basic Python knowledge",
+        "Sample medical PDF dataset"
+      ],
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/vector-search/overview"
     },
     {
-      "title": "On-Demand Audio Generation for Patient Education",
-      "description": "Use Lyria 3 Pro to generate personalized, structurally aware audio guides for post-operative care.",
+      "title": "Low-Latency Medical Triage with Gemini 3.1 Flash-Lite",
+      "description": "Deploy a cost-effective, high-speed triage assistant using the new Flash-Lite model, optimized for high-volume, low-latency text processing.",
       "tools": [
         "Vertex AI",
-        "Lyria 3 Pro"
+        "Gemini 3.1 Flash-Lite",
+        "Cloud Functions"
       ],
       "skills": [
-        "Audio Generation",
-        "Multimodal Design"
+        "Model Optimization",
+        "Latency Management",
+        "Prompt Engineering"
       ],
       "complexity": "Beginner",
       "guide": [
         {
-          "stepTitle": "Define Audio Structure",
-          "instruction": "Use the 'structural awareness' feature of Lyria 3 to define segments: Introduction, Step-by-Step Care, and Emergency Contacts."
+          "stepTitle": "Select Flash-Lite in Model Garden",
+          "instruction": "Navigate to the Vertex AI Model Garden and select 'gemini-3.1-flash-lite-preview'. This model is specifically designed for sub-second responses in high-traffic apps."
         },
         {
-          "stepTitle": "Generate High-Fidelity Audio",
-          "instruction": "Call the Lyria 3 Pro endpoint to generate up to 184 seconds of high-fidelity audio based on the patient's specific discharge notes.",
-          "codeSnippet": "audio_model = AudioModel('lyria-3-pro-preview')\naudio_file = audio_model.generate_audio(text_prompt=patient_notes)"
+          "stepTitle": "Configure System Instructions",
+          "instruction": "Set strict system instructions to ensure the model acts as a triage assistant, focusing on extracting symptoms and urgency levels without providing definitive diagnoses.",
+          "codeSnippet": "model = GenerativeModel('gemini-3.1-flash-lite-preview')\nchat = model.start_chat(system_instruction='You are a triage assistant. Extract symptoms and assign an urgency score (1-5). Do not diagnose.')"
+        },
+        {
+          "stepTitle": "Deploy as a Serverless Endpoint",
+          "instruction": "Wrap the model call in a Google Cloud Function to handle incoming patient messages from a web or mobile interface.",
+          "codeSnippet": "def triage_handler(request):\n    user_input = request.json['message']\n    response = chat.send_message(user_input)\n    return {'urgency': response.text}"
         }
       ],
-      "date": "March 28, 2026",
+      "date": "Mar 29, 2026",
       "prerequisites": [
-        "Vertex AI Audio API access"
-      ]
+        "Vertex AI API access",
+        "Basic understanding of JSON and REST APIs"
+      ],
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/model-reference/gemini"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "Recursive Language Models: Solving the Context Window Crisis",
-      "summary": "The latest edition of 'The Batch' highlights a breakthrough in 'Recursive Language Models' that manage context as an external variable. Traditionally, LLMs lose coherence as the context window fills up. This new approach allows the model to summarize and 'compress' its own previous thoughts into a recursive memory structure, effectively allowing for infinite-length conversations without the usual performance degradation. Andrew Ng notes that this 'externalized memory' is a critical step toward agents that can work on projects spanning weeks or months, rather than just single sessions. He argues that the industry's focus on larger context windows was a 'brute force' solution, whereas recursion offers a more elegant, human-like way of managing information.",
-      "url": "https://www.deeplearning.ai/the-batch/recursive-language-models/",
+      "title": "OpenAI Tracks Agent States on AWS: A Shift in the Cloud Alliance",
+      "summary": "In a significant move reported by The Batch, OpenAI has partnered with Amazon Web Services (AWS) to build a 'stateful' runtime environment specifically for AI agents. Historically, LLM interactions have been stateless, meaning the model 'forgets' everything once a session ends. This new infrastructure allows agents to maintain a persistent state, tracking their own progress, memory, and tool-use history across long-running tasks. \n\nThis partnership is technically notable because it utilizes AWS's specialized infrastructure for high-performance, low-latency state management, which OpenAI found more suitable for agentic workflows than current offerings from its primary partner, Microsoft. Andrew Ng notes that this is a clear signal that the 'Agentic Era' requires a new kind of compute stack—one that prioritizes memory and persistence over just raw inference speed. This move also suggests a strategic diversification by OpenAI, weakening its exclusive ties to Azure as it prepares for the massive infrastructure demands of GPT-5 and beyond.",
+      "url": "https://www.deeplearning.ai/the-batch/openai-amazon-deal-agent-infrastructure/",
       "category": "The Batch",
       "author": "The Batch Team",
-      "date": "March 27, 2026"
+      "date": "Mar 27, 2026"
     },
     {
-      "title": "Nvidia's Open-Source Speed Demon: Nemotron 3 Super",
-      "summary": "Nvidia has released the Nemotron 3 Super 120B-A12B, an open-weights Mixture-of-Experts (MoE) model that has set new records for inference speed in its class. By using a hybrid Mamba-Transformer architecture, the model achieves lightning-fast processing while maintaining high accuracy on tool-use benchmarks. Andrew Ng comments that Nvidia's entry into the open-weights leadership circle—previously dominated by Meta and Mistral—is a strategic move to ensure their hardware remains the default for the open-source community. This model is particularly significant for edge deployment, as its 'Nano' variants can run on local RTX GPUs with minimal VRAM, bringing 'frontier-level' reasoning to local devices without cloud dependency.",
-      "url": "https://www.deeplearning.ai/the-batch/nvidias-open-source-salvo/",
-      "category": "The Batch",
+      "title": "Recursive Language Models: Breaking the Context Window Barrier",
+      "summary": "The latest edition of The Batch highlights a breakthrough in 'Recursive Language Models' (RLMs), which offer a path to effectively infinite context windows. Traditional LLMs struggle with long contexts, often losing track of details or 'hallucinating' as the input grows. RLMs solve this by managing context as an external variable, recursively summarizing and retrieving relevant 'chunks' of information as the model processes a task.\n\nTechnically, this involves a feedback loop where the model's own outputs are used to update an external memory store, which then informs the next step of the generation. This approach mimics human cognitive processes, where we don't hold an entire book in our working memory but instead refer back to key themes and specific details as needed. Andrew Ng emphasizes that this 'piecemeal' approach to knowledge management is far more efficient than simply building larger and larger context windows, which suffer from diminishing returns and massive compute costs.",
+      "url": "https://www.deeplearning.ai/the-batch/recursive-language-models-context-management/",
+      "category": "Research Highlight",
       "author": "The Batch Team",
-      "date": "March 27, 2026"
+      "date": "Mar 27, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "EVA: Evaluating Voice Agents Framework",
-      "provider": "Hugging Face / ServiceNow",
-      "summary": "A new open-source framework for testing the reliability of voice-based AI agents. Includes a synthetic dataset of 50 complex scenarios (like flight rebooking) to test temporal reasoning and entity handling.",
-      "url": "https://huggingface.co/blog/eva-voice-evaluation",
+      "title": "EVA: A New Framework for Evaluating Voice Agents",
+      "provider": "Hugging Face / ServiceNow-AI",
+      "summary": "A comprehensive framework and dataset for testing the reliability of real-time voice agents. It focuses on 'named entity transcription' and 'multi-step workflows,' which are common failure points in conversational AI.",
+      "url": "https://huggingface.co/blog/eva-voice-agent-eval",
       "type": "Tool",
       "difficulty": "Intermediate"
     },
     {
-      "title": "Domain-Specific Embedding Recipe",
-      "provider": "NVIDIA",
-      "summary": "A step-by-step guide to fine-tuning embedding models for specific industries (like legal or medical) in under 24 hours using a single GPU. Includes a synthetic data generation pipeline.",
-      "url": "https://huggingface.co/blog/fine-tune-embeddings-in-a-day",
+      "title": "Build a Domain-Specific Embedding Model in Under a Day",
+      "provider": "NVIDIA / Hugging Face",
+      "summary": "A step-by-step recipe for fine-tuning general-purpose embedding models for specific domains (like legal or medical) using synthetic data generation and NVIDIA's NeMo toolkit.",
+      "url": "https://huggingface.co/blog/domain-specific-embeddings-nvidia",
       "type": "Tutorial",
       "difficulty": "Advanced"
+    },
+    {
+      "title": "Anthropic Cookbook: Building Stateful Agents with MCP",
+      "provider": "Anthropic",
+      "summary": "A new set of guides for using the Model Context Protocol (MCP) to build agents that can interact with local files, databases, and APIs while maintaining a persistent task state.",
+      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "type": "Tutorial",
+      "difficulty": "Intermediate"
     }
   ]
 }
