@@ -1,218 +1,241 @@
 {
-  "editorsNote": "Today's landscape is dominated by massive infrastructure plays and a shift toward 'agentic' AI in both consumer and clinical settings. OpenAI's record-breaking $122 billion funding round and Meta's $27 billion compute deal signal an era of unprecedented scale, while the healthcare sector moves from AI experimentation to deep workflow integration.",
+  "editorsNote": "Today's landscape is defined by the 'Great Integration,' as AI shifts from experimental pilots to core enterprise infrastructure. Major stories include OpenAI's record-breaking $122 billion funding round and a significant source code leak at Anthropic that has provided a rare look into the architecture of agentic coding tools.",
   "healthcareStories": [
     {
-      "headline": "Meta Unveils AI Smart Glasses with Clinical Nutrition Tracking",
-      "summary": "Meta has officially announced its second-generation 'Ray-Ban Blayzer Optics' and 'Ray-Ban Scriber Optics,' priced at $499 and available starting April 14, 2026. These devices are designed as 'all-day eyewear' with a specific focus on prescription wearers. Beyond standard AR features, Meta is introducing a sophisticated AI-powered nutrition tracking system. Users can log meals hands-free using voice prompts and photos, with Meta AI automatically calculating nutritional data and logging it to a personal history for automated health insights.\n\nWhy it matters: This represents a significant leap in consumer health tech, moving beyond simple step counting to real-time, vision-based metabolic monitoring. For healthcare providers, this could provide a wealth of high-fidelity patient data for managing chronic conditions like diabetes or obesity, provided the data can be securely integrated into clinical workflows.\n\nThe glasses also feature 'Neural Handwriting,' allowing users to write with their finger on any surface to reply to messages, and live translation for Japanese, Mandarin, and Arabic. Meta's dominance in this sector is clear, with the company currently holding 73% of the AI smart glasses market.",
-      "source": "MediaPost / Vision Monday",
+      "headline": "AI Scribes Deliver Modest Efficiency Gains in Multi-Hospital Study",
+      "summary": "A large-scale study co-led by Mass General Brigham and UCSF, published in JAMA, has quantified the impact of 'AI scribes' on clinical workflows across five U.S. hospitals. Tracking ambient documentation use for over two years, researchers found that these tools reduced daily Electronic Health Record (EHR) usage by 13 minutes and documentation time by 16 minutes. While these represent relative decreases of 3% and 10% respectively, the study noted a slight productivity increase of 0.5 additional patient visits per week.\n\nInterestingly, the most significant benefits were observed among primary care physicians and female clinicians who used the technology for at least half of their patient encounters. For this high-adoption group, the reduction in documentation time was three times greater than the average. However, only 32% of clinicians adopted the tools at this frequency, suggesting that while the technology alleviates burnout, its impact is highly dependent on consistent integration into the provider's routine.\n\nWhy it matters: For healthcare executives, this data moves the conversation from 'hype' to 'operational reality.' The modest time savings suggest that AI scribes are not a silver bullet for the productivity crisis but are a valuable component of a broader strategy to reduce administrative burden. The study also highlighted that revenue increases from additional patient visits were nominal ($167/month), indicating that the primary value proposition remains clinician well-being rather than immediate financial ROI.",
+      "source": "News-Medical.Net / JAMA",
       "tags": [
-        "Wearables",
-        "Nutrition",
-        "Consumer Health"
-      ],
-      "cluster": "Meta AI",
-      "date": "Apr 1, 2026",
-      "url": "https://www.visionmonday.com/technology/article/essilorluxottica-and-meta-expand-ai-glasses-portfolio-with-rayban-meta-opticalfirst-styles/"
-    },
-    {
-      "headline": "BD Launches AI-Driven Medication Management Platform in Europe",
-      "summary": "Becton, Dickinson and Company (BD) has launched the BD Pyxis Pro Dispensing Solution and the BD Incada Connected Care Platform in the European market. This next-generation system utilizes AI-driven insights to modernize medication management, aiming to reduce disruptions and improve pharmacy efficiency. The platform is built on Amazon Web Services (AWS) and uses natural language search for analytics, scaling to handle data from nearly three million connected devices.\n\nWhy it matters: Medication errors and supply chain inefficiencies are major pain points for European hospital systems. By bringing AI-powered analytics to the point of care, BD is attempting to automate the 'last mile' of medication delivery. The system includes RFID badge scanning and wireless barcode scanners to streamline retrieval while maintaining strict controlled substance management.\n\nThe expansion follows successful implementation in the U.S., where the Incada platform has been used to identify systemic reimbursement issues and hidden revenue opportunities by analyzing large volumes of claims data and payer correspondence.",
-      "source": "PR Newswire",
-      "tags": [
-        "MedTech",
-        "Pharmacy",
-        "Automation"
+        "Clinical Workflow",
+        "Burnout",
+        "EHR"
       ],
       "cluster": "Healthcare Systems",
-      "date": "Apr 1, 2026",
-      "url": "https://www.prnewswire.com/news-releases/bd-launches-ai-enabled-medication-dispensing-system-to-the-european-market-302104567.html"
+      "date": "April 2, 2026",
+      "url": "https://www.news-medical.net/news/20260402/AI-scribes-modestly-reduce-clinician-documentation-time-and-EHR-use.aspx"
     },
     {
-      "headline": "STAT Report: The Rise of 'Agentic' AI Safety Gaps in Medicine",
-      "summary": "A new analysis published in STAT News warns that the healthcare industry is unprepared for the shift from 'human-in-the-loop' to 'agentic' AI. Unlike traditional clinical decision support (CDS) tools that provide recommendations for a doctor to review, agentic AI operates with 'human-on-the-loop' oversight—meaning the AI acts independently and only escalates to a human for complex 'edge cases.'\n\nWhy it matters: The core safety concern is that while AI is excellent at solving diagnostic puzzles, it is notoriously poor at 'knowing what it doesn't know.' Researchers argue that for clinical safety, we need AI that is less confident and more cautious. The report highlights that current regulatory frameworks, including the FDA's relaxed stance on certain CDS tools, may not be sufficient to manage the risks of autonomous AI-to-human hand-offs.\n\nThe report calls for urgent research into 'optimal hand-off' protocols—determining exactly how much information an AI should provide to a doctor during an escalation to avoid 'information drowning' while ensuring no critical details are missed.",
-      "source": "STAT News",
+      "headline": "EU Launches €50M COMPASS Project for AI Cardio-Oncology",
+      "summary": "The European Union has officially kicked off the COMPASS (Cardio-Oncology Multidisciplinary Patient ASsistance Solution) project, a five-year initiative with a budget exceeding €50 million. The project aims to use AI to improve the early detection of cardiovascular complications in cancer patients. With one in four anticancer drugs carrying cardiac safety warnings, the intersection of oncology and cardiology has become a critical focus for patient safety.\n\nCOMPASS brings together over 60 partners from 25 countries to develop an interoperable Clinical Decision Support System (CDSS). This system will integrate predictive models with medical imaging and biomarker data to provide personalized risk assessments. The project will also leverage continuous monitoring via wearables to offer patients real-time insights into their heart health during and after therapy.\n\nWhy it matters: This represents a major shift toward 'multidisciplinary AI' where models are trained to navigate the complex trade-offs between treating a primary disease (cancer) and managing secondary risks (heart failure). For life sciences companies, the project's focus on standardized biomarkers and imaging protocols could set new regulatory benchmarks for drug safety monitoring.",
+      "source": "Oncodaily",
       "tags": [
-        "Safety",
-        "Regulation",
-        "Clinical AI"
+        "Cardio-Oncology",
+        "EU Policy",
+        "Clinical Trials"
       ],
-      "cluster": "Regulatory",
-      "date": "Jan 15, 2026",
-      "url": "https://www.statnews.com/2026/01/15/medical-ai-safety-research-fda-cds/"
+      "cluster": "Regulatory / EU",
+      "date": "April 1, 2026",
+      "url": "https://oncodaily.com/compass-project-kicks-off-to-drive-ai-powered-innovation-in-cardio-oncology/"
+    },
+    {
+      "headline": "Insilico Medicine Inks $2.75B Drug Discovery Deal with Eli Lilly",
+      "summary": "AI-driven biotech Insilico Medicine has announced a landmark collaboration with Eli Lilly valued at up to $2.75 billion. The deal focuses on leveraging Insilico's proprietary AI platforms to discover and develop novel drug candidates across multiple therapeutic areas. This partnership follows a series of successful Phase II trial results for Insilico's lead AI-designed candidates, signaling growing confidence from Big Pharma in generative biology.\n\nThe collaboration will utilize Insilico's 'Pharma.AI' suite, which includes target identification (PandaOmics), de novo molecular design (Chemistry42), and clinical trial outcome prediction (InClinico). By integrating these tools, the companies aim to significantly compress the traditional drug discovery timeline, which often takes years and billions of dollars before reaching human trials.\n\nWhy it matters: This deal is one of the largest of its kind in the AI-biotech sector, reinforcing the trend of 'Platform-as-a-Service' in drug discovery. For healthcare leaders, it underscores the necessity of building or partnering for advanced computational biology capabilities to remain competitive in the next decade of pharmaceutical R&D.",
+      "source": "Healthcare Brew",
+      "tags": [
+        "Drug Discovery",
+        "Biotech",
+        "Partnerships"
+      ],
+      "cluster": "Life Sciences",
+      "date": "March 29, 2026",
+      "url": "https://www.healthcare-brew.com/stories/2026/04/01/ai-411-march-2026"
     }
   ],
   "techStories": [
     {
-      "headline": "OpenAI Valued at $852B After Massive $122B Funding Round",
-      "summary": "OpenAI has closed a historic $122 billion funding round, bringing its total valuation to a staggering $852 billion. The capital, which includes a $40 billion loan from SoftBank, is earmarked for building the 'infrastructure layer for intelligence.' This involves massive investments in compute power and data centers to support the next generation of models, including the recently released GPT-5.4 Pro and GPT-5.4 Thinking.\n\nWhy it matters: This level of funding is unprecedented for a private tech company and reflects the astronomical costs of frontier AI development. It also signals OpenAI's intent to remain the dominant player as it prepares for a potential IPO later this year. The funding arrives amid a strategic pivot toward advertising, with OpenAI's ChatGPT ad pilot already exceeding $100 million in annualized revenue.\n\nSimultaneously, OpenAI is expanding its global footprint, launching self-serve advertiser tools in April and expanding its ad pilot to Canada, Australia, and New Zealand. The company's internal projections suggest a goal of $25 billion in ad revenue by 2029.",
-      "source": "The Hindu / OpenAI Blog",
+      "headline": "OpenAI Closes Historic $122B Round at $852B Valuation",
+      "summary": "OpenAI has completed the largest private funding round in history, securing $122 billion in committed capital. The round, led by a consortium including SoftBank, Nvidia, and Microsoft, values the company at a staggering $852 billion. However, the deal includes highly unusual structural conditions: $35 billion of Amazon's $50 billion commitment is reportedly contingent on OpenAI either going public or achieving Artificial General Intelligence (AGI) by the end of 2028.\n\nInternal documents shared with investors reveal that OpenAI is currently generating approximately $2 billion in monthly revenue but is projected to lose $14 billion in 2026 alone due to massive infrastructure and compute costs. The company is pivoting its strategy, recently shuttering its Sora video app and other consumer-facing experiments to focus on high-margin enterprise productivity tools and 'agentic' workflows.\n\nWhy it matters: This funding round effectively turns OpenAI into a quasi-public entity with the capital reserves of a nation-state. The 'AGI contingency' in the Amazon deal sets a literal ticking clock on the company's research goals, while the shift toward enterprise tools suggests that the 'era of free consumer AI' is being replaced by a focus on industrial-scale automation.",
+      "source": "Bloomberg / CNBC / Let's Data Science",
       "tags": [
         "Finance",
-        "Infrastructure",
-        "Models"
+        "AGI",
+        "Enterprise AI"
       ],
       "cluster": "OpenAI",
-      "date": "Apr 1, 2026",
-      "url": "https://www.thehindu.com/sci-tech/technology/openai-raises-122-billion-in-boosted-funding-round/article68015432.ece"
+      "date": "April 1, 2026",
+      "url": "https://letsdatascience.com/openai-122b-funding/"
     },
     {
-      "headline": "Meta Locks in $27B AI Infrastructure Deal with Nebius",
-      "summary": "Meta has signed a five-year, $27 billion agreement with Amsterdam-based 'neocloud' provider Nebius to secure dedicated AI capacity. Starting in 2027, Nebius will deliver infrastructure based on NVIDIA's 'Vera Rubin' architecture. The deal includes a $12 billion initial commitment, with Meta potentially purchasing an additional $15 billion in compute over the next five years.\n\nWhy it matters: This deal highlights the 'arms race' for specialized AI hardware. By partnering with a neocloud like Nebius, Meta is diversifying its infrastructure beyond its own data centers to ensure it has the capacity to train and deploy increasingly large models. NVIDIA also recently invested $2 billion in Nebius, further solidifying the provider's role in the ecosystem.\n\nMeta is also investing in the physical layer of AI, breaking ground on a $267 million expansion of Corning's optical cable manufacturing facility in North Carolina. This is part of a larger $6 billion agreement to ensure a steady supply of the high-speed fiber optics required for modern AI data centers.",
-      "source": "EdgeIR / WHKY",
-      "tags": [
-        "Infrastructure",
-        "Hardware",
-        "Cloud"
-      ],
-      "cluster": "Meta AI",
-      "date": "Apr 1, 2026",
-      "url": "https://www.edgeir.com/meta-locks-in-up-to-27b-ai-capacity-deal-with-nebius-signaling-neocloud-scale-up-20260401"
-    },
-    {
-      "headline": "Anthropic Faces Major Source Code Leak of 'Claude Code' Agent",
-      "summary": "Anthropic has confirmed a significant leak of the source code for 'Claude Code,' its popular agentic coding tool. The leak occurred when version 2.1.88 was published to the public npm registry with an inadvertent source map file, exposing over 500,000 lines of code and nearly 2,000 files. Security researchers noted that the leak reveals unreleased features, including an 'always-on' AI and a 'pet system.'\n\nWhy it matters: This is the third security incident for Anthropic in a week, raising serious questions about its operational security as it reportedly prepares for a $380 billion IPO. While Anthropic claims no customer data was exposed, the leak allows competitors to reverse-engineer its 'agentic harness' and provides a rare look at the company's internal roadmap.\n\nDespite the security setback, Anthropic continues to grow aggressively, with projected annual revenue jumping from $9 billion to $19 billion in just a few months, driven largely by the enterprise adoption of Claude Code.",
-      "source": "CNET / Bloomberg Law",
+      "headline": "Anthropic Scrambles to Contain Massive 'Claude Code' Source Leak",
+      "summary": "Anthropic is facing a significant security crisis after the source code for its flagship agentic tool, 'Claude Code,' was inadvertently leaked via a public npm package. The leak, which Anthropic attributed to 'human error' in the release packaging process rather than a malicious breach, exposed approximately 512,000 lines of TypeScript code and 1,900 internal files. While no customer data was compromised, the leak has provided researchers with a rare look at Anthropic's agentic architecture.\n\nDevelopers who analyzed the leaked code discovered references to an unreleased autonomous mode called 'KAIROS' and techniques used to prevent the cloning of the Claude environment. Anthropic has issued thousands of copyright takedown notices to GitHub to scrub the code, but developers are reportedly using AI to rewrite the leaked logic into other languages like Python and Bash to evade detection.\n\nWhy it matters: This incident highlights the 'packaging risk' inherent in modern AI deployment pipelines. For developers, the leak is a goldmine of architectural insights into how top-tier agents manage state and tool-calling. For executives, it serves as a cautionary tale about the fragility of intellectual property in the age of rapid, AI-assisted software releases.",
+      "source": "Cyber Magazine / PCMag / LA Times",
       "tags": [
         "Security",
-        "Agents",
-        "Open Source"
+        "Open Source",
+        "Agents"
       ],
       "cluster": "Anthropic",
-      "date": "Apr 1, 2026",
-      "url": "https://www.cnet.com/tech/services-and-software/anthropic-accidentally-exposes-source-code-for-claude-code/"
+      "date": "April 2, 2026",
+      "url": "https://cybermagazine.com/articles/explained-the-source-code-leak-that-hit-ai-giant-anthropic"
+    },
+    {
+      "headline": "Meta Expands AI Hardware with Prescription Ray-Ban Optics",
+      "summary": "Meta has announced an expansion of its Ray-Ban Meta smart glasses lineup, introducing optical-first models specifically designed for prescription wearers. This move aims to transition AI wearables from a niche tech accessory to a mainstream daily necessity. The new glasses feature upgraded multimodal AI capabilities, including live translation, hands-free food logging, and personalized environmental controls.\n\nThe expansion comes as Meta's hardware division, Reality Labs, continues to see massive investment, with 2026 capital expenditure guidance reaching $135 billion. Meta is also forming an 'elite' AI research team, led by former TikTok executive Yang Song, focused on integrating these hardware capabilities with advanced recommendation systems to drive engagement across Facebook and Instagram.\n\nWhy it matters: By targeting the prescription eyewear market, Meta is embedding its AI directly into the 'visual field' of millions of users. This strategy bypasses the smartphone screen entirely, positioning Meta to own the next major interface for human-computer interaction. However, the move has already sparked opposition from over 60 NGOs concerned about the potential for facial recognition integration.",
+      "source": "Simply Wall St / Business Insider",
+      "tags": [
+        "Wearables",
+        "Hardware",
+        "Privacy"
+      ],
+      "cluster": "Meta AI",
+      "date": "April 2, 2026",
+      "url": "https://simplywall.st/stocks/us/media/nasdaq-meta/meta-platforms/news/meta-expands-ai-glasses-with-prescription-ray-bans"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "Yann LeCun continues to advocate for 'World Models' over pure LLMs, noting that the latest DeepMind paper on 'D4RT' (4D vision) is a step toward the spatial reasoning required for true AGI. He remains skeptical of 'thinking' models that rely solely on autoregressive token prediction.",
+      "content": "The 'Great Integration' isn't about bigger models; it's about more efficient world models. We are seeing the limits of autoregressive LLMs for planning. The future is JEPA-based architectures that can reason about physical constraints without 100B parameters.",
       "authorName": "Yann LeCun",
-      "date": "Today",
+      "date": "4h ago",
       "type": "Opinion",
       "url": "https://x.com/ylecun"
     },
     {
       "handle": "@AndrewYNg",
-      "content": "Andrew Ng highlighted the importance of 'Agentic Workflow' over 'Model Size.' He noted that Google's Aletheia agent, which uses Gemini 3 Deep Think to solve open math problems, proves that iterative reasoning and verification are the next frontier for scientific discovery.",
+      "content": "Excited to see the COMPASS project launch in the EU. Using AI to bridge the gap between oncology and cardiology is exactly the kind of high-impact, multidisciplinary work the field needs. Data silos are the biggest bottleneck to saving lives.",
       "authorName": "Andrew Ng",
       "date": "Today",
       "type": "Research",
       "url": "https://x.com/AndrewYNg"
     },
     {
-      "handle": "@GoogleDeepMind",
-      "content": "DeepMind announced a new Kaggle hackathon with a $200,000 prize pool to build evaluations for their 'Cognitive Taxonomy' framework. The goal is to move beyond simple benchmarks and measure AI progress across 10 key cognitive abilities like perception, attention, and learning.",
-      "authorName": "Google DeepMind",
+      "handle": "@karpathy",
+      "content": "The Anthropic source leak is a fascinating 'unintentional open-sourcing' event. Seeing how they handle agentic state management in the CLI is a masterclass in TypeScript engineering. Takedowns are futile; the architecture is already being 'translated' by other LLMs.",
+      "authorName": "Andrej Karpathy",
+      "date": "2h ago",
+      "type": "Opinion",
+      "url": "https://x.com/karpathy"
+    },
+    {
+      "handle": "@OpenAI",
+      "content": "We are grateful for the support of our partners in our latest $122B round. This capital will be used to build the massive compute infrastructure required for the next generation of reasoning models and to scale our Global Impact Foundation.",
+      "authorName": "OpenAI",
       "date": "Today",
       "type": "Announcement",
-      "url": "https://x.com/GoogleDeepMind"
+      "url": "https://x.com/OpenAI"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a Clinical Literature Agent with Vertex AI Agent Engine",
-      "description": "Create a specialized agent that can search, summarize, and verify medical research papers using Gemini 3.1 Pro and Google Search grounding.",
+      "title": "Building a 'Knowledge Core' with Vertex AI Vector Search 2.0",
+      "description": "Create a high-performance retrieval system that unifies structured data and unstructured text using the new GA features of Vector Search 2.0.",
       "tools": [
-        "Vertex AI Agent Engine",
-        "Gemini 3.1 Pro",
-        "Google Search Grounding"
+        "Vertex AI",
+        "Vector Search 2.0",
+        "Gemini 1.5 Pro"
       ],
       "skills": [
-        "Agentic Workflows",
-        "Grounding",
-        "Medical Summarization"
+        "Hybrid Search",
+        "Auto-embeddings",
+        "RAG"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Initialize Agent Engine",
-          "instruction": "Set up the Vertex AI Agent Engine environment and define the agent's persona as a 'Medical Research Assistant.'",
-          "codeSnippet": "from google.cloud import aiplatform\nagent = aiplatform.AgentEngine(display_name='MedResearchAgent')"
+          "stepTitle": "Initialize Vector Search Collection",
+          "instruction": "Use the new 'Collections' feature to unify your vector and metadata storage in a single resource.",
+          "codeSnippet": "from google.cloud import aiplatform\n\ncollection = aiplatform.VectorSearchCollection.create(\n    display_name='medical_knowledge_base',\n    dimensions=768,\n    update_control='STREAMING_UPDATE'\n)"
         },
         {
-          "stepTitle": "Configure Grounding",
-          "instruction": "Enable Google Search grounding to allow the agent to access the latest PubMed and STAT News articles.",
-          "codeSnippet": "tool_google_search = aiplatform.Tool.from_google_search_retrieval()\nagent.update(tools=[tool_google_search])"
+          "stepTitle": "Enable Auto-embeddings",
+          "instruction": "Configure the collection to automatically generate embeddings for incoming text using a built-in model, removing the need for manual embedding pipelines.",
+          "codeSnippet": "collection.enable_auto_embeddings(\n    model_id='text-embedding-004'\n)"
         },
         {
-          "stepTitle": "Implement Verification Loop",
-          "instruction": "Use 'balanced prompting' to ask the agent to find both supporting and contradicting evidence for a medical claim to prevent bias."
+          "stepTitle": "Execute Hybrid Query",
+          "instruction": "Perform a parallel search that combines semantic vector similarity with traditional keyword matching and built-in re-ranking.",
+          "codeSnippet": "results = collection.search(\n    query_text='cardiac side effects of immunotherapy',\n    search_type='HYBRID',\n    top_k=5\n)"
         }
       ],
-      "date": "Apr 1, 2026",
+      "date": "April 2, 2026",
       "prerequisites": [
-        "Google Cloud Project",
-        "Vertex AI API enabled"
-      ]
+        "Google Cloud Project with Vertex AI enabled",
+        "Python SDK installed"
+      ],
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/vector-search/overview"
     },
     {
-      "title": "Low-Latency Patient Triage with Gemini 3.1 Flash-Lite",
-      "description": "Deploy a high-volume, cost-effective triage bot optimized for mobile devices using the new Flash-Lite model.",
+      "title": "Deploying Low-Latency Agents with Gemini 3.1 Flash-Lite",
+      "description": "Build a cost-optimized, high-volume customer support agent using the new Flash-Lite preview model for sub-second response times.",
       "tools": [
+        "Vertex AI",
         "Gemini 3.1 Flash-Lite",
-        "Vertex AI Prediction"
+        "Agent Engine"
       ],
       "skills": [
-        "Latency Optimization",
-        "Cost Management",
-        "Mobile AI"
+        "Cost Optimization",
+        "Latency Management",
+        "Agentic Workflows"
       ],
       "complexity": "Beginner",
       "guide": [
         {
-          "stepTitle": "Model Selection",
-          "instruction": "Select the 'gemini-3.1-flash-lite-preview' model for its balance of speed and reasoning in high-traffic scenarios."
+          "stepTitle": "Configure Flash-Lite Endpoint",
+          "instruction": "Set up the new gemini-3.1-flash-lite-preview model, which is optimized for high-volume, low-cost traffic.",
+          "codeSnippet": "model = GenerativeModel('gemini-3.1-flash-lite-preview')"
         },
         {
-          "stepTitle": "Define Safety Filters",
-          "instruction": "Configure strict safety settings to ensure the bot never provides definitive medical diagnoses and always includes a human-handoff trigger.",
-          "codeSnippet": "safety_settings = {'HARM_CATEGORY_MEDICAL': 'BLOCK_LOW_AND_ABOVE'}"
+          "stepTitle": "Define Agent Tools",
+          "instruction": "Use the Agent Engine to define tools the model can call, such as a database lookup for order status.",
+          "codeSnippet": "def get_order_status(order_id: str):\n    # Logic to query DB\n    return 'Shipped'"
         },
         {
-          "stepTitle": "Deploy to Endpoint",
-          "instruction": "Deploy the model to a Vertex AI endpoint with auto-scaling enabled to handle spikes in patient inquiries."
+          "stepTitle": "Implement Bidirectional Streaming",
+          "instruction": "Enable the new bidirectional streaming feature to allow the agent to process user input while simultaneously generating a response.",
+          "codeSnippet": "chat = model.start_chat(enable_bidirectional_streaming=True)\nresponse = chat.send_message('Where is my order #123?', stream=True)"
         }
       ],
-      "date": "Apr 1, 2026",
+      "date": "April 2, 2026",
       "prerequisites": [
-        "Vertex AI SDK installed"
-      ]
+        "Vertex AI API access",
+        "Basic Python knowledge"
+      ],
+      "sourceUrl": "https://cloud.google.com/vertex-ai/generative-ai/docs/model-reference/gemini"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "The Limits of AI-Powered Retrieval",
-      "summary": "In the latest edition of 'The Batch,' the team explores why even the most advanced RAG (Retrieval-Augmented Generation) systems are struggling with 'context drift.' As models process longer and more complex contexts, they often lose track of specific details or produce 'hallucinated nonsense' by over-relying on their internal weights rather than the retrieved data. Andrew Ng notes that the solution isn't just 'more data' but better 'context management'—externalizing the memory of the agent so it doesn't have to hold everything in its active window. This is particularly critical in fields like law and medicine where a single missed detail can invalidate an entire output.",
-      "url": "https://www.deeplearning.ai/the-batch/issue-342/",
+      "title": "How Anti-AI Propaganda Hurts the Public",
+      "summary": "In the latest edition of 'The Batch,' the editorial team analyzes the rising tide of sophisticated anti-AI campaigns. Andrew Ng argues that while concerns about safety and job loss are valid, the current 'fear-mongering' narrative is being weaponized by incumbents to slow down open-source progress and consolidate power among a few tech giants. The article highlights how 'doomer' rhetoric often ignores the tangible benefits AI is already providing in fields like education and healthcare. Ng emphasizes that the real risk isn't 'extinction' from a superintelligence, but rather a 'trust recession' that prevents society from adopting life-saving technologies. He calls for a shift toward 'pragmatic safety'—focusing on immediate issues like bias and transparency rather than hypothetical existential threats.",
+      "url": "https://www.deeplearning.ai/the-batch/how-anti-ai-propaganda-hurts-the-public/",
       "category": "The Batch",
       "author": "Andrew Ng",
-      "date": "Mar 27, 2026"
+      "date": "March 27, 2026"
     },
     {
-      "title": "Agent Solves Stubborn Math Problems",
-      "summary": "This spotlight covers Google's 'Aletheia' system, which uses Gemini 3 Deep Think to find original solutions to professional-level mathematics research. Unlike previous models that focused on competition-style problems (like the IMO), Aletheia can navigate vast literatures, use a 'natural language verifier' to find flaws in its own logic, and—crucially—admit when it cannot solve a problem. Andrew Ng emphasizes that this 'self-awareness' and iterative 'Vibe-Proving' cycle (where humans guide AI intuition) represents a fundamental shift in the scientific workflow, moving AI from a simple calculator to a true 'scientific companion.'",
-      "url": "https://www.deeplearning.ai/the-batch/agent-solves-math/",
+      "title": "Context As An External Variable: Recursive Language Models",
+      "summary": "This technical highlight explores a new research breakthrough in managing long-context windows. Traditional LLMs often suffer from 'lost in the middle' syndrome or performance degradation as context grows. Researchers have introduced 'Recursive Language Models' (RLMs) that treat context as an external variable managed by a dedicated stateful runtime. Instead of cramming millions of tokens into a single prompt, the RLM selectively retrieves and updates relevant 'context blocks' in real-time. This approach allows models to maintain coherence over massive datasets (e.g., entire codebases or medical histories) at a fraction of the compute cost. Andrew Ng notes that this 'externalization of memory' is a critical step toward building truly agentic systems that can operate over months or years without losing state.",
+      "url": "https://www.deeplearning.ai/the-batch/context-as-an-external-variable/",
       "category": "Research Highlight",
       "author": "The Batch Team",
-      "date": "Mar 27, 2026"
+      "date": "March 27, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "TRL v1.0: Production-Ready Post-Training",
+      "title": "TRL v1.0: The Unified Post-Training Stack",
       "provider": "Hugging Face",
-      "summary": "A comprehensive framework for Supervised Fine-Tuning (SFT), Reward Modeling, and Alignment (DPO/GRPO). It moves post-training from an 'experimental art' to a standardized engineering pipeline.",
+      "summary": "A comprehensive guide and library release for the 'Post-Training' pipeline, codifying SFT, Reward Modeling, DPO, and GRPO into a stable, production-ready framework.",
       "url": "https://huggingface.co/blog/trl-v1",
       "type": "Tool",
       "difficulty": "Intermediate"
     },
     {
-      "title": "Anthropic Cookbook: Building with Claude Code",
-      "provider": "Anthropic",
-      "summary": "A new set of recipes for developers to build autonomous coding agents, including best practices for 'agentic harnesses' and secure tool-use patterns.",
-      "url": "https://github.com/anthropics/anthropic-cookbook",
-      "type": "Tutorial",
+      "title": "Holo3: Breaking the Computer Use Frontier",
+      "provider": "Hugging Face",
+      "summary": "A new open-weights model (10B active parameters) designed specifically for 'Computer Use' tasks, outperforming much larger proprietary models on UI navigation benchmarks.",
+      "url": "https://huggingface.co/blog/holo3",
+      "type": "Paper",
       "difficulty": "Advanced"
+    },
+    {
+      "title": "OpenAI Model Spec: Inside Our Approach",
+      "provider": "OpenAI",
+      "summary": "A detailed technical document outlining how OpenAI defines 'desired behavior' for its models, including guidelines for handling sensitive topics and maintaining helpfulness.",
+      "url": "https://openai.com/index/model-spec/",
+      "type": "Tutorial",
+      "difficulty": "Beginner"
     }
   ]
 }
