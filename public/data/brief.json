@@ -1,50 +1,37 @@
 {
-  "editorsNote": "The AI landscape is shifting from experimental pilots to industrial-scale deployment, particularly in healthcare where 'digital twins' and agentic workflows are becoming regulatory assets. Meanwhile, major providers like Anthropic and OpenAI are tightening ecosystem controls and pivoting toward sustainable, revenue-focused enterprise models.",
+  "editorsNote": "Today's landscape is defined by a massive shift toward 'Agentic AI' and enterprise-grade infrastructure. Major players like OpenAI and Anthropic are pivoting from experimental consumer features to high-revenue productivity tools, while Google's release of Gemma 4 sets a new benchmark for open-source reasoning on edge devices.",
   "healthcareStories": [
     {
-      "headline": "Healthcare AI 2026: The Rise of 'Digital Twin' Clinical Trials",
-      "summary": "By early 2026, the healthcare industry has moved past the 'AI honeymoon' phase into deep operational integration. A primary trend is the industrialization of 'digital twin' patient records to accelerate clinical development. Biopharma companies are increasingly using AI-generated virtual patients, built from historical trial data and real-world evidence (RWE), to serve as external control arms (ECAs). This approach significantly reduces Phase II/III trial durations and lowers recruitment hurdles for rare diseases.\n\nThe global market for AI in clinical trials is projected to exceed $15 billion in 2026. Regulatory bodies like the FDA and EMA have issued 2026 joint guiding principles to clarify the rulebook for these 'in silico' trials. This shift is driven by a chronic R&D productivity crisis and the need for faster therapeutic development for rare pathologies. \n\nWhy it matters: For healthcare executives, this represents a fundamental shift in the cost and speed of drug discovery. Moving from theoretical modeling to core regulatory assets allows sponsors to simulate control group outcomes without enrolling thousands of placebo patients, potentially saving years in the development cycle.",
-      "source": "Dataiku / STAT News",
+      "headline": "AI-Driven 'Mystery Diagnosis' Goes Mainstream",
+      "summary": "A growing trend in clinical care sees patients with complex, undiagnosed chronic illnesses turning to advanced LLMs like Claude and ChatGPT for diagnostic research. Recent reports from the New York Times and STAT highlight cases where patients, often women with neuroimmune or autoimmune conditions, have successfully used AI to identify rare syndromes that traditional clinical pathways missed. This shift is being characterized as the 'democratization of medical expertise,' where patients take a more active role in their care coordination.\n\nWhile clinicians express concern over 'AI-driven self-diagnosis,' the practical reality is that these tools are filling a gap in overburdened healthcare systems. The ability of models to synthesize thousands of pages of medical literature and patient history into a coherent set of diagnostic possibilities is proving to be a powerful adjunct to human medicine. Experts suggest that rather than resisting this trend, health systems should develop 'AI-literate' clinical workflows that allow doctors to review AI-generated hypotheses alongside patients.\n\nWhy it matters: This represents a fundamental shift in the patient-provider power dynamic. For healthcare leaders, it signals an urgent need for validated, medically-grounded AI interfaces that can safely guide patient research without increasing the risk of misinformation or 'hallucinated' diagnoses.",
+      "source": "NYT / STAT News",
       "tags": [
-        "Clinical Trials",
-        "Regulatory",
-        "Digital Twins"
+        "Clinical",
+        "Patient Care",
+        "Diagnostics"
       ],
       "cluster": "Healthcare Systems",
-      "date": "April 1, 2026",
-      "url": "https://www.dataiku.com/blog/3-ai-trends-reshaping-healthcare-2026"
+      "date": "April 2, 2026",
+      "url": "https://www.nytimes.com/2026/04/02/well/live/ai-illness-claude-chatgpt.html"
     },
     {
-      "headline": "Agentic AI Automates Regulated Healthcare Workflows",
-      "summary": "A second major trend for 2026 is the deployment of autonomous agentic systems within regulated environments. Unlike the chatbots of 2024, these 2026 agents utilize Large Action Models (LAMs) to orchestrate complex workflows across fragmented systems, such as Laboratory Information Management Systems (LIMS) and Quality Management Systems (QMS). \n\nIn clinical operations, these agents are being used to automate prior authorization, eligibility checks, and clinical note grading. For instance, UT Southwestern has prototyped systems that analyze recorded video of medical exams to provide narrative feedback, replacing over 91% of human grading efforts. \n\nWhy it matters: The shift from 'human-in-the-loop' to 'human-on-the-loop' oversight presents new safety challenges. Experts warn that while these agents increase efficiency, they must be better at recognizing their own limits and escalating 'edge cases' to human physicians to avoid clinical errors.",
-      "source": "STAT News / Dallas Innovates",
+      "headline": "OpenAI Foundation Pledges $1B for Life Sciences",
+      "summary": "The OpenAI Foundation, led by Bret Taylor, has announced a strategic pivot, renaming its 'Health & Curing Diseases' program to 'Life Sciences' to reflect a broader focus on biology and medical research. The foundation expects to invest at least $1 billion over the next year into areas including drug discovery, genomic research, and AI resilience. This is part of a larger $25 billion long-term commitment to curing major diseases through the application of AGI.\n\nKey leadership appointments accompany this shift: Anna Makanju (formerly VP of Global Impact) will head AI for Civil Society and Philanthropy, while Robert Kaiden (formerly of Deloitte and Twitter) joins as CFO. The foundation aims to leverage OpenAI's frontier models to accelerate the 'magic cycle' of research breakthroughs, moving from theoretical biology to real-world clinical impact. This includes early-stage grants for nonprofits and NGOs working on global health challenges.\n\nWhy it matters: By moving beyond simple 'healthcare' into 'life sciences,' OpenAI is positioning itself as a foundational infrastructure provider for the next generation of biotech. For pharma executives, this signals that OpenAI is no longer just a software partner but a major philanthropic and research force in the lab.",
+      "source": "OpenAI Blog",
       "tags": [
-        "Agentic AI",
-        "Operations",
-        "Clinical Safety"
+        "Life Sciences",
+        "Philanthropy",
+        "Research"
       ],
-      "cluster": "Healthcare Systems",
-      "date": "April 3, 2026",
-      "url": "https://www.statnews.com/2026/01/15/medical-ai-safety-research-fda-cds/"
+      "cluster": "OpenAI",
+      "date": "March 24, 2026",
+      "url": "https://openai.com/blog/update-on-the-openai-foundation"
     }
   ],
   "techStories": [
     {
-      "headline": "Anthropic Restricts Claude Subscriptions in Ecosystem Crackdown",
-      "summary": "Anthropic has officially ended third-party access to its Claude models via subscription authentication, effective April 4, 2026. The move specifically targets open-source tools like OpenClaw and OpenCode, which allowed users to route high-volume agentic requests through a flat-rate $200/month Claude Max subscription instead of paying significantly higher API costs. \n\nUsers must now migrate to the official pay-as-you-go API or use Anthropic's own 'Claude Code' environment, which remains included in subscriptions. The company cited 'outsized strain' on compute resources and the need to prioritize customers using core products. \n\nWhy it matters: This marks the end of 'subsidized' compute for third-party automation. Developers face cost increases of up to 50x for heavy usage. It signals a broader industry trend where AI labs are asserting control over the UI/UX layer to collect telemetry and manage margins as they prepare for public listings.",
-      "source": "VentureBeat / TNW",
-      "tags": [
-        "Policy",
-        "Developer Tools",
-        "Economics"
-      ],
-      "cluster": "Anthropic",
-      "date": "April 4, 2026",
-      "url": "https://venturebeat.com/ai/anthropic-cuts-off-claude-subscriptions-openclaw/"
-    },
-    {
-      "headline": "Google Releases Gemma 4: Frontier Reasoning on Device",
-      "summary": "Google DeepMind has launched Gemma 4, a new family of open-weights models (sizes E2B to 31B) designed for advanced reasoning and agentic workflows. The models feature an integrated 'Thinking' mode, allowing them to process complex problems step-by-step before answering. \n\nThe 31B Dense model currently ranks #3 on the Arena AI leaderboard, outperforming models many times its size. Notably, the E2B and E4B variants are optimized for mobile and IoT, running completely offline on devices like the Pixel and NVIDIA Jetson with near-zero latency. \n\nWhy it matters: Gemma 4 brings 'frontier-class' reasoning to local hardware under an Apache 2.0 license. This enables developers to build highly capable, private AI agents that don't rely on cloud APIs, drastically reducing latency and data privacy concerns for enterprise applications.",
+      "headline": "Google Releases Gemma 4: Open-Source Reasoning Peak",
+      "summary": "Google DeepMind has launched Gemma 4, a new family of open-weights models built on the Gemini 3 architecture. The release includes four sizes: Effective 2B (E2B), Effective 4B (E4B), a 26B Mixture of Experts (MoE), and a 31B Dense model. Notably, the 31B variant has already secured the #3 spot on the industry-standard Arena AI leaderboard, outperforming models significantly larger than itself. The models are released under the OSI-approved Apache 2.0 license, marking a major win for the open-source community.\n\nThe 'Effective' variants are specifically engineered for mobile and IoT devices, featuring native support for multimodal inputs (audio/vision) and 'Thinking' modes that allow for step-by-step reasoning. These models are designed to power autonomous agents that can perform function calling and interact with third-party tools entirely on-device. The context window has also been expanded, reaching up to 256K tokens for the larger models, enabling the processing of entire codebases in a single prompt.\n\nWhy it matters: Gemma 4 bridges the gap between proprietary frontier models and local, private execution. For developers, it provides a high-reasoning engine that can run on a single GPU or even a high-end smartphone, reducing reliance on expensive cloud APIs for complex agentic tasks.",
       "source": "Google DeepMind Blog",
       "tags": [
         "Models",
@@ -53,26 +40,39 @@
       ],
       "cluster": "Google / DeepMind",
       "date": "April 2, 2026",
-      "url": "https://blog.google/technology/developers/gemma-4-open-models/"
+      "url": "https://blog.google/technology/ai/gemma-4-open-models/"
     },
     {
-      "headline": "OpenAI Acquires TBPN to Drive 'AGI for Humanity' Conversation",
-      "summary": "OpenAI has acquired TBPN (The Builders Podcast Network), bringing in a team of editorial experts to lead its communication strategy. CEO of Applications Fidji Simo stated that the standard 'comms playbook' no longer applies as OpenAI drives a massive technological shift. \n\nWhile TBPN will maintain editorial independence, the move is designed to create a space for 'constructive conversation' about AI's impact. This follows OpenAI's recent $122 billion funding round and a strategic pivot away from high-cost experimental apps like Sora toward revenue-generating enterprise tools and 'shopping mall' integrations for ChatGPT. \n\nWhy it matters: OpenAI is positioning itself as the 'Voice of AI,' moving beyond a pure tech provider to a media and discovery platform. This vertical integration suggests OpenAI wants to control the narrative and the user discovery layer as it prepares for a potential IPO.",
-      "source": "OpenAI Blog / MediaPost",
+      "headline": "Anthropic 'Mythos' Leak Reveals Cyber-Agent Risks",
+      "summary": "A draft blog post mistakenly published by Anthropic has revealed details about an upcoming model codenamed 'Mythos.' The post warns that Mythos possesses 'unprecedented' capabilities in exploiting software vulnerabilities, outpacing current human-led defensive efforts. Anthropic has reportedly been privately briefing government officials and cybersecurity researchers, providing early access to the model to help build better defensive 'immune systems' before a wider release.\n\nThe leak also detailed internal tools for 'agentic' software engineering, suggesting that Mythos is designed to act as an autonomous hacker or security auditor. This follows a separate incident where nearly 2,000 internal files from Anthropic's 'Claude Code' project were briefly exposed on GitHub due to a packaging error. These leaks have raised concerns about internal security protocols at a company that prides itself on AI safety and alignment.\n\nWhy it matters: The 'Mythos' revelation confirms that the next generation of AI models will be dual-use in the extreme. While they can automate security patching, they also lower the barrier for sophisticated, large-scale cyberattacks. Organizations must now prepare for 'agentic' threats that can scan and exploit networks at machine speed.",
+      "source": "The Information / The Guardian",
       "tags": [
-        "M&A",
-        "Strategy",
-        "Enterprise"
+        "Cybersecurity",
+        "Safety",
+        "Agents"
+      ],
+      "cluster": "Anthropic",
+      "date": "April 2, 2026",
+      "url": "https://www.theguardian.com/technology/2026/apr/01/anthropic-claude-code-leak"
+    },
+    {
+      "headline": "OpenAI Pivots to Enterprise; Sora Discontinued",
+      "summary": "In a major strategic recalibration, OpenAI is reportedly discontinuing its Sora video-generation app and other consumer-facing experimental features to focus entirely on enterprise productivity and agentic workflows. This shift comes as the company prepares for a potential IPO, with current monthly revenues hitting $2 billion. The company is prioritizing 'ChatGPT for Enterprise' and its new 'Frontier' platform, which integrates chat, coding, and autonomous agent capabilities into a unified 'Super App.'\n\nLeadership changes reflect this new direction: Brad Lightcap is moving from COO to lead 'Special Projects' focused on enterprise software sales, while Denise Dresser (Chief Revenue Officer) takes on expanded operational duties. The company recently secured a record $122 billion funding round, valuing it at approximately $852 billion. This capital is being funneled into massive infrastructure projects, including a partnership with Amazon to build stateful runtime environments for AI agents.\n\nWhy it matters: OpenAI is maturing from a research lab into a global software conglomerate. The abandonment of Sora suggests that 'creative' AI is being deprioritized in favor of 'functional' AI that drives corporate ROI. For business leaders, this means more stable, integrated, and powerful tools for automating core business processes.",
+      "source": "Bloomberg / OpenAI Blog",
+      "tags": [
+        "Business",
+        "Enterprise",
+        "Strategy"
       ],
       "cluster": "OpenAI",
-      "date": "April 2, 2026",
-      "url": "https://openai.com/news/openai-acquires-tbpn/"
+      "date": "April 4, 2026",
+      "url": "https://openai.com/news/leadership-updates-2026"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "AI still lacks a true 'mental model' of the physical world. LLMs are the modern printing press—great for retrieval, but they don't 'understand' physics. We need world models that learn by observation, not just token prediction.",
+      "content": "The obsession with 'scaling' autoregressive LLMs is hitting a wall of diminishing returns for true reasoning. Gemma 4 is impressive, but we are still just building better 'statistical mimics.' The path to AGI requires world models that understand cause and effect, not just the next token. #JEPA #AIResearch",
       "authorName": "Yann LeCun",
       "date": "Today",
       "type": "Opinion",
@@ -80,7 +80,7 @@
     },
     {
       "handle": "@AndrewYNg",
-      "content": "I'm seeing a lot of job insecurity across the industry. The key is moving from 'GenAI as a chatbot' to 'GenAI as an agentic workflow.' If you can build agents that use tools, you are the most valuable person in the room right now.",
+      "content": "I'm seeing a lot of 'job insecurity' talk lately. My take: AI won't replace people, but people using AI will replace people who don't. The rise of 'Agentic Workflows' means your job is shifting from 'doing the task' to 'managing the agent that does the task.' Get skilled now. #TheBatch",
       "authorName": "Andrew Ng",
       "date": "Yesterday",
       "type": "Opinion",
@@ -88,7 +88,7 @@
     },
     {
       "handle": "@karpathy",
-      "content": "The 'Thinking' mode in Gemma 4 is a huge step for local LLMs. We are moving from 'fast, intuitive' System 1 thinking to 'slow, deliberate' System 2 reasoning. This is how we get to reliable agents.",
+      "content": "The Claude Code leak is a fascinating 'peek under the hood' of how modern agents are actually built. It's not just a prompt; it's a massive scaffolding of state management, tool-use loops, and self-correction logic. The 'software' part of AI is becoming as complex as the 'model' part.",
       "authorName": "Andrej Karpathy",
       "date": "2 days ago",
       "type": "Research",
@@ -98,7 +98,7 @@
   "googlePocItems": [
     {
       "title": "Serverless RAG with Vertex AI Engine",
-      "description": "Build a fully managed Retrieval-Augmented Generation (RAG) system without provisioning databases.",
+      "description": "Build a fully managed Retrieval-Augmented Generation (RAG) system that scales automatically without managing underlying databases.",
       "tools": [
         "Vertex AI",
         "RAG Engine",
@@ -107,106 +107,113 @@
       "skills": [
         "Serverless Architecture",
         "Vector Search",
-        "Knowledge Retrieval"
+        "Context Engineering"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Initialize RAG Corpus",
-          "instruction": "Create a new RAG corpus in serverless mode to automatically handle scaling and storage.",
-          "codeSnippet": "from google.cloud import aiplatform_v1\n\nclient = aiplatform_v1.IndexServiceClient()\n# Define corpus with serverless_mode=True"
+          "stepTitle": "Enable RAG Engine API",
+          "instruction": "Navigate to the Google Cloud Console and enable the Vertex AI RAG Engine API. Ensure your service account has the 'Vertex AI User' role."
         },
         {
-          "stepTitle": "Import Healthcare Documents",
-          "instruction": "Upload PDF clinical guidelines to the corpus. The engine will automatically chunk and embed the data.",
-          "codeSnippet": "rag_file = client.import_rag_files(parent=corpus_id, gcs_source='gs://hc-docs/guidelines.pdf')"
+          "stepTitle": "Create a Serverless Corpus",
+          "instruction": "Use the Vertex AI SDK to create a new RAG corpus in 'Serverless' mode. This abstracts away the need to provision Spanner or Vector Search indexes manually.",
+          "codeSnippet": "from google.cloud import aiplatform_v1\n\nclient = aiplatform_v1.RagServiceClient()\ncorpus = client.create_rag_corpus(\n    parent=\"projects/my-project/locations/us-central1\",\n    rag_corpus=aiplatform_v1.RagCorpus(display_name=\"MedicalDocs\"),\n    # Serverless is now the default in preview\n)"
         },
         {
-          "stepTitle": "Query with Gemini",
-          "instruction": "Use the RAG retrieval tool to answer questions based on the uploaded documents.",
-          "codeSnippet": "response = model.generate_content(\n    'What is the recommended dosage for drug X?',\n    tools=[rag_tool]\n)"
+          "stepTitle": "Ingest and Query",
+          "instruction": "Upload your documents (PDFs/Text) to the corpus. The engine handles embedding and indexing automatically. Query using the 'retrieve' method.",
+          "codeSnippet": "response = client.retrieve_contexts(\n    rag_corpus=corpus.name,\n    query=\"What are the latest protocols for hypertension?\",\n    vector_distance_threshold=0.5\n)"
         }
       ],
-      "date": "April 3, 2026",
+      "date": "April 6, 2026",
       "prerequisites": [
         "Google Cloud Project",
-        "Vertex AI API enabled"
+        "Python 3.10+",
+        "Vertex AI SDK installed"
       ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/rag-overview"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/rag-engine/overview"
     },
     {
-      "title": "On-Device Medical Assistant with Gemma 4",
-      "description": "Deploy a private, offline medical reasoning agent on a mobile device using Gemma 4 E2B.",
+      "title": "Edge Reasoning with Gemma 4 & MediaTek",
+      "description": "Deploy a high-reasoning agent on a mobile device using Gemma 4 Effective 2B for offline medical document analysis.",
       "tools": [
         "Gemma 4 E2B",
-        "MediaPipe",
-        "TensorFlow Lite"
+        "MediaTek NeuroPilot",
+        "Android Studio"
       ],
       "skills": [
-        "Edge AI",
+        "On-device AI",
         "Quantization",
         "Local Reasoning"
       ],
       "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Download Quantized Gemma 4",
-          "instruction": "Fetch the 4-bit quantized Gemma 4 E2B model from Hugging Face for mobile efficiency.",
-          "codeSnippet": "huggingface-cli download google/gemma-4-e2b-it-q4"
+          "stepTitle": "Download Gemma 4 E2B",
+          "instruction": "Download the Gemma 4 Effective 2B weights from Hugging Face. Ensure you select the 4-bit quantized version for mobile compatibility."
         },
         {
-          "stepTitle": "Configure MediaPipe LLM Inference",
-          "instruction": "Set up the MediaPipe task to run the model locally on Android/iOS.",
-          "codeSnippet": "val options = LlmInferenceOptions.builder()\n    .setModelPath(modelPath)\n    .setContextWindow(256000)\n    .build()"
+          "stepTitle": "Convert to TFLite/ExecuTorch",
+          "instruction": "Use the Google AI Edge tools to convert the weights into a format compatible with mobile NPUs (Neural Processing Units).",
+          "codeSnippet": "python -m ai_edge_torch.convert --model_id gemma-4-e2b --output_path gemma4.tflite"
         },
         {
-          "stepTitle": "Enable 'Thinking' Mode",
-          "instruction": "Prompt the model to use its internal reasoning chain for complex medical logic.",
-          "codeSnippet": "assistant.query('<thought>Analyze these symptoms step-by-step: ...</thought>')"
+          "stepTitle": "Implement Local Tool-Use",
+          "instruction": "Configure the model to use local Android APIs (like Calendar or Contacts) via the new native function-calling support in Gemma 4."
         }
       ],
-      "date": "April 2, 2026",
+      "date": "April 6, 2026",
       "prerequisites": [
-        "Android Studio or Xcode",
-        "Gemma 4 weights"
+        "Hugging Face Account",
+        "Android device with NPU",
+        "Google AI Edge SDK"
       ],
-      "sourceUrl": "https://huggingface.co/blog/gemma-4-release"
+      "sourceUrl": "https://blog.google/technology/developers/gemma-4-edge-ai/"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "Learning at Inference: Test-Time Training (TTT-E2E)",
-      "summary": "The latest edition of 'The Batch' highlights a breakthrough in handling long-context windows. Researchers have developed Test-Time Training End-to-End (TTT-E2E), a method that retrains model weights during the inference phase to handle massive inputs. Traditionally, LLMs lose accuracy and slow down as context grows. TTT-E2E allows the model to maintain stable accuracy and constant inference time even as the context window expands to millions of tokens. Andrew Ng notes that this 'recursive' approach to context management is a significant step toward agents that can 'remember' and reason over entire codebases or medical histories without the 'lost in the middle' phenomenon.",
+      "title": "LLMs Learn at Inference: The TTT-E2E Breakthrough",
+      "summary": "A recent research highlight in 'The Batch' explores Test-Time Training End-to-End (TTT-E2E), a method that allows Large Language Models to retrain their own weights during the inference process. Traditionally, LLMs become less accurate and significantly slower as context windows grow. TTT-E2E solves this by treating the hidden state of the model as a machine learning model itself, updating it as it processes new information. This allows the model to maintain constant inference speed and stable accuracy even as the context reaches millions of tokens.\n\nAndrew Ng notes that this is a 'pivotal shift' in how we think about model memory. Instead of just 'reading' a long document, the model is effectively 'learning' it in real-time. This has massive implications for long-form tasks like legal discovery or multi-day coding projects where the model must remain 'sharp' over vast amounts of data. Ng emphasizes that 'test-time compute' is the new frontier of AI scaling, moving beyond just making models bigger during the initial training phase.",
       "url": "https://www.deeplearning.ai/the-batch/issue-241/",
       "category": "The Batch",
-      "author": "The Batch Team",
+      "author": "Andrew Ng",
       "date": "April 3, 2026"
     },
     {
-      "title": "OpenAI's Strategic Retreat from Video",
-      "summary": "In a surprising move, OpenAI has announced it will shut down Sora, its high-profile video generation model. 'The Batch' analyzes this as a 'cold calculation of margins.' While Sora was a technical marvel, the compute costs were unsustainable for a company pivoting toward an IPO. Andrew Ng comments that this reflects a broader industry shift: the era of 'subsidized innovation' is ending. Companies are now prioritizing 'scalable productivity'—tools like coding agents and enterprise search—over high-cost creative tools. This opens a massive gap for smaller, specialized video AI startups to fill the void left by Sora.",
-      "url": "https://www.deeplearning.ai/the-batch/openai-exits-video/",
-      "category": "Research Highlight",
+      "title": "The Rise of 'Voice-First' AI Interfaces",
+      "summary": "In this week's editorial, Andrew Ng discusses the rapid improvement of voice-based AI, such as Gemini 3.1 Flash Live and OpenAI's Realtime API. He argues that most people still underestimate how pervasive voice UIs will become. As latency drops below 300ms (the threshold for natural human conversation), AI assistants will move from 'chatbots' to 'conversational partners.'\n\nNg highlights that the technical challenge has shifted from speech-to-text (STT) to 'native multimodality,' where the model processes audio directly without an intermediate text step. This allows the AI to understand tone, emotion, and interruptions. He predicts that by the end of 2026, voice will be the primary way we interact with AI agents for daily tasks, from scheduling meetings to real-time language translation. For developers, the message is clear: start building 'voice-first' rather than 'voice-as-an-add-on.'",
+      "url": "https://www.deeplearning.ai/the-batch/voice-ui-future/",
+      "category": "The Batch",
       "author": "Andrew Ng",
       "date": "April 3, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Holo3: Autonomous Enterprise Agent Guide",
+      "title": "TRL v1.0: The Post-Training Library",
       "provider": "Hugging Face",
-      "summary": "A tutorial on using Holo3, a 10B parameter model that sets a new state-of-the-art for 'computer use' benchmarks. Learn to build agents that navigate desktop environments.",
-      "url": "https://huggingface.co/blog/holo3-computer-use",
-      "type": "Tutorial",
+      "summary": "A comprehensive library for fine-tuning LLMs using Reinforcement Learning from Human Feedback (RLHF) and Direct Preference Optimization (DPO). Version 1.0 introduces 'Agent Lightning' for training agents in complex environments.",
+      "url": "https://huggingface.co/blog/trl-v1",
+      "type": "Tool",
       "difficulty": "Intermediate"
     },
     {
-      "title": "Falcon Perception: Multimodal Scene Understanding",
-      "provider": "TII / Hugging Face",
-      "summary": "A deep dive into the Falcon Perception architecture, which uses early fusion and hybrid attention to achieve 80% accuracy on OCR tasks with only 0.3B parameters.",
-      "url": "https://huggingface.co/blog/falcon-perception",
-      "type": "Paper",
+      "title": "Building Governed AI Agents",
+      "provider": "OpenAI",
+      "summary": "A new practical guide in the OpenAI Cookbook focusing on 'Agentic Scaffolding.' It teaches how to build guardrails and evaluation loops to ensure autonomous agents operate safely within enterprise environments.",
+      "url": "https://cookbook.openai.com/examples/building_governed_agents",
+      "type": "Tutorial",
       "difficulty": "Advanced"
+    },
+    {
+      "title": "AgentScope 1.0: Developer-Centric Framework",
+      "provider": "Hugging Face",
+      "summary": "A new framework for building multi-agent applications. It provides unified interfaces for tool-based interactions and advanced infrastructure based on the ReAct paradigm.",
+      "url": "https://huggingface.co/papers/agentscope-1-0",
+      "type": "Paper",
+      "difficulty": "Intermediate"
     }
   ]
 }
