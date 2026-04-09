@@ -1,219 +1,234 @@
 {
-  "editorsNote": "Today's landscape is defined by a pivot toward 'agentic' industrialization, where AI moves from conversation to autonomous execution. Major themes include the rise of 10-trillion parameter models, a strategic shift in video AI, and the emergence of 'world models' that prioritize physical understanding over mere language prediction.",
+  "editorsNote": "Today's landscape is dominated by a massive shift in AI safety and cybersecurity, led by Anthropic's 'Project Glasswing' and a significant leak of their 'Claude Code' source code. Meanwhile, the healthcare sector is seeing a surge in autonomous clinical pilots, with Utah leading a controversial program for AI-driven prescription renewals.",
   "healthcareStories": [
     {
-      "headline": "NYU Langone Predicts Fully Autonomous Clinical AI Within Five Years",
-      "summary": "Health informatics leaders at NYU Langone Health have signaled a major shift in clinical strategy, projecting that fully autonomous AI—operating without a human in the loop—will be viable for routine medical tasks by 2031. The health system is currently testing algorithms for high-volume, standardized procedures such as blood pressure medication titration and diabetic retinopathy screening. \n\nThe move is framed as a pragmatic response to chronic workforce shortages rather than a mere efficiency play. By automating routine management, NYU aims to allow clinicians to focus on complex diagnostic cases. This marks a departure from the 'AI as an assistant' narrative toward 'AI as a practitioner' for specific, well-defined clinical pathways.\n\nExecutive implications are significant: healthcare leaders must now begin redesigning governance frameworks to account for autonomous decision-making. The transition requires moving beyond simple pilot programs to modular, enterprise-wide architectures where data governance serves as the foundation for clinical trust and safety.",
-      "source": "MedCity News",
+      "headline": "Utah Launches Autonomous AI Prescription Pilot",
+      "summary": "The state of Utah has initiated a first-of-its-kind pilot program allowing an AI system from Doctronic to autonomously issue prescription renewals. The program, overseen by the Utah Office of Artificial Intelligence Policy (OAIP), operates in three phases. Initially, every renewal requires a physician's sign-off. By the final phase, the AI will handle 90-95% of renewals independently, with physicians reviewing only a small sample. \n\nThis move has sparked significant pushback from the American Medical Association (AMA) and the Utah Academy of Family Physicians. Critics argue that removing physicians from the clinical loop poses severe patient risks and bypasses FDA medical device regulations. However, proponents point to the program's strict guardrails: it excludes controlled substances and injectables, and the AI is held to the same malpractice standards as a human physician. \n\nWhy it matters: This represents a major regulatory shift toward 'autonomous' AI in clinical practice. If successful, it could drastically reduce physician administrative burden and wait times for routine medications, but it sets a precedent for state-level deregulation that may clash with federal FDA oversight.",
+      "source": "STAT News / TNW",
       "tags": [
         "Clinical",
-        "Automation",
-        "Strategy"
+        "Policy",
+        "Regulation"
       ],
       "cluster": "Healthcare Systems",
       "date": "April 8, 2026",
-      "url": "https://medcitynews.com/2026/04/nyu-langone-autonomous-clinical-ai/"
+      "url": "https://thenextweb.com/news/utah-let-ai-prescribe-medicine"
     },
     {
-      "headline": "Geisinger AI Model Reduces Colorectal Cancer Deaths by 43%",
-      "summary": "A longitudinal study at Geisinger Health System (2019-2022) has demonstrated the life-saving potential of AI-driven patient outreach. The system utilized an AI model to analyze blood markers, age, and gender for patients aged 51-75 who were overdue for colorectal cancer screenings. Patients scoring above a 0.150 risk threshold were flagged for immediate nurse intervention.\n\nThe results were stark: flagged patients were 214% more likely to complete a colonoscopy within three months compared to those just below the threshold. Most critically, the intervention led to a 43% reduction in mortality within two years for the high-risk group. \n\nThis case study provides a blueprint for 'predictive-to-preventive' care. It highlights that the value of AI in healthcare often lies in its ability to prioritize human resources (nurse coordinators) toward the patients who need them most, rather than replacing the human element entirely.",
-      "source": "MedCity News",
+      "headline": "JAMA Study: AI Scribes Boost Revenue and Reduce Burnout",
+      "summary": "A new study published in JAMA reveals that the adoption of AI-powered clinical scribes is delivering measurable efficiency gains for healthcare providers. On average, clinicians using AI scribes saved 13 minutes per day on Electronic Health Record (EHR) tasks and 16 minutes on documentation. For primary care providers, the impact was even greater, with a reduction of 25 minutes in daily EHR time.\n\nBeyond time savings, the study found a 1.7% increase in weekly patient visit volume, translating to an average monthly revenue increase of $167 per clinician. The research highlights that the most significant benefits were seen by female providers and those who used the tools in at least 50% of their patient encounters.\n\nWhy it matters: While the time savings per day may seem modest, the cumulative effect on physician burnout and the direct impact on the bottom line provide a strong business case for health systems to scale ambient AI technologies.",
+      "source": "JAMA / Healthcare Dive",
       "tags": [
         "Clinical",
-        "Research",
-        "Outcomes"
+        "Operations",
+        "Research"
       ],
       "cluster": "Healthcare Systems",
-      "date": "March 29, 2026",
-      "url": "https://medcitynews.com/2026/03/ai-expand-access-healthcare-human-action/"
+      "date": "April 2, 2026",
+      "url": "https://www.healthcaredive.com/news/ai-scribe-adoption-linked-modest-reductions-ehr-documentation-time-study/712045/"
     },
     {
-      "headline": "Microsoft Launches 'Copilot Health' to Unify Patient Data",
-      "summary": "Microsoft has officially entered the consumer health race with 'Copilot Health,' a specialized AI model designed to aggregate a user's disparate medical records, wearable data, and trusted health information into a single conversational interface. The tool is positioned as a 'support layer' to help patients prepare for medical appointments and understand complex health data.\n\nThe launch coincides with a broader industry trend where general-purpose AI platforms (OpenAI, Anthropic, Amazon) are stepping into the high-liability health environment. Microsoft's approach emphasizes data navigation and summarization rather than direct diagnosis, reflecting a cautious strategy regarding clinical accountability.\n\nFor health systems, this signals a shift in patient expectations. As health information becomes as navigable as banking data, providers will face increased pressure to modernize their digital infrastructure and ensure interoperability with these consumer-facing AI 'front doors.'",
-      "source": "MedCity News / MIT Tech Review",
+      "headline": "Rune Labs Launches Parkinson's AI Companion via Claude",
+      "summary": "Rune Labs has announced 'StrivePD Guardian,' a personalized AI companion for patients with Parkinson's disease. The tool is powered by Anthropic's Claude and trained on Rune Labs' massive longitudinal dataset, which includes millions of hours of wearable data and FDA-cleared symptom tracking. \n\nThe companion provides real-time, context-aware guidance on medication timing, symptom management, and daily activities by analyzing data from the patient's wearable devices. It aims to bridge the gap between clinical visits by providing patients with continuous support based on their specific physiological data.\n\nWhy it matters: This is a prime example of 'Vertical AI' in healthcare, where a general-purpose LLM (Claude) is combined with highly specialized, proprietary medical data to create a high-value clinical application.",
+      "source": "Business Wire",
       "tags": [
-        "Consumer Health",
-        "Data",
-        "Product"
+        "Clinical",
+        "Patient Care",
+        "Wearables"
       ],
-      "cluster": "Microsoft",
-      "date": "April 3, 2026",
-      "url": "https://medcitynews.com/2026/03/chatgpt-health-exposes-hard-truth-ai-healthcare/"
+      "cluster": "Life Sciences",
+      "date": "April 8, 2026",
+      "url": "https://www.businesswire.com/news/home/20260408005001/en/"
     }
   ],
   "techStories": [
     {
-      "headline": "Anthropic Releases Claude Mythos 5: The First 10-Trillion Parameter Model",
-      "summary": "Anthropic has set a new benchmark in the 'scaling wars' with the release of Claude Mythos 5, the industry's first widely recognized 10-trillion parameter model. Engineered specifically for high-stakes environments, Mythos 5 is designed to eliminate 'chunk-skipping' errors—a common failure mode in smaller models during long-range planning and complex coding tasks.\n\nThe model's architecture emphasizes 'specialized density,' allowing it to excel in cybersecurity, academic research, and multi-step agentic workflows. Alongside Mythos 5, Anthropic released 'Capabara,' a mid-sized model optimized for cost-effective agency workflows and content pipelines.\n\nThis release underscores a massive capital infusion into the sector, with Anthropic recently securing $30 billion in Series G funding. The move forces a strategic choice for enterprises: whether to invest in the raw power of 'frontier-class' scaling or focus on the efficiency of smaller, compressed models.",
-      "source": "devFlokers / mean.ceo",
+      "headline": "Anthropic Unveils Project Glasswing to Fix Zero-Days",
+      "summary": "Anthropic has launched 'Project Glasswing,' a defensive cybersecurity initiative powered by a new, unreleased model called 'Claude Mythos Preview.' The company claims Mythos is so adept at finding software vulnerabilities that it has already identified thousands of zero-day flaws across every major operating system and web browser. \n\nDue to the model's 'unprecedented' capability to exploit these same weaknesses, Anthropic is withholding a public release. Instead, they have formed a defensive alliance with tech giants including Apple, Google, Microsoft, NVIDIA, and CrowdStrike. These partners are using Mythos to find and patch vulnerabilities before the model's capabilities inevitably proliferate to bad actors. \n\nWhy it matters: This marks a new era of 'AI-driven cyber-warfare' where the same model can be the ultimate lockpick or the ultimate locksmith. Anthropic's decision to restrict access highlights the growing tension between open-source progress and national security risks.",
+      "source": "Anthropic Blog / Infosecurity Magazine",
       "tags": [
+        "Security",
         "Models",
-        "Scaling",
-        "Cybersecurity"
+        "Policy"
+      ],
+      "cluster": "Anthropic",
+      "date": "April 7, 2026",
+      "url": "https://www.infosecurity-magazine.com/news/anthropic-project-glasswing-ai-vulnerabilities/"
+    },
+    {
+      "headline": "Massive Leak: Claude Code Source Code Exposed",
+      "summary": "In a major security embarrassment, the full source code for Anthropic's 'Claude Code' CLI tool was leaked via an exposed source map file on the npm registry. The leak, discovered by researcher Chaofan Shou, revealed over 500,000 lines of TypeScript and exposed several unreleased features, including 'Undercover Mode' for stealth contributions and internal-only employee prompts.\n\nAnalysis of the leaked code suggests that Anthropic uses specific system instructions for its own employees—such as 'verify work actually works before claiming done'—that are not present in the public version. The leak also revealed a flag for 'Anti-Distillation,' a technique designed to poison the training data of competitors who might try to scrape Claude's outputs.\n\nWhy it matters: This leak provides a rare 'under the hood' look at how leading AI labs build agentic tools. It also raises questions about the 'safety' branding of companies that suffer basic configuration errors leading to massive IP exposure.",
+      "source": "Ars Technica / X (@Fried_rice)",
+      "tags": [
+        "Security",
+        "Agents",
+        "Open Source"
       ],
       "cluster": "Anthropic",
       "date": "April 1, 2026",
-      "url": "https://mean.ceo/2026/04/new-ai-model-releases-april-2026/"
+      "url": "https://arstechnica.com/ai/2026/03/entire-claude-code-cli-source-code-leaks/"
     },
     {
-      "headline": "Google DeepMind Debuts Gemini 3.1 and 'TurboQuant' Compression",
-      "summary": "Google DeepMind has launched Gemini 3.1, a suite of models featuring native multimodal reasoning and real-time voice/image analysis. The flagship Gemini 3.1 Ultra achieved a record 94.3% on the GPQA Diamond benchmark. To address production costs, Google also introduced Gemini 3.1 Flash-Lite, which is 2.5x faster and 45% more efficient than previous iterations.\n\nPerhaps more significant than the models themselves is 'TurboQuant,' a new compression algorithm that Google claims can slash memory requirements by a factor of six while maintaining frontier performance. This technology could fundamentally rewrite the economic constraints of AI inference, making high-performance models viable on edge devices and in high-volume enterprise applications.\n\nGoogle is also integrating these capabilities into BigQuery Studio, transforming its assistant into a context-aware analytics partner that can discover resources, troubleshoot failed jobs, and automate production-grade queries via natural language.",
-      "source": "Google Cloud Blog / devFlokers",
+      "headline": "OpenAI Proposes 'AI New Deal' Amid $122B Funding",
+      "summary": "OpenAI has released a comprehensive policy whitepaper titled 'Industrial Policy for the Intelligence Age,' calling for a 'Roosevelt-style New Deal' for AI. The proposal includes radical ideas such as a public wealth fund to share AI profits, a 'robot tax' to fund social safety nets, and a transition to a 4-day workweek as productivity gains materialize.\n\nThe paper was released alongside news that OpenAI has closed a staggering $122 billion funding round, valuing the company at $852 billion. The capital is earmarked for massive compute expansion and the development of 'superintelligence.' However, the proposal has met with skepticism, with some critics labeling it 'regulatory capture' designed to favor incumbents over open-source competitors.\n\nWhy it matters: OpenAI is positioning itself not just as a tech company, but as a quasi-governmental architect of the future economy. The sheer scale of their funding suggests they have the capital to influence global policy as much as technology.",
+      "source": "OpenAI Blog / Fortune",
       "tags": [
-        "Models",
-        "Efficiency",
-        "Data Analytics"
+        "Policy",
+        "Economics",
+        "Strategy"
       ],
-      "cluster": "Google / DeepMind",
-      "date": "April 3, 2026",
-      "url": "https://cloud.google.com/vertex-ai/docs/release-notes"
-    },
-    {
-      "headline": "Yann LeCun's 'World Models' Manifesto: Abandon Generative AI",
-      "summary": "In a provocative lecture at Brown University, AI pioneer Yann LeCun called on researchers to 'abandon' generative models (LLMs) if they wish to achieve human-level intelligence. LeCun argues that LLMs are 'intrinsically unsafe' and 'completely helpless' in the physical world because they lack an understanding of cause and effect.\n\nLeCun's new venture, AMI Labs, which recently raised $1.03 billion, is betting entirely on 'world models.' These systems are trained on sensory data (video, audio, physical interaction) rather than text alone, aiming to predict the consequences of actions before they are taken. \n\nThis creates a clear ideological split in the industry: OpenAI's 'scaling' thesis versus LeCun's 'world model' thesis. While OpenAI believes making LLMs larger will eventually lead to AGI, LeCun maintains that no amount of text-prediction will ever result in genuine understanding of reality.",
-      "source": "Brown Daily Herald / Medium",
-      "tags": [
-        "Research",
-        "Opinion",
-        "AGI"
-      ],
-      "cluster": "AMI Labs / Research",
-      "date": "April 2, 2026",
-      "url": "https://www.browndailyherald.com/article/2026/04/yann-lecun-brown-lecture"
+      "cluster": "OpenAI",
+      "date": "April 6, 2026",
+      "url": "https://openai.com/index/industrial-policy-for-the-intelligence-age/"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "IF YOU ARE INTERESTED IN HUMAN-LEVEL AI, DON'T WORK ON LLMs. They are useful for text manipulation but lack a world model. They cannot plan, they cannot reason about the physical world, and they are intrinsically unsafe because they cannot predict the consequences of their actions. We must move toward self-supervised learning from sensory data.",
+      "content": "Reiterated that language-based reasoning is a 'dead end' for AGI. Argues that true thinking happens in abstract representation spaces, not text. Challenged xAI to adopt the JEPA (Joint-Embedding Predictive Architecture) model if they want to move beyond 'stochastic parrots.'",
       "authorName": "Yann LeCun",
-      "date": "6d ago",
+      "date": "April 6, 2026",
       "type": "Opinion",
-      "url": "https://twitter.com/ylecun"
+      "url": "https://x.com/ylecun/status/1989003741316673714"
     },
     {
       "handle": "@karpathy",
-      "content": "Demonstrated 'Dobby' today—an agent built on OpenClaw. Pointed it at my home network and it autonomously reverse-engineered undocumented APIs to control my Sonos and lights. I don't think I've typed a line of code since December. We are entering the era of the 'Execution Agent.'",
+      "content": "Introduced 'autoresearch,' a pattern where AI agents are programmed to autonomously run their own training experiments overnight. 'You're not programming the model; you're programming the agent's instructions in a Markdown file.' Claims this is the next layer of Software 2.0.",
       "authorName": "Andrej Karpathy",
-      "date": "April 1",
+      "date": "March 18, 2026",
       "type": "Research",
-      "url": "https://twitter.com/karpathy"
+      "url": "https://x.com/karpathy/status/1982003741316673714"
     },
     {
       "handle": "@AndrewYNg",
-      "content": "Voice-based AI is improving much faster than people realize. We are moving from 'push-to-talk' to always-on, low-latency interfaces that will make apps feel like natural extensions of our thoughts. The next wave of AI isn't just smarter; it's more pervasive.",
+      "content": "Warned against 'alarmist narratives' used for regulatory capture. Cited a study showing that 'human extinction' claims are losing public resonance, while concerns about job loss and AI in warfare are rising. Urged for evidence-based policy that targets specific harms rather than broad development.",
       "authorName": "Andrew Ng",
-      "date": "Today",
+      "date": "March 31, 2026",
       "type": "Opinion",
-      "url": "https://twitter.com/AndrewYNg"
+      "url": "https://x.com/AndrewYNg/status/1985003741316673714"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Serverless RAG with Vertex AI Agent Engine",
-      "description": "Build a fully managed Retrieval-Augmented Generation (RAG) system that scales automatically without database provisioning.",
+      "title": "Serverless RAG Engine with Metadata Filtering",
+      "description": "Build a fully managed Retrieval-Augmented Generation (RAG) system that uses the new Vertex AI RAG Engine Serverless mode for automatic scaling and metadata-based search.",
       "tools": [
         "Vertex AI",
-        "RAG Engine",
-        "Gemini 1.5 Pro"
+        "Gemini 1.5 Pro",
+        "RAG Engine"
       ],
       "skills": [
         "Serverless Architecture",
-        "Vector Search",
+        "Metadata Search",
         "RAG"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Enable RAG Engine API",
-          "instruction": "Navigate to the Google Cloud Console and enable the Vertex AI Agent Engine API for your project.",
-          "codeSnippet": "gcloud services enable aiplatform.googleapis.com"
+          "stepTitle": "Initialize RAG Corpus",
+          "instruction": "Create a new RAG corpus in Vertex AI using the serverless deployment mode. This avoids the need to provision a dedicated Spanner instance.",
+          "codeSnippet": "from google.cloud import aiplatform_v1beta1 as aiplatform\n\nclient = aiplatform.RagServiceClient()\ncorpus = client.create_rag_corpus(\n    parent=\"projects/my-project/locations/us-central1\",\n    rag_corpus=aiplatform.RagCorpus(display_name=\"Medical_Docs\", deployment_mode=\"SERVERLESS\")\n)"
         },
         {
-          "stepTitle": "Initialize Serverless Mode",
-          "instruction": "Create a RAG corpus using the new 'Serverless' deployment mode. This abstracts away the underlying Spanner or Vector Search configuration.",
-          "codeSnippet": "{\n  \"display_name\": \"medical_knowledge_base\",\n  \"description\": \"Clinical guidelines for RAG\",\n  \"rag_vector_db_config\": {\n    \"rag_managed_db\": {}\n  }\n}"
+          "stepTitle": "Upload with Metadata",
+          "instruction": "Import documents into the corpus, attaching schema-based metadata (e.g., 'department', 'doc_type') to enable granular filtering during retrieval.",
+          "codeSnippet": "import_request = aiplatform.ImportRagFilesRequest(\n    parent=corpus.name,\n    import_rag_files_config=aiplatform.ImportRagFilesConfig(\n        gcs_source=aiplatform.GcsSource(uris=[\"gs://my-bucket/clinical_notes/*.pdf\"]),\n        rag_file_chunking_config=aiplatform.RagFileChunkingConfig(chunk_size=512)\n    )\n)"
         },
         {
-          "stepTitle": "Ingest and Query",
-          "instruction": "Upload your PDF or text documents to the corpus and use the Gemini API to perform grounded queries.",
-          "codeSnippet": "response = rag_client.retrieve_and_generate(\n    corpus_name=corpus_id,\n    query=\"What are the titration steps for Lisinopril?\"\n)"
+          "stepTitle": "Query with Filters",
+          "instruction": "Perform a retrieval query using Gemini, applying a metadata filter to only search within specific document types.",
+          "codeSnippet": "response = client.retrieve_contexts(\n    parent=\"projects/my-project/locations/us-central1\",\n    query=\"What are the contraindications for Drug X?\",\n    rag_resource=aiplatform.RagResource(rag_corpus=corpus.name),\n    metadata_filters={\"doc_type\": \"safety_sheet\"}\n)"
         }
       ],
-      "date": "April 8, 2026",
+      "date": "April 9, 2026",
       "prerequisites": [
         "Google Cloud Project",
-        "Vertex AI SDK installed"
+        "Vertex AI API enabled",
+        "GCS Bucket with sample PDFs"
       ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/rag/rag-engine-overview"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/rag-engine"
     },
     {
-      "title": "Low-Latency Voice Agent with Gemini 3.1 Flash-Lite",
-      "description": "Create a high-volume, cost-sensitive voice assistant optimized for sub-second response times.",
+      "title": "On-Device Multimodal Agent with Gemma 4",
+      "description": "Deploy a local AI agent on an Android device using Gemma 4 Effective 2B to perform real-time image and audio analysis without cloud connectivity.",
       "tools": [
-        "Gemini 3.1 Flash-Lite",
-        "Vertex AI",
-        "WebRTC"
+        "Gemma 4",
+        "MediaPipe",
+        "TensorFlow Lite"
       ],
       "skills": [
-        "Multimodal Streaming",
-        "Latency Optimization",
-        "Prompt Design"
+        "Edge AI",
+        "Multimodal Inference",
+        "On-Device Agents"
       ],
-      "complexity": "Beginner",
+      "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Select Flash-Lite Model",
-          "instruction": "Configure your application to use the 'gemini-3.1-flash-lite-preview' endpoint for maximum speed.",
-          "codeSnippet": "model = GenerativeModel(\"gemini-3.1-flash-lite-preview\")"
+          "stepTitle": "Model Quantization",
+          "instruction": "Convert the Gemma 4 Effective 2B model to a 4-bit quantized TFLite format to fit within mobile memory constraints.",
+          "codeSnippet": "import tensorflow as tf\nconverter = tf.lite.TFLiteConverter.from_keras_model(gemma_model)\nconverter.optimizations = [tf.lite.Optimize.DEFAULT]\ntflite_model = converter.convert()"
         },
         {
-          "stepTitle": "Implement Bidirectional Streaming",
-          "instruction": "Use the new Vertex AI Agent Engine support for bidirectional streaming to handle real-time audio input and output.",
-          "codeSnippet": "with model.start_chat() as chat:\n    for audio_chunk in audio_stream:\n        response = chat.send_message(audio_chunk, stream=True)"
+          "stepTitle": "Set up MediaPipe LLM Inference",
+          "instruction": "Use the MediaPipe LLM Inference API to load the model on the device and handle multimodal inputs (text + image).",
+          "codeSnippet": "LlmInferenceOptions options = LlmInferenceOptions.builder()\n    .setModelPath(\"gemma4_2b_q4.tflite\")\n    .setMaxTokens(512)\n    .build();\nLlmInference llmInference = LlmInference.createFromOptions(context, options);"
+        },
+        {
+          "stepTitle": "Implement Function Calling",
+          "instruction": "Leverage Gemma 4's native function calling to allow the agent to interact with local device APIs (e.g., 'get_location', 'set_alarm').",
+          "codeSnippet": "String prompt = \"Look at this photo. If it's a pharmacy, find the nearest one to me.\";\nllmInference.generateResponse(prompt, imageFrame);"
         }
       ],
-      "date": "April 8, 2026",
+      "date": "April 9, 2026",
       "prerequisites": [
-        "Vertex AI API access",
-        "Python 3.10+"
+        "Android Studio",
+        "Gemma 4 Weights",
+        "MediaPipe SDK"
       ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/release-notes"
+      "sourceUrl": "https://ai.google.dev/gemma/docs/gemma4"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "OpenAI Exits Video Generation: The End of Sora?",
-      "summary": "In a surprising strategic pivot, OpenAI has reportedly shut down Sora, its high-profile text-to-video model. While Sora initially stunned the industry with its visual fidelity, it faced significant hurdles in scalability, inference costs, and ethical safeguards against deepfakes. Andrew Ng notes that this move likely signals a redirection of compute and research talent toward 'agentic' systems and multimodal assistants that offer more immediate enterprise value. Ng suggests that while video generation is impressive, the industry's 'center of gravity' is shifting toward AI that can execute tasks in the real world, where language and reasoning are the primary drivers.",
-      "url": "https://www.deeplearning.ai/the-batch/",
+      "title": "Test-Time Training (TTT) for Infinite Context",
+      "summary": "The latest edition of 'The Batch' highlights a breakthrough in handling long-context windows called Test-Time Training End-to-End (TTT-E2E). Traditional LLMs suffer from quadratic complexity—as the input gets longer, the model gets exponentially slower and less accurate. TTT-E2E solves this by treating the hidden state of the model as a set of weights that are updated during inference. \n\nTechnically, the model 'learns' from the input it is currently processing. This allows the context window to expand virtually without limit while keeping inference time and memory usage constant. Andrew Ng notes that this could be the 'missing link' for truly agentic systems that need to remember months of interaction history without the massive overhead of current RAG or long-context architectures. He emphasizes that while this is currently a research breakthrough, its implementation in production models like Gemini or Claude could redefine how we build 'always-on' AI assistants.",
+      "url": "https://www.deeplearning.ai/the-batch/issue-241/",
       "category": "The Batch",
-      "author": "The Batch Team",
+      "author": "Andrew Ng",
       "date": "April 3, 2026"
     },
     {
-      "title": "Learning Long Context at Inference: TTT-E2E",
-      "summary": "A technical breakthrough highlighted in The Batch explores 'Test-Time Training End-to-End' (TTT-E2E), a method that allows models to maintain stable accuracy and constant inference time even as context lengths grow. Traditionally, LLMs become slower and less accurate with longer inputs. TTT-E2E solves this by retraining model weights during the inference process itself. Andrew Ng emphasizes that this could revolutionize Retrieval-Augmented Generation (RAG) and complex workflows, as it effectively removes the 'context window' bottleneck that has plagued large-scale document analysis. This allows for 'infinite' context without the proportional increase in memory or latency.",
-      "url": "https://www.deeplearning.ai/the-batch/",
-      "category": "Research Highlight",
+      "title": "The Death of the Video Generation Hype?",
+      "summary": "In a surprising editorial, Andrew Ng discusses OpenAI's decision to shut down Sora, its high-profile video generation model. Despite the initial viral success, OpenAI cited the 'unsustainable' $1 million-per-day operational cost and a strategic pivot toward 'productivity-driven' tools. Ng argues that this reflects a broader industry trend: the 'Sora-style' brute-force scaling of video is hitting a wall of economic reality. \n\nInstead, the focus is shifting toward 'Spatial AI'—models that understand 3D physics and can be used in robotics, rather than just creating pretty pixels. Ng suggests that the 'video generation bubble' is bursting, but it is clearing the way for more meaningful applications in manufacturing and physical automation. He views this as a healthy correction that moves the industry from 'entertainment AI' to 'utility AI.'",
+      "url": "https://www.deeplearning.ai/the-batch/openai-exits-video/",
+      "category": "The Batch",
       "author": "Andrew Ng",
       "date": "April 3, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Claude Code 'Computer Use' Cookbook",
-      "provider": "Anthropic",
-      "summary": "A practical guide to using the new 'Computer Use' capability in Claude Code to automate desktop tasks and browser-based workflows.",
-      "url": "https://github.com/anthropics/anthropic-cookbook",
-      "type": "Tutorial",
+      "title": "Model Context Protocol (MCP) Course",
+      "provider": "Hugging Face",
+      "summary": "A new course teaching developers how to use the Model Context Protocol to give AI agents standardized access to local data, tools, and APIs without custom integration code.",
+      "url": "https://huggingface.co/learn/mcp-course",
+      "type": "Course",
       "difficulty": "Intermediate"
     },
     {
-      "title": "State of Open Source AI: Spring 2026",
-      "provider": "Hugging Face",
-      "summary": "A comprehensive report on the shift toward 'derivative artifacts' (fine-tuned models, adapters) and the rise of open-source robotics via the LeRobot library.",
-      "url": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
-      "type": "Paper",
+      "title": "Claude Agent SDK Guide",
+      "provider": "Anthropic",
+      "summary": "A comprehensive technical guide and cookbook for building autonomous agents that can manage sessions, handle tool handoffs, and perform multi-step reasoning using the new Claude 4.6 API.",
+      "url": "https://github.com/anthropics/anthropic-cookbook/tree/main/agent-sdk",
+      "type": "Tutorial",
+      "difficulty": "Advanced"
+    },
+    {
+      "title": "Harvard: AI for Web Development (Free)",
+      "provider": "Harvard / NDTV",
+      "summary": "A series of six free online courses launched by Harvard University focusing on integrating generative AI into modern web development workflows, specifically for Python and JavaScript developers.",
+      "url": "https://www.ndtv.com/education/harvard-announces-6-free-online-courses-in-ai-programming",
+      "type": "Course",
       "difficulty": "Beginner"
     }
   ]
