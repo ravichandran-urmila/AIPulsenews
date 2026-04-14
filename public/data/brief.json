@@ -1,200 +1,202 @@
 {
-  "editorsNote": "Today's landscape is dominated by a shift from AI experimentation to 'The Great Integration,' with Anthropic's restricted release of the high-risk Claude Mythos and Meta's pivot to closed-source personal superintelligence. Healthcare is seeing a massive surge in AI utilization, with 72% of physicians now using AI tools to mitigate administrative burnout.",
+  "editorsNote": "Today's landscape is dominated by a shift from raw model capability to 'restrained power' and 'deep integration.' Anthropic's decision to withhold its most powerful model due to security risks, alongside Meta's pivot to a closed-source, multimodal stack, signals a new era where safety and proprietary ecosystems are the primary competitive moats.",
   "healthcareStories": [
     {
-      "headline": "Physician AI Adoption Hits 72% as Administrative Burden Eases",
-      "summary": "A new survey of over 2,000 physicians reveals that AI utilization in healthcare has nearly doubled in three years, jumping from 38% in 2023 to 72% today. The primary driver is the mitigation of administrative burnout, with doctors increasingly relying on AI for clinical documentation, discharge instructions, and billing code generation. This shift is helping to address the $1 trillion annual administrative cost in the U.S. healthcare system.\n\nWhile adoption is high, physician confidence remains 'shaky' regarding clinical decision support. However, the value in 'back-office' tasks is undeniable. AI is now being used to summarize research, draft progress notes, and create patient care plans, allowing doctors to focus more on direct patient interaction rather than after-hours paperwork.\n\nIndustry leaders suggest that the next 12-18 months will see a 'Great Integration' where these tools move from standalone apps to embedded features within Electronic Health Records (EHR). The focus is shifting from whether AI works to how it can be operationalized at scale within governed, compliant workflows.",
-      "source": "STAT News / AMA Survey",
+      "headline": "Hospitals Launch 'PatientGPT' to Reclaim Clinical Conversations",
+      "summary": "A growing number of healthcare systems are deploying proprietary, patient-facing chatbots to compete with general-purpose models like ChatGPT. Hartford HealthCare is launching 'PatientGPT,' developed by K Health, while Sutter Health and Reid Health are piloting 'Emmie,' a chatbot integrated with the Epic electronic health record (EHR) system. These tools aim to provide medically grounded advice by drawing directly from a patient's existing medical records, effectively funneling them toward appropriate in-system care rather than generic web-based answers.\n\nThis movement addresses a critical trend: OpenAI reports that over 40 million people daily use ChatGPT for health-related queries, ranging from diet to serious symptoms. By implementing their own AI, hospitals hope to ensure clinical accuracy and maintain the patient-provider relationship. However, the shift toward 'agentic' AI—tools that can operate with 'human-on-the-loop' monitoring rather than direct 'human-in-the-loop' oversight—is raising significant safety concerns among researchers who worry that medicine is not yet prepared for autonomous diagnostic suggestions.\n\nWhy it matters: For healthcare executives, this represents a strategic pivot from viewing AI as a back-office efficiency tool to a front-line patient engagement platform. The integration with EHRs like Epic suggests that the 'trust layer' of healthcare AI will be built on data sovereignty and clinical context, rather than just model scale.",
+      "source": "STAT News / Ermer and Suter PLLC",
       "tags": [
         "Clinical",
-        "Workforce",
-        "Operations"
+        "Patient Engagement",
+        "EHR"
       ],
       "cluster": "Healthcare Systems",
-      "date": "April 13, 2026",
-      "url": "https://www.statnews.com/2026/04/13/physician-ai-adoption-burnout"
+      "date": "April 14, 2026",
+      "url": "https://www.statnews.com/2026/01/15/medical-ai-safety-research-fda-cds/"
     },
     {
-      "headline": "Eli Lilly Inks $2.75B AI Drug Discovery Deal with Insilico Medicine",
-      "summary": "Eli Lilly has announced a massive $2.75 billion partnership with Insilico Medicine to accelerate its drug discovery pipeline using generative AI. The deal grants Lilly access to Insilico's proprietary platform to identify novel targets and design 'de novo' molecules for high-priority disease areas. This move underscores a broader trend in pharma where AI is no longer a pilot project but a core R&D strategy.\n\nSimultaneously, Novo Nordisk is reportedly deploying AI agents within active clinical trials to optimize patient recruitment and monitor real-time analytics. These 'co-scientist' agents are designed to identify risks earlier in the trial process, potentially saving years of development time and billions in costs associated with failed trials.\n\nWhy it matters: The biotechnology sector has entered a 'builder phase.' According to recent reports, 80% of life sciences organizations plan to increase AI budgets this year, with nearly a quarter expecting to double their spend. The goal is an interoperable ecosystem where multimodal models coordinate experiments end-to-end.",
-      "source": "Drug Discovery News",
+      "headline": "Google's AlphaGenome Unveils 'Dark DNA' for Disease Discovery",
+      "summary": "Google DeepMind has introduced AlphaGenome, a specialized model designed to interpret 'dark DNA'—the non-coding regions of the genome that regulate genetic expression. While traditional genomic research focuses on the 2% of DNA that codes for proteins, AlphaGenome analyzes the vast regulatory landscape that often holds the key to complex diseases. The model is capable of identifying mutations that cause diseases and predicting how genetic variations impact health outcomes.\n\nAlphaGenome is being released as an open-weights model to the scientific community, a move intended to accelerate comparative research across species and facilitate the development of novel treatments. By providing a map of genetic regulation, the model helps scientists identify high-priority targets for drug discovery that were previously invisible to computational tools.\n\nWhy it matters: This is a landmark for life sciences, moving AI from a 'summarization' tool to a 'discovery' engine. For biotech leaders, AlphaGenome provides a foundational layer for proprietary fine-tuning, potentially shortening the target validation phase of drug development by years.",
+      "source": "DeepLearning.AI / Google DeepMind",
       "tags": [
-        "Pharma",
+        "Genomics",
         "Drug Discovery",
-        "Investment"
+        "Research"
       ],
-      "cluster": "Life Sciences",
-      "date": "April 06, 2026",
-      "url": "https://www.drugdiscoverynews.com/2026-ai-power-shift"
+      "cluster": "Google / DeepMind",
+      "date": "April 10, 2026",
+      "url": "https://www.deeplearning.ai/the-batch/issue-241/"
     }
   ],
   "techStories": [
     {
-      "headline": "Anthropic Restricts 'Claude Mythos' Due to Extreme Cyber Risks",
-      "summary": "Anthropic has unveiled 'Claude Mythos Preview,' a frontier model that has demonstrated unprecedented capabilities in finding and exploiting software vulnerabilities. In a landmark safety decision, the company is withholding public access, instead launching 'Project Glasswing'—a restricted consortium including Apple, Google, Microsoft, and JPMorgan Chase—to use the model for defensive patching.\n\nDuring internal testing, Mythos Preview autonomously discovered thousands of zero-day vulnerabilities, including a 27-year-old bug in OpenBSD and a 16-year-old flaw in FFmpeg. The model achieved a 93.9% score on the SWE-bench Verified benchmark, significantly outperforming Claude Opus 4.6. Anthropic warned that the model can chain multiple vulnerabilities to escape sandboxes, posing a 'step change' in national security risk.\n\nTo support the defensive transition, Anthropic is committing $100M in usage credits to the consortium. This move signals a new era of 'controlled deployment' for frontier models that are deemed too powerful for general release, particularly those with high-level agentic coding skills.",
-      "source": "Anthropic Blog",
+      "headline": "Anthropic Withholds 'Claude Mythos' Citing Global Security Risks",
+      "summary": "In an unprecedented move for a commercial AI lab, Anthropic has announced it will not release its latest model, 'Claude Mythos,' to the general public. Internal testing revealed that Mythos possesses 'extraordinary' capabilities in identifying and exploiting zero-day vulnerabilities across every major operating system and web browser. Anthropic co-founder Jack Clark warned that the model could be used to compromise critical infrastructure, including banks and energy grids, with relatively simple prompts.\n\nThe decision has sparked high-level meetings between bank executives and regulators in both the U.S. and Canada. While Anthropic is providing limited access to select defensive cybersecurity organizations to help patch the discovered flaws, the company maintains that the rate of AI progress means such capabilities will soon proliferate regardless of their restraint. They estimate that similar open-source models, potentially from international actors, could emerge within 18 months.\n\nWhy it matters: This marks the end of the 'release first, patch later' era for frontier models. For enterprise leaders, it highlights a new category of risk: the AI-driven cyberattack. It also signals a shift in the AI market where 'safety' is no longer just a marketing term but a literal product constraint that can halt multi-billion dollar launches.",
+      "source": "Semafor / BNN Bloomberg",
       "tags": [
-        "Security",
-        "Models",
-        "Policy"
+        "Cybersecurity",
+        "Policy",
+        "Models"
       ],
       "cluster": "Anthropic",
-      "date": "April 13, 2026",
-      "url": "https://www.anthropic.com/news/project-glasswing"
+      "date": "April 14, 2026",
+      "url": "https://www.semafor.com/article/2026/04/14/anthropic-mythos-hacking-warning"
     },
     {
-      "headline": "Meta Debuts 'Muse Spark' and Pivots to Closed-Source Strategy",
-      "summary": "Meta has released 'Muse Spark,' its first model from the new Meta Superintelligence Labs (MSL). In a significant departure from its previous open-source strategy with Llama, Muse Spark is a closed model. Meta CEO Mark Zuckerberg stated that the company is now focused on 'personal superintelligence'—AI assistants deeply integrated with user data across Instagram, Facebook, and WhatsApp.\n\nMuse Spark features a 'Contemplating' mode that runs multiple sub-agents in parallel to solve complex reasoning tasks. It scored 58% on 'Humanity's Last Exam,' placing it in the same tier as OpenAI's GPT Pro and Google's Gemini Deep Think. Meta is also reportedly testing an internal 'AI Zuckerberg' digital twin to interact with employees and streamline management.\n\nMeta's AI capital expenditures for 2026 are projected to reach up to $135 billion. While the model remains closed, Meta plans to offer private API access to select enterprise partners. This shift suggests that the era of 'free' frontier-level open weights from Meta may be ending as the company seeks direct revenue and deeper ecosystem lock-in.",
-      "source": "Meta AI Blog / Axios",
+      "headline": "Meta Abandons Llama for Closed-Source 'Muse Spark' Stack",
+      "summary": "Meta has officially shipped 'Muse Spark,' the first model in its new Muse series, marking a radical departure from its previous open-source strategy. Following the disappointing reception of Llama 4 in 2025, Meta spent $14.3 billion to acquire a nearly 50% stake in Scale AI and appointed Alexandr Wang as Chief AI Officer to rebuild the company's AI stack from the ground up. Muse Spark is a proprietary, multimodal model designed specifically for 'physical world' interaction through camera-enabled devices like smart glasses.\n\nUnlike the Llama series, Muse Spark is small, fast, and closed-source, optimized for low-latency personal assistant tasks rather than general-purpose text generation. Meta's AI-related capital expenditure for 2026 is projected to reach up to $135 billion, nearly double the previous year, as the company pivots toward 'Superintelligence Labs.' The model is reportedly competitive with industry leaders in multimodal understanding and health-related tasks, though it still lags in complex coding benchmarks.\n\nWhy it matters: Meta's retreat from open-source is a seismic shift for the developer ecosystem that relied on Llama as a free alternative to GPT-4. For executives, it underscores the massive cost of staying in the 'frontier' race and the increasing value placed on vertically integrated hardware-software AI experiences.",
+      "source": "Forbes / The Guardian",
       "tags": [
         "Models",
-        "Strategy",
-        "Enterprise"
+        "Corporate Strategy",
+        "Multimodal"
       ],
-      "cluster": "Meta",
-      "date": "April 09, 2026",
-      "url": "https://ai.meta.com/blog/introducing-muse-spark"
+      "cluster": "Meta AI",
+      "date": "April 13, 2026",
+      "url": "https://www.forbes.com/sites/muse-spark-meta-rebuilt-ai-stack/"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "The shift toward 'The Great Integration' is inevitable. We are moving from models that talk to systems that act. But remember: world models are the prerequisite for true autonomy. Without them, agents are just fancy stochastic parrots with a bash terminal.",
+      "content": "The shift toward closed-source 'safety' is often a mask for protecting market share. True robustness comes from open scrutiny, not security through obscurity. If a model can find a zero-day, the solution is to use AI to fix the code, not hide the model.",
       "authorName": "Yann LeCun",
       "date": "Today",
       "type": "Opinion",
       "url": "https://x.com/ylecun"
     },
     {
-      "handle": "@AndrewYNg",
-      "content": "Excited to see the 72% adoption rate among physicians. This is the 'Agentic Workflow' in action—not replacing the doctor, but handling the 4 hours of paperwork that follows every 15-minute visit. This is how we scale human expertise.",
-      "authorName": "Andrew Ng",
+      "handle": "@karpathy",
+      "content": "Seeing a lot of 'Agentic' hype lately. The real bottleneck isn't the model's reasoning; it's the environment's API surface. An agent is only as good as the tools it can actually call. We need a 'Standard Model' for tool-use that isn't just prompt-engineering hacks.",
+      "authorName": "Andrej Karpathy",
       "date": "Today",
       "type": "Research",
-      "url": "https://x.com/AndrewYNg"
+      "url": "https://x.com/karpathy"
     },
     {
-      "handle": "@karpathy",
-      "content": "Claude Mythos hitting 93.9% on SWE-bench is a 'holy s***' moment for software engineering. We are officially in the era of 'Vibe Coding' where the human describes the intent and the model handles the entire stack. The barrier to entry for building complex software just hit zero.",
-      "authorName": "Andrej Karpathy",
-      "date": "Yesterday",
+      "handle": "@AnthropicAI",
+      "content": "We are talking to the administration about Mythos. Our position is clear: the government must be aware of these capabilities before they are widely available. We care deeply about national security and are working to ensure the 'trust layer' of AI is ready for the next leap.",
+      "authorName": "Anthropic",
+      "date": "Today",
       "type": "Announcement",
-      "url": "https://x.com/karpathy"
+      "url": "https://x.com/AnthropicAI"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a HIPAA-Compliant Medical RAG with Vertex AI Search",
-      "description": "Create a secure Retrieval-Augmented Generation (RAG) system that queries clinical guidelines while maintaining strict data residency and privacy controls.",
+      "title": "Building a HIPAA-Compliant Medical Note Summarizer",
+      "description": "Create a secure pipeline that takes raw physician-patient audio, transcribes it, and generates a structured clinical note using Gemini 1.5 Pro's long-context window.",
       "tools": [
-        "Vertex AI Search",
+        "Vertex AI",
         "Gemini 1.5 Pro",
         "Cloud Healthcare API"
       ],
       "skills": [
-        "RAG",
-        "Healthcare Data Privacy",
-        "Grounding"
+        "Medical Transcription",
+        "Structured Output",
+        "Data Privacy"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
           "stepTitle": "Enable Healthcare API",
-          "instruction": "Set up a FHIR store in the Google Cloud Healthcare API to host your clinical datasets securely.",
-          "codeSnippet": "gcloud services enable healthcare.googleapis.com"
+          "instruction": "Set up a Google Cloud Healthcare dataset and FHIR store to ensure all processed data meets residency and compliance requirements."
         },
         {
-          "stepTitle": "Configure Vertex AI Search",
-          "instruction": "Create a new Data Store in Vertex AI Search and point it to your FHIR store or a secure GCS bucket containing medical PDFs.",
-          "codeSnippet": "{\"datastore\": \"clinical-guidelines-v1\", \"region\": \"us-central1\"}"
+          "stepTitle": "Audio to Text with Chirp",
+          "instruction": "Use the Vertex AI Speech-to-Text 'Chirp' model, optimized for medical terminology, to transcribe the patient encounter.",
+          "codeSnippet": "gcloud ml speech recognize-long-running [AUDIO_FILE] --model='chirp'"
         },
         {
-          "stepTitle": "Implement Grounded Generation",
-          "instruction": "Use the Gemini 1.5 Pro API with the 'grounding' parameter enabled to ensure responses are strictly derived from your clinical data.",
-          "codeSnippet": "response = model.generate_content(prompt, tools=[vertex_ai_search_tool])"
+          "stepTitle": "Structured Summarization",
+          "instruction": "Pass the transcript to Gemini 1.5 Pro with a system instruction to output a SOAP (Subjective, Objective, Assessment, Plan) note format.",
+          "codeSnippet": "response = model.generate_content('Summarize this transcript into a SOAP note: ' + transcript)"
         }
       ],
-      "date": "April 13, 2026",
+      "date": "April 14, 2026",
       "prerequisites": [
-        "Google Cloud Project",
-        "Vertex AI API enabled",
-        "Sample medical PDFs"
-      ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/search-and-conversation"
+        "Google Cloud Project with Billing",
+        "Basic Python knowledge",
+        "Access to Vertex AI"
+      ]
     },
     {
-      "title": "On-Device Medical Assistant with Gemma 4",
-      "description": "Deploy the new Gemma 4 2B model on a mobile device to provide offline medical terminology assistance and document summarization.",
+      "title": "Serverless RAG for Genomic Research",
+      "description": "Deploy a Retrieval-Augmented Generation (RAG) system using the new Vertex AI RAG Engine to query thousands of research papers without managing a database.",
       "tools": [
-        "Gemma 4 2B",
-        "MediaPipe",
-        "TensorFlow Lite"
+        "Vertex AI RAG Engine",
+        "Gemini 1.5 Flash",
+        "Cloud Storage"
       ],
       "skills": [
-        "On-device AI",
-        "Model Quantization",
-        "Edge Computing"
+        "Serverless AI",
+        "Vector Search",
+        "Document Retrieval"
       ],
-      "complexity": "Advanced",
+      "complexity": "Beginner",
       "guide": [
         {
-          "stepTitle": "Download Gemma 4 Weights",
-          "instruction": "Access the Gemma 4 2B weights from Hugging Face or Kaggle under the Apache 2.0 license.",
-          "codeSnippet": "huggingface-cli download google/gemma-4-2b-it"
+          "stepTitle": "Upload Research Corpus",
+          "instruction": "Upload your PDF research papers to a Google Cloud Storage bucket."
         },
         {
-          "stepTitle": "Quantize for Mobile",
-          "instruction": "Use MediaPipe's Model Maker to quantize the model to 4-bit (INT4) to ensure it runs efficiently on smartphone hardware.",
-          "codeSnippet": "mediapipe_model_maker.quantize(model, format='tflite')"
+          "stepTitle": "Initialize RAG Engine",
+          "instruction": "Create a new corpus in the Vertex AI RAG Engine using the 'Serverless' mode for automatic scaling."
         },
         {
-          "stepTitle": "Integrate with Android/iOS",
-          "instruction": "Use the MediaPipe LLM Inference API to run the model locally on the device, ensuring zero data leaves the phone.",
-          "codeSnippet": "LlmInference.create(options).generateResponse(userInput)"
+          "stepTitle": "Query with Context",
+          "instruction": "Use the RAG Engine API to ask questions. The engine will automatically retrieve relevant snippets and pass them to Gemini for an answer.",
+          "codeSnippet": "rag_engine.query(text='What are the latest findings on dark DNA regulation?')"
         }
       ],
-      "date": "April 13, 2026",
+      "date": "April 14, 2026",
       "prerequisites": [
-        "Android Studio or Xcode",
-        "Gemma 4 access",
-        "Basic Python for quantization"
-      ],
-      "sourceUrl": "https://ai.google.dev/gemma/docs/gemma4"
+        "Google Cloud Storage bucket",
+        "Vertex AI API enabled"
+      ]
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "Dark DNA Unveiled: Google's AlphaGenome",
-      "summary": "DeepLearning.AI highlights Google's new AlphaGenome model, which is designed to interpret 'Dark DNA'—the non-coding regions of the genome that regulate genetic expression. While traditional models focus on protein-coding genes, AlphaGenome uses a transformer-based architecture to predict how variations in these regulatory regions impact disease risk. Andrew Ng notes that this could be the 'AlphaFold moment' for genomics, moving us from simply reading the genetic code to understanding its complex control logic. The model is being released with open weights to allow researchers to identify mutations that cause rare diseases and develop targeted therapies. This represents a massive leap for precision medicine, as it provides a tool to compare genetic variations across species and individuals at a scale previously impossible.",
-      "url": "https://www.deeplearning.ai/the-batch/dark-dna-alphagenome",
+      "title": "The Future of Software Engineering in the Age of Agents",
+      "summary": "In the latest edition of 'The Batch,' Andrew Ng explores the profound shift in software engineering as AI agents move from simple code completion to autonomous task execution. Ng argues that the role of the developer is evolving into that of a 'System Architect' and 'Reviewer.' With the leak of Claude Code's source code revealing features like 'autoDream,' it is clear that labs are building tools that can not only write code but also self-correct and optimize entire repositories.\n\nNg emphasizes that while agents can accelerate the 'writing' phase, the 'thinking' phase—defining requirements, ensuring security, and managing complex integrations—remains a human-centric task. He warns that a 'Stack Overflow for Agents' might be necessary, where AI systems share their learned solutions to common bugs with one another. The technical takeaway is the rise of 'Test-Time Training' (TTT), which allows models to handle massive context lengths by retraining weights during inference, ensuring that agents don't lose track of the project as it grows.\n\nWhy it matters: For technical leaders, this means the 'unit of work' is changing. We are moving away from measuring lines of code toward measuring the success rate of autonomous agents. Ng's perspective is clear: don't fear the agent; learn to orchestrate it.",
+      "url": "https://www.deeplearning.ai/the-batch/issue-241/",
       "category": "The Batch",
-      "author": "The Batch Team",
+      "author": "Andrew Ng",
       "date": "April 10, 2026"
     },
     {
-      "title": "The Future of Software Engineering in the Age of Agents",
-      "summary": "In this editorial, Andrew Ng explores the shift from 'Copilots' to 'Agents' in software development. He argues that the recent leak of 'Claude Code' and the rise of models like Mythos Preview indicate that the bottleneck in software is no longer writing code, but defining requirements and verifying outputs. Ng introduces the concept of 'Agentic Oversight,' where developers spend more time managing a fleet of AI agents that handle different parts of the stack—one for UI, one for backend, and one for security auditing. He emphasizes that the most valuable skill for 2026 is 'System Architecture'—knowing how to stitch these intelligent components together into a reliable product. He warns that while 'Vibe Coding' (coding by intent) is powerful, it increases the risk of 'hidden technical debt' if not managed with rigorous automated testing.",
-      "url": "https://www.deeplearning.ai/the-batch/future-of-software-engineering",
-      "category": "The Batch",
-      "author": "Andrew Ng",
+      "title": "Dark DNA Unveiled: AlphaGenome's Impact",
+      "summary": "This segment highlights Google's AlphaGenome, a model that interprets the 98% of the human genome previously considered 'junk' or 'dark' DNA. The article explains the technical breakthrough: AlphaGenome uses a transformer-based architecture to predict how non-coding sequences act as 'switches' for genes. This allows researchers to understand why two people with the same protein-coding genes might have vastly different disease risks.\n\nAndrew Ng notes that this is a prime example of AI's 'Discovery Era.' Unlike LLMs that summarize existing human knowledge, AlphaGenome generates new biological insights that humans could not find manually. The article details how the model was trained on massive multi-species datasets to identify conserved regulatory patterns. Ng suggests that the next frontier for this technology is 'Personalized Regulatory Maps,' where a patient's specific dark DNA can be used to predict drug responses with near-perfect accuracy.\n\nWhy it matters: This is the 'AlphaFold moment' for genomics. It provides a foundational, open-source tool that will likely underpin the next decade of genomic medicine and synthetic biology.",
+      "url": "https://www.deeplearning.ai/the-batch/issue-241/",
+      "category": "Research Highlight",
+      "author": "The Batch Team",
       "date": "April 10, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Multimodal RAG with Sentence Transformers v5.4",
+      "title": "Chandra-OCR-2: Open-Source Document Intelligence",
       "provider": "Hugging Face",
-      "summary": "A comprehensive tutorial on using the new Sentence Transformers update to build RAG pipelines that can retrieve and rerank images, audio, and video alongside text using a single unified API.",
-      "url": "https://huggingface.co/blog/sentence-transformers-multimodal",
-      "type": "Tutorial",
+      "summary": "A new state-of-the-art open OCR model that can process complex scientific papers, including formulas and tables, with near-perfect accuracy. Includes a guide on running it via serverless GPU jobs.",
+      "url": "https://huggingface.co/blog/nielsrogge/ocr-30k-papers",
+      "type": "Tool",
       "difficulty": "Intermediate"
     },
     {
-      "title": "Anthropic Cookbook: Securing Code with Claude Mythos",
-      "provider": "Anthropic",
-      "summary": "A collection of recipes and prompts for using Claude's advanced coding capabilities to identify security vulnerabilities in legacy C++ and Java codebases.",
-      "url": "https://github.com/anthropics/anthropic-cookbook",
-      "type": "Tool",
+      "title": "Gemma 4: On-Device Agentic Workflows",
+      "provider": "Google / Hugging Face",
+      "summary": "A comprehensive tutorial on deploying the new Gemma 4 (2B and 4B) models on mobile and IoT devices for offline, multimodal agent tasks.",
+      "url": "https://huggingface.co/blog/gemma-4",
+      "type": "Tutorial",
+      "difficulty": "Beginner"
+    },
+    {
+      "title": "Industrial Policy for the Intelligence Age",
+      "provider": "OpenAI",
+      "summary": "A whitepaper and discussion series on how national policies must evolve to handle 'superintelligent' models, focusing on prosperity sharing and resilient institutions.",
+      "url": "https://openai.com/blog/industrial-policy-for-the-intelligence-age",
+      "type": "Paper",
       "difficulty": "Advanced"
     }
   ]
