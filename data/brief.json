@@ -1,233 +1,235 @@
 {
-  "editorsNote": "Today's landscape is defined by a massive shift toward 'The Great Integration,' where AI moves from experimental pilots into core business and physical infrastructure. Key highlights include Meta's pivot to proprietary 'superintelligence' models, Anthropic's aggressive infrastructure expansion, and a critical focus on the reliability of AI in healthcare and cybersecurity.",
+  "editorsNote": "Today's landscape is dominated by a major shift toward specialized AI, with OpenAI and Anthropic launching high-stakes models for life sciences and cybersecurity. Meanwhile, the industry is grappling with a 'Great Integration' phase, moving from experimental pilots to embedding AI into core enterprise infrastructure.",
   "healthcareStories": [
     {
-      "headline": "Causal AI and Digital Twins: IBM and GNQ Insilico Partner for Precision Medicine",
-      "summary": "GNQ Insilico and IBM have announced a major collaboration to scale 'causal AI' platforms across the healthcare and life sciences sectors. Unlike traditional AI that relies on pattern recognition from historical data, GNQ’s platform uses mechanistic models grounded in pathway biology and quantum-enhanced simulation to predict how specific therapies interact with individual patient biology. This approach aims to move medicine from a reactive to a proactive state by providing high-fidelity 'Digital Twins' for drug simulation and assessment.\n\nThe partnership will leverage IBM’s hybrid cloud infrastructure and consulting expertise to deploy these platforms within hospitals and biopharma companies. The primary goal is to reduce the high failure rates in clinical trials and enable more personalized treatment decisions. By modeling elementary reaction kinetics, the system can simulate how a drug will behave in a specific patient's body before it is ever administered.\n\nThis move signals a broader industry trend toward 'in silico' trials. Experts predict that by the end of 2026, the use of synthetic digital twins will be a core regulatory asset, potentially reducing Phase II/III trial durations and lowering recruitment hurdles for rare diseases. The global market for AI in clinical trials is projected to exceed $15 billion this year, driven by the demand for external control arms (ECAs) that simulate placebo groups using real-world evidence.",
-      "source": "Las Vegas Sun / Dataiku",
+      "headline": "OpenAI Debuts GPT-Rosalind for Life Sciences Research",
+      "summary": "OpenAI has officially launched GPT-Rosalind, a specialized large language model designed to accelerate research in biochemistry, drug discovery, and translational medicine. Named after the pioneering scientist Rosalind Franklin, the model is built on OpenAI's latest internal architectures and features enhanced biological knowledge and scientific reasoning capabilities. It is designed to assist researchers with evidence synthesis, hypothesis generation, and complex experimental planning.\n\nDuring a press briefing, OpenAI demonstrated the model's ability to query specialized scientific databases, ingest the latest peer-reviewed literature, and suggest novel experimental protocols. The model aims to bridge the gap between general-purpose AI and the highly technical requirements of laboratory science. By automating the early, data-heavy stages of discovery, OpenAI claims GPT-Rosalind can significantly reduce the time required to identify viable drug candidates.\n\nThis release marks a strategic deepening of OpenAI's footprint in the life sciences sector, directly competing with specialized offerings from Google DeepMind and Anthropic. It reflects a broader industry trend where frontier AI labs are moving away from 'one-size-fits-all' models toward domain-specific 'expert' systems that can handle the rigors of scientific validation.",
+      "source": "OpenAI Blog / The Hindu",
       "tags": [
-        "Precision Medicine",
-        "Clinical Trials",
-        "Digital Twins"
+        "Life Sciences",
+        "Drug Discovery",
+        "Models"
+      ],
+      "cluster": "OpenAI",
+      "date": "April 17, 2026",
+      "url": "https://www.thehindu.com/sci-tech/technology/openai-launches-ai-model-gpt-rosalind-for-life-sciences-research/article68074521.ece"
+    },
+    {
+      "headline": "66 Million Americans Now Use AI for Healthcare Advice",
+      "summary": "A new study from the West Health-Gallup Center reveals that one in four U.S. adults—approximately 66 million people—have used AI chatbots for physical or mental health advice. The research indicates that AI is primarily being used to supplement traditional care rather than replace it, with 59% of users researching symptoms before a doctor's visit and 56% doing so afterward to clarify a diagnosis. Interestingly, 46% of users reported that AI made them feel more confident when speaking with their healthcare providers.\n\nHowever, the study also highlights significant risks and socio-economic disparities. Roughly 14 million Americans reported using AI instead of seeing a doctor, often due to cost or access barriers. Among low-income earners, 32% cited the inability to pay for a visit as their primary motivation for using AI. Trust remains a major hurdle; only 4% of users 'strongly trust' the accuracy of AI-generated health information, and 11% reported receiving advice they believed was unsafe.\n\nHealth leaders are warning that while AI is reshaping patient behavior, health systems are moving too slowly to provide responsible guidance. The findings suggest an urgent need for 'AI literacy' in clinical settings to ensure patients are not making critical health decisions based on hallucinations or unverified medical claims.",
+      "source": "News-Medical.Net / Gallup",
+      "tags": [
+        "Patient Care",
+        "Public Health",
+        "Research"
       ],
       "cluster": "Healthcare Systems",
-      "date": "April 15, 2026",
-      "url": "https://lasvegassun.com/news/2026/apr/15/gnq-insilico-ibm-precision-medicine/"
+      "date": "April 17, 2026",
+      "url": "https://www.news-medical.net/news/20260417/Fast-answers-and-extra-research-drive-AI-healthcare-use-in-America.aspx"
     },
     {
-      "headline": "Study Warns: AI Chatbots Provide Misleading Medical Advice 50% of the Time",
-      "summary": "A comprehensive study published in BMJ Open has found that popular AI chatbots—including ChatGPT, Gemini, Meta AI, Grok, and DeepSeek—provide problematic medical advice in approximately 50% of cases. Researchers from the U.S., Canada, and the U.K. evaluated the platforms across five health categories, finding that nearly 20% of the responses were 'highly problematic.' While the models performed better on closed-ended questions regarding vaccines and cancer, they struggled significantly with open-ended prompts and niche areas like stem cells and nutrition.\n\nA critical concern highlighted by the researchers is the 'authoritative' tone of the AI. Even when providing flawed or incomplete information, the chatbots delivered answers with high confidence and certainty. Notably, no chatbot produced a fully accurate and complete reference list for any prompt. Meta AI was the only platform to refuse to answer certain medical queries, while others attempted to provide diagnoses despite lacking clinical licensing.\n\nThis findings come at a time when public reliance on AI for health guidance is surging; OpenAI reports that over 200 million users ask ChatGPT health-related questions weekly. The study authors emphasize an urgent need to reevaluate how AI is deployed in public-facing medical communication, warning that the technology currently lacks the clinical judgment necessary for safe medical use.",
-      "source": "The Japan Times / BMJ Open",
+      "headline": "Ambience Healthcare Unveils 'System of Intelligence' Roadmap",
+      "summary": "Ambience Healthcare has announced a multiyear roadmap to transition from point-solution AI scribes to a comprehensive 'system of intelligence' for health systems. Unveiled at the Apex Summit in Chicago, the roadmap focuses on five core domains: clinical workflows, revenue integrity, patient engagement, care orchestration, and research. The goal is to move beyond simple documentation to a platform that makes every clinical encounter 'smarter' by aggregating insights across millions of patient interactions.\n\nOne of the first major applications under this new roadmap is a collaboration with academic medical centers to support computational phenotyping for complex conditions like Long COVID. By using AI to identify patterns in unstructured clinical data, the platform aims to help researchers and clinicians better understand and treat diseases that lack clear diagnostic markers. \n\nThis shift signals the 'maturity phase' of AI in healthcare, where the focus is moving from individual productivity tools to integrated platforms that rethink hospital operations. Ambience, which was recently recognized with the KLAS/CHIME Trailblazer Award, is positioning itself as the central operating system for AI-driven clinical care.",
+      "source": "Las Vegas Sun / Ambience Healthcare",
       "tags": [
-        "Patient Safety",
-        "Ethics",
-        "Model Evaluation"
+        "Clinical Workflow",
+        "Enterprise AI",
+        "Health IT"
       ],
-      "cluster": "Regulatory",
-      "date": "April 15, 2026",
-      "url": "https://www.japantimes.co.jp/news/2026/04/15/business/tech/ai-chatbots-medical-advice-study/"
-    },
-    {
-      "headline": "Google's AlphaGenome Unveils 'Dark DNA' to Identify Disease Mutations",
-      "summary": "Google DeepMind has released AlphaGenome, an open-weights model designed to interpret 'Dark DNA'—the non-coding regions of the genome that regulate genetic expression. While traditional genomic research has focused on protein-coding genes, AlphaGenome allows scientists to analyze the vast regulatory sequences that often hold the key to complex diseases. The model can compare genetic variations across species and identify specific mutations that trigger disease states.\n\nBy providing a map of how these regulatory elements function, AlphaGenome is expected to accelerate the development of targeted treatments for conditions that were previously poorly understood. The release of the model as an open-weights resource is intended to foster global scientific collaboration, allowing researchers to plug the model into their own pipelines for drug discovery and personalized medicine.\n\nThis breakthrough is part of a larger trend in 2026 where AI is being used to bridge the gap between genomic data and clinical application. The ability to simulate the impact of genetic variations at scale is transforming early-stage R&D from a process of trial-and-error into one of predictive modeling.",
-      "source": "DeepLearning.AI (The Batch)",
-      "tags": [
-        "Genomics",
-        "Drug Discovery",
-        "Open Research"
-      ],
-      "cluster": "Google / DeepMind",
-      "date": "April 10, 2026",
-      "url": "https://www.deeplearning.ai/the-batch/issue-294/"
+      "cluster": "Healthcare Systems",
+      "date": "April 16, 2026",
+      "url": "https://lasvegassun.com/news/2026/apr/16/ambience-healthcare-unveils-platform-roadmap/"
     }
   ],
   "techStories": [
     {
-      "headline": "Meta Launches Muse Spark: A Pivot to Proprietary 'Personal Superintelligence'",
-      "summary": "Meta has officially unveiled 'Muse Spark,' the first model from its newly formed Meta Superintelligence Labs (MSL). In a significant departure from the open-weights strategy of the Llama series, Muse Spark is a completely proprietary, natively multimodal reasoning model. It features visual chain-of-thought capabilities and multi-agent orchestration, allowing it to launch parallel subagents to tackle complex tasks, such as planning a multi-city trip while simultaneously comparing costs and activities.\n\nCEO Mark Zuckerberg described Muse Spark as the first step toward 'personal superintelligence'—an assistant capable of helping users with complex reasoning in science, math, and health. The model is currently powering the Meta AI app and website, with rollouts planned for WhatsApp, Instagram, and Ray-Ban Meta glasses. While Meta has been a champion of open-source AI, the proprietary nature of Muse Spark suggests a strategic shift toward protecting its most advanced reasoning capabilities for its own product ecosystem.\n\nTo support the massive compute requirements of the Muse family, Meta also announced an expanded partnership with Broadcom to co-develop multiple generations of custom AI silicon (MTIA). The agreement includes an initial deployment of over 1GW of capacity, scaling to multiple gigawatts. This infrastructure push is designed to reduce Meta's reliance on third-party GPUs and optimize for the specific inference needs of its new 'superintelligence' models.",
-      "source": "Meta AI Blog / TechCrunch",
+      "headline": "Anthropic Releases Claude Opus 4.7 with Agentic Reasoning",
+      "summary": "Anthropic has launched Claude Opus 4.7, its most advanced publicly available model to date. While not as powerful as the restricted 'Claude Mythos' model released earlier this month, Opus 4.7 introduces significant upgrades in software engineering, visual intelligence, and document analysis. A key feature is 'loop resistance,' which prevents the model from getting stuck in repetitive reasoning cycles—a common failure mode in complex agentic tasks.\n\nThe model card highlights a major reduction in hallucinations and 'reward hacking' compared to version 4.6. Anthropic reports that early enterprise users are now handing off high-level coding tasks, such as database migrations and legacy code refactoring, with minimal supervision. However, the upgrade comes with a caveat: Opus 4.7 uses a new tokenizer that can increase token consumption by up to 35% for certain content types, as the model 'thinks more' at higher effort levels.\n\nThis release is part of Anthropic's broader strategy to dominate the enterprise market by focusing on reliability and safety. The company also announced a massive expansion of its compute partnership with Google and Broadcom, securing multiple gigawatts of TPU capacity to power future frontier models through 2027.",
+      "source": "Anthropic Blog / Mashable",
       "tags": [
         "Models",
-        "Infrastructure",
-        "Strategy"
-      ],
-      "cluster": "Meta AI",
-      "date": "April 08, 2026",
-      "url": "https://ai.meta.com/blog/introducing-muse-spark/"
-    },
-    {
-      "headline": "Anthropic's $30B Revenue Surge and the 'Claude Mythos' Security Crisis",
-      "summary": "Anthropic is experiencing unprecedented commercial growth, with CFO Krishna Rao revealing that the company's run-rate revenue has surpassed $30 billion, up from $9 billion just months ago. The number of enterprise customers spending over $1 million annually has doubled to over 1,000. To sustain this trajectory, Anthropic has signed a multi-gigawatt compute agreement with Google and Broadcom for next-generation TPU capacity, primarily sited in the United States.\n\nHowever, this growth is tempered by the 'Claude Mythos' security crisis. Anthropic has restricted the release of its most advanced model, Claude Mythos Preview, after internal testing revealed 'extraordinary risks' to cybersecurity. The model reportedly demonstrated a high proficiency in discovering and exploiting software vulnerabilities, leading the company to adopt a limited-release-only policy. This move has sparked a debate in the industry about the balance between frontier model capabilities and public safety.\n\nIn a related move to bolster trust, Anthropic became the first major AI provider to implement mandatory identity verification for certain Claude use cases, requiring government-issued IDs and live selfies. While the company maintains this is necessary to prevent fraud and misuse, the move has faced backlash from privacy advocates who argue it undermines Anthropic's 'privacy-first' brand positioning.",
-      "source": "Anthropic Blog / Help Net Security",
-      "tags": [
-        "Business",
-        "Cybersecurity",
-        "Policy"
+        "Coding",
+        "Agents"
       ],
       "cluster": "Anthropic",
-      "date": "April 16, 2026",
-      "url": "https://www.anthropic.com/news/infrastructure-expansion-2026"
+      "date": "April 17, 2026",
+      "url": "https://mashable.com/article/anthropic-claude-opus-4-7-launch"
     },
     {
-      "headline": "OpenAI Unveils GPT-5.4-Cyber and New Agent SDK with Native Sandboxing",
-      "summary": "OpenAI has launched GPT-5.4-Cyber, a specialized variant of its flagship model fine-tuned specifically for cyber defense. The model is 'cyber-permissive,' meaning it is designed to assist security professionals in identifying vulnerabilities and automating threat response without the typical safety filters that might block legitimate security research. This release is part of an expanded 'Trusted Access for Cyber' (TAC) program, which aims to provide vetted organizations with high-powered tools for national and corporate defense.\n\nAlongside the new model, OpenAI released a major update to its Agents SDK. The new version introduces a 'model-native harness' and native sandbox execution, allowing developers to build agents that can safely inspect files, run terminal commands, and edit code within controlled environments. This standardized infrastructure is designed to reduce the 'plumbing' work for developers, enabling them to focus on domain-specific logic for long-horizon tasks.\n\nOpenAI's financial momentum remains strong, with the company now generating $2 billion in monthly revenue. The company is reportedly preparing for an IPO while refocusing its resources on enterprise-grade productivity tools. This includes the discontinuation of high-cost experimental projects like the Sora video app to prioritize the 'super app' strategy that integrates chat, search, and agentic workflows into a single interface.",
-      "source": "OpenAI Blog / Infosecurity Magazine",
+      "headline": "OpenAI Updates Codex with Computer Control and Memory",
+      "summary": "OpenAI has announced a transformative update to Codex, evolving it from a code-completion tool into an active software development assistant. The new Codex can now 'see' and operate a user's computer, allowing it to click, type, and navigate interfaces to perform tasks like frontend testing or game development. This 'computer control' feature is currently rolling out to macOS users.\n\nIn addition to computer control, the update introduces a persistent memory system and over 90 new plugins that integrate with tools like JIRA, GitLab, and Microsoft's suite. This allows Codex to maintain context across long-running projects and take actions across different platforms. OpenAI also launched the 'Agents SDK' v0.14.0, providing developers with a standardized harness to build agents that can safely execute code in isolated sandboxes.\n\nTo support these advanced capabilities, OpenAI introduced GPT-5.4-Cyber, a variant specifically fine-tuned for cybersecurity tasks like vulnerability research and red teaming. This move is seen as a direct response to Anthropic's 'Project Glasswing,' as both companies race to provide the most robust AI-driven security tools for the enterprise.",
+      "source": "OpenAI Blog / Business Standard",
       "tags": [
-        "Cybersecurity",
         "Developer Tools",
+        "Cybersecurity",
         "Agents"
       ],
       "cluster": "OpenAI",
-      "date": "April 15, 2026",
-      "url": "https://openai.com/blog/next-evolution-agents-sdk/"
+      "date": "April 17, 2026",
+      "url": "https://www.business-standard.com/technology/tech-news/openai-updates-codex-with-memory-automation-plugins-and-more-whats-new-126041700432_1.html"
+    },
+    {
+      "headline": "Google DeepMind Unveils Gemini Robotics-ER 1.6",
+      "summary": "Google DeepMind has introduced Gemini Robotics-ER 1.6, a significant upgrade to its 'embodied reasoning' model. This model is specifically designed to bridge the gap between digital intelligence and physical action, allowing robots to navigate complex facilities and interpret physical instruments, such as pressure gauges, with high precision. \n\nThe 1.6 version shows marked improvements in spatial reasoning, including the ability to point to objects, count items in a physical scene, and detect the success of a physical task. It acts as a high-level 'brain' for robots, capable of calling external tools like Google Search or vision-language-action (VLA) models to solve real-world problems. \n\nDeepMind's focus on 'embodied AI' suggests a future where AI agents are not just confined to screens but are actively assisting in industrial and domestic environments. The model is being integrated into Google's broader robotics ecosystem, including the Agent Engine, which now supports bidirectional streaming and isolated code execution for physical agents.",
+      "source": "Google DeepMind Blog",
+      "tags": [
+        "Robotics",
+        "Computer Vision",
+        "Models"
+      ],
+      "cluster": "Google / DeepMind",
+      "date": "April 14, 2026",
+      "url": "https://deepmind.google/discover/blog/gemini-robotics-er-1-6-enhanced-embodied-reasoning/"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "The shift from 'pattern matching' to 'world models' is the only path to true autonomy. Muse Spark's reasoning is a step, but without a persistent internal state and objective-driven architecture, we are still just predicting the next token. The 'Great Integration' needs more than just faster chips; it needs a fundamental rethink of the learning objective.",
+      "content": "Yann LeCun continues to advocate for 'World Models' over simple autoregressive LLMs, noting that the current obsession with scaling token prediction will never lead to true AGI. He emphasizes that models like Gemini Robotics-ER 1.6 are a step in the right direction but still lack the fundamental 'common sense' physics understanding required for autonomous agency.",
       "authorName": "Yann LeCun",
       "date": "Today",
       "type": "Opinion",
-      "url": "https://x.com/ylecun/status/123456789"
+      "url": "https://x.com/ylecun"
     },
     {
       "handle": "@AndrewYNg",
-      "content": "I'm seeing a lot of 'agent fatigue' in the enterprise. The key to moving past the hype is 'Context Hubs'—giving your agents the exact API documentation and environment they need to be correct, not just clever. Our latest Batch covers why TTT (Test-Time Training) is the secret to handling the long-context demands of these agents.",
+      "content": "Andrew Ng highlights the 'Great Integration' theme from MIT's EmTech conference. He argues that 2026 is the year where the 'vibe' of AI shifts from magic to infrastructure. He specifically points to the rise of 'Agentic Workflows' as the most important technical trend for developers to master this year.",
       "authorName": "Andrew Ng",
-      "date": "1h ago",
+      "date": "Today",
       "type": "Research",
-      "url": "https://x.com/AndrewYNg/status/987654321"
+      "url": "https://x.com/AndrewYNg"
     },
     {
       "handle": "@karpathy",
-      "content": "The OpenAI Agents SDK update is a big deal. Native sandboxing should be the default for any LLM that can touch a filesystem. We are moving from 'AI as a chatbot' to 'AI as a junior dev with a terminal.' The safety implications are massive, but the productivity gains are even bigger.",
-      "authorName": "Andre Karpathy",
+      "content": "Andrej Karpathy shared a deep dive into the 'tokenization tax' of newer models like Claude 4.7. He observes that as models move toward 'thinking' (internal chain-of-thought), the industry needs better metrics than just 'tokens per second' to measure true intelligence-to-cost efficiency.",
+      "authorName": "Andrej Karpathy",
+      "date": "Yesterday",
+      "type": "Research",
+      "url": "https://x.com/karpathy"
+    },
+    {
+      "handle": "@AnthropicAI",
+      "content": "Announcement: Claude Opus 4.7 is now live. It features 'Loop Resistance' to prevent agentic stalls and a 25% improvement in complex coding benchmarks. We are also releasing a migration guide for developers to manage the new tokenizer's impact on costs.",
+      "authorName": "Anthropic",
       "date": "Today",
       "type": "Announcement",
-      "url": "https://x.com/karpathy/status/456789012"
+      "url": "https://x.com/AnthropicAI"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Serverless RAG with Vertex AI RAG Engine",
-      "description": "Build a fully managed Retrieval-Augmented Generation (RAG) pipeline that scales automatically without managing underlying vector databases.",
+      "title": "Building a Serverless RAG Engine for Clinical Guidelines",
+      "description": "Learn how to use the new Vertex AI RAG Engine Serverless mode to build a medical document retrieval system without managing database infrastructure.",
       "tools": [
         "Vertex AI",
         "Gemini 1.5 Pro",
         "RAG Engine"
       ],
       "skills": [
-        "Serverless Architecture",
-        "Vector Search",
-        "Metadata Filtering"
+        "Serverless RAG",
+        "Metadata Filtering",
+        "Vector Search"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Initialize RAG Corpus",
-          "instruction": "Create a new RAG corpus in Vertex AI using the new serverless mode. This abstracts away the need to provision a specific vector database like Pinecone or Weaviate.",
-          "codeSnippet": "from google.cloud import aiplatform_v1\n\nclient = aiplatform_v1.IndexServiceClient()\n# Define corpus with serverless config\ncorpus_config = {\"display_name\": \"Medical_Research_Corpus\", \"serverless\": True}"
+          "stepTitle": "Enable RAG Engine Serverless",
+          "instruction": "In the Google Cloud Console, navigate to Vertex AI > RAG Engine and enable the 'Serverless' preview mode. This abstracts away the need to provision a Vector Search index manually."
         },
         {
-          "stepTitle": "Apply Schema-Based Metadata",
-          "instruction": "Define a metadata schema for your corpus to allow for precise filtering (e.g., by 'publication_year' or 'department').",
-          "codeSnippet": "corpus.update_schema({\"fields\": [{\"name\": \"dept\", \"type\": \"STRING\"}, {\"name\": \"year\", \"type\": \"INT64\"}]})"
+          "stepTitle": "Define Metadata Schema",
+          "instruction": "Create a JSON schema for your clinical documents (e.g., 'specialty', 'year', 'evidence_level'). This allows for precise filtering during the retrieval phase.",
+          "codeSnippet": "{\n  \"fields\": [\n    {\"name\": \"specialty\", \"type\": \"STRING\"},\n    {\"name\": \"evidence_level\", \"type\": \"INTEGER\"}\n  ]\n}"
         },
         {
-          "stepTitle": "Query with Metadata Filters",
-          "instruction": "Perform a retrieval query that uses the metadata filters to narrow down the context before passing it to Gemini.",
-          "codeSnippet": "response = rag_engine.retrieve(\n    query=\"Latest treatments for melanoma\",\n    filters=\"dept == 'Oncology' AND year >= 2025\"\n)"
+          "stepTitle": "Ingest and Query",
+          "instruction": "Upload your PDFs to the corpus and use the Gemini API to query with metadata filters. This ensures the model only 'sees' the most relevant, high-quality guidelines."
         }
       ],
-      "date": "April 16, 2026",
+      "date": "April 17, 2026",
       "prerequisites": [
         "Google Cloud Project",
-        "Vertex AI API enabled"
-      ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/rag-engine"
+        "Vertex AI API enabled",
+        "Sample clinical PDFs"
+      ]
     },
     {
-      "title": "Embodied Reasoning with Gemini Robotics-ER 1.6",
-      "description": "Create a high-level task planner for a simulated robot that can reason about physical constraints and call external tools.",
+      "title": "Multimodal Patient Education with Gemini 3.1 Flash-Lite",
+      "description": "Create a low-latency agent that can explain medical diagrams to patients using the most cost-efficient Gemini model.",
       "tools": [
-        "Gemini Robotics-ER 1.6",
-        "Google Search Tool",
-        "Vertex AI Studio"
+        "Gemini 3.1 Flash-Lite",
+        "Vertex AI SDK"
       ],
       "skills": [
-        "Spatial Reasoning",
-        "Tool Use",
-        "Task Planning"
+        "Multimodal Prompting",
+        "Cost Optimization",
+        "Visual Grounding"
       ],
-      "complexity": "Advanced",
+      "complexity": "Beginner",
       "guide": [
         {
-          "stepTitle": "Define the Physical Environment",
-          "instruction": "Upload a multi-view image set of a workspace. Gemini Robotics-ER 1.6 will use these to build a spatial map.",
-          "codeSnippet": "prompt = \"Analyze these 4 views of the lab. Identify all glass containers and their proximity to the heat source.\""
+          "stepTitle": "Initialize Flash-Lite",
+          "instruction": "Use the `gemini-3.1-flash-lite-preview` model for high-volume, cost-sensitive tasks. It is optimized for sub-second responses on multimodal inputs."
         },
         {
-          "stepTitle": "Implement Constraint-Based Pointing",
-          "instruction": "Ask the model to identify objects based on complex physical constraints, such as 'objects small enough to fit in the blue cup.'",
-          "codeSnippet": "response = model.generate_content([image, \"Point to every object that is fragile and weighs less than 500g.\"])"
+          "stepTitle": "Visual Grounding Prompt",
+          "instruction": "Provide an image of a medical diagram and ask the model to identify specific parts and explain them in simple language.",
+          "codeSnippet": "prompt = \"Identify the 'L4-L5' disc in this MRI and explain what a 'bulge' means in 2 sentences for a patient.\""
         },
         {
-          "stepTitle": "Orchestrate Tool Calls",
-          "instruction": "Configure the model to call a 'Safety Protocol' tool (a custom function) if it detects a potential hazard in its plan.",
-          "codeSnippet": "tools = [get_safety_protocol, search_chemical_hazards]\n# Model will automatically call these if the reasoning chain requires it."
+          "stepTitle": "Deploy as a Web Component",
+          "instruction": "Wrap the API call in a Cloud Function and integrate it into a patient portal for real-time, interactive education."
         }
       ],
-      "date": "April 16, 2026",
+      "date": "April 17, 2026",
       "prerequisites": [
-        "Access to Gemini Robotics-ER 1.6 Preview",
-        "Python SDK"
-      ],
-      "sourceUrl": "https://deepmind.google/discover/blog/gemini-robotics-er-1-6/"
+        "Vertex AI Python SDK",
+        "Basic knowledge of Python"
+      ]
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "Learning Long Context at Inference: TTT-E2E",
-      "summary": "Traditional LLMs struggle with long contexts, becoming slower and less accurate as the input grows. A new research highlight in 'The Batch' explores Test-Time Training End-to-End (TTT-E2E), a method that retrains model weights during the inference phase to handle massive inputs. Unlike standard RAG, which retrieves chunks of data, TTT-E2E allows the model to 'learn' the entire context dynamically. Andrew Ng notes that this could be the key to making AI agents truly useful in enterprise environments where they must process thousands of pages of documentation or code without losing the thread. He argues that 'inference-time compute' is the next frontier, moving us away from static models toward systems that adapt to the specific task at hand.",
-      "url": "https://www.deeplearning.ai/the-batch/issue-294/",
+      "title": "OpenAI Exits Video Generation: The Pivot to Productivity",
+      "summary": "In a surprising move, OpenAI has announced it will shut down Sora, its high-profile video generation model. According to 'The Batch,' this marks a strategic recalibration for the company as it prepares for an IPO. OpenAI is shifting resources away from high-cost, 'creative' AI that is difficult to monetize and toward productivity-driven tools like the new Codex and enterprise-grade agents. \n\nAndrew Ng notes that this is a classic 'crossing the chasm' moment. While Sora was a technical marvel, its operational costs and the legal complexities of the creative industry made it a liability for a company seeking a $100B+ valuation. Ng argues that the real value of generative AI lies in 'Agentic Workflows'—AI that can actually do work—rather than just creating media. This pivot suggests that the 'hype' phase of AI is ending, and the 'utility' phase is beginning.",
+      "url": "https://www.deeplearning.ai/the-batch/openai-exits-video-generation/",
       "category": "The Batch",
-      "author": "Andrew Ng",
-      "date": "April 03, 2026"
+      "author": "Andrew Ng / The Batch Team",
+      "date": "April 3, 2026"
     },
     {
-      "title": "The Future of Software Engineering in the Agentic Era",
-      "summary": "In his latest editorial, Andrew Ng addresses the growing job insecurity among software engineers as AI agents begin to automate coding tasks. He argues that while agents can handle the 'syntax' and 'boilerplate,' the future of engineering lies in 'system orchestration' and 'verification.' He introduces the concept of 'Context Hubs'—centralized repositories of API documentation and system constraints that agents use to ensure their code is not just functional, but correct within a specific enterprise architecture. Ng's perspective is that the role of the engineer is shifting from a 'writer of code' to a 'reviewer of logic' and 'architect of agentic workflows.'",
-      "url": "https://www.deeplearning.ai/the-batch/software-engineering-agents/",
-      "category": "The Batch",
-      "author": "Andrew Ng",
-      "date": "April 10, 2026"
+      "title": "Learning Long Context at Inference: The TTT-E2E Breakthrough",
+      "summary": "Researchers have introduced a new technique called Test-Time Training End-to-End (TTT-E2E) that allows LLMs to handle massive context lengths without the usual performance degradation. Traditionally, as context grows, models become slower and less accurate. TTT-E2E solves this by essentially 'retraining' a small portion of the model's weights during the inference process itself, allowing it to 'compress' long inputs into a more manageable state.\n\nThis technical breakthrough is significant because it enables constant-time inference regardless of context length. For healthcare, this means a model could ingest a patient's entire lifelong medical record and maintain the same speed and accuracy as if it were reading a single page. Andrew Ng highlights this as a major step toward 'infinite context' models that can act as true long-term assistants.",
+      "url": "https://www.deeplearning.ai/the-batch/learning-long-context-at-inference/",
+      "category": "Research Highlight",
+      "author": "The Batch Team",
+      "date": "April 6, 2026"
     }
   ],
   "generalLearningItems": [
     {
       "title": "Multimodal RAG with Sentence Transformers v5.4",
       "provider": "Hugging Face",
-      "summary": "A new tutorial on using the updated Sentence Transformers library to build RAG pipelines that can encode and compare text, images, audio, and video in a shared embedding space.",
+      "summary": "A comprehensive guide to using the new multimodal capabilities in the Sentence Transformers library. Learn how to map text, images, and audio into a shared embedding space for cross-modal search.",
       "url": "https://huggingface.co/blog/multimodal-sentence-transformers",
       "type": "Tutorial",
       "difficulty": "Intermediate"
     },
     {
-      "title": "Efficient Inference with SGLang",
-      "provider": "DeepLearning.AI",
-      "summary": "A new short course focusing on optimizing text and image generation using SGLang, a structured generation language that speeds up inference by up to 5x.",
-      "url": "https://www.deeplearning.ai/short-courses/efficient-inference-sglang/",
-      "type": "Course",
+      "title": "VAKRA: Benchmarking Agents in Enterprise Environments",
+      "provider": "Hugging Face",
+      "summary": "A new dataset and leaderboard for evaluating AI agents on multi-step workflows involving 8,000+ APIs. Essential for developers building reliable enterprise agents.",
+      "url": "https://huggingface.co/blog/vakra-benchmark",
+      "type": "Tool",
       "difficulty": "Advanced"
     },
     {
-      "title": "Anthropic Cookbook: Implementing Identity Verification",
-      "provider": "Anthropic",
-      "summary": "A technical guide for developers on how to integrate Anthropic's new identity verification API into their applications to meet compliance and safety requirements.",
-      "url": "https://github.com/anthropics/anthropic-cookbook",
-      "type": "Tool",
-      "difficulty": "Intermediate"
+      "title": "CompreSSM: Making Models Leaner During Training",
+      "provider": "MIT CSAIL",
+      "summary": "A research paper and code release for a technique that compresses state-space models (SSMs) while they are still being trained, cutting compute costs by up to 40%.",
+      "url": "https://news.mit.edu/2026/new-technique-makes-ai-models-leaner-faster-0409",
+      "type": "Paper",
+      "difficulty": "Advanced"
     }
   ]
 }
