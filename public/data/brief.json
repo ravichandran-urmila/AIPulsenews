@@ -1,78 +1,65 @@
 {
-  "editorsNote": "The AI landscape has shifted from experimental pilots to industrial-scale integration, with 'agentic' systems and humanoid robotics taking center stage. Major players like Meta and OpenAI are aggressively expanding into physical hardware and specialized infrastructure to support a new 'compute-powered economy.'",
+  "editorsNote": "Today's landscape is dominated by the 'Great Integration,' as AI shifts from experimental pilots to core infrastructure. Key themes include the rise of agentic systems in healthcare, a massive $1.5B Wall Street bet on Anthropic's enterprise distribution, and the emergence of 'test-time reasoning' as the new frontier for model performance.",
   "healthcareStories": [
     {
-      "headline": "Google DeepMind Launches 'AI Co-Clinician' Research Initiative",
-      "summary": "Google DeepMind has officially unveiled its 'AI Co-Clinician' initiative, a major research push aimed at moving beyond medical knowledge benchmarks to real-world clinical augmentation. Building on the success of MedPaLM and AMIE, the new system is designed to act as a proactive partner for doctors, surfacing high-quality evidence and assisting in complex diagnostic reasoning. In head-to-head blind evaluations using the 'NOHARM' framework, physicians consistently preferred the AI's evidence synthesis over existing leading tools. \n\nThe initiative addresses the projected global shortfall of 10 million health workers by 2030. In a study of 98 primary care queries, the system recorded zero critical errors in 97 cases, outperforming current widely used AI medical assistants. DeepMind is now advancing this research through a phased approach with global collaborators in the US, India, Australia, and Singapore to ensure the system is trustworthy and factually grounded before any clinical deployment.\n\nWhy it matters: This marks a shift from AI as a 'search engine' for doctors to AI as a 'reasoning partner.' By focusing on 'errors of commission' and 'omission,' Google is setting a high bar for safety and reliability in clinical AI, aiming to reduce physician burnout and improve patient outcomes through high-fidelity evidence synthesis.",
+      "headline": "Google DeepMind Unveils 'AI Co-Clinician' to Augment Primary Care",
+      "summary": "Google DeepMind has announced the 'AI Co-Clinician' research initiative, a significant leap from medical knowledge testing (MedPaLM) to active clinical support. In a study published in Science, the system was evaluated against 98 realistic primary care queries. Results showed the AI recorded zero critical errors in 97 cases, outperforming two widely used medical AI systems. The initiative uses the 'NOHARM' framework to specifically test for errors of commission (wrong info) and omission (missing info).\n\nUnlike previous models that focused on passing exams, the AI Co-Clinician is designed for 'human-on-the-loop' oversight. It aims to surface high-quality evidence and assist in diagnostic reasoning rather than replacing the physician. The research is currently being expanded through phased evaluations in diverse global settings, including the US, India, and Singapore.\n\nWhy it matters: With a predicted global shortfall of 10 million health workers by 2030, this represents a shift toward AI as a scalable 'force multiplier' for clinicians. However, researchers warn that 'agentic' tools require new safety guardrails, as AI still struggles with knowing when to admit uncertainty or ask for help in complex 'edge' cases.",
       "source": "Google DeepMind Research Blog",
       "tags": [
         "Clinical",
         "Research",
-        "Safety"
+        "Models"
       ],
       "cluster": "Google / DeepMind",
-      "date": "April 30, 2026",
-      "url": "https://deepmind.google/discover/blog/ai-co-clinician-researching-the-path-toward-ai-augmented-care/"
+      "date": "May 4, 2026",
+      "url": "https://deepmind.google/discover/blog/enabling-a-new-model-for-healthcare-with-ai-co-clinician/"
     },
     {
-      "headline": "Iterative Health Secures $77M to Automate Clinical Trial Recruitment",
-      "summary": "Iterative Health has raised $77 million in new funding to scale its AI-powered clinical research network. The company uses computer vision and machine learning to analyze real-world data—including EHRs and endoscopic imaging—to automatically identify and recruit eligible patients for clinical trials. This technology specifically targets the 'recruitment bottleneck,' which is often the most expensive and time-consuming phase of drug development.\n\nThe platform is currently deeply integrated into gastroenterology (GI) workflows, where it standardizes disease severity scoring for conditions like Inflammatory Bowel Disease (IBD). By embedding its 'AIR' (AI Recruitment) engine directly into routine care settings, Iterative Health creates a continuous data loop that benefits both clinical care and pharmaceutical sponsors.\n\nWhy it matters: For healthcare leaders, this represents the 'industrialization' of clinical trials. Automating patient matching not only reduces costs but also ensures that diverse patient populations are reached more effectively, accelerating the time-to-market for life-saving therapeutics.",
-      "source": "Healthtech Weekly / Substack",
+      "headline": "Utah Pilot Grants AI 'Doctronic' Autonomous Prescription Authority",
+      "summary": "The Utah Office of Artificial Intelligence Policy has granted Doctronic, an AI healthcare startup, permission to autonomously prescribe refills for maintenance drugs for chronic diseases. This marks a first-in-the-nation move toward removing 'human-in-the-loop' requirements for routine medical tasks. While the company maintains that physicians still review requests, the policy allows for a transition to full autonomy for specific low-risk medications.\n\nThe move has sparked a 'turf war' with the Utah Medical Licensing Board, which was not consulted on the decision. Critics argue that medicine is unprepared for 'agentic' tools that operate without direct oversight, citing concerns about AI's inability to recognize subtle patient changes that a human might catch during a routine refill request.\n\nWhy it matters: This is a landmark regulatory precedent. It signals a shift from AI as a 'copilot' to AI as a 'licensed agent.' If successful, it could drastically reduce administrative burdens on physicians, but it also creates significant liability and safety questions regarding 'human-on-the-loop' monitoring.",
+      "source": "STAT News",
       "tags": [
-        "Clinical Trials",
-        "Funding",
-        "Gastroenterology"
+        "Policy",
+        "Regulation",
+        "Clinical"
       ],
-      "cluster": "Healthcare Systems",
-      "date": "May 2, 2026",
-      "url": "https://abnormaldocs.substack.com/p/healthtech-weekly-tldr-2-may-2026"
+      "cluster": "Regulatory",
+      "date": "May 1, 2026",
+      "url": "https://www.statnews.com/2026/01/15/medical-ai-safety-research-fda-cds/"
     }
   ],
   "techStories": [
     {
-      "headline": "Meta Acquires Assured Robot Intelligence in Humanoid Push",
-      "summary": "Meta Platforms has acquired Assured Robot Intelligence (ARI), a startup specializing in AI for humanoid robot control. The ARI team, led by researchers from Nvidia and UC San Diego, will join the newly formed 'Meta Superintelligence Labs.' This acquisition is a cornerstone of Meta's strategy to build an 'Android-like' ecosystem for robotics, providing the software, sensors, and foundational AI models that other hardware manufacturers can use to power humanoid machines.\n\nThe deal comes as Meta raises its 2026 capital expenditure guidance to a staggering $125B–$145B, primarily driven by AI infrastructure costs. CEO Mark Zuckerberg has signaled that while the company is investing heavily in the future of 'agentic' and physical AI, it is also streamlining its workforce, with approximately 8,000 job cuts expected in May to offset these massive R&D spends.\n\nWhy it matters: Meta is betting that the next frontier of AI isn't just on screens, but in the physical world. By positioning itself as the 'operating system' for humanoids, Meta aims to control the data flywheel of physical interactions, much like it dominates social data today.",
-      "source": "Outlook Business / Bloomberg",
+      "headline": "Anthropic Inks $1.5B Joint Venture with Blackstone and Goldman Sachs",
+      "summary": "Anthropic is finalizing a massive $1.5 billion joint venture with Wall Street titans Blackstone, Goldman Sachs, and Hellman & Friedman. The goal is to embed Anthropic’s 'Claude' models directly into the operating tissue of thousands of private-equity-backed companies. This 'consulting-arm' approach bypasses traditional enterprise sales, creating a permanent distribution channel into the world's largest portfolio companies.\n\nThe deal comes as Anthropic prepares for a potential IPO in late 2026, with a valuation target nearing $900 billion. The company's annual revenue run rate reportedly skyrocketed from $9B at the end of 2025 to $30B by March 2026. This JV is seen as a strategic move to demonstrate durable, scalable enterprise revenue to public market investors.\n\nWhy it matters: This represents a shift in the AI 'power map.' While OpenAI has pursued a similar 'DeployCo' strategy, Anthropic's venture is more concentrated and financially backed by the world's largest asset managers. It signals that the next phase of AI competition is about distribution and 'integration depth' rather than just model benchmarks.",
+      "source": "The Wall Street Journal / TNW",
       "tags": [
-        "Robotics",
-        "M&A",
-        "Infrastructure"
+        "Business",
+        "Enterprise",
+        "Finance"
       ],
-      "cluster": "Meta AI",
-      "date": "May 2, 2026",
-      "url": "https://www.outlookbusiness.com/corporate/meta-acquires-robotics-ai-firm"
+      "cluster": "Anthropic",
+      "date": "May 4, 2026",
+      "url": "https://thenextweb.com/news/anthropic-wall-street-1-5bn-pipeline-private-equity"
     },
     {
-      "headline": "OpenAI Positions GPT-5.5 as the Engine of a 'Compute-Powered Economy'",
-      "summary": "OpenAI has officially introduced GPT-5.5, framing it not just as a model, but as the foundation for a new 'compute-powered economy.' The model represents a pivot from passive chat interfaces to proactive, agent-driven systems. GPT-5.5 features significantly improved capabilities in computer control, multi-step reasoning, and autonomous task execution. OpenAI leadership suggests that in this new era, productivity will be directly tied to the amount of compute an organization can harness through these agents.\n\nAlongside the model, OpenAI released the 'OpenAI Privacy Filter,' an open-weight tool designed to detect and redact PII in unstructured text. This move is intended to make it easier for enterprises in highly regulated sectors—like healthcare and finance—to deploy GPT-5.5 safely. Furthermore, reports indicate OpenAI is developing a smartphone concept designed entirely around AI agents, potentially bypassing traditional app stores to interact directly with users.\n\nWhy it matters: GPT-5.5 signals the end of the 'chatbot' era. For businesses, the focus must now shift to 'agentic workflows' where AI doesn't just suggest content but executes business processes from start to finish.",
-      "source": "OpenAI Blog / MarketingProfs",
+      "headline": "OpenAI Releases GPT-5.5: Focus Shifts to 'Test-Time Reasoning'",
+      "summary": "OpenAI has officially launched GPT-5.5, positioning it as the foundation for a new 'compute-powered economy.' The headline feature is not just larger parameters, but 'test-time compute'—the ability for the model to 'think harder' during inference. This allows the model to run multiple internal reasoning passes before delivering an answer, significantly boosting performance on complex coding and visual puzzles.\n\nHowever, the release notes also highlight a persistent challenge: while GPT-5.5 tops leaderboards (scoring 82.7% on Terminal-Bench 2.0), it still struggles with 'knowing what it doesn't know,' leading to high-confidence hallucinations in niche domains. OpenAI also introduced 'Advanced Account Security' alongside the launch, reflecting the model's deeper integration into sensitive corporate workflows.\n\nWhy it matters: We are entering an era where model quality is a choice between speed and depth. For developers, this means 'prompt engineering' is evolving into 'context engineering,' where managing how a model uses its 'thinking time' is as important as the initial instruction.",
+      "source": "OpenAI Blog / The Batch",
       "tags": [
         "Models",
-        "Privacy",
-        "Agents"
+        "Research",
+        "Security"
       ],
       "cluster": "OpenAI",
       "date": "May 1, 2026",
       "url": "https://openai.com/news/introducing-gpt-5-5"
-    },
-    {
-      "headline": "Pentagon Freezes Out Anthropic Over 'Supply Chain Risk' Concerns",
-      "summary": "The U.S. Department of Defense (DoD) has excluded Anthropic from a new round of AI contracts, citing the company as a 'supply chain risk.' While the Pentagon signed deals with OpenAI, Google, and Microsoft for classified network deployments, Anthropic remains barred due to a dispute over 'acceptable use.' Specifically, Anthropic has reportedly refused to grant the military unrestricted access to its Claude models for use in fully autonomous weapons systems and mass surveillance.\n\nDespite the freeze, some federal agencies are reportedly evaluating 'Claude Mythos,' a specialized model with advanced cybersecurity capabilities for finding and patching vulnerabilities. Pentagon CTO Emil Michael clarified that while there is interest in the technical capabilities of Mythos, it does not constitute a 'thaw' in the broader relationship, and Anthropic remains excluded from operational deployment on national security grounds.\n\nWhy it matters: This conflict highlights the growing tension between AI 'safety' labs and military requirements. Anthropic's stance on 'constitutional AI' is being tested against the government's demand for unrestricted tools, creating a unique regulatory and market hurdle for the company.",
-      "source": "Military Times / The Register",
-      "tags": [
-        "Policy",
-        "Cybersecurity",
-        "Defense"
-      ],
-      "cluster": "Regulatory",
-      "date": "May 1, 2026",
-      "url": "https://www.militarytimes.com/pentagon-freezes-out-anthropic"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "The shift toward 'World Models' is the only way to overcome the limitations of LLMs. We are finally seeing the industry move away from pure auto-regressive text and toward systems that understand physical reality. Meta's acquisition of ARI is a step in that direction. Intelligence requires an internal model of how the world works, not just how words follow each other.",
+      "content": "Argued that 'test-time reasoning' is a necessary but insufficient step toward AGI. Emphasized that current LLMs still lack a 'world model' and that true reasoning requires systems that can plan in a continuous state space, not just predict the next token with more compute.",
       "authorName": "Yann LeCun",
       "date": "Today",
       "type": "Opinion",
@@ -80,7 +67,7 @@
     },
     {
       "handle": "@AndrewYNg",
-      "content": "I'm seeing a 'swivel-chair bottleneck' in many AI implementations. We have great models, but humans are still manually moving data between them. The future of software engineering isn't just writing code; it's designing the agentic workflows that eliminate this bottleneck. Generalists who understand the whole stack will be the most valuable players in 2026.",
+      "content": "Highlighted the 'swivel-chair bottleneck' in AI-native software development. Noted that while coding agents are 5x faster at syntax, the human 'architect' is now the primary delay. Suggested that the next wave of productivity will come from 'agent-to-agent' (A2A) protocols that reduce human mediation.",
       "authorName": "Andrew Ng",
       "date": "Yesterday",
       "type": "Research",
@@ -88,135 +75,87 @@
     },
     {
       "handle": "@karpathy",
-      "content": "The 'Vibe Coding' era is here. With tools like Claude Design and GPT-5.5, the distance between an idea and a working prototype is shrinking to zero. We are moving from 'how to code' to 'what to build.' The bottleneck is no longer syntax; it's taste and product vision.",
+      "content": "Shared a technical observation on 'Inference-time scaling.' Compared the current trend of letting models 'think' to the early days of AlphaGo's Monte Carlo Tree Search. Predicted that 'Thinking Tokens' will soon be a standard billing metric alongside input/output tokens.",
       "authorName": "Andrej Karpathy",
-      "date": "Today",
-      "type": "Opinion",
+      "date": "2h ago",
+      "type": "Research",
       "url": "https://x.com/karpathy"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a HIPAA-Compliant Medical Evidence Agent",
-      "description": "Create an agent that uses Vertex AI RAG Engine to synthesize medical literature while maintaining strict data privacy controls.",
+      "title": "Building a 'Human-on-the-Loop' Clinical Evidence Synthesizer",
+      "description": "Create a Vertex AI agent that synthesizes medical literature and flags 'uncertainty' for physician review using Gemini 1.5 Pro's long context.",
       "tools": [
-        "Vertex AI Agent Engine",
+        "Vertex AI Agent Builder",
         "Gemini 1.5 Pro",
-        "RAG Engine"
+        "Vertex RAG Engine"
       ],
       "skills": [
-        "RAG",
-        "HIPAA Compliance",
-        "Metadata Filtering"
+        "Agentic Workflows",
+        "Uncertainty Calibration",
+        "RAG"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Initialize RAG Corpus with Schema",
-          "instruction": "Define a metadata schema for your medical documents (e.g., 'specialty', 'year', 'evidence_level') to allow for precise filtering during retrieval.",
-          "codeSnippet": "rag_corpus = client.create_rag_corpus(display_name='medical_lit', metadata_schema={'specialty': 'string', 'evidence_level': 'integer'})"
+          "stepTitle": "Initialize RAG Engine with Medical Corpus",
+          "instruction": "Upload a set of peer-reviewed journals to the Vertex AI RAG Engine. Use the new 'Schema-based metadata search' to categorize by 'Specialty' and 'Evidence Level'.",
+          "codeSnippet": "gcloud ai rag-corpora create --display-name='clinical_evidence_v1'"
         },
         {
-          "stepTitle": "Configure Private Service Connect",
-          "instruction": "Ensure all data traffic stays within your VPC by configuring a Private Service Connect (PSC) interface for the Agent Engine.",
-          "codeSnippet": "agent_config = {'security': {'vpc_settings': {'psc_interface': 'my-psc-endpoint'}}}"
+          "stepTitle": "Configure Agent with 'Thinking' Prompt",
+          "instruction": "Set the system instruction to require a 'Confidence Score' and a 'Reasoning Path' for every synthesis. Use the 'Agent Engine Code Execution' to verify citations against the RAG source.",
+          "codeSnippet": "instruction: 'Synthesize the following patient data against the corpus. If evidence is conflicting, assign a confidence score < 0.7 and flag for human review.'"
         },
         {
-          "stepTitle": "Deploy Agent with Evidence Grounding",
-          "instruction": "Deploy the agent using Gemini 1.5 Pro, instructing it to only answer based on the retrieved documents from your RAG corpus.",
-          "codeSnippet": "agent = client.create_agent(model='gemini-1.5-pro', tools=[rag_tool], system_instruction='Synthesize evidence from the provided documents only.')"
+          "stepTitle": "Deploy with Bidirectional Streaming",
+          "instruction": "Enable bidirectional streaming in the Agent Engine to allow the physician to 'interrupt' the AI's reasoning process in real-time as it surfaces evidence."
         }
       ],
-      "date": "May 3, 2026",
+      "date": "May 4, 2026",
       "prerequisites": [
-        "Google Cloud Project with Vertex AI enabled",
-        "Medical dataset in PDF/Text format",
-        "Basic Python knowledge"
+        "Google Cloud Project",
+        "Vertex AI API enabled",
+        "Access to PubMed Open Access Subset"
       ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs"
-    },
-    {
-      "title": "Autonomous Lab Inventory Agent with Code Execution",
-      "description": "Build an agent that can query a Lab Information Management System (LIMS) and execute Python code to calculate reagent depletion rates.",
-      "tools": [
-        "Vertex AI Agent Engine",
-        "Gemini 1.5 Flash",
-        "Code Execution Sandbox"
-      ],
-      "skills": [
-        "Tool Use",
-        "Code Execution",
-        "Agentic Workflows"
-      ],
-      "complexity": "Advanced",
-      "guide": [
-        {
-          "stepTitle": "Enable Code Execution Tool",
-          "instruction": "Enable the 'Code Execution' feature in Agent Engine, which allows the agent to run Python in a secure sandbox to perform calculations.",
-          "codeSnippet": "tools = [Tool.from_google_search_retrieval(), Tool.from_code_execution()]"
-        },
-        {
-          "stepTitle": "Define LIMS API Tool",
-          "instruction": "Create a Function Declaration that allows the agent to fetch current inventory levels from your lab's API.",
-          "codeSnippet": "get_inventory = FunctionDeclaration(name='get_inventory', parameters={'type': 'object', 'properties': {'item_id': {'type': 'string'}}})"
-        },
-        {
-          "stepTitle": "Orchestrate Multi-Step Reasoning",
-          "instruction": "Prompt the agent to fetch data, use code to analyze trends, and output a restock recommendation.",
-          "codeSnippet": "response = agent.chat('Check reagent X-102 levels and predict when we will run out based on last month\\'s usage.')"
-        }
-      ],
-      "date": "May 3, 2026",
-      "prerequisites": [
-        "Vertex AI API access",
-        "Mock LIMS API endpoint",
-        "Python SDK installed"
-      ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/agent-engine"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/release-notes"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "GPT-5.5: Intelligence vs. Awareness",
-      "summary": "In the latest edition of 'The Batch,' the team analyzes the release of GPT-5.5, noting that while it sets new records on benchmarks like Terminal-Bench 2.0 (82.7%), it still struggles with 'metacognition'—the ability to know what it doesn't know. Andrew Ng observes that as models become more proactive and 'agentic,' the risk of confident hallucinations increases. He argues that the industry must move toward 'reflective' architectures where models check their own work before presenting it to the user. The article highlights that GPT-5.5's ability to control a computer interface is a 'step-change' in utility, but warns that without better calibration of its own certainty, it could lead to automated errors at scale.",
-      "url": "https://www.deeplearning.ai/the-batch/gpt-5-5-outperforms-and-hallucinates/",
+      "title": "Strategic Thinking in LLMs vs. Humans",
+      "summary": "A recent study featured in 'The Batch' by researchers at UT-Austin and Google explores whether LLMs actually 'think' strategically or simply mimic patterns. Using Rock-Paper-Scissors as a benchmark, researchers found that while models like GPT-5.5 can adopt human-like strategies (e.g., 'win-stay, lose-shift'), their approach is fundamentally superficial. Unlike humans, who adapt based on psychological cues and long-term opponent modeling, LLMs rely on statistical likelihoods within their context window. Andrew Ng notes that this 'superficial mimicry' is a double-edged sword: it makes AI predictable and easy to align in stable environments, but potentially brittle in adversarial or high-stakes strategic negotiations where 'theory of mind' is required.",
+      "url": "https://www.deeplearning.ai/the-batch/strategic-thinking-in-llms-vs-humans/",
       "category": "The Batch",
-      "author": "Andrew Ng & The Batch Team",
+      "author": "The Batch Team",
       "date": "May 1, 2026"
     },
     {
-      "title": "Strategic Thinking: LLMs vs. Humans",
-      "summary": "A fascinating research highlight from UT-Austin and Google, featured in 'The Batch,' explores how LLMs handle simple strategy games like Rock-Paper-Scissors. While LLMs can mimic human-like patterns, the research reveals that their 'strategic' thinking is often superficial. Humans adapt to an opponent's psychology, whereas LLMs tend to rely on statistical likelihoods from their training data. Andrew Ng notes that this has profound implications for 'Agentic AI' in business negotiations or competitive markets. If an agent cannot truly model an opponent's intent, it remains a sophisticated calculator rather than a true strategist. He suggests that 'test-time compute'—letting the model think longer during the game—is the current best path to closing this gap.",
-      "url": "https://www.deeplearning.ai/the-batch/strategic-thinking-in-llms-vs-humans/",
-      "category": "Research Highlight",
-      "author": "The Batch Team",
+      "title": "Big AI's Plans Strain CO2 Pledges",
+      "summary": "This segment examines the growing tension between the AI arms race and corporate sustainability. As Alphabet, Microsoft, and Meta build out massive new data centers to support 'agentic' workloads and 'test-time compute,' their carbon emissions are surging. The report highlights that many of these facilities are being powered by fossil fuels to meet immediate demand, putting 2030 'Net Zero' pledges at risk. Andrew Ng argues that the industry must pivot toward 'efficient intelligence'—focusing on smaller, domain-specific models and hardware-software co-design—rather than relying solely on brute-force scaling. He suggests that 'carbon-per-inference' will soon become a critical KPI for enterprise AI architects.",
+      "url": "https://www.deeplearning.ai/the-batch/big-ais-plans-strain-co2-pledges/",
+      "category": "The Batch",
+      "author": "Andrew Ng",
       "date": "May 1, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Claude Security Public Beta",
-      "provider": "Anthropic",
-      "summary": "A new toolset for developers to use Claude to find and fix software vulnerabilities in real-time. Includes a specialized 'Mythos' evaluation mode for cybersecurity professionals.",
-      "url": "https://www.anthropic.com/news/claude-security-beta",
+      "title": "Gemma 4: Multimodal Intelligence On-Device",
+      "provider": "Hugging Face / Google DeepMind",
+      "summary": "A comprehensive guide and model weights for the new Gemma 4 family. Covers the 'Shared KV Cache' architecture and how to deploy 26B parameter multimodal models on consumer hardware.",
+      "url": "https://huggingface.co/blog/gemma-4",
       "type": "Tool",
-      "difficulty": "Advanced"
-    },
-    {
-      "title": "AI Agents Vibe Coding Course",
-      "provider": "Google & Kaggle",
-      "summary": "A hands-on course focused on the 'Vibe Coding' movement—using high-level agentic tools to build complex applications with minimal manual coding.",
-      "url": "https://www.kaggle.com/learn/ai-agents-vibe-coding",
-      "type": "Course",
-      "difficulty": "Beginner"
-    },
-    {
-      "title": "Granite 4.1: Open Weights for Enterprise",
-      "provider": "Hugging Face / IBM",
-      "summary": "A deep dive into IBM's latest open-weight models, optimized for math, code, and long-context (512K) tasks, now available on the Hugging Face Hub.",
-      "url": "https://huggingface.co/blog/ibm-granite-4-1",
-      "type": "Tutorial",
       "difficulty": "Intermediate"
+    },
+    {
+      "title": "Training Low-Bit Ternary Models with Axolotl",
+      "provider": "Hugging Face",
+      "summary": "A technical tutorial on reducing model memory footprints using ternary (1.58-bit) weights, essential for the next generation of 'edge' healthcare devices.",
+      "url": "https://huggingface.co/blog/axolotl-ternary",
+      "type": "Tutorial",
+      "difficulty": "Advanced"
     }
   ]
 }
