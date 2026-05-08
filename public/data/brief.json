@@ -1,214 +1,210 @@
 {
-  "editorsNote": "Today's landscape is defined by a massive shift toward 'Physical AI' and 'Agentic Infrastructure.' Major players like Meta and Google are moving beyond digital chat into robotics and clinical co-pilots, while OpenAI and Anthropic are aggressively scaling their enterprise and compute footprints through strategic partnerships.",
+  "editorsNote": "The AI landscape today is defined by a massive shift from experimental models to 'The Great Integration' within core business and healthcare infrastructure. Key themes include the rise of agentic systems in drug discovery, a surge in high-stakes compute partnerships like Anthropic's deal with SpaceX, and a growing tension between rapid deployment and ethical/regulatory oversight.",
   "healthcareStories": [
     {
-      "headline": "Google DeepMind Unveils 'AI Co-Clinician' for Augmented Care",
-      "summary": "Google DeepMind has announced the 'AI Co-Clinician' research initiative, a significant evolution from its previous medical models like MedPaLM and AMIE. This new system is designed to act as a real-time assistant for doctors, focusing on surfacing high-quality evidence and reducing clinical errors. In blind evaluations involving 98 realistic primary care queries, the AI Co-Clinician recorded zero critical errors in 97 cases, outperforming existing AI systems currently used in medical settings.\n\nThe initiative utilizes the 'NOHARM' framework to specifically test for 'errors of commission' (incorrect info) and 'errors of omission' (missing info). Google is currently advancing this research through a phased approach with academic collaborators in the US, India, Australia, and Singapore. The goal is to address the projected global shortage of 10 million health workers by 2030 by amplifying physician expertise rather than replacing it.\n\nWhy it matters: This marks a shift from 'medical knowledge testing' to 'clinical workflow integration.' For healthcare executives, it signals that AI is moving from a search tool to a proactive participant in the diagnostic process, requiring new governance models for 'human-on-the-loop' oversight.",
-      "source": "Google DeepMind Blog",
-      "tags": [
-        "Clinical",
-        "Research",
-        "Diagnostics"
-      ],
-      "cluster": "Google / DeepMind",
-      "date": "May 7, 2026",
-      "url": "https://deepmind.google/discover/blog/ai-co-clinician-augmented-care/"
-    },
-    {
-      "headline": "OpenAI Launches Free 'Healthcare AI Workspace' for U.S. Clinicians",
-      "summary": "OpenAI has introduced a dedicated 'Healthcare AI Workspace' designed to streamline administrative and clinical research tasks for U.S.-based medical professionals. The workspace is tailored for high-frequency tasks such as evidence review, medical documentation, referral letter drafting, and prior authorization support. This move follows data showing that 81% of U.S. physicians now use some form of AI in their practice, a massive jump from 38% in 2023.\n\nThe platform emphasizes privacy and compliance, aiming to reduce the 'documentation burden' that contributes to physician burnout. By providing these tools for free, OpenAI is positioning itself as the primary interface for clinical administrative workflows, potentially challenging specialized health-tech incumbents. The workspace also includes features for generating patient instructions in simplified language to improve health literacy.\n\nWhy it matters: This is a strategic land-grab for the 'clinical desktop.' By subsidizing access, OpenAI is ensuring its models become the default infrastructure for the next generation of healthcare operations, forcing competitors to compete on specialized clinical depth rather than general utility.",
-      "source": "OpenAI News",
-      "tags": [
-        "Operations",
-        "Policy",
-        "Clinician Tools"
-      ],
-      "cluster": "OpenAI",
-      "date": "May 6, 2026",
-      "url": "https://openai.com/news/healthcare-workspace-launch/"
-    },
-    {
-      "headline": "The 'Scale Divide' in Drug Discovery: 3,500 GPUs vs. 21 Parameters",
-      "summary": "A strategic fault line has emerged in AI-driven drug discovery between 'Brute Force Scale' and 'Biological Minimalism.' On one side, Roche and Eli Lilly have unveiled massive AI factories, with Roche deploying 3,500 NVIDIA Blackwell GPUs for its 'Lab-in-the-Loop' strategy and Lilly launching 'LillyPod,' a 1,016-GPU SuperPOD. These systems aim to train biomedical foundation models on trillions of data points to predict functional impacts of genetic variations.\n\nConversely, a new study in Nature Communications demonstrated that fundamental RNA base-pairing rules could be learned using a model with only 21 parameters, requiring no massive compute or structural training data. This 'minimalist' approach suggests that for certain biological problems, understanding the underlying first principles of physics and chemistry may be more efficient than massive statistical scaling.\n\nWhy it matters: For Life Sciences leaders, this highlights a critical investment dilemma. While massive compute (Scale Thesis) is currently winning the race for generalist vision and genomic models, 'Precision Minimalism' could offer a lower-cost, more interpretable path for specific molecular design tasks.",
-      "source": "Drug Target Review / Nature",
+      "headline": "OpenAI Unveils GPT-Rosalind for Accelerated Drug Discovery",
+      "summary": "OpenAI has officially launched a research preview of GPT-Rosalind, a specialized AI model designed specifically for the life sciences sector. Named after DNA pioneer Rosalind Franklin, the model is engineered to assist in complex drug discovery tasks, molecular modeling, and genomic analysis. Early partners include pharmaceutical giant Novo Nordisk, which is integrating the model across its entire value chain—from initial R&D and clinical trial design to manufacturing and supply chain optimization for its high-demand obesity treatments.\n\nGPT-Rosalind represents a departure from general-purpose LLMs, featuring a training set heavily weighted toward biochemical data and scientific literature. The model aims to reduce the 'valley of death' in drug development by predicting molecular efficacy and toxicity earlier in the pipeline. Novo Nordisk's involvement highlights a strategic move to use AI to maintain its lead in the competitive GLP-1 market, using the model to identify next-generation compounds and optimize production yields.\n\nWhy it matters: This marks OpenAI's first major vertical-specific model release for healthcare. By moving beyond general chat to specialized scientific reasoning, OpenAI is directly challenging established players in the AI-for-drug-discovery space like Google DeepMind (AlphaFold) and specialized startups. For healthcare executives, this signals that 'off-the-shelf' frontier models are becoming sophisticated enough to handle core scientific workflows, potentially lowering the barrier to entry for AI-driven R&D.",
+      "source": "NIHCM Newsletter / OpenAI Blog",
       "tags": [
         "Drug Discovery",
-        "Research",
-        "Compute"
+        "Life Sciences",
+        "Models"
       ],
-      "cluster": "Pharma / Research",
-      "date": "May 4, 2026",
-      "url": "https://www.drugtargetreview.com/article/scale-divide-ai-drug-discovery/"
+      "cluster": "OpenAI",
+      "date": "May 7, 2026",
+      "url": "https://nihcm.org/publications/artificial-intelligence-in-health-care-evolving-cancer-trends"
+    },
+    {
+      "headline": "ARPA-H Launches 'Igor' Program to Automate Biomedical Research",
+      "summary": "The Advanced Research Projects Agency for Health (ARPA-H) has announced the 'Igor' program, a five-year initiative aimed at creating an end-to-end autonomous biomedical research infrastructure. The program seeks to address the 'reproducibility crisis' in science, where up to 89% of preclinical work cannot be fully replicated. Igor is designed to function as an 'Intelligent Generator of Research,' automating the cycle of hypothesis generation, experimental design, and cross-lab protocol execution.\n\nUnlike traditional research which relies on manual protocol adaptation between labs, Igor aims to make transferring an experiment as simple as sending a data file. The system will utilize computational models that move beyond simple statistical correlation to represent causal biological mechanisms. By standardizing and automating the 'how' of research, ARPA-H believes it can accelerate the delivery of breakthroughs for chronic and complex diseases from decades to just a few years.\n\nWhy it matters: This is a massive federal bet on 'Agentic Science.' If successful, Igor could fundamentally change the economics of biotech by reducing the time and cost of validating new treatments. For healthcare leaders, it represents a shift toward a more 'modular' and 'interoperable' research ecosystem where AI agents, rather than just human researchers, manage the integrity and flow of scientific evidence.",
+      "source": "Bank Info Security / HHS",
+      "tags": [
+        "Policy",
+        "Research",
+        "Infrastructure"
+      ],
+      "cluster": "Regulatory / HHS",
+      "date": "May 7, 2026",
+      "url": "https://www.bankinfosecurity.com/hhs-proposes-to-restructure-biomedical-research-with-ai-a-25167"
+    },
+    {
+      "headline": "AstraZeneca Reports 50% Reduction in Lead Molecule Identification Time",
+      "summary": "In its latest earnings report, AstraZeneca showcased the 'measurable impact' of its AI integration, specifically highlighting its open-source generative AI framework, 'Reinvent.' The company reported that the tool has halved the time required to identify molecular structures for potential new medicines. CEO Pascal Soriot emphasized that AI is no longer a 'future ambition' but is currently embedded end-to-end across discovery, development, and commercial operations.\n\nBeyond Reinvent, AstraZeneca is utilizing its 'Quantitative Continuous Scoring' (QCS) platform to analyze digitized tissue samples. This AI-driven imaging tool helps identify which non-small cell lung cancer patients are most likely to respond to specific treatments, enabling more precise clinical trial recruitment and personalized care. The company views these AI capabilities as central to its goal of reaching $80 billion in revenue by 2030.\n\nWhy it matters: AstraZeneca's results provide a concrete ROI case study for AI in pharma. While many firms are still in the pilot phase, AstraZeneca is demonstrating that internalizing AI development (via open-source frameworks like Reinvent) can lead to significant competitive advantages in speed-to-market and precision medicine.",
+      "source": "Fierce Biotech",
+      "tags": [
+        "Clinical",
+        "Pharma",
+        "ROI"
+      ],
+      "cluster": "Healthcare Systems",
+      "date": "May 7, 2026",
+      "url": "https://www.fiercebiotech.com/biotech/rd-ma-big-pharmas-showcase-measurable-impact-ai"
     }
   ],
   "techStories": [
     {
-      "headline": "Meta Acquires ARI to Pivot Toward 'Physical Superintelligence'",
-      "summary": "Meta has officially acquired Assured Robot Intelligence (ARI), a startup focused on humanoid robotics and physical AGI. The ARI team, led by co-founders Xiaolong Wang and Lerrel Pinto, will join the newly formed 'Meta Superintelligence Labs' (MSL). This acquisition signals Meta's intent to move beyond digital content generation and into 'Physical AI,' where models learn directly from human movement and physical interaction rather than just text or teleoperation.\n\nThis move coincides with Meta's massive capital expenditure increase, now projected at $125B–$145B for 2026. The company is also implementing a 'Model Capability Initiative' (MCI) which tracks employee keystrokes and mouse movements on work devices to train AI agents on how humans navigate complex digital workflows. This data collection is mandatory for U.S. employees and has sparked internal debate regarding privacy and the eventual replacement of junior engineering roles.\n\nWhy it matters: Meta is betting that the next frontier of AI isn't just 'thinking' but 'doing.' By combining humanoid robotics with massive internal workflow data, Meta is building an end-to-end system for automating both physical and digital labor.",
-      "source": "Wall Street Journal / TechTarget",
-      "tags": [
-        "Robotics",
-        "M&A",
-        "Workforce"
-      ],
-      "cluster": "Meta AI",
-      "date": "May 6, 2026",
-      "url": "https://www.campustechnology.com/articles/2026/05/06/meta-expands-into-physical-ai.aspx"
-    },
-    {
-      "headline": "Anthropic Strikes Compute Deal with SpaceX's Colossus Supercomputer",
-      "summary": "Anthropic has signed a landmark agreement with SpaceX to utilize the full compute capacity of the 'Colossus 1' data center. This provides Anthropic with immediate access to over 300 megawatts of capacity, powered by 220,000 NVIDIA GPUs (including H100s, H200s, and GB200s). As a result, Anthropic has doubled the rate limits for 'Claude Code' and removed peak-hour restrictions for Pro and Max users.\n\nElon Musk, who previously criticized Anthropic, stated he was 'impressed' by the team's competence and commitment to safety, though he reserved the right to reclaim compute if the AI 'harms humanity.' This deal is part of Anthropic's broader strategy to secure multi-gigawatt capacity through partnerships with Amazon, Google, and now SpaceX, including potential future 'orbital AI compute' on SpaceX's satellite network.\n\nWhy it matters: This deal effectively ends the 'compute drought' for Anthropic's power users. It also signals a surprising realignment in the AI industry, where infrastructure needs are overriding previous philosophical and competitive rivalries.",
-      "source": "Anthropic Blog / Engadget",
+      "headline": "Anthropic Strikes Massive Compute Deal with SpaceX for 'Colossus 1'",
+      "summary": "Anthropic has announced a landmark partnership with Elon Musk's SpaceX to utilize the full compute capacity of the 'Colossus 1' data center. This deal provides Anthropic with immediate access to over 300 megawatts of capacity, powered by more than 220,000 NVIDIA GPUs. The move is a direct response to surging demand for Claude, which has led to aggressive rate caps and developer frustration in recent months.\n\nEffective immediately, Anthropic has doubled the usage limits for 'Claude Code' across Pro, Max, Team, and Enterprise plans. The company also removed peak-hour limit reductions for its top-tier subscribers and substantially increased API rate limits for the Claude Opus models. This partnership is part of a broader $200 billion infrastructure strategy that includes multi-gigawatt agreements with Google, Amazon, and Microsoft through 2027.\n\nWhy it matters: This deal positions Anthropic as a 'neocloud' power player and highlights the desperate race for compute. By aligning with SpaceX/xAI infrastructure, Anthropic is diversifying its hardware dependency beyond the traditional 'Big Three' cloud providers. For developers, this means a significant boost in the reliability and throughput of agentic coding workflows.",
+      "source": "Anthropic Blog / Axios",
       "tags": [
         "Compute",
         "Infrastructure",
-        "Partnerships"
+        "Models"
       ],
-      "cluster": "AnthropicAI",
+      "cluster": "Anthropic",
       "date": "May 6, 2026",
-      "url": "https://www.anthropic.com/news/spacex-compute-deal"
+      "url": "https://www.anthropic.com/news/higher-usage-limits-spacex"
     },
     {
-      "headline": "OpenAI Releases GPT-5.5 'Instant' and Self-Serve Ad Manager",
-      "summary": "OpenAI has launched GPT-5.5 Instant, a model optimized for low-latency, personalized interactions and agentic workflows. Alongside the model, OpenAI debuted a self-serve Ads Manager, moving ChatGPT into a direct performance marketing phase. The new ad platform supports Cost-Per-Click (CPC) bidding, allowing advertisers to target users during 'decision-oriented' conversations. \n\nTechnically, OpenAI also detailed new 'Supercomputer Networking' architectures designed to accelerate large-scale training, and expanded its partnership with AWS to bring OpenAI models and 'Managed Agents' to Amazon Bedrock. This multi-cloud strategy (Azure, AWS, and potentially Google) marks the end of OpenAI's exclusive infrastructure era with Microsoft.\n\nWhy it matters: OpenAI is transitioning from a research lab to a diversified tech giant. The combination of a faster model (GPT-5.5), a new revenue stream (Ads), and multi-cloud distribution (AWS) suggests a push for total market ubiquity and financial independence.",
-      "source": "OpenAI Blog",
+      "headline": "OpenAI Launches GPT-5.5 Instant and Workspace Agents",
+      "summary": "OpenAI has updated its flagship product line with the release of GPT-5.5 Instant, which now serves as the default model for ChatGPT. The new model is described as 'smarter, clearer, and more personalized,' with a specific focus on reducing early-stage build time for developers and founders. Alongside the model refresh, OpenAI introduced 'Workspace Agents,' a credit-based system that allows teams to build autonomous agents for repetitive office tasks and long-form research directly within ChatGPT.\n\nA key technical update is the introduction of 'Memory Sources.' This feature allows ChatGPT to pull context more transparently from past chats, saved memories, and connected apps like Gmail and Google Drive. Users can now see exactly which 'memory' or 'file' the AI is referencing, addressing long-standing concerns about the 'black box' nature of AI personalization. Additionally, OpenAI has expanded its reach by making Codex and other models available on Amazon Bedrock, breaking its previous Azure-only exclusivity.\n\nWhy it matters: OpenAI is evolving from a 'model lab' into a 'full-stack business machine.' The move into Workspace Agents and deeper integration with office suites (Excel/Sheets) signals a direct assault on the enterprise productivity market. For executives, the 'Memory Sources' feature is a critical step toward making AI assistants auditable and reliable in professional settings.",
+      "source": "OpenAI Blog / TechCrunch",
       "tags": [
-        "Models",
-        "Monetization",
-        "Cloud"
+        "Product",
+        "Agents",
+        "Enterprise"
       ],
       "cluster": "OpenAI",
-      "date": "May 5, 2026",
-      "url": "https://openai.com/news/gpt-5-5-instant-and-ads/"
+      "date": "May 7, 2026",
+      "url": "https://openai.com/news/"
+    },
+    {
+      "headline": "Google DeepMind Workers Vote to Unionize Over Military Contracts",
+      "summary": "In a historic move, staff at Google DeepMind's London headquarters have voted to unionize, requesting formal recognition of the Communication Workers Union (CWU) and Unite the Union. The bid, supported by 98% of voting members, makes DeepMind the first frontier AI lab to move toward formal unionization. The primary driver for the action is employee opposition to Google's involvement in military contracts, specifically 'Project Nimbus' with the Israeli government and new agreements with the U.S. Department of Defense.\n\nWorkers are threatening 'research strikes,' which would involve withdrawing labor from core products like Gemini. Their demands include an end to the use of DeepMind technology for military surveillance or lethal autonomous weapons, the restoration of previous ethical commitments, and the establishment of an independent ethics oversight body with the power to veto projects. Google has acknowledged the request but maintains that no official unionization has occurred yet.\n\nWhy it matters: This internal revolt highlights the growing 'ethical friction' within Big Tech as AI becomes a central tool for national security. For the broader industry, a unionized DeepMind could set a precedent for how AI researchers exert influence over the commercial and geopolitical application of their work, potentially slowing down high-stakes government deployments.",
+      "source": "The Guardian / Research Professional News",
+      "tags": [
+        "Ethics",
+        "Policy",
+        "Labor"
+      ],
+      "cluster": "Google / DeepMind",
+      "date": "May 6, 2026",
+      "url": "https://www.theguardian.com/technology/2026/may/05/google-deepmind-workers-union-us-military"
     }
   ],
   "socialHighlights": [
     {
-      "handle": "@ylecun",
-      "content": "The shift toward 'World Models' is the only way to reach AGI. LLMs are stuck in a linguistic bubble. To truly understand reality, AI must learn from the physical world's constraints—gravity, friction, and causality. Meta's move into robotics is the first step toward models that don't just predict the next token, but the next state of the world.",
-      "authorName": "Yann LeCun",
-      "date": "Today",
-      "type": "Opinion",
-      "url": "https://x.com/ylecun"
-    },
-    {
       "handle": "@AndrewYNg",
-      "content": "We are seeing a divergence in AI strategy: 'Scale-up' (more GPUs) vs 'Data-centric' (better quality). In healthcare, scale alone won't solve the 'last mile' of clinical trust. We need models that can reason through sparse, high-stakes data. The new DeepMind Co-Clinician results are a promising step toward this 'Reasoning-First' era.",
+      "content": "The ways we prompt AI in 2026 are fundamentally different from 2022. We've moved from 'chatting' to 'orchestrating.' My latest hierarchy for teams: 1. Prompt (task-specific, no memory), 2. Skill (reusable, domain-context), 3. Agent (multi-step, autonomous). Focus your automation bets where the acceleration is highest—currently the frontend and initial design phases.",
       "authorName": "Andrew Ng",
       "date": "Today",
-      "type": "Research",
+      "type": "Opinion",
       "url": "https://x.com/AndrewYNg"
     },
     {
       "handle": "@karpathy",
-      "content": "The 'Agentic Era' is officially here. We're moving from 'Chatbots' to 'Workflows.' The bottleneck isn't the model anymore; it's the environment. If your AI can't use a browser, a terminal, or a scalpel, it's just a very smart book. The next 12 months are all about 'Tool Use' and 'Long-term Memory.'",
+      "content": "Watching the 'Great Integration' of 2026 unfold. The bottleneck isn't model intelligence anymore; it's the 'swivel-chair' problem—AI agents getting stuck because human workflows are still trapped in legacy UI. We need more 'API-first' business processes if we want these agents to actually finish the job without a human babysitter.",
       "authorName": "Andrej Karpathy",
-      "date": "12h ago",
-      "type": "Opinion",
+      "date": "1d ago",
+      "type": "Research",
       "url": "https://x.com/karpathy"
     },
     {
-      "handle": "@AnthropicAI",
-      "content": "Compute is the new oil. Our partnership with SpaceX and the access to Colossus 1 allows us to finally lift the 'peak hour' restrictions that have frustrated our power users. Claude is now ready for 24/7 enterprise-grade coding and security auditing at scale. #ClaudeCode #AIInfrastructure",
-      "authorName": "Anthropic",
-      "date": "Today",
+      "handle": "@GoogleDeepMind",
+      "content": "Announcing a new research partnership with Fenris Creations (formerly CCP Games). We're using a controlled, offline version of EVE Online as a 'sandbox' to test general-purpose AI in complex, player-driven economic and political systems. Video games remain the ultimate training ground for long-term planning and continuous learning. #AI #DeepMind",
+      "authorName": "Google DeepMind",
+      "date": "2d ago",
       "type": "Announcement",
-      "url": "https://x.com/AnthropicAI"
+      "url": "https://x.com/GoogleDeepMind"
+    },
+    {
+      "handle": "@ylecun",
+      "content": "The obsession with 'scaling' LLMs for reasoning is hitting a wall of diminishing returns. You cannot reach AGI by just predicting the next token more accurately. We need World Models that understand physical reality and causal relationships. The future is objective-driven AI, not just autoregressive chatter.",
+      "authorName": "Yann LeCun",
+      "date": "Today",
+      "type": "Opinion",
+      "url": "https://x.com/ylecun"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a Clinical Evidence Synthesizer with Gemini 1.5 Pro",
-      "description": "Create a RAG-based tool that extracts and synthesizes evidence from medical journals using Gemini's long-context window.",
+      "title": "Building a Clinical Trial Matching Agent with Gemini 1.5 Pro",
+      "description": "Create an agent that parses complex patient EHR data and matches it against clinical trial eligibility criteria using Vertex AI's long-context window.",
       "tools": [
         "Vertex AI",
         "Gemini 1.5 Pro",
-        "RAG Engine"
+        "Cloud Storage"
       ],
       "skills": [
         "Long-context Retrieval",
-        "Medical Grounding",
-        "Prompt Design"
+        "Structured Data Extraction",
+        "Medical Reasoning"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Initialize Vertex AI RAG Engine",
-          "instruction": "Set up a corpus in Vertex AI to store your medical PDFs. Use the new schema-based metadata search to filter by 'Publication Date' or 'Study Type'.",
-          "codeSnippet": "from google.cloud import aiplatform\ncorpus = aiplatform.RagCorpus.create(display_name='medical_journals')"
+          "stepTitle": "Prepare the Context",
+          "instruction": "Upload a batch of anonymized patient records (PDF/Text) and the latest ClinicalTrials.gov JSON export for a specific therapeutic area to a GCS bucket."
         },
         {
-          "stepTitle": "Configure Grounding with Google Search",
-          "instruction": "Enable 'Grounding with Google Search' to ensure the model can verify findings against the latest clinical trials not yet in your corpus.",
-          "codeSnippet": "tools = [Tool.from_google_search_retrieval(google_search_retrieval=SearchRetrieval())]"
+          "stepTitle": "Initialize Gemini 1.5 Pro",
+          "instruction": "Use the Vertex AI SDK to initialize Gemini 1.5 Pro, leveraging its 2M token window to load both the patient history and the trial database into a single prompt context.",
+          "codeSnippet": "model = GenerativeModel('gemini-1.5-pro-002')\nresponse = model.generate_content([patient_record, trial_database, 'Match patient X to the top 3 eligible trials.'])"
         },
         {
-          "stepTitle": "Execute Synthesis Prompt",
-          "instruction": "Use a system instruction that enforces the 'NOHARM' framework, specifically asking the model to identify 'conflicting evidence' across multiple papers.",
-          "codeSnippet": "response = model.generate_content('Synthesize the latest findings on GLP-1 for neuroprotection.', tools=tools)"
+          "stepTitle": "Define Reasoning Logic",
+          "instruction": "Apply a system instruction that forces the model to cite specific 'Inclusion/Exclusion' criteria for every match to ensure clinical auditability."
         }
       ],
-      "date": "May 7, 2026",
+      "date": "May 8, 2026",
       "prerequisites": [
         "Google Cloud Project",
         "Vertex AI API enabled",
-        "Sample Medical PDFs"
+        "Sample medical datasets"
       ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/rag-overview"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs"
     },
     {
-      "title": "Deploying an Autonomous Coding Agent on Vertex Agent Engine",
-      "description": "Build an agent that can autonomously debug and patch Python code in a secure sandbox environment.",
+      "title": "Automated Medical Coding Auditor with Vertex AI Search",
+      "description": "Build a tool that cross-references physician notes with ICD-11 codes to identify billing gaps and improve documentation accuracy.",
       "tools": [
-        "Vertex AI Agent Engine",
-        "Gemini 2.5 Flash",
-        "Agent Sandbox"
+        "Vertex AI Search",
+        "Gemini 1.5 Flash",
+        "BigQuery"
       ],
       "skills": [
-        "Autonomous Agents",
-        "Code Execution",
-        "Tool Use"
+        "RAG (Retrieval-Augmented Generation)",
+        "Semantic Search",
+        "Compliance Auditing"
       ],
       "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Define Agent Tools",
-          "instruction": "Register a 'Code Interpreter' tool that allows the agent to run Python code in the isolated Vertex AI sandbox.",
-          "codeSnippet": "code_interpreter = Tool.from_code_interpreter()"
+          "stepTitle": "Index ICD-11 Knowledge Base",
+          "instruction": "Use Vertex AI Search to create a searchable index of the full ICD-11 classification system and your organization's internal coding guidelines."
         },
         {
-          "stepTitle": "Set Up Memory Bank",
-          "instruction": "Enable the 'Memory Bank' feature to allow the agent to remember previous debugging attempts across different sessions.",
-          "codeSnippet": "agent = aiplatform.Agent(display_name='Debugger', memory_config={'type': 'persistent'})"
+          "stepTitle": "Implement the Audit Loop",
+          "instruction": "Create a Python script that pulls recent clinical notes from BigQuery and queries the Vertex AI Search index for the most relevant codes.",
+          "codeSnippet": "search_query = datastore.search(query=clinical_note)\n# Compare suggested codes vs. billed codes"
         },
         {
-          "stepTitle": "Deploy to Agent Gateway",
-          "instruction": "Deploy the agent to the Gemini Enterprise Agent Platform (formerly Vertex AI) for production-grade scaling and security.",
-          "codeSnippet": "agent.deploy(runtime='gemini-enterprise-platform')"
+          "stepTitle": "Generate Discrepancy Reports",
+          "instruction": "Use Gemini 1.5 Flash to summarize discrepancies and provide a 'justification' for why a different code might be more accurate based on the note's content."
         }
       ],
-      "date": "May 7, 2026",
+      "date": "May 8, 2026",
       "prerequisites": [
-        "Vertex AI SDK",
-        "Python 3.10+",
-        "GCP Service Account"
+        "Access to ICD-11 data",
+        "Vertex AI Search & Conversation setup",
+        "Basic Python knowledge"
       ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/release-notes"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/search-and-conversation"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "GPT-5.5: Performance vs. Hallucination in the Agentic Era",
-      "summary": "In the latest edition of 'The Batch,' the team analyzes the release of GPT-5.5, noting that while it significantly outperforms previous models in coding and strategic reasoning, it still exhibits 'high-confidence hallucinations' in complex multi-step tasks. Andrew Ng observes that as we move toward 'Agentic Workflows,' the model's raw accuracy is less important than its ability to use tools and self-correct. He argues that the industry is shifting from 'Zero-Shot' prompting to 'Iterative Loops,' where the model acts, observes the result, and adjusts. This 'Agentic' approach can overcome model-level hallucinations by grounding the AI in real-world feedback (e.g., running code to see if it works).",
-      "url": "https://www.deeplearning.ai/the-batch/gpt-5-5-outperforms-and-hallucinates/",
+      "title": "Strategic Thinking: LLMs vs. Humans in Game Theory",
+      "summary": "A recent highlight in 'The Batch' examines research from UT-Austin and Google that pits LLMs against humans in a strategic Rock-Paper-Scissors tournament. While LLMs can mimic human-like play, the study reveals that their 'strategic thinking' is fundamentally superficial. Humans tend to adapt their strategies based on psychological cues and long-term pattern recognition of their opponent's behavior, whereas LLMs rely on statistical correlations within their training data. \n\nAndrew Ng notes that this 'strategic gap' is a critical hurdle for agentic AI. If an agent cannot truly model the intentions of other actors (human or AI) in a dynamic environment, its utility in high-stakes negotiations or complex project management will be limited. The technical takeaway is that we need better 'Theory of Mind' benchmarks that move beyond simple logic puzzles to evaluate how models handle adversarial and cooperative human dynamics.",
+      "url": "https://www.deeplearning.ai/the-batch/strategic-thinking-in-llms-vs-humans/",
       "category": "The Batch",
-      "author": "Andrew Ng & The Batch Team",
+      "author": "The Batch Team",
       "date": "May 1, 2026"
     },
     {
-      "title": "Strategic Thinking: LLMs vs. Humans in Game Theory",
-      "summary": "This research highlight summarizes a study from UT-Austin and Google that tested LLMs in strategic games like Rock-Paper-Scissors. The study found that while LLMs can mimic human-like strategies, their reasoning is 'superficial' and lacks the deep psychological modeling humans use to predict an opponent's next move. Andrew Ng notes that this is a critical distinction for 'Negotiation Agents' or 'Clinical Decision Support.' If an AI doesn't truly understand the 'why' behind a human's choice, it cannot effectively collaborate in high-stakes environments. He emphasizes the need for 'Knowledge Representation' research to bridge this gap.",
-      "url": "https://www.deeplearning.ai/the-batch/strategic-thinking-in-llms-vs-humans/",
+      "title": "Kimi K2.6: The New Open-Weights Challenger",
+      "summary": "DeepLearning.AI spotlights Moonshot AI's latest release, Kimi K2.6, which is currently dominating open-weights leaderboards for agentic tasks and coding. K2.6 matches the performance of Qwen 3.6 Max and DeepSeek V4, falling just slightly behind top-tier closed models like GPT-5.5. The model's standout feature is its ability to handle significantly longer autonomous coding sessions and its improved multi-agent orchestration capabilities.\n\nAndrew Ng highlights this as evidence that the 'open-weights' ecosystem is closing the gap with proprietary labs faster than expected. For developers, this means that high-performance agentic workflows are becoming increasingly accessible without the 'vendor lock-in' of major API providers. The article emphasizes that the next frontier for open models is 'Test-Time Scaling,' where models use more compute during inference to 'think' through complex problems, a technique Kimi is beginning to implement effectively.",
+      "url": "https://www.deeplearning.ai/the-batch/kimi-k2-6-leads-open-llms/",
       "category": "Research Highlight",
       "author": "The Batch Team",
       "date": "May 1, 2026"
@@ -216,28 +212,28 @@
   ],
   "generalLearningItems": [
     {
-      "title": "vLLM V1: Optimizing RL for Enterprise Inference",
-      "provider": "Hugging Face / ServiceNow",
-      "summary": "A technical deep-dive into the migration from vLLM V0 to V1, focusing on maintaining 'correctness' in Reinforcement Learning (RL) workflows. Covers logprob semantics and weight synchronization for online-RL.",
+      "title": "vLLM V1 Migration Guide: Correctness in RL",
+      "provider": "Hugging Face / ServiceNow-AI",
+      "summary": "A deep dive into the architectural changes in vLLM V1, focusing on maintaining logprob semantics and weight synchronization during Reinforcement Learning (RL) training. Essential for teams building custom-aligned models.",
       "url": "https://huggingface.co/blog/vllm-v1-migration",
       "type": "Tutorial",
       "difficulty": "Advanced"
     },
     {
-      "title": "The Reachy Mini Robotics App Store",
-      "provider": "Hugging Face",
-      "summary": "An open-source platform for robotics apps. Learn how to fork, modify, and deploy AI agents to physical humanoid hardware using a browser-based simulator.",
-      "url": "https://huggingface.co/reachy-mini",
+      "title": "Anthropic Cookbook: Building Financial Services Agents",
+      "provider": "Anthropic",
+      "summary": "A new set of recipes for deploying Claude-powered agents in regulated environments. Includes templates for automated compliance checking, portfolio sentiment analysis, and secure data handling.",
+      "url": "https://github.com/anthropics/anthropic-cookbook",
       "type": "Tool",
-      "difficulty": "Beginner"
+      "difficulty": "Intermediate"
     },
     {
-      "title": "Anthropic Cookbook: Security Auditing with Claude Mythos",
-      "provider": "Anthropic",
-      "summary": "New recipes for using the 'Mythos' model to perform automated vulnerability discovery and patch generation in enterprise codebases.",
-      "url": "https://github.com/anthropics/anthropic-cookbook",
-      "type": "Tutorial",
-      "difficulty": "Intermediate"
+      "title": "OpenAI Academy: Scaling Frontier Enterprises",
+      "provider": "OpenAI",
+      "summary": "A new resource hub for enterprise leaders that provides case studies and technical blueprints for moving AI from pilot to production. Features insights from Simplex on using Codex to reduce development time by 70%.",
+      "url": "https://openai.com/academy",
+      "type": "Course",
+      "difficulty": "Beginner"
     }
   ]
 }
