@@ -1,192 +1,211 @@
 {
-  "editorsNote": "Today's landscape is dominated by the shift from 'chatbots' to 'agentic systems' that can autonomously execute tasks. Major players like Meta and Anthropic are doubling down on specialized agents for shopping and legal work, while OpenAI expands its footprint into cybersecurity and enterprise deployment services.",
+  "editorsNote": "The AI landscape is shifting from conversational tools to 'agentic operating systems' that autonomously orchestrate complex workflows. Major players like Meta and OpenAI are embedding intelligence directly into user interfaces and enterprise platforms, while the healthcare sector is moving from pilot programs to industrial-scale AI-native discovery and clinical automation.",
   "healthcareStories": [
     {
-      "headline": "OpenAI's o1 Model Outperforms Doctors in ER Triage Study",
-      "summary": "A landmark study from Harvard University has revealed that OpenAI's o1 model significantly outperforms human physicians in diagnosing and triaging patients within emergency room settings. The research demonstrated that the model's ability to process vast amounts of clinical data and apply reasoning led to more accurate triage decisions than those made by doctors in several tested scenarios. This finding suggests a major shift in how AI could be integrated into high-stakes clinical environments to support decision-making.\n\nHowever, the researchers have urged caution, noting that while the model excels in accuracy, the human element of clinical judgment remains irreplaceable for complex, non-standardized patient interactions. The study highlights the potential for 'co-clinician' models to reduce the burden on ER staff by handling initial assessments, but emphasizes that these systems should currently be viewed as supportive tools rather than replacements for medical professionals.\n\nWhy it matters: This represents a critical validation of 'reasoning' models in medicine. For healthcare executives, it signals that AI is moving beyond simple administrative automation into core clinical diagnostic support, necessitating new frameworks for liability, safety, and human-AI collaboration in hospitals.",
-      "source": "MIT Sloan Management Review / Harvard Study",
+      "headline": "AI-Native Discovery Platforms to Power 60% of New Drug Trials by Year-End",
+      "summary": "The biotechnology sector has officially entered a 'builder' phase, moving past isolated digital tools toward fully integrated, AI-native discovery systems. According to the 2026 Biotech AI Report, organizations are no longer just running pilots but are reshaping their entire data environments to make AI a default part of the R&D operating model. This shift is projected to result in AI-native platforms being responsible for over 60% of new therapeutics entering Phase I trials by the end of 2026.\n\nKey drivers include the industrialization of knowledge graphs for biopharma and the use of generative AI to create high-fidelity 'virtual patients.' These digital twins allow sponsors to simulate control group outcomes using historical trial data and real-world evidence (RWE), potentially eliminating the need for placebo groups in certain trials. The FDA and EMA have released 2026 joint guiding principles to provide a framework for validating these digital twins in pivotal trials.\n\nWhy it matters: For healthcare leaders, this represents a fundamental shift in the economics of drug development. By compressing timelines and increasing 'hit rates'—with 42% of early adopters already reporting improved accuracy—AI is addressing the long-standing R&D productivity crisis. The transition from 'GenAI assisting humans' to 'AI agents orchestrating workflows' is expected to yield massive improvements in clinical operations efficiency.",
+      "source": "Drug Discovery News / Dataiku",
       "tags": [
-        "Clinical",
-        "Research",
-        "Diagnostics"
+        "Drug Discovery",
+        "Clinical Trials",
+        "Regulatory"
       ],
-      "cluster": "OpenAI / Healthcare Systems",
-      "date": "May 12, 2026",
-      "url": "https://mitsloanme.com"
+      "cluster": "Healthcare Systems",
+      "date": "May 13, 2026",
+      "url": "https://www.drugdiscoverynews.com/the-2026-ai-power-shift"
     },
     {
-      "headline": "Psychological Frameworks Boost AI Medical Advice Accuracy",
-      "summary": "Researchers at Technische Universität Berlin have discovered that applying psychological reasoning frameworks, specifically Naturalistic Decision Making (NDM), to LLM prompts can nearly triple the accuracy of medical advice. Standard AI prompts often result in 'over-triage,' where the AI defaults to recommending emergency care for minor issues out of extreme caution. By using NDM-inspired 'human reasoning blueprints,' accuracy in self-care advice jumped from 13.4% to nearly 30%.\n\nThe study, published in JMIR Biomedical Engineering, suggests that the next frontier of prompt engineering is rooted in applied psychology rather than technical instructions. By teaching models to mimic human intuition and structured reasoning, they become better at identifying when it is safe for a patient to stay home versus when an actual emergency exists, without compromising safety.\n\nWhy it matters: Over-triage is a major driver of unnecessary healthcare costs. This research provides a technical pathway for developers to build more 'sensible' health assistants that reduce the strain on the healthcare system by providing nuanced, human-like guidance.",
-      "source": "STAT News / JMIR",
+      "headline": "Harvard Study: AI Outperforms Physicians in Emergency Room Triage",
+      "summary": "A landmark study from Harvard University has found that advanced AI models, specifically OpenAI’s o1 and GPT-5.5, can outperform human physicians in diagnosing and triaging patients in emergency settings. The research demonstrated that these systems deliver more accurate triage decisions than doctors in high-pressure scenarios, potentially serving as a critical safety net in overcrowded ERs.\n\nIn parallel, the American Hospital Association (AHA) reports that 71% of hospitals now utilize predictive AI tools integrated with electronic health records (EHRs), up from 66% in 2023. While administrative efficiency remains the primary use case, clinical applications are surging. For instance, an AI-powered digital stethoscope study at Mayo Clinic showed that physicians could diagnose twice as many patients with pregnancy-related heart failure compared to traditional methods.\n\nWhy it matters: This data signals a shift in the 'boundaries of professionalism.' While AI is increasingly capable of high-fidelity physical assessments and rapid diagnostics (achieving 95% accuracy in some pathology tasks within three seconds), it is being positioned as a collaborative 'co-clinician' rather than a replacement. However, the blurring lines between human and machine expertise are creating new tensions regarding medical liability and the definition of clinical work.",
+      "source": "MIT Sloan Management Review / AHA",
       "tags": [
-        "Prompt Engineering",
-        "Patient Care",
-        "Psychology"
+        "Clinical",
+        "Diagnostics",
+        "Research"
       ],
-      "cluster": "Research / Healthcare",
-      "date": "May 11, 2026",
-      "url": "https://news-medical.net"
+      "cluster": "Healthcare Systems",
+      "date": "May 12, 2026",
+      "url": "https://mitsloanme.com/ai-dispatch-may-2026"
+    },
+    {
+      "headline": "OpenAI Unveils 'GPT-Rosalind' for Biological Research",
+      "summary": "OpenAI has launched a specialized reasoning model, GPT-Rosalind, specifically engineered to support advanced research in biology, drug discovery, and translational medicine. Named after DNA pioneer Rosalind Franklin, the model is designed to handle complex scientific reasoning tasks that general-purpose LLMs often struggle with, such as molecular modeling and protein interaction prediction.\n\nThe model is currently available as a research preview through OpenAI’s 'Trusted Access' program for select partners, including Novo Nordisk. This release coincides with Merck & Co. selecting Google Cloud as its primary AI partner in a deal valued at up to $1 billion, which will grant Merck access to Google's agentic AI platform across its manufacturing and R&D operations.\n\nWhy it matters: The release of domain-specific frontier models like GPT-Rosalind indicates that the 'one-size-fits-all' approach to LLMs is ending for high-stakes industries. For life sciences executives, the choice of an AI partner (OpenAI vs. Google vs. Anthropic) is becoming as strategic as the choice of a primary cloud provider, with each ecosystem offering specialized 'agentic' capabilities for the lab.",
+      "source": "Fierce Biotech",
+      "tags": [
+        "Models",
+        "Biotech",
+        "Partnerships"
+      ],
+      "cluster": "OpenAI",
+      "date": "May 13, 2026",
+      "url": "https://www.fiercebiotech.com/big-pharma-ai-impact"
     }
   ],
   "techStories": [
     {
-      "headline": "Anthropic Launches 'Dreaming' for Autonomous Claude Agents",
-      "summary": "Anthropic has introduced a groundbreaking feature called 'dreaming' for its Claude Managed Agents. This system allows AI agents to review their own past sessions during 'off-hours' to identify patterns, learn from mistakes, and consolidate memory—much like the human hippocampus. In pilot tests with legal-AI startup Harvey, this self-reflective process led to a staggering 6x increase in task completion rates.\n\nAlongside 'dreaming,' Anthropic released multi-agent orchestration and a self-grading 'outcomes' loop. These features are designed to allow agents to work autonomously on complex, multi-step projects without constant human supervision. The company is positioning memory, rather than raw intelligence, as the primary bottleneck for the next generation of AI productivity.\n\nWhy it matters: This is a major step toward 'Agentic AI' that improves over time without manual fine-tuning. For enterprises, it means AI systems can now handle long-running workflows (like legal discovery or complex coding) with significantly higher reliability and less human intervention.",
-      "source": "Anthropic Blog",
+      "headline": "Meta Relaunches AI Strategy with 'Muse Spark' and Agentic Voice",
+      "summary": "Meta has officially replaced its Llama model lineage with 'Muse Spark,' a new architecture designed for seamless, multimodal interaction. The Muse Spark-powered Meta AI app now allows users to engage in natural voice conversations where they can interrupt, switch topics, or swap languages mid-sentence. A standout feature is 'Live AI,' which enables users to point their camera at the world and ask real-time questions about landmarks or household tasks, a capability previously exclusive to Meta’s smart glasses.\n\nMeta is also aggressively integrating Muse Spark across its entire family of apps, including a new AI chatbot for Threads (similar to X's Grok) and 'side chats' in WhatsApp and Messenger. These side chats allow users to summon Meta AI in group discussions to provide private answers grounded in the group's context. To appease EU regulators, Meta has also offered rival AI chatbots free access to the WhatsApp Business API for one month during an ongoing antitrust probe.\n\nWhy it matters: Meta is pivoting from 'models' to 'experiences.' By embedding agentic AI into the search bars and group chats of billions of users, Meta is attempting to own the 'interaction layer' of the internet. For developers, the shift to Muse Spark suggests a move toward more fluid, less prompt-dependent AI interactions.",
+      "source": "9to5Mac / Meta Blog",
       "tags": [
-        "Agents",
-        "Productivity",
-        "Memory"
+        "Models",
+        "Consumer Tech",
+        "Regulation"
       ],
-      "cluster": "Anthropic",
-      "date": "May 11, 2026",
-      "url": "https://letsdatascience.com"
+      "cluster": "Meta AI",
+      "date": "May 12, 2026",
+      "url": "https://9to5mac.com/meta-ai-muse-spark-features"
     },
     {
-      "headline": "OpenAI Launches 'Daybreak' for AI-Powered Cyber Defense",
-      "summary": "OpenAI has officially entered the cybersecurity market with 'Daybreak,' an initiative that leverages GPT-5.5 and Codex to identify and patch software vulnerabilities in real-time. The system is designed to act as an 'agentic harness,' allowing organizations to find security flaws before attackers can exploit them. Partners including Cisco, Cloudflare, and Palo Alto Networks are already integrating these capabilities into their security stacks.\n\nThe rollout addresses the 'remediation bottleneck' where security teams are often overwhelmed by the sheer volume of vulnerability reports. Daybreak not only finds the issues but can also validate and suggest patches, effectively shortening the window of exposure. However, OpenAI warned of 'triage fatigue,' where maintainers must still verify AI-generated reports to avoid 'hallucinated' vulnerabilities.\n\nWhy it matters: As AI lowers the barrier for hackers to find exploits, defensive AI must scale at the same pace. This move signals OpenAI's transition from a model provider to a critical infrastructure security partner for global enterprises.",
-      "source": "The Hacker News / OpenAI",
+      "headline": "Anthropic Eyes $950B Valuation in Massive $30B Funding Round",
+      "summary": "Anthropic is reportedly in discussions to raise between $30 billion and $50 billion in new funding, which could value the company at up to $950 billion. This deal would potentially make the Claude creator more valuable than OpenAI, which was last valued at $852 billion. The round is expected to include participation from existing backers like Google and Amazon, who have already committed tens of billions in compute and capital.\n\nTo support its massive scaling needs, Anthropic has signed a landmark agreement with SpaceX to utilize the entire compute capacity of the Colossus 1 data center, gaining access to over 220,000 NVIDIA GPUs. Additionally, Anthropic has partnered with Wall Street titans Blackstone and Goldman Sachs to form a new AI services firm. This entity will focus on deploying Claude-based agentic systems within mid-sized companies that lack the internal technical resources to build their own AI infrastructure.\n\nWhy it matters: The 'compute war' has reached a fever pitch. Anthropic’s move to secure SpaceX capacity and form a dedicated services arm shows that frontier labs are no longer just selling API access—they are becoming vertically integrated infrastructure and consulting giants. This 'Deployment Company' model (also adopted by OpenAI) suggests that the next phase of AI growth is hands-on enterprise implementation.",
+      "source": "Silicon Republic / Bloomberg",
       "tags": [
-        "Cybersecurity",
-        "GPT-5.5",
+        "Investment",
+        "Infrastructure",
         "Enterprise"
       ],
-      "cluster": "OpenAI",
-      "date": "May 12, 2026",
-      "url": "https://thehackernews.com"
+      "cluster": "Anthropic",
+      "date": "May 13, 2026",
+      "url": "https://www.siliconrepublic.com/business/anthropic-valuation-openai-funding"
     },
     {
-      "headline": "Meta Faces Massive Copyright Lawsuit from Global Publishers",
-      "summary": "A coalition of the world's largest publishers, including Elsevier, Hachette, and Macmillan, has filed a major class-action lawsuit against Meta. The suit alleges that Meta 'illegally torrented' millions of copyrighted books to train its Llama models and intentionally removed Copyright Management Information (CMI) to conceal its sources. This legal escalation follows a recent $375 million penalty against Meta in New Mexico for child safety failures.\n\nThe plaintiffs argue that Meta's use of 'pirate sites' to avoid licensing fees constitutes direct infringement. This case is seen as a historical alliance between authors and publishers to challenge the 'irresponsible' deployment of AI. Despite the legal pressure, Meta has increased its 2026 capital expenditure forecast to $125-145 billion, signaling its commitment to AI infrastructure regardless of legal headwinds.\n\nWhy it matters: This case could set a definitive legal precedent for 'fair use' in AI training. For the tech industry, it highlights the growing financial and legal risks associated with data sourcing for large-scale models.",
-      "source": "The Street / Reuters",
+      "headline": "Google DeepMind Reimagines the Mouse Pointer for the AI Era",
+      "summary": "Google DeepMind has unveiled a research project aimed at evolving the mouse pointer—a tool that has remained largely unchanged for 50 years. The new 'AI-enabled pointer' transforms pixels into actionable entities. Instead of just tracking coordinates, the pointer understands the context of what it is hovering over. For example, pointing at a scribbled note can instantly turn it into a digital to-do list, or pointing at a restaurant in a video can generate a booking link.\n\nThis technology, which will be rolled out as 'Magic Pointer' in Googlebooks and Google AI Studio, is part of a broader effort to eliminate the need for users to 'drag their world' into a separate AI window. By making the interface itself intelligent, DeepMind aims to create a more fluid collaboration between humans and AI across all applications.\n\nWhy it matters: This represents a shift in Human-Computer Interaction (HCI). If the operating system's cursor can 'see' and 'reason' about the screen, the friction of copy-pasting data into LLMs disappears. For product teams, this suggests that the future of AI isn't a chatbot on the side, but an intelligent layer baked into the core OS primitives.",
+      "source": "Google DeepMind Blog",
       "tags": [
-        "Legal",
-        "Copyright",
-        "Policy"
+        "HCI",
+        "Research",
+        "Productivity"
       ],
-      "cluster": "Meta / Regulatory",
+      "cluster": "Google / DeepMind",
       "date": "May 12, 2026",
-      "url": "https://thestreet.com"
+      "url": "https://deepmind.google/reimagining-the-mouse-pointer"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "Yann LeCun continues to advocate for 'World Models' over pure LLMs, arguing that current autoregressive models lack the fundamental understanding of physical reality needed for true AGI. He highlighted recent DeepMind research on 4D world models as a step in the right direction.",
+      "content": "The obsession with 'scaling' autoregressive LLMs is hitting a wall of diminishing returns for true reasoning. We need world models that can plan in abstract spaces, not just predict the next token. The 'Magic Pointer' work from DeepMind is a step toward grounding AI in visual reality, but we are still missing the 'objective-driven' architecture required for autonomous agents.",
       "authorName": "Yann LeCun",
-      "date": "Today",
+      "date": "12h ago",
       "type": "Opinion",
       "url": "https://x.com/ylecun"
     },
     {
-      "handle": "@AndrewYNg",
-      "content": "Andrew Ng emphasized that the 'Agentic Workflow' is more important than the model size. He noted that a smaller model (like GPT-4o-mini or Claude Haiku) in a well-designed iterative loop often outperforms a frontier model in a single-shot prompt.",
-      "authorName": "Andrew Ng",
-      "date": "1d ago",
+      "handle": "@karpathy",
+      "content": "The 'Deployment Company' trend (OpenAI/Anthropic) is the most honest signal in the market right now. It admits that 'AGI' isn't a software update you just download; it's a massive systems integration challenge. We are moving from the 'Model Era' to the 'Systems Era.' If you aren't thinking about data flywheels and workflow orchestration, you're just playing with a toy.",
+      "authorName": "Andrej Karpathy",
+      "date": "Today",
       "type": "Research",
+      "url": "https://x.com/karpathy"
+    },
+    {
+      "handle": "@AndrewYNg",
+      "content": "I'm seeing a lot of fear about an 'AI jobpocalypse.' Our latest data in The Batch shows the opposite: AI is currently a 'productivity floor' raiser, not a 'ceiling' shatterer. It helps the bottom 20% of performers reach the median much faster than it helps the top 1% get better. This is a massive win for global equity if we manage the transition correctly.",
+      "authorName": "Andrew Ng",
+      "date": "5h ago",
+      "type": "Opinion",
       "url": "https://x.com/AndrewYNg"
     },
     {
       "handle": "@OpenAI",
-      "content": "Announcement of the 'OpenAI Deployment Company,' a new division dedicated to helping Fortune 500 companies integrate agentic workflows into their core business logic. This marks a shift from 'API provider' to 'Digital Transformation Partner.'",
+      "content": "Introducing the ChatGPT Futures Class of 2026. We’re awarding $10,000 grants to 26 students who are using AI to solve real-world problems—from decentralized clinical trials to open-source hardware for the visually impaired. This generation isn't just using AI; they're building the systems that will define the next decade.",
       "authorName": "OpenAI",
-      "date": "Today",
+      "date": "Yesterday",
       "type": "Announcement",
       "url": "https://x.com/OpenAI"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a Multimodal Medical Assistant with Gemini 1.5",
-      "description": "Create a POC that can analyze medical imaging (X-rays/CTs) alongside patient history to generate a preliminary triage report.",
+      "title": "Building a 'Magic Pointer' Clone with Gemini Multimodal Live",
+      "description": "Create a prototype that 'sees' your screen and extracts structured entities (dates, locations, tasks) using Gemini 1.5 Pro's video stream capabilities.",
       "tools": [
         "Vertex AI",
         "Gemini 1.5 Pro",
-        "Cloud Storage"
+        "Multimodal Live API"
       ],
       "skills": [
-        "Multimodal Prompting",
-        "Medical Imaging Analysis",
+        "Visual Grounding",
+        "Real-time Multimodal Processing",
         "Structured Output"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Enable Vertex AI & Upload Data",
-          "instruction": "Enable the Vertex AI API in your Google Cloud Console. Upload a sample (anonymized) medical image and a text-based patient history to a Cloud Storage bucket.",
-          "codeSnippet": "gcloud services enable aiplatform.googleapis.com"
+          "stepTitle": "Initialize Multimodal Live Stream",
+          "instruction": "Set up a WebSocket connection to the Gemini Multimodal Live API to stream screen capture frames at 1fps.",
+          "codeSnippet": "const config = { model: 'models/gemini-1.5-pro-live', generationConfig: { response_mime_type: 'application/json' } };"
         },
         {
-          "stepTitle": "Configure Gemini 1.5 Pro",
-          "instruction": "Initialize the Gemini 1.5 Pro model, which supports a 2M token context window, allowing for the inclusion of high-resolution images and long medical records.",
-          "codeSnippet": "model = GenerativeModel('gemini-1.5-pro-002')"
+          "stepTitle": "Define Entity Extraction Prompt",
+          "instruction": "Use a system instruction that directs the model to identify 'interactable' elements in the visual field and return their bounding boxes and metadata.",
+          "codeSnippet": "System Instruction: 'Identify all dates, addresses, and action items. Return as: { \"label\": string, \"box_2d\": [ymin, xmin, ymax, xmax], \"action\": string }'"
         },
         {
-          "stepTitle": "Execute Multimodal Prompt",
-          "instruction": "Send a prompt that instructs the model to act as a radiologist's assistant, identifying anomalies in the image and correlating them with the patient's symptoms.",
-          "codeSnippet": "response = model.generate_content([image_part, text_part, 'Analyze the image for signs of pneumonia and correlate with the patient\\'s cough.'])"
+          "stepTitle": "Overlay Interactive UI",
+          "instruction": "Map the returned normalized coordinates to your screen resolution and render a transparent overlay with clickable 'Magic' buttons.",
+          "codeSnippet": "function mapToScreen(box) { /* logic to convert [0,1000] to [0, screenWidth] */ }"
         }
       ],
-      "date": "May 12, 2026",
+      "date": "May 13, 2026",
       "prerequisites": [
-        "Google Cloud Account",
-        "Basic Python knowledge",
-        "Anonymized medical dataset"
-      ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai"
+        "Google Cloud Project with Vertex AI enabled",
+        "Node.js environment",
+        "Screen capture permissions"
+      ]
     },
     {
-      "title": "Agentic RAG with Vertex AI Agent Engine",
-      "description": "Deploy an autonomous agent that can search through internal pharmaceutical research papers and summarize findings into a structured report.",
+      "title": "Agentic R&D: Automating Literature Reviews with Vertex AI Agent Engine",
+      "description": "Build an autonomous agent that monitors PubMed for new papers, summarizes them using your custom 'Executive Persona,' and updates a BigQuery knowledge graph.",
       "tools": [
         "Vertex AI Agent Engine",
-        "Vector Search 2.0",
+        "BigQuery",
         "Gemini 1.5 Flash"
       ],
       "skills": [
-        "Agentic RAG",
-        "Vector Search",
-        "Autonomous Workflows"
+        "Agentic Workflows",
+        "Tool Use (Function Calling)",
+        "Knowledge Graph Integration"
       ],
       "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Set up Vector Search 2.0",
-          "instruction": "Create a Vector Search index using the new 'Collections' feature to unify your research PDFs and their vector embeddings.",
-          "codeSnippet": "index = aiplatform.MatchingEngineIndex.create_tree_ah_index(...)"
+          "stepTitle": "Define the PubMed Tool",
+          "instruction": "Create a Cloud Function that wraps the PubMed API and register it as a tool in Vertex AI Agent Builder.",
+          "codeSnippet": "def search_pubmed(query: str): # API call logic"
         },
         {
-          "stepTitle": "Define Agent Tools",
-          "instruction": "Use the Agent Engine to define 'tools' the agent can use, such as a search tool for the vector index and a summarization tool.",
-          "codeSnippet": "agent = Agent(tools=[search_tool, summary_tool], model='gemini-1.5-flash')"
+          "stepTitle": "Configure Agent Reasoning",
+          "instruction": "Set the agent's goal to 'Identify breakthroughs in oncology' and provide it with the PubMed tool and a BigQuery write tool.",
+          "codeSnippet": "agent = aiplatform.Agent(display_name='OncoResearcher', instructions='Search PubMed weekly, summarize findings, and link to existing nodes in the research_graph table.')"
         },
         {
-          "stepTitle": "Deploy Agent with A2A Protocol",
-          "instruction": "Deploy the agent using the Agent-to-Agent (A2A) protocol, allowing it to communicate with other specialized agents if needed.",
-          "codeSnippet": "agent.deploy(endpoint_id='pharma-research-agent')"
+          "stepTitle": "Deploy with Bidirectional Streaming",
+          "instruction": "Enable bidirectional streaming so the agent can ask for clarification if a paper's methodology is ambiguous before committing to the database.",
+          "codeSnippet": "agent.deploy(enable_bidirectional_streaming=True)"
         }
       ],
-      "date": "May 12, 2026",
+      "date": "May 13, 2026",
       "prerequisites": [
-        "Vertex AI SDK",
-        "Knowledge of RAG architectures",
-        "Access to research corpus"
-      ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/agents"
+        "Vertex AI Agent Builder access",
+        "PubMed API Key",
+        "BigQuery Dataset initialized"
+      ]
     }
   ],
   "deepLearningSpotlight": [
     {
       "title": "The End of the 'AI Jobpocalypse' Narrative",
-      "summary": "In the latest edition of 'The Batch,' Andrew Ng and his team argue that the feared 'jobpocalypse' is unlikely to materialize. While AI adoption has reached 50% among U.S. workers, the data shows that AI is primarily boosting productivity rather than replacing entire roles. Ng points out that AI is automating *tasks*, not *jobs*. He emphasizes that the 'apprenticeship ladder'—where junior workers learn by doing routine tasks—is at risk if we automate too quickly, but the overall demand for human oversight and complex decision-making is increasing.\n\nNg's perspective is that we are entering a 'builder phase' where the focus is on integrating AI into existing workflows to make them more efficient. He encourages leaders to focus on 'upskilling' rather than 'downsizing,' as the most successful organizations are those that use AI to expand their capabilities rather than just cut costs.",
+      "summary": "In the latest edition of 'The Batch,' Andrew Ng addresses the widespread fear that AI will lead to a massive net loss of jobs. Citing a comprehensive Gallup poll, the article highlights that while 50% of U.S. workers now use AI, the impact is primarily one of 'augmentation' rather than 'replacement.' The data suggests that AI acts as a 'productivity floor,' significantly boosting the performance of less experienced workers by providing them with high-quality templates and reasoning shortcuts. \n\nAndrew Ng argues that the focus should shift from 'job loss' to 'task evolution.' He notes that while specific tasks (like drafting routine emails or basic coding) are being automated, the demand for 'human-in-the-loop' oversight and strategic decision-making is increasing. The technical core of the article explores 'catastrophic forgetting' in robots, showing how new training methods from Sony allow robots to learn new tasks without losing previous skills—a metaphor for the human workforce's need for continuous, incremental learning rather than total retraining.",
       "url": "https://www.deeplearning.ai/the-batch/may-08-2026/",
       "category": "The Batch",
       "author": "Andrew Ng",
       "date": "May 08, 2026"
     },
     {
-      "title": "Nvidia's AI-Guided Chip Design",
-      "summary": "This article explores how Nvidia is using its own AI models to design the next generation of GPUs. By using AI to optimize circuit layouts and verify designs, Nvidia has significantly accelerated its R&D cycle. The chief scientist at Nvidia envisions a future where an engineer can simply describe the desired performance characteristics of a chip, and an AI agent will handle the entire design process while the engineer focuses on higher-level strategy.\n\nThis 'AI-designing-AI' loop is a critical technical concept. It suggests that the hardware bottleneck for AI might be solved by AI itself. The article details how reinforcement learning is used to find more efficient 'placements' and 'routings' for billions of transistors, a task that has become too complex for human engineers to do optimally in a reasonable timeframe.",
+      "title": "Nvidia's AI-Guided Chip Design: The Ouroboros of Hardware",
+      "summary": "This segment explores how Nvidia is using its own AI models to design the next generation of GPUs. The process involves AI agents acting as 'placers' and 'routers' to optimize circuit layouts for maximum efficiency and minimum heat. Nvidia's chief scientist, Bill Dally, describes a vision where an engineer can provide high-level specifications to an AI, which then handles the grueling work of verification and layout over several days.\n\nTechnically, this is achieved through reinforcement learning and generative models trained on decades of proprietary design data. The article emphasizes that this 'AI-designing-AI' loop is the primary reason hardware performance is still scaling despite the approaching physical limits of silicon. Andrew Ng comments that this represents the ultimate 'flywheel'—where the intelligence produced by the hardware is used to make the hardware itself more intelligent, effectively decoupling progress from human engineering bottlenecks.",
       "url": "https://www.deeplearning.ai/the-batch/how-nvidia-uses-ai-to-design-chips/",
       "category": "Research Highlight",
       "author": "The Batch Team",
@@ -195,18 +214,26 @@
   ],
   "generalLearningItems": [
     {
-      "title": "Building Blocks for Foundation Model Training on AWS",
-      "provider": "Hugging Face / Amazon",
-      "summary": "A comprehensive technical guide on using PyTorch, JAX, and Hugging Face Accelerate to train large-scale models on AWS infrastructure, focusing on 3D parallelism and FP8 precision.",
-      "url": "https://huggingface.co/blog/aws-foundation-model-training",
-      "type": "Tutorial",
+      "title": "EMO: Pretraining MoE for Emergent Modularity",
+      "provider": "Hugging Face / Ai2",
+      "summary": "A new research paper and open-source model (EMO) that allows a Mixture-of-Experts (MoE) model to develop modular structures directly from data. This allows developers to use only 12.5% of a model's experts for specific tasks (like math or coding) without losing performance, drastically reducing inference costs.",
+      "url": "https://huggingface.co/blog/emo-modular-moe",
+      "type": "Paper",
       "difficulty": "Advanced"
     },
     {
-      "title": "AI Agents Vibe Coding Course",
-      "provider": "Google / Kaggle",
-      "summary": "A hands-on course focused on 'Vibe Coding'—using natural language and agentic tools to build functional applications without traditional syntax-heavy programming.",
-      "url": "https://www.kaggle.com/learn/ai-agents",
+      "title": "Anthropic Cookbook: Building Reliable Agents with Claude",
+      "provider": "Anthropic",
+      "summary": "A new set of hands-on recipes for implementing 'Computer Use' and 'Tool Use' in enterprise environments. Includes specific guides on handling long-running autonomous tasks and implementing 'human-in-the-loop' checkpoints for regulated industries.",
+      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "type": "Tutorial",
+      "difficulty": "Intermediate"
+    },
+    {
+      "title": "AI Prompting For Everyone",
+      "provider": "DeepLearning.AI",
+      "summary": "A foundational course updated for 2026 prompting techniques, focusing on 'Chain-of-Thought' and 'System-Level' prompting for the latest models like GPT-5.5 and Claude 4.",
+      "url": "https://www.deeplearning.ai/short-courses/ai-prompting-for-everyone/",
       "type": "Course",
       "difficulty": "Beginner"
     }
