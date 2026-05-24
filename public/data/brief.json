@@ -1,239 +1,208 @@
 {
-  "editorsNote": "Today's landscape is defined by a massive shift toward 'Agentic AI' and autonomous scientific discovery. Major players like OpenAI and Google DeepMind are moving beyond chatbots to systems that solve 80-year-old math conjectures and autonomously design new medicines, while the industry undergoes a structural reorganization of talent and capital toward these agent-first architectures.",
+  "editorsNote": "Today's landscape is defined by a shift from AI experimentation to 'The Great Integration,' where models are embedded into core scientific and enterprise infrastructure. Key themes include the rise of multi-agent 'Co-Scientists' in life sciences and a strategic pivot toward agent-driven business economies.",
   "healthcareStories": [
     {
-      "headline": "Google DeepMind Unveils 'Co-Scientist' for Autonomous Drug Discovery",
-      "summary": "Google DeepMind has introduced 'Co-Scientist,' a multi-agent AI system built on Gemini that autonomously generates, debates, and evolves scientific hypotheses. Published in Nature, the system is designed to act as a 'jetpack for scientists,' connecting disparate facts across massive volumes of biomedical literature to propose novel research directions. In real-world tests, the system has already demonstrated the ability to identify drug-repurposing candidates for liver fibrosis and accelerate genetic research into reversing cellular aging.\n\nSpecifically, Stanford researchers used Co-Scientist to find that the cancer drug vorinostat could block 91% of a scarring-linked response in liver cells—a connection previously buried in obscure literature. Another team at the Abudayyeh-Gootenberg Lab used the tool to slash the time required to analyze massive genetic screening datasets from six months to just a few days. The system is now being rolled out as an experimental tool for researchers via Google Labs.\n\nWhy it matters: This marks a transition from AI as a search assistant to AI as a proactive research partner. By automating the hypothesis generation and data synthesis phases, Co-Scientist could significantly shorten the decade-long drug development cycle and unlock treatments for complex diseases like ALS and metabolic liver disease.",
-      "source": "Google DeepMind Research Blog",
+      "headline": "Google DeepMind Unveils 'Co-Scientist' Multi-Agent System",
+      "summary": "Google DeepMind has published research in Nature introducing 'Co-Scientist,' a sophisticated multi-agent AI system built on Gemini designed to accelerate scientific discovery. Unlike standard LLMs, Co-Scientist iteratively generates, debates, and evolves hypotheses for complex biological problems. In real-world applications, the system has already identified novel genetic leads for reversing cellular aging and pinpointed the NLRP3 inflammasome as a molecular bridge in metabolic liver disease—a connection previously overlooked by human researchers.\n\nThe system operates by 'trawling' through tens of thousands of scientific papers to synthesize evidence and propose plausible factors for testing. For instance, in aging research, it proposed over 20 novel genetic factors, several of which were validated in lab tests to successfully rejuvenate cells. This marks a transition from AI as a search tool to AI as a proactive research partner capable of reasoning across disparate datasets.\n\nWhy it matters: For healthcare executives, this represents a massive reduction in R&D iteration cycles. Tasks that typically take a researcher six months—such as connecting experimental screening data to existing literature—can now be completed in days. The 'Co-Scientist' acts as a force multiplier, effectively providing labs with the analytical capacity of a 50-person team.",
+      "source": "Google DeepMind Research",
       "tags": [
+        "Life Sciences",
         "Drug Discovery",
-        "Agents",
-        "Life Sciences"
+        "Agents"
       ],
       "cluster": "Google / DeepMind",
       "date": "May 19, 2026",
       "url": "https://deepmind.google/discover/blog/co-scientist-multi-agent-ai-partner-to-accelerate-research/"
     },
     {
-      "headline": "Anthropic and Bristol Myers Squibb Ink Landmark 'Claude Enterprise' Deal",
-      "summary": "Bristol Myers Squibb (BMS) has announced a strategic agreement with Anthropic to deploy Claude Enterprise as the 'shared intelligence platform' across its global operations. The deal will empower over 30,000 employees with agentic capabilities, moving beyond simple conversational AI to integrate Claude directly into the workflows of research, clinical development, and manufacturing. BMS aims to use 'Claude Code' to accelerate software and data science development, effectively standardizing how the company builds AI-driven capabilities.\n\nThe partnership focuses on breaking down decades of data silos that have historically trapped valuable scientific insights. By using Claude as an agentic layer, BMS plans to automate complex tasks such as connecting institutional knowledge across disconnected systems and embedding AI agents into priority drug-development workflows. This is one of the largest enterprise deployments of Anthropic's technology to date in the biopharma sector.\n\nWhy it matters: This deal signals that major pharmaceutical companies are no longer just 'experimenting' with LLMs but are now building their entire operational infrastructure around agentic AI. It highlights a shift toward 'AI-native' biopharma where agents handle the heavy lifting of data integration and software engineering.",
-      "source": "BMS Press Release",
+      "headline": "Biotech Enters 'Builder Phase' with AI Operating Systems",
+      "summary": "The 2026 Biotech AI Report from Benchling signals that the life sciences sector has moved past the pilot phase into a 'builder' phase. Successful organizations are now reshaping their entire data environments to treat AI as the default operating model for R&D. This shift is characterized by 'wet-dry lab integration,' where digital models and physical laboratory experiments exist in a continuous, closed-loop cycle.\n\nData quality has become the primary bottleneck, leading to a surge in 'prospective data' investment—high-quality, well-annotated measurements specifically designed for model training rather than retroactively normalized messy data. Currently, 80% of biotech organizations plan to increase AI budgets, with nearly a quarter expecting to double their spend to build this underlying infrastructure.\n\nWhy it matters: The industry is shifting from a 'blockbuster drug' model to a 'continuous R&D' model. Success is no longer defined by single product hits but by the ability to manage the entire patient lifecycle through integrated systems that provide ongoing support, risk warnings, and long-term outcome tracking.",
+      "source": "Drug Discovery News",
       "tags": [
-        "Enterprise AI",
-        "Biopharma",
-        "Partnerships"
+        "Biotech",
+        "Strategy",
+        "R&D"
       ],
-      "cluster": "Anthropic",
-      "date": "May 20, 2026",
-      "url": "https://www.bms.com/media/press-releases.html"
-    },
-    {
-      "headline": "AI-Designed Miniproteins Target Previously 'Undruggable' Receptors",
-      "summary": "Researchers from the University of Washington's Institute for Protein Design and Skape Bio have used AI to create computationally designed miniproteins that can activate or block G protein-coupled receptors (GPCRs). GPCRs are critical because they communicate with nearly every physiological process, including sensing adrenaline and insulin, yet many have remained inaccessible to conventional drug discovery due to their complex dynamic motions.\n\nThe study, published in Nature, demonstrates that AI can envision new proteins that capitalize on the specific movements of these receptors to toggle them on or off. This generalized approach allows for the creation of highly specific drug candidates for metabolic, inflammatory, and neurologic diseases. The AI-designed molecules showed the ability to block or activate receptors with a level of precision that traditional methods have struggled to achieve.\n\nWhy it matters: GPCRs are the targets of roughly one-third of all FDA-approved drugs, but many remain 'undruggable.' This AI-led breakthrough provides a repeatable framework for targeting these biologically critical receptors, potentially leading to a new generation of precision medicines for diseases that currently lack effective treatments.",
-      "source": "Nature / University of Washington",
-      "tags": [
-        "Protein Design",
-        "Clinical Research",
-        "GPCRs"
-      ],
-      "cluster": "Academic / Research",
-      "date": "May 22, 2026",
-      "url": "https://www.nature.com/articles/s41586-026-0000-x"
+      "cluster": "Healthcare Systems",
+      "date": "May 14, 2026",
+      "url": "https://www.drugdiscoverynews.com/the-2026-ai-power-shift"
     }
   ],
   "techStories": [
     {
-      "headline": "OpenAI Model Solves 80-Year-Old Erdős Math Conjecture",
-      "summary": "OpenAI has announced that one of its general-purpose reasoning models has autonomously produced an original proof disproving the 'planar unit distance conjecture,' a problem first posed by Paul Erdős in 1946. Unlike a previous controversial claim in late 2025, this discovery has been verified by prominent mathematicians, including Fields Medalist Tim Gowers and Thomas Bloom, who runs the official Erdős problems registry. The model achieved the breakthrough by applying deep number theory to a geometry problem in a way that human mathematicians had not previously considered.\n\nThe proof demonstrates that the model is capable of 'true' original reasoning rather than just rediscovering known information. The companion paper, published on arXiv, details how the model navigated the complex mathematical landscape to find the counterexample. This is being hailed as the first time an AI has solved a prominent open problem central to the field of mathematics without human guidance on the proof's structure.\n\nWhy it matters: Solving open conjectures is a benchmark for 'System 2' reasoning—the ability to think deeply and logically over long horizons. This success suggests that LLMs are evolving into powerful tools for formal verification and discovery in hard sciences, moving beyond pattern matching to genuine problem-solving.",
-      "source": "OpenAI Blog / TechCrunch",
+      "headline": "OpenAI Claims Breakthrough on 80-Year-Old Erdős Math Problem",
+      "summary": "OpenAI has announced a significant advance in AI reasoning after a general-purpose model successfully tackled the 'planar unit distance problem,' a challenge first posed by mathematician Paul Erdős in 1946. The breakthrough was achieved by a reasoning model that breaks problems into smaller steps, rather than a system specifically trained for mathematics. Human researchers noted that the AI succeeded by 'persevering down paths that a human may have dismissed.'\n\nWhile the broader problem remains unsolved, the AI discovered an entirely new family of constructions that outperformed previous mathematical beliefs. This achievement is being framed as evidence that LLMs are moving beyond pattern matching toward genuine algorithmic reasoning and 'thinking' through multi-step logic.\n\nWhy it matters: This validates the 'reasoning' architecture (likely a successor to the o1/Strawberry lineage) as a viable tool for solving objective, hard-science problems. It signals to enterprise leaders that AI is becoming capable of verifying its own logic in high-stakes environments like engineering and cryptography.",
+      "source": "The Guardian / OpenAI Blog",
       "tags": [
-        "Mathematics",
         "Reasoning",
-        "Research"
+        "Mathematics",
+        "Models"
       ],
       "cluster": "OpenAI",
-      "date": "May 20, 2026",
-      "url": "https://openai.com/news/erdos-conjecture-disproof/"
+      "date": "May 21, 2026",
+      "url": "https://www.theguardian.com/technology/2026/may/21/openai-breakthrough-maths-problem"
     },
     {
-      "headline": "Meta Reorganizes 7,000 Staff into New 'AI-Native' Units",
-      "summary": "Meta Platforms has initiated a massive internal restructuring, reassigning approximately 7,000 employees into four new AI-focused organizations: Applied AI Engineering, Agent Transformation Accelerator, Central Analytics, and Enterprise Solutions. This move coincides with a 10% reduction in the overall workforce (roughly 8,000 layoffs) as the company pivots its capital and talent toward generative AI and agentic infrastructure. CEO Mark Zuckerberg noted that the company is moving into a phase where models learn by 'watching smart people do things,' necessitating a flatter, more engineering-heavy structure.\n\nInternal memos reveal that Meta is deploying a monitoring tool called the 'Model Capability Initiative' (MCI) to track worker keystrokes and mouse movements to train internal AI models. The goal is to create 'AI-native' design structures with fewer management layers, where AI agents assist with coding, research, and internal operations. Meta's projected AI infrastructure spending for 2026 has been raised to a staggering $145 billion.\n\nWhy it matters: Meta's 'Year of Efficiency' has evolved into a 'Year of AI Transformation.' The company is effectively cannibalizing its traditional social media management layers to fund a massive bet on AI agents, signaling a broader industry trend where human labor is being redirected to train the very models that will eventually automate their previous roles.",
-      "source": "Bloomberg / The Guardian",
+      "headline": "Meta Restructures for 'Agentic Revolution' Amid 8,000 Layoffs",
+      "summary": "Meta is undergoing a radical organizational overhaul, eliminating approximately 8,000 roles (10% of its workforce) while simultaneously reassigning 7,000 employees into four new AI-native units: Applied AI Engineering, Agent Transformation Accelerator XFN, Central Analytics, and Enterprise Solutions. This 'flatter' structure is designed to move away from traditional management toward small, high-ownership 'pods' that utilize AI agents for internal productivity.\n\nInternal memos reveal the rollout of the 'Model Capability Initiative' (MCI), a tool that monitors worker mouse movements and keystrokes to train internal AI models on expert workflows. CEO Mark Zuckerberg has declared 2026 the year AI 'dramatically changes the way we work,' emphasizing that projects previously requiring large teams are now being handled by single individuals augmented by agents.\n\nWhy it matters: Meta's move is a blueprint for the 'AI-native' enterprise. By shifting capital from human management to AI compute (with a projected $135B capex), Meta is betting that agentic workflows will provide a permanent competitive advantage in speed and operational efficiency.",
+      "source": "Reuters / The Guardian",
       "tags": [
         "Corporate Strategy",
-        "Talent",
-        "Infrastructure"
+        "Agents",
+        "Workforce"
       ],
       "cluster": "Meta AI",
       "date": "May 19, 2026",
-      "url": "https://www.theguardian.com/technology/2026/may/19/meta-layoffs-ai-restructuring"
+      "url": "https://www.theguardian.com/technology/2026/may/19/meta-reorganizing-workers-jobs-around-ai"
     },
     {
-      "headline": "SpaceX S-1 Reveals Anthropic is Paying $1.25B Monthly for Compute",
-      "summary": "A bombshell disclosure in SpaceX's IPO filing has revealed that Anthropic has agreed to pay SpaceX $1.25 billion per month for compute access through May 2029. The total contract, valued at approximately $45 billion, secures Anthropic's access to SpaceX's 'Colossus' data center clusters in Memphis. This arrangement is highly unusual as it involves two direct competitors in the frontier AI space—Elon Musk's xAI and Anthropic—sharing infrastructure.\n\nThe deal highlights the emergence of 'compute' as a standalone strategic asset class. Analysts suggest that the scale of infrastructure required for the next generation of models is so vast that even fierce rivals are forced into 'coopetition.' Anthropic is reportedly using this capacity to power its latest Claude models and its rapidly growing enterprise agent business, which is projected to generate $10.9 billion in revenue in Q2 2026.\n\nWhy it matters: This contract value nearly matches SpaceX's entire standalone revenue from 2025, illustrating that the AI compute market is becoming as large as the aerospace and satellite industries. It also shows that the bottleneck for AI progress remains physical infrastructure, leading to unprecedented financial alliances between tech giants.",
-      "source": "Network World / BuildFastWithAI",
+      "headline": "Anthropic Briefs Global Watchdogs on 'Mythos' Cyber Risks",
+      "summary": "Anthropic has declined to release its latest model, 'Claude Mythos,' to the public due to its unprecedented capabilities in identifying 'zero-day' software vulnerabilities. Instead, the company is briefing the Financial Stability Board (FSB) and the UK AI Security Institute on the model's potential threat to global cyber defenses. Mythos reportedly passed the 'cooling tower' test—a complex autonomous cybersecurity challenge—in 3 out of 10 attempts, a first for any AI model.\n\nTo mitigate risks while capturing utility, Anthropic has granted limited access to a select group of banks and tech firms, including JP Morgan and Apple, to help them harden their own systems. This 'trust but verify' release strategy marks a new era of 'frontier risk' management where the most powerful models are treated as dual-use technologies.\n\nWhy it matters: For IT and security leaders, the 'Mythos effect' means the window for patching vulnerabilities is shrinking to near-zero. Organizations must move toward 'agentic defense' to counter the speed at which AI-driven attackers can now operate.",
+      "source": "The Guardian / Financial Times",
       "tags": [
-        "Compute",
-        "Finance",
-        "Infrastructure"
+        "Cybersecurity",
+        "Policy",
+        "Safety"
       ],
-      "cluster": "Anthropic / xAI",
-      "date": "May 21, 2026",
-      "url": "https://www.networkworld.com/article/2026/05/22/xai-anthropic-deal-compute.html"
+      "cluster": "Anthropic",
+      "date": "May 18, 2026",
+      "url": "https://www.theguardian.com/technology/2026/may/18/anthropic-mythos-ai-cyber-flaw-findings"
     }
   ],
   "socialHighlights": [
     {
+      "handle": "@karpathy",
+      "content": "Excited to share that I've joined Anthropic to focus on AI-accelerated pre-training research. We are entering the era of 'recursive research' where the models we build today are the primary tools for training the models of tomorrow. The bottleneck is no longer just data, but the efficiency of the 'research loop' itself.",
+      "authorName": "Andrej Karpathy",
+      "date": "Today",
+      "type": "Announcement",
+      "url": "https://x.com/karpathy"
+    },
+    {
       "handle": "@ylecun",
-      "content": "The era of 'Auto-Regressive LLMs as the only path' is ending. The OpenAI Erdős proof is impressive, but notice it required a reasoning wrapper. We need World Models that understand physics and logic natively, not just through text tokens. The next leap isn't more parameters, it's better architecture.",
+      "content": "The 'Great Integration' we are seeing at Meta isn't just about efficiency; it's about moving toward World Models that can actually plan. LLMs are the interface, but the underlying 'Hatch' agents are where the real reasoning happens. We are finally moving past auto-regressive guessing toward goal-directed action.",
       "authorName": "Yann LeCun",
-      "date": "10h ago",
+      "date": "Yesterday",
       "type": "Opinion",
-      "url": "https://x.com/ylecun/status/123456789"
+      "url": "https://x.com/ylecun"
     },
     {
       "handle": "@AndrewYNg",
-      "content": "Just released our 2026 Prompting Masterclass. The biggest takeaway: 'Think step-by-step' is now a legacy technique. With agentic workflows, you don't just prompt; you design an environment for the agent to iterate. We are moving from 'Prompt Engineering' to 'Agent Orchestration'.",
+      "content": "The latest 'The Batch' highlights a critical gap: our benchmarks are still measuring 'tasks,' but the economy values 'jobs.' A job is a collection of tasks plus the judgment to know which one to do next. We need new 'Agentic Benchmarks' that reflect this multi-step reality.",
       "authorName": "Andrew Ng",
       "date": "Today",
-      "type": "Announcement",
-      "url": "https://x.com/AndrewYNg/status/987654321"
-    },
-    {
-      "handle": "@karpathy",
-      "content": "Watching the Meta MCI (Model Capability Initiative) rollout. The 'Data Flywheel' has moved from public web data to internal 'expert' data. Companies are now essentially recording their best employees to 'distill' their expertise into agents. It's the ultimate form of knowledge transfer, but the social implications are massive.",
-      "authorName": "Andrej Karpathy",
-      "date": "5h ago",
       "type": "Research",
-      "url": "https://x.com/karpathy/status/456789012"
-    },
-    {
-      "handle": "@GoogleDeepMind",
-      "content": "Co-Scientist is now live in Google Labs. We're seeing it find new drug leads for ALS in hours that took labs years. AI isn't just helping us write papers; it's helping us decide what to experiment on next. The scientific method is getting an upgrade. 🧬🚀",
-      "authorName": "Google DeepMind",
-      "date": "Yesterday",
-      "type": "Announcement",
-      "url": "https://x.com/GoogleDeepMind/status/321098765"
+      "url": "https://x.com/AndrewYNg"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a Multi-Agent Research Assistant with Vertex AI Agent Platform",
-      "description": "Create a 'Co-Scientist' style POC that uses multiple Gemini 1.5 Pro agents to research a medical topic, debate findings, and generate a structured hypothesis.",
+      "title": "Building a 'Co-Scientist' Lite with Vertex AI Agent Engine",
+      "description": "Create a multi-agent research assistant that can debate scientific hypotheses using your own private research papers.",
       "tools": [
-        "Vertex AI Agent Platform",
+        "Vertex AI Agent Engine",
         "Gemini 1.5 Pro",
-        "Vertex AI Search"
+        "Vector Search 2.0"
       ],
       "skills": [
         "Multi-agent Orchestration",
-        "Reasoning Loops",
-        "RAG"
+        "RAG",
+        "Hypothesis Evolution"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Define Agent Personas",
-          "instruction": "In the Vertex AI Agent Builder, create three distinct agents: a 'Literature Reviewer' (focused on data extraction), a 'Skeptic' (focused on finding contradictions), and a 'Synthesizer' (focused on hypothesis generation)."
+          "stepTitle": "Initialize Agent Engine",
+          "instruction": "Set up the environment and enable the Agent Engine API in your Google Cloud project.",
+          "codeSnippet": "gcloud services enable aiplatform.googleapis.com"
         },
         {
-          "stepTitle": "Configure RAG Data Store",
-          "instruction": "Connect your agents to a Vertex AI Search data store containing a corpus of medical PDFs or PubMed abstracts using the 'Search as a Tool' feature.",
-          "codeSnippet": "{\n  \"tool\": \"vertex_ai_search\",\n  \"data_store_id\": \"medical-research-v1\",\n  \"instruction\": \"Search for recent findings on GPCR targeting in liver fibrosis.\"\n}"
+          "stepTitle": "Define the 'Researcher' and 'Critic' Agents",
+          "instruction": "Create two distinct agent configurations. The Researcher focuses on synthesis, while the Critic is prompted to find flaws in the Researcher's logic.",
+          "codeSnippet": "researcher = aiplatform.Agent(display_name='Researcher', instruction='Synthesize findings from the provided corpus.')\ncritic = aiplatform.Agent(display_name='Critic', instruction='Identify logical fallacies and missing evidence in the proposed hypothesis.')"
         },
         {
-          "stepTitle": "Implement the Debate Loop",
-          "instruction": "Use the Agent Platform's orchestration layer to pass the output of the Reviewer to the Skeptic. Instruct the Skeptic to find flaws in the Reviewer's logic before passing both to the Synthesizer."
+          "stepTitle": "Connect to Vector Search 2.0",
+          "instruction": "Use the new 'Collections' feature in Vector Search 2.0 to unify your PDF research papers and vector embeddings for the agents to query.",
+          "codeSnippet": "my_corpus = aiplatform.VectorSearchIndex.create_from_gcs(gcs_uri='gs://my-research-papers/')"
         }
       ],
-      "date": "May 22, 2026",
+      "date": "May 24, 2026",
       "prerequisites": [
-        "Google Cloud Project with Vertex AI enabled",
-        "Access to Gemini 1.5 Pro API",
-        "A small dataset of research papers (PDFs)"
+        "Google Cloud Project",
+        "Python SDK installed",
+        "Access to Gemini 1.5 Pro"
       ],
       "sourceUrl": "https://cloud.google.com/vertex-ai/docs/agents/overview"
     },
     {
-      "title": "Real-time Anomaly Detection in Healthcare Data with BigQuery AI",
-      "description": "Deploy a production-ready anomaly detection system for patient monitoring data using the new GA 'DETECT_ANOMALIES' function in BigQuery.",
+      "title": "Real-time Medical Transcription with Gemini 3.1 Flash-Lite",
+      "description": "Deploy an ultra-low latency transcription service for clinical settings using the new Flash-Lite model.",
       "tools": [
-        "BigQuery ML",
+        "Gemini 3.1 Flash-Lite",
         "Vertex AI",
-        "Looker"
+        "Bidirectional Streaming"
       ],
       "skills": [
-        "MLOps",
-        "Time-series Analysis",
-        "SQL-based AI"
+        "Low-latency Inference",
+        "Audio Processing",
+        "HIPAA Compliance Config"
       ],
       "complexity": "Beginner",
       "guide": [
         {
-          "stepTitle": "Prepare Historical Data",
-          "instruction": "Load your patient vitals data into a BigQuery table. Ensure you have a timestamp and the metric you want to monitor (e.g., heart rate)."
+          "stepTitle": "Configure Bidirectional Streaming",
+          "instruction": "Set up a bidirectional stream to handle live audio input and receive text output with sub-second latency.",
+          "codeSnippet": "stream = model.generate_content(audio_stream, stream=True)"
         },
         {
-          "stepTitle": "Train the Anomaly Model",
-          "instruction": "Use the ML.CREATE_MODEL statement with the 'ARIMA_PLUS' type to create a baseline of normal patient vitals.",
-          "codeSnippet": "CREATE OR REPLACE MODEL `patient_vitals.anomaly_model` OPTIONS(model_type='ARIMA_PLUS', time_series_timestamp_col='ts', time_series_data_col='heart_rate') AS SELECT ts, heart_rate FROM `patient_vitals.historical_data`"
-        },
-        {
-          "stepTitle": "Detect Anomalies in Real-time",
-          "instruction": "Call the ML.DETECT_ANOMALIES function on your incoming target data stream to identify spikes or drops that deviate from the historical norm.",
-          "codeSnippet": "SELECT * FROM ML.DETECT_ANOMALIES(MODEL `patient_vitals.anomaly_model`, STRUCT(0.95 AS anomaly_prob_threshold), TABLE `patient_vitals.new_stream`)"
+          "stepTitle": "Apply HIPAA Workload Controls",
+          "instruction": "Enable the HIPAA-ready configuration in Vertex AI Agent Engine to ensure data privacy for medical workloads.",
+          "codeSnippet": "agent_engine.configure(security_profile='HIPAA_COMPLIANT')"
         }
       ],
-      "date": "May 22, 2026",
+      "date": "May 24, 2026",
       "prerequisites": [
-        "BigQuery dataset with time-series data",
-        "Basic SQL knowledge"
+        "Vertex AI API access",
+        "Basic understanding of streaming APIs"
       ],
-      "sourceUrl": "https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-detect-anomalies"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/release-notes"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "The End of the 'Jobpocalypse' Narrative",
-      "summary": "In the latest edition of 'The Batch,' Andrew Ng forcefully counters the prevailing narrative that AI will lead to mass unemployment. He argues that while AI is indeed automating specific tasks—particularly in software engineering—it is simultaneously creating a massive 'idea backlog' that requires more, not fewer, engineers to execute. Ng points out that the U.S. unemployment rate remains healthy at 4.3% despite the rapid adoption of coding agents. He suggests that AI labs and large corporations have a strategic incentive to exaggerate AI's displacement potential to justify high valuations or restructuring. \n\nNg's perspective is that we are entering an 'AI employment boom' where the bottleneck has shifted from engineering capacity to decision-making speed. He emphasizes that the most successful organizations will be those that invest in 'human skills'—specifically judgment and product management—to decide what to build with the newfound speed AI provides. He urges learners to focus on becoming 'AI-native generalists' who can orchestrate agents rather than just writing code manually.",
-      "url": "https://www.deeplearning.ai/the-batch/ai-will-not-destroy-the-job-market/",
+      "title": "Toward Agent Benchmarks That Reflect Human Work",
+      "summary": "In the May 22 edition of 'The Batch,' the editorial team argues that current AI benchmarks are failing to capture the true economic value of AI agents. While models are setting records on narrow tasks like coding snippets or math puzzles, they struggle with the 'full range of economically valuable labor.' Andrew Ng notes that a 'job' is not just a sequence of tasks but involves high-level planning and the ability to handle 'edge cases' that aren't in the training data. The article introduces the concept of 'Agentic Benchmarks' which evaluate an AI's ability to operate autonomously over long horizons (days or weeks) rather than single-turn responses. This is critical for leaders to understand: a high benchmark score doesn't necessarily mean an agent is ready to replace a human workflow.",
+      "url": "https://www.deeplearning.ai/the-batch/issue-249/",
       "category": "The Batch",
       "author": "Andrew Ng",
-      "date": "May 8, 2026"
+      "date": "May 22, 2026"
     },
     {
-      "title": "AI Mammogram Diagnosis: The Real-World Gap",
-      "summary": "This research highlight examines two new studies testing Google's breast cancer detection models in clinical settings. Despite the AI system being introduced in 2020 and showing superhuman performance in lab settings, the studies reveal that it still hasn't been widely adopted for diagnosing current patients. The primary hurdles are not technical but 'real-world'—including integration with legacy hospital IT systems, regulatory liability, and the 'swivel-chair bottleneck' where doctors must manually move data between the AI tool and patient records.\n\nThe article highlights that for AI to actually save lives in healthcare, the focus must shift from 'model accuracy' to 'workflow integration.' It discusses how new 'medical transcription specialists' like Corti's Symphony are attempting to solve this by acting as an invisible layer that handles the data movement and documentation, allowing doctors to focus on the AI's insights rather than the logistics of using the tool.",
-      "url": "https://www.deeplearning.ai/the-batch/ai-mammogram-diagnosis-under-real-world-conditions/",
+      "title": "Natural Language Autoencoders: Peeking Inside Claude",
+      "summary": "DeepLearning.AI highlights Anthropic's new 'Natural Language Autoencoders' (NLAs), a breakthrough in AI interpretability. Traditionally, the 'thoughts' of a model like Claude are represented as complex numerical activations that are nearly impossible for humans to read. NLAs translate these internal activations back into natural language, allowing researchers to see what the model is 'planning' before it speaks. For example, when asked to write a poem, NLAs showed the model planning its rhymes several steps in advance. Andrew Ng emphasizes that this 'mechanistic interpretability' is the key to safety; if we can read a model's 'hidden motivations,' we can catch misalignment (like a model planning to deceive a user) before it manifests as an output. This moves AI safety from 'black box' testing to 'transparent' auditing.",
+      "url": "https://www.deeplearning.ai/the-batch/interpretability-breakthrough/",
       "category": "Research Highlight",
       "author": "The Batch Team",
-      "date": "May 15, 2026"
+      "date": "May 11, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Prompt Engineering Masterclass 2026",
-      "provider": "DeepLearning.AI",
-      "summary": "A complete overhaul of prompting techniques, focusing on 'Deep Research' modes and iterative agent collaboration rather than single-shot phrases.",
-      "url": "https://www.deeplearning.ai/courses/prompt-engineering-2026/",
-      "type": "Course",
-      "difficulty": "Intermediate"
-    },
-    {
-      "title": "Fine-Tuning NVIDIA Cosmos for Robot Video Generation",
+      "title": "The Open Agent Leaderboard",
       "provider": "Hugging Face",
-      "summary": "A technical guide on using LoRA/DoRA to fine-tune the latest NVIDIA Cosmos models for generating synthetic video data to train bipedal robots.",
-      "url": "https://huggingface.co/blog/cosmos-robot-video",
-      "type": "Tutorial",
-      "difficulty": "Advanced"
-    },
-    {
-      "title": "Anthropic Cookbook: Building Agentic Workflows with Claude Code",
-      "provider": "Anthropic",
-      "summary": "New recipes for integrating 'Claude Code' into enterprise CI/CD pipelines to automate bug fixing and documentation updates.",
-      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "summary": "A new live-tracking system that evaluates open-weight agents (like DeepSeek and Kimi) against closed-source giants. It focuses on 'cost-per-success' and 'failure behavior,' helping developers choose models based on ROI rather than just raw accuracy.",
+      "url": "https://huggingface.co/spaces/HuggingFaceFW/open-agent-leaderboard",
       "type": "Tool",
       "difficulty": "Intermediate"
+    },
+    {
+      "title": "Securing Agentic AI: A Practical Framework",
+      "provider": "Hugging Face / Microsoft",
+      "summary": "A comprehensive guide on sandboxing AI agents using MicroVMs and gVisor to prevent 'Remote Code Execution' (RCE) vulnerabilities when agents are given tool-use capabilities.",
+      "url": "https://huggingface.co/blog/securing-agentic-ai",
+      "type": "Tutorial",
+      "difficulty": "Advanced"
     }
   ]
 }
