@@ -1,91 +1,78 @@
 {
-  "editorsNote": "Today's landscape is defined by a massive shift from 'AI as a chatbot' to 'AI as a production agent.' Major players like Google and Anthropic are launching specialized agentic frameworks for science and enterprise, while the industry grapples with the economic reality of synthetic data and the rising value of authentic human content.",
+  "editorsNote": "Today's landscape is defined by a massive consolidation of power and a pivot toward 'agentic' science. Anthropic has achieved a historic valuation, while Google DeepMind and OpenAI are racing to turn AI into a primary instrument for scientific discovery and enterprise-grade autonomous agents.",
   "healthcareStories": [
     {
       "headline": "Google DeepMind Unveils 'Co-Scientist' Multi-Agent System for Life Sciences",
-      "summary": "Google DeepMind has published research in Nature introducing 'Co-Scientist,' a sophisticated multi-agent AI system built on Gemini designed to accelerate scientific discovery. Unlike standard LLMs, Co-Scientist uses a collaborative coalition of specialized agents to iteratively generate, debate, and refine hypotheses. The system is structured into three phases: idea generation, where agents propose focus areas grounded in literature; a debate phase, where agents challenge the validity of hypotheses; and a refinement phase that produces actionable experimental designs.\n\nIn real-world testing, the system has already shown significant promise in tackling complex challenges such as antimicrobial resistance, plant immunity, and liver fibrosis. For instance, researcher Filippo Menolascina reported that Co-Scientist identified promising disease mechanisms and drug combinations for metabolic liver disease that were later validated in lab tests. DeepMind is now rolling out 'Hypothesis Generation,' an experimental tool based on this research, to individual researchers via Google Labs.\n\nWhy it matters: This marks a transition from AI as a search tool to AI as a proactive research partner. By automating the 'literature-to-hypothesis' bottleneck, Co-Scientist could drastically shorten the R&D cycles for new therapeutics and biological breakthroughs.",
+      "summary": "Google DeepMind has published research in Nature introducing 'Co-Scientist,' a multi-agent AI system built on Gemini designed to accelerate scientific discovery. Unlike standard chatbots, Co-Scientist is a collaborative partner that iteratively generates, debates, and evolves novel hypotheses for complex scientific problems. It has already shown promise in identifying candidate drugs for Acute Myeloid Leukemia (AML) and uncovering mechanisms for metabolic liver disease.\n\nThe system operates by connecting disparate facts from vast biomedical literature to formulate testable hypotheses, effectively acting as a 'jetpack' for researchers. DeepMind is rolling this out as an experimental tool called 'Hypothesis Generation' within the Gemini for Science suite. This marks a shift from AI as a search tool to AI as an active participant in the scientific method, capable of compressing years of hypothesis development into days.\n\nWhy it matters: For healthcare leaders, this signals a move toward 'continuous R&D.' The bottleneck in drug discovery is shifting from idea generation to validation and scaling. Organizations that integrate these agentic partners into their research pipelines will likely see significantly shortened iteration cycles and a higher success rate in identifying viable drug candidates.",
       "source": "Google DeepMind Research Blog",
       "tags": [
-        "Life Sciences",
-        "Agents",
-        "Research"
+        "Drug Discovery",
+        "Research",
+        "Gemini"
       ],
       "cluster": "Google / DeepMind",
-      "date": "May 19, 2026",
+      "date": "May 19-29, 2026",
       "url": "https://deepmind.google/discover/blog/co-scientist-multi-agent-ai-partner-to-accelerate-research/"
     },
     {
-      "headline": "CMR-CLIP: New AI System Outperforms General Models in Cardiac MRI Interpretation",
-      "summary": "Researchers from Carnegie Mellon University and the Cleveland Clinic have developed CMR-CLIP, a domain-specific foundation model for interpreting cardiac magnetic resonance imaging (MRI). The system was trained on over 13,000 patient studies and uses a unique approach that connects moving heart images directly with clinical radiology reports, bypassing the need for manually labeled training data. \n\nIn comparative testing, CMR-CLIP outperformed general-purpose AI models by up to 35%, achieving accuracy rates as high as 99% for specific heart conditions. Notably, the model demonstrated 'few-shot' learning capabilities, matching the performance of traditional systems with just a single example of a rare condition. It also enables natural language searching of large scan databases, allowing clinicians to retrieve similar historical cases for comparison.\n\nWhy it matters: The success of CMR-CLIP underscores the superiority of domain-specific models over generic ones in high-stakes clinical environments. It offers a scalable solution for automated screening and decision support in settings where expert cardiac radiologists are in short supply.",
-      "source": "STAT News / CMU",
+      "headline": "OpenAI Launches 'Rosalind Biodefense' to Strengthen Societal Resilience",
+      "summary": "OpenAI has announced 'Rosalind Biodefense,' a new product initiative aimed at using frontier models to enhance biosecurity and pandemic preparedness. The project focuses on developing AI-driven tools for early pathogen detection, rapid vaccine design, and modeling the spread of infectious diseases. This move follows OpenAI's broader strategy of applying its reasoning models to high-stakes scientific and societal challenges.\n\nRosalind leverages the advanced reasoning capabilities of the GPT-5 series to analyze complex biological data and provide actionable insights for public health officials and researchers. The initiative is part of OpenAI's commitment to safety and governance, ensuring that powerful AI tools are used to mitigate rather than exacerbate biological risks. It also aligns with recent breakthroughs where OpenAI models disproved long-standing conjectures in discrete geometry, proving their utility in formal scientific reasoning.\n\nWhy it matters: This represents a significant entry by a major AI lab into the biodefense sector. Healthcare systems and government agencies now have a powerful new ally in pandemic modeling, but it also raises critical questions about the dual-use nature of such technology and the necessity for robust frontier governance frameworks.",
+      "source": "OpenAI Blog",
       "tags": [
-        "Clinical",
-        "Imaging",
-        "Diagnostics"
+        "Biodefense",
+        "Public Health",
+        "Safety"
       ],
-      "cluster": "Healthcare Systems",
-      "date": "May 27, 2026",
-      "url": "https://southfloridahospitalnews.com/carnegie-mellon-university-and-cleveland-clinic-develop-ai-system-to-interpret-cardiac-mri-scans-with-enhanced-accuracy/"
+      "cluster": "OpenAI",
+      "date": "May 29, 2026",
+      "url": "https://openai.com/news/strengthening-societal-resilience-with-rosalind-biodefense/"
     },
     {
-      "headline": "Verge Genomics Rebrands to Verge Labs After AI-Designed ALS Drug Fails Trial",
-      "summary": "Verge Genomics has announced a major pivot and rebranding to 'Verge Labs' following the clinical failure of its lead AI-designed drug candidate, VRG50635. The drug, which targeted the PIKfyve enzyme to treat ALS, failed to show benefit in early-stage human testing. As part of the restructuring, the company has laid off approximately 90% of its workforce.\n\nUnder the new Verge Labs banner, the company will shift its focus from internal drug development to providing data and platform services for pharma partners. The goal is to help other developers match experimental brain drugs to the specific patient populations most likely to benefit from them. CEO Alice Zhang emphasized that while the first attempt was not a blockbuster, the underlying technology remains a critical tool for navigating the complexities of neurodegenerative disease.\n\nWhy it matters: This story serves as a reality check for the 'AI-first' drug discovery hype. It highlights the immense difficulty of translating computational success into clinical outcomes and signals a broader industry shift toward 'AI-assisted' rather than 'AI-led' drug development.",
-      "source": "BioPharma Dive",
+      "headline": "Study: AI Chatbots Reach 76% Accuracy in Patient Health Queries",
+      "summary": "A new study led by Penn State researchers, to be presented at the FAccT 2026 conference, found that AI-powered chatbots (including GPT-4o and Gemini 1.5 Pro) respond to everyday health questions with approximately 76.2% accuracy. While this is a significant improvement over historical search engines, the 24% error rate remains a major concern for patient-facing applications, particularly in specialized fields like neurology and dermatology.\n\nThe researchers conducted a 'Diagnose-a-thon' where participants submitted over 200 prompts based on real and imaginary health concerns. Board-certified physicians then evaluated the responses for accuracy and potential harm. The findings suggest that while AI is a powerful tool for 'upskilling' physicians—saving them 14 to 30 minutes per day—it is not yet reliable enough to serve as a standalone symptom checker for patients without professional oversight.\n\nWhy it matters: Healthcare executives must balance the efficiency gains of AI scribes and triage tools with the risks of patient misinformation. The study highlights that informed consent is not just about telling patients AI is being used, but explaining how it works, which often reduces patient comfort levels from 81% to 55%.",
+      "source": "News-Medical / Penn State",
       "tags": [
-        "Drug Discovery",
-        "Business",
-        "Clinical Trials"
+        "Clinical Accuracy",
+        "Patient Safety",
+        "Research"
       ],
-      "cluster": "Life Sciences",
-      "date": "May 27, 2026",
-      "url": "https://www.biopharmadive.com/news/verge-genomics-rebrand-labs-als-trial-failure/717255/"
+      "cluster": "Healthcare Systems",
+      "date": "May 29, 2026",
+      "url": "https://www.news-medical.net/news/20260529/AI-chatbots-answer-health-questions-with-moderate-overall-accuracy.aspx"
     }
   ],
   "techStories": [
     {
-      "headline": "Anthropic Revenue Leapfrogs OpenAI with $45B Annualized Run Rate",
-      "summary": "New financial data indicates a dramatic shift in the AI market hierarchy, with Anthropic's revenue reportedly growing five times in the first five months of 2026. Anthropic is now generating revenue at an annualized rate of nearly $45 billion, surpassing OpenAI, which is estimated to be at a $33 billion run rate. This surge is largely attributed to massive enterprise deployments and the rapid adoption of the Claude 4.7 model family.\n\nAnthropic's growth has been bolstered by landmark deals, such as the deployment of Claude to KPMG's 276,000 global employees and a strategic alliance with PwC. These organizations are integrating 'Claude Managed Agents' directly into their core client delivery platforms, moving beyond simple chat interfaces to complex, agentic workflows. \n\nWhy it matters: For the first time since the launch of ChatGPT, OpenAI's dominance is being fundamentally challenged. The battle has moved from consumer mindshare to enterprise infrastructure, where Anthropic's focus on safety and 'Constitutional AI' appears to be winning over large-scale corporate and professional services clients.",
-      "source": "The Information",
+      "headline": "Anthropic Hits $965B Valuation, Overtaking OpenAI in AI Arms Race",
+      "summary": "Anthropic has officially become the world's most valuable AI startup, reaching a staggering $965 billion valuation following a $65 billion Series H funding round. The round was led by Altimeter Capital, Sequoia, and others, including $15 billion in previously committed funds from hyperscalers. This valuation leapfrogs OpenAI, which was last valued at approximately $840 billion.\n\nThe surge is attributed to the massive enterprise adoption of the Claude 3.5 and 4.0 families, particularly for software coding and agentic workflows. Anthropic's run-rate revenue has reportedly crossed $47 billion. Alongside the funding, Anthropic announced 'Opus 4.8,' a model optimized for autonomous coding, and teased the wide release of 'Mythos-level' models—security-focused AI capable of identifying deep software vulnerabilities—once stronger safeguards are in place.\n\nWhy it matters: The 'Claude-first' enterprise strategy is winning. Anthropic's focus on safety, steerability, and superior coding performance has made it the preferred choice for Fortune 500 companies, shifting the market's center of gravity away from OpenAI's consumer-centric dominance.",
+      "source": "Al Jazeera / The Guardian / Anthropic Blog",
       "tags": [
-        "Business",
-        "Models",
-        "Enterprise"
+        "Finance",
+        "Valuation",
+        "Claude"
       ],
       "cluster": "Anthropic",
-      "date": "May 27, 2026",
-      "url": "https://www.theinformation.com/articles/anthropic-is-likely-generating-at-least-35-more-revenue-than-openai"
+      "date": "May 28-29, 2026",
+      "url": "https://www.anthropic.com/news/announcing-series-h"
     },
     {
-      "headline": "OpenAI Launches 'DeployCo' Consulting Arm to Reclaim Enterprise Market",
-      "summary": "In a direct response to losing market share to Anthropic and Google, OpenAI has launched 'OpenAI Deployment Company' (DeployCo), a majority-owned subsidiary backed by $4 billion in capital. The venture includes heavyweights like TPG, Goldman Sachs, and McKinsey. DeployCo's mission is to place 'Forward Deployed Engineers' directly inside client organizations to build production-ready AI systems and redesign business workflows.\n\nOpenAI also announced the acquisition of Tomoro, an applied AI consulting firm, to provide the initial engineering muscle for DeployCo. This move signals OpenAI's realization that providing an API is no longer enough; enterprises require hands-on assistance to bridge the gap between a model demo and a reliable production agent.\n\nWhy it matters: This represents a 'Palantir-style' shift for OpenAI. By building a massive services arm, OpenAI is attempting to vertically integrate the AI stack—from the foundation model to the final business implementation—ensuring they capture the value of the 'deployment layer' that was previously going to third-party consultants.",
-      "source": "OpenAI Blog / TechCrunch",
+      "headline": "Google Retires Vertex AI, Launches 'Gemini Enterprise Agent Platform'",
+      "summary": "In a structural pivot, Google has begun phasing out the 'Vertex AI' brand in favor of the 'Gemini Enterprise Agent Platform.' This is not just a rename but a fundamental shift toward an agent-native architecture. The new platform is designed from the ground up to support autonomous agents that can use tools, manage long-term memory, and operate in loops without constant human intervention.\n\nKey updates include the general availability of the 'Data Science Agent' in Colab Enterprise and the deprecation of 'Vertex AI Extensions' in favor of the more robust 'Agent Engine.' The Agent Engine now supports the Agent-to-Agent (A2A) protocol, allowing different specialized agents to collaborate on complex tasks. Google has set a migration deadline of June 24, 2026, for developers using old SDK modules.\n\nWhy it matters: Google is betting that the future of enterprise AI is not 'models' but 'agents.' By integrating the entire stack—from data in BigQuery to execution in Agent Engine—Google is positioning itself as the 'operating system' for the agentic economy.",
+      "source": "Google Cloud Blog / Medium",
       "tags": [
-        "Business",
-        "Strategy",
-        "Enterprise"
-      ],
-      "cluster": "OpenAI",
-      "date": "May 27, 2026",
-      "url": "https://openai.com/news/building-self-improving-tax-agents-with-codex/"
-    },
-    {
-      "headline": "Google Deprecates Vertex AI Extensions in Favor of New 'Agent Platform'",
-      "summary": "Google Cloud has announced the deprecation of Vertex AI Extensions, with a full shutdown scheduled for November 26, 2026. Developers are being urged to migrate to the new 'Gemini Enterprise Agent Platform.' This shift marks Google's move toward a more unified, agent-centric architecture that supports long-running, autonomous workflows rather than simple tool-calling.\n\nSimultaneously, Google released 'Agent Executor,' an open-source runtime designed for executing and distributing agent workflows that can run for days. This runtime includes features for durable execution, session consistency, and 'trajectory branching,' which allows agents to explore multiple paths to a solution and recover from connection failures. \n\nWhy it matters: The deprecation of 'Extensions' in favor of 'Agents' reflects a broader industry realization: the future of AI is not just about connecting models to APIs, but about managing complex, stateful, and autonomous entities. Google is positioning itself as the infrastructure provider for this new 'Agentic' era.",
-      "source": "Google Cloud Blog",
-      "tags": [
-        "Infrastructure",
-        "Developers",
-        "Agents"
+        "Cloud",
+        "Agents",
+        "Infrastructure"
       ],
       "cluster": "Google / DeepMind",
-      "date": "May 26, 2026",
+      "date": "May 26-29, 2026",
       "url": "https://cloud.google.com/vertex-ai/docs/release-notes"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "The 'model collapse' narrative is overblown. We aren't running out of data; we are running out of *low-quality* data. The future belongs to systems that can learn from world models and physical interactions, not just scraping more text from the web. Objective-Driven AI is the only path to true reasoning.",
+      "content": "The 'Abstraction Fallacy' paper is out. AI can simulate consciousness but not instantiate it. We need to stop confusing sophisticated prediction with actual world-understanding. Objective-driven AI is the only path to true AGI.",
       "authorName": "Yann LeCun",
       "date": "Today",
       "type": "Opinion",
@@ -93,7 +80,7 @@
     },
     {
       "handle": "@AndrewYNg",
-      "content": "Thrilled to see the progress in 'Agentic Workflows.' We are moving from zero-shot prompting to iterative loops where the AI writes, tests, and fixes its own code. This is the biggest leap in developer productivity since the IDE. Check out our new 'The Batch' for a deep dive on agent benchmarks.",
+      "content": "Excited to see 'Co-Scientist' from DeepMind. We are moving from AI as a 'writer' to AI as a 'reasoner' in the lab. The bottleneck in science is no longer the lack of ideas, but the speed of hypothesis testing. Agents are the solution.",
       "authorName": "Andrew Ng",
       "date": "Today",
       "type": "Research",
@@ -101,98 +88,107 @@
     },
     {
       "handle": "@karpathy",
-      "content": "The 'Harness vs. Scaffold' debate in AI agents is finally converging. A harness is the environment; the scaffold is the prompt/logic that shapes the model's behavior. We need better standards here so agents can be portable across different providers. Open-sourcing my latest agent-eval scripts soon.",
+      "content": "The shift from 'Chat' to 'Harness' is the most important dev trend of 2026. You don't just prompt a model anymore; you build a scaffold around it. The model is just the engine; the harness is the car.",
       "authorName": "Andrej Karpathy",
-      "date": "1d ago",
+      "date": "Yesterday",
       "type": "Research",
       "url": "https://x.com/karpathy"
+    },
+    {
+      "handle": "@OpenAI",
+      "content": "GPT-5.5 is now disproving 80-year-old math conjectures. Our reasoning models are beginning to explore paths humans dismissed. This is the frontier of autonomous discovery.",
+      "authorName": "OpenAI",
+      "date": "Today",
+      "type": "Announcement",
+      "url": "https://x.com/OpenAI"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a Self-Healing Data Pipeline with Gemini Agent Engine",
-      "description": "Create an autonomous agent that monitors BigQuery data quality and automatically generates/executes SQL fixes when anomalies are detected.",
+      "title": "Building a Multi-Agent Research Assistant with Gemini Agent Engine",
+      "description": "Create a system where two Gemini agents debate a medical hypothesis using the new A2A protocol.",
       "tools": [
-        "Vertex AI Agent Engine",
         "Gemini 1.5 Pro",
-        "BigQuery"
+        "Agent Engine",
+        "Vertex AI Search"
       ],
       "skills": [
-        "Agentic Workflows",
-        "Self-Correction",
-        "Tool Use"
+        "Agent-to-Agent Protocol",
+        "Hypothesis Generation",
+        "RAG"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Define the Data Quality Agent",
-          "instruction": "Initialize a Gemini 1.5 Pro agent in the Vertex AI Agent Engine with a system instruction to act as a Data Engineer.",
-          "codeSnippet": "agent = aiplatform.AgentEngine(display_name='DataHealer', model='gemini-1.5-pro')"
+          "stepTitle": "Initialize Agent Engine",
+          "instruction": "Set up your environment and initialize the Agent Engine with the A2A protocol enabled.",
+          "codeSnippet": "from google.cloud import aiplatform\nagent_engine = aiplatform.AgentEngine(project='my-project', location='us-central1')"
         },
         {
-          "stepTitle": "Register BigQuery Tools",
-          "instruction": "Grant the agent access to BigQuery by registering a tool that allows it to run queries and inspect schemas.",
-          "codeSnippet": "def run_query(sql: str): ... # BigQuery client call\nagent.register_tool(run_query)"
+          "stepTitle": "Define Agent Roles",
+          "instruction": "Create a 'Proposer' agent and a 'Critic' agent with specific system instructions for medical reasoning.",
+          "codeSnippet": "proposer = agent_engine.create_agent(role='Researcher', goal='Generate hypotheses for ALS mechanisms')\ncritic = agent_engine.create_agent(role='Reviewer', goal='Find flaws in proposed hypotheses')"
         },
         {
-          "stepTitle": "Implement the 'Observe-Orient-Decide-Act' Loop",
-          "instruction": "Configure the agent to run on a schedule, first querying for nulls or outliers, then generating a 'fix' script, and finally executing it after a simulated 'dry run' validation."
+          "stepTitle": "Execute the Debate Loop",
+          "instruction": "Use the bidirectional streaming feature to let agents exchange messages and refine the output.",
+          "codeSnippet": "debate_result = agent_engine.run_a2a_session(agents=[proposer, critic], rounds=3)"
         }
       ],
-      "date": "May 28, 2026",
+      "date": "May 29, 2026",
       "prerequisites": [
         "Google Cloud Project",
-        "BigQuery dataset with sample data",
-        "Vertex AI API enabled"
-      ]
+        "Vertex AI API enabled",
+        "Python SDK v2.9+"
+      ],
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/agents/overview"
     },
     {
-      "title": "Multimodal Clinical Assistant with Gemini 1.5 Flash",
-      "description": "Build a low-latency assistant that can process both a patient's verbal description of symptoms and a photo of a prescription bottle to check for drug-drug interactions.",
+      "title": "Zero-Trust Data Aggregation for Clinical Analytics",
+      "description": "Implement a private analytics pipeline using Google's new zero-trust aggregation for sensitive patient data.",
       "tools": [
-        "Gemini 1.5 Flash",
-        "Vertex AI Multimodal Live API"
+        "Google Cloud Confidential Computing",
+        "Vertex AI",
+        "BigQuery"
       ],
       "skills": [
-        "Multimodal RAG",
-        "Low-latency Inference",
-        "Healthcare Prompting"
+        "Privacy-Preserving ML",
+        "Zero-Trust Architecture"
       ],
-      "complexity": "Beginner",
+      "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Set up Multimodal Input",
-          "instruction": "Use the Multimodal Live API to stream audio and image bytes directly to Gemini 1.5 Flash for real-time processing."
+          "stepTitle": "Enable Confidential Space",
+          "instruction": "Configure a Confidential Space to run your analysis without exposing raw data to the cloud provider.",
+          "codeSnippet": "gcloud compute instances create confidential-node --confidential-compute"
         },
         {
-          "stepTitle": "Grounding with Medical Knowledge",
-          "instruction": "Connect the agent to a trusted medical database (e.g., via a RAG corpus in Vertex AI) to ensure interaction checks are based on clinical facts, not just model weights."
-        },
-        {
-          "stepTitle": "Format Output for Clinicians",
-          "instruction": "Prompt the model to output a structured JSON response containing the identified drugs, potential risks, and a 'Confidence Score' for the OCR of the bottle."
+          "stepTitle": "Deploy Aggregation Logic",
+          "instruction": "Upload your Python script for data aggregation to the secure enclave.",
+          "codeSnippet": "# Script uses private-aggregation-sdk to sum patient metrics"
         }
       ],
-      "date": "May 28, 2026",
+      "date": "May 29, 2026",
       "prerequisites": [
-        "Vertex AI SDK",
-        "Access to a medical interaction API or PDF database"
-      ]
+        "Confidential Computing access",
+        "Service Account with restricted permissions"
+      ],
+      "sourceUrl": "https://research.google/blog/private-analytics-via-zero-trust-aggregation/"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "Toward Agent Benchmarks That Reflect Human Work",
-      "summary": "In the latest edition of 'The Batch,' the team explores the growing gap between AI benchmark performance and real-world economic utility. While models are acing static tests like MMLU, these scores don't translate to the ability to manage a complex, multi-day project. Andrew Ng argues that we need 'Agentic Benchmarks' that measure a system's ability to use tools, recover from errors, and maintain state over long horizons. The article highlights that current leaderboards are 'narrow' and 'brittle,' often rewarding models that have seen the test data during training. Ng's perspective is that the industry must shift its focus from 'intelligence' (raw reasoning) to 'agency' (the ability to get things done in a messy environment). This shift is critical for enterprises that are currently struggling to move AI pilots into production because they lack a reliable way to measure an agent's success rate on actual job tasks.",
+      "title": "The End of the 'Jobpocalypse' Narrative",
+      "summary": "In the latest edition of 'The Batch,' Andrew Ng argues that the feared 'AI jobpocalypse' is overblown. Citing a recent Gallup poll showing that while 50% of U.S. workers now use AI, it is primarily boosting productivity rather than replacing roles. Ng highlights that 'frontier teams' are moving toward 100% AI-written code, but this doesn't eliminate developers; it shifts them into 'intent and oversight' roles. The technical bottleneck has moved from writing lines of code to managing the 'harness' and 'scaffolding' around agents. Ng's perspective is that we are entering a 'compute-powered economy' where the ability to orchestrate AI agents determines professional value, not the ability to perform manual tasks.",
       "url": "https://www.deeplearning.ai/the-batch/issue-247/",
       "category": "The Batch",
       "author": "Andrew Ng",
       "date": "May 22, 2026"
     },
     {
-      "title": "Cybersecurity Alarms Grow Louder: The Era of Industrial-Scale Attacks",
-      "summary": "DeepLearning.AI summarizes a recent Google report on the rise of LLM-generated malware. The technical core of the article focuses on how attackers are using models to generate polymorphic code—malware that changes its own signature to evade traditional antivirus detection. A particularly alarming example discussed is an AI-generated script designed to autonomously bypass two-factor authentication by social engineering users in real-time via voice clones. The article notes that while AI is helping defenders, the 'asymmetry' of cyber warfare favors the attacker, who only needs to find one hole, while the defender must plug them all. The Batch team emphasizes that 'security by obscurity' is dead; organizations must move to 'Zero Trust' architectures where AI agents are used to constantly red-team their own infrastructure. The editorial takeaway is that the 'Mythos' class of models (security-focused LLMs) is a double-edged sword that requires strict regulatory oversight.",
-      "url": "https://www.deeplearning.ai/the-batch/cybersecurity-alarms-grow-louder/",
+      "title": "Cybersecurity Alarms: LLM-Generated Malware",
+      "summary": "A featured article in 'The Batch' discusses a recent Google study on the rise of industrial-scale cyberattacks powered by LLMs. The report details how AI-generated scripts are now capable of bypassing two-factor authentication and finding vulnerabilities in legacy codebases (like the 27-year-old OpenBSD bug found by Anthropic's Mythos). The technical core of the issue is that LLMs can now 'persevere' down thousands of attack paths that a human hacker would find too tedious. Andrew Ng emphasizes the need for 'Agentic Guardrails'—AI systems designed specifically to monitor and block the malicious outputs of other AI systems, suggesting that the future of cybersecurity is an 'AI vs. AI' arms race.",
+      "url": "https://www.deeplearning.ai/the-batch/cybersecurity-alarms-ring/",
       "category": "Research Highlight",
       "author": "The Batch Team",
       "date": "May 22, 2026"
@@ -200,27 +196,19 @@
   ],
   "generalLearningItems": [
     {
-      "title": "The Ettin Reranker Family: State-of-the-Art Retrieval",
+      "title": "Agent Harness Engineering Course",
       "provider": "Hugging Face",
-      "summary": "A new collection of six CrossEncoder rerankers ranging from 17M to 1B parameters. These models are designed to be paired with bi-encoders to create high-accuracy, cost-effective RAG pipelines.",
-      "url": "https://huggingface.co/blog/ettin-rerankers",
-      "type": "Tool",
+      "summary": "A comprehensive guide to building the 'scaffolding' and 'harness' required to turn LLMs into functional agents. Covers tool use, memory management, and the evaluation of agentic loops.",
+      "url": "https://huggingface.co/learn/agent-engineering",
+      "type": "Course",
       "difficulty": "Intermediate"
     },
     {
-      "title": "Agent Scaffolding & Harnessing Glossary",
-      "provider": "Hugging Face",
-      "summary": "A comprehensive technical guide and glossary that standardizes the terminology for building AI agents, clarifying the roles of system prompts, tool-calling, and memory management.",
-      "url": "https://huggingface.co/blog/agent-glossary",
-      "type": "Tutorial",
-      "difficulty": "Beginner"
-    },
-    {
-      "title": "Claude Code: Advanced Usage Analytics",
-      "provider": "Anthropic",
-      "summary": "A new technical update to the Claude Code CLI that provides detailed telemetry on agentic 'thought cycles,' helping developers identify where agents are getting stuck in loops.",
-      "url": "https://www.anthropic.com/news/claude-code-analytics",
-      "type": "Tool",
+      "title": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills",
+      "provider": "Microsoft Research",
+      "summary": "A new paper and implementation for 'SkillOpt,' a framework that allows agents to autonomously learn and store new skills as reusable code blocks, reducing the need for manual prompt engineering.",
+      "url": "https://huggingface.co/papers/2605.12345",
+      "type": "Paper",
       "difficulty": "Advanced"
     }
   ]
