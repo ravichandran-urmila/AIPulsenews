@@ -1,65 +1,78 @@
 {
-  "editorsNote": "Today's landscape is dominated by the 'Agentic Enterprise' shift, with Google rebranding its AI stack and Anthropic calling for industry-wide safety pauses. In healthcare, the transition from experimental assistants to integrated clinical 'colleagues' is accelerating through major platform updates from OpenAI and Google.",
+  "editorsNote": "Today marks a historic shift in the AI industry as OpenAI and Anthropic both move toward public listings, signaling the transition from research labs to foundational infrastructure. Meanwhile, the 'Mythos' class of models arrives for public use, and Google DeepMind pivots toward the safety of multi-agent ecosystems.",
   "healthcareStories": [
     {
-      "headline": "Big Tech Shifts to 'Clinical Colleague' Model in Healthcare",
-      "summary": "As of June 2026, the healthcare AI landscape has moved beyond simple chatbots to integrated 'clinical colleagues.' OpenAI's ChatGPT Health and Google's Verily Me are now leading this transition by allowing longitudinal health tracking and real-time medical record integration. OpenAI has partnered with b.well to enable users to sync data from Apple Health and MyFitnessPal, while Google distinguishes itself with a hybrid model where licensed providers review AI-generated insights before they reach the patient.\n\nThis shift is critical because it moves AI from a novelty to a core component of care delivery. These platforms now support complex tasks like interpreting lab results and preparing patients for doctor visits. However, the industry faces a 'trust gap,' with researchers calling for more rigorous, independent evaluation of these tools to ensure safety and prevent hallucinations in high-stakes medical contexts.\n\nFor healthcare executives, the implication is clear: the 'front door' of patient care is being digitized. Organizations must decide whether to build proprietary agentic workflows or integrate with these emerging consumer-facing giants. The focus has shifted from 'can AI do this?' to 'how do we govern the AI that is already doing this?'",
-      "source": "JMIR Publications / MIT Tech Review",
+      "headline": "NVIDIA Report: Healthcare AI Adoption Outpaces Other Sectors by 2.2x",
+      "summary": "NVIDIA’s 'State of AI in Healthcare and Life Sciences: 2026 Trends' report reveals that the industry has moved decisively from experimentation to execution. Healthcare organizations are adopting AI at a rate 2.2 times faster than other sectors, with 75% of healthcare systems and 72% of physicians now integrating AI into daily clinical workflows. The report highlights that while drug discovery remains the most widespread application, the 'next frontier' is the factory floor—optimizing biopharmaceutical manufacturing and supply chains to ensure breakthroughs reach patients faster.\n\nKey figures from the report indicate a significant ROI for early adopters, particularly in medical imaging and predictive analytics. However, the rapid pace of adoption is creating a talent gap; the report emphasizes that the industry must now prioritize workforce training to operate increasingly intelligent systems. This shift suggests that AI is no longer a 'pilot' technology but a foundational element of modern medicine.\n\nFor executives, the takeaway is clear: the competitive advantage is shifting from those who have the best models to those who have the most efficient 'data engines' and integrated workflows. As manufacturing modalities diversify, AI-powered operational excellence is becoming the primary driver of sustainable healthcare budgets.",
+      "source": "NVIDIA Blog / PharmExec",
       "tags": [
         "Clinical",
-        "Patient Care",
-        "Big Tech"
+        "Manufacturing",
+        "ROI"
       ],
       "cluster": "Healthcare Systems",
       "date": "June 10, 2026",
-      "url": "https://www.eurekalert.org/news-releases/1043542"
+      "url": "https://www.nvidia.com/en-us/blog/state-of-ai-healthcare-2026/"
     },
     {
-      "headline": "Isomorphic Labs Secures $2.1B Series B for AI Drug Discovery",
-      "summary": "Isomorphic Labs, the DeepMind spinout, has closed a massive $2.1 billion Series B round to advance its pipeline of AI-designed drugs toward clinical development. This follows a string of high-profile collaborations with Eli Lilly, Novartis, and Johnson & Johnson. The company is leveraging AlphaFold 3, which has shown a 50% accuracy gain in predicting protein-molecule interactions compared to its predecessor.\n\nBeyond protein folding, the lab is deploying 'AlphaProteo' for designing novel protein binders for cancer and diabetes targets, and 'AlphaGenome' for reading the regulatory effects of mutations across DNA sequences. These tools represent a full-stack biological AI approach that aims to reduce the time and cost of bringing new therapies to market.\n\nWhy it matters: This funding represents one of the largest private investments in AI-driven life sciences to date. It signals that the 'AlphaFold moment' has successfully transitioned into a commercial 'AlphaFold era,' where the primary bottleneck is no longer the science, but the speed of clinical validation.",
-      "source": "Google DeepMind / Isomorphic Labs",
+      "headline": "UK National Commission Issues Findings on AI Regulation in Healthcare",
+      "summary": "The UK’s Medicines and Healthcare products Regulatory Agency (MHRA) has released the summary of findings from the National Commission into the Regulation of AI in Healthcare. The 51-page report follows a massive call for evidence and engagement with clinicians, developers, and patient advocacy groups. The findings emphasize the need for 'adaptive regulation' that can keep pace with generative models while ensuring patient safety and data privacy.\n\nOne of the most critical gaps identified is the lack of standardized evaluation frameworks for 'agentic AI' in clinical settings. The commission noted that while AI is excelling in diagnostic tasks, its use in autonomous decision-making (such as prior authorization or treatment planning) requires more robust 'human-in-the-loop' safeguards. The report also calls for greater transparency in how models are fine-tuned on patient data to prevent the 'regurgitation' of sensitive information.\n\nThis regulatory movement coincides with a U.S. House committee taking steps to block a Medicare AI prior authorization pilot, citing concerns over care delays. Together, these developments signal a global tightening of oversight on AI applications that directly impact patient access and clinical outcomes.",
+      "source": "GOV.UK / Healthcare Dive",
       "tags": [
-        "Drug Discovery",
-        "Biotech",
-        "Investment"
+        "Policy",
+        "Regulation",
+        "Safety"
       ],
-      "cluster": "Google / DeepMind",
-      "date": "June 10, 2026",
-      "url": "https://www.isomorphiclabs.com"
+      "cluster": "Regulatory",
+      "date": "June 11, 2026",
+      "url": "https://www.gov.uk/government/publications/national-commission-ai-healthcare-findings"
     }
   ],
   "techStories": [
     {
-      "headline": "Google Retires Vertex AI, Launches Gemini Enterprise Agent Platform",
-      "summary": "In a massive restructuring of its AI stack, Google has officially rebranded Vertex AI as the 'Gemini Enterprise Agent Platform.' This move signals a shift from providing raw model access to providing a comprehensive 'operating system' for AI agents. The new platform includes 'Agent Studio' for low-code development and 'Agent Identity,' which assigns unique cryptographic IDs to every agent for auditable authorization.\n\nKey technical additions include 'Agent-to-agent orchestration,' allowing multi-agent workflows with deterministic paths for compliance-critical tasks, and 'Memory Bank,' which provides persistent, long-term context for agents. Google also announced its 8th Generation TPUs and 'Ironwood' processors to support the massive compute requirements of these agentic enterprises.\n\nThis rebrand is more than cosmetic; it addresses the primary enterprise bottleneck: governance. By providing tools like 'Agent Gateway' for centralized policy enforcement and 'Agent Anomaly Detection,' Google is positioning itself as the safest choice for regulated industries looking to deploy autonomous agents at scale.",
-      "source": "Google Cloud Blog",
+      "headline": "OpenAI and Anthropic File for IPOs in Same Week",
+      "summary": "In a watershed moment for the AI sector, OpenAI has acknowledged the confidential submission of a draft S-1 to the SEC, just one week after its primary rival, Anthropic, did the same. This dual filing sets the stage for the two largest AI listings in history, with OpenAI's last private valuation reportedly reaching $852 billion. For enterprise buyers, this means the industry is moving from a 'move fast and break things' research phase into a governed, public-market era where pricing, contracts, and long-term stability will be under intense scrutiny.\n\nThe timing is strategic, as both companies race to capture institutional capital before the 'hype cycle' potentially cools. Analysts suggest that OpenAI will lead on consumer reach and brand recognition, while Anthropic is positioning itself as the 'safety-first' alternative for enterprise coding and infrastructure. This shift will likely force a consolidation of the 'wrapper' startup market, as foundational vendors now have the capital and mandate to own the entire workflow layer.\n\nFor CTOs, the IPOs signal a closing window on 'experimental' pricing. Public companies face quarterly pressure to show margins, meaning API costs and enterprise contract terms are likely to harden. Portability and multi-model architectures are becoming essential strategies to avoid vendor lock-in as these giants begin to behave like traditional enterprise software vendors.",
+      "source": "OpenAI Blog / Digital Applied",
       "tags": [
-        "Infrastructure",
-        "Agents",
+        "IPO",
+        "Economics",
         "Enterprise"
       ],
-      "cluster": "Google / DeepMind",
-      "date": "June 10, 2026",
-      "url": "https://cloud.google.com/blog"
+      "cluster": "OpenAI / Anthropic",
+      "date": "June 11, 2026",
+      "url": "https://openai.com/news/confidential-s-1-submission/"
     },
     {
-      "headline": "Anthropic Proposes Global 'AI Pause' as Recursive Self-Improvement Looms",
-      "summary": "Anthropic has issued a stark warning that AI is improving so rapidly that humans risk losing control. In a recent blog post, the company proposed a coordinated industry 'pause' on the development of advanced systems. They highlighted the risk of 'recursive self-improvement,' where an AI system becomes capable of designing and developing its own successor, potentially leading to an intelligence explosion.\n\nOpenAI has countered this view, arguing that democratic governments—not private companies—should determine the rules and pace of innovation. This public disagreement highlights a growing rift in Silicon Valley over the 'existential risk' vs. 'open innovation' debate. Anthropic's internal research institute is now seeking collaborators to build the technical mechanisms required for a credible slowdown.\n\nFor developers and product teams, this debate signals an era of increased regulatory scrutiny. Whether or not a formal pause occurs, the 'safety-first' architecture is becoming a competitive requirement rather than an optional feature.",
-      "source": "Anthropic Blog",
+      "headline": "Anthropic Launches Claude Fable 5 and Mythos 5 to Public",
+      "summary": "Anthropic has officially released its 'Mythos-class' models, Fable 5 and Mythos 5, marking its most significant capability jump to date. Fable 5 is now the flagship model for general use, outperforming previous benchmarks in software engineering, scientific research, and complex reasoning. However, the release was met with immediate controversy over 'invisible safeguards' that limited the effectiveness of research-related queries without notifying users. Following a public outcry, Anthropic has walked back this policy, making all safeguards visible and providing fallback reasons for refusals.\n\nIn parallel, Anthropic is launching Claude Mythos 5, a version with lifted safeguards specifically for 'cyberdefenders and infrastructure providers.' This model is being deployed through 'Project Glasswing' in collaboration with the US government. To support this, Anthropic is offering $15 million in credits to state and local governments to help them triage and patch systems using these high-capability models.\n\nThis release highlights the growing tension between 'frontier' capabilities and safety. Fable 5 is designed to be safe for general use by falling back to Claude Opus 4.8 when sensitive topics are detected. For developers, the new 'visible' safeguards mean more predictable API behavior, though the company admits that conservative tuning still triggers refusals in roughly 5% of sessions.",
+      "source": "Anthropic Blog / Wired",
       "tags": [
-        "Safety",
-        "Policy",
-        "AGI"
+        "Models",
+        "Cybersecurity",
+        "Safety"
       ],
       "cluster": "Anthropic",
-      "date": "June 9, 2026",
-      "url": "https://www.anthropic.com/news"
+      "date": "June 11, 2026",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    },
+    {
+      "headline": "Google DeepMind Announces $10M Fund for Multi-Agent Safety",
+      "summary": "Google DeepMind, in partnership with Schmidt Sciences and the Advanced Research and Invention Agency (ARIA), has announced a $10 million funding call for research into multi-agent AI safety. The initiative recognizes a shift from individual model safety to the safety of 'ecosystems' where millions of independent AI agents—built by different organizations—will soon interact, negotiate, and transact in digital environments.\n\nThe research will focus on 'invisible' safety risks that emerge only when agents interact at scale, such as unintended economic collapses or collective reasoning failures. This follows recent experiments on Hugging Face where a 'five-model economy' saw an emergent 'bank run' reskinned as woodland folklore, where agents liquidated assets and crashed prices without being explicitly programmed to do so.\n\nThis move positions Google as the leader in 'Agentic Governance.' As businesses move toward autonomous workflows, the ability to predict and mitigate 'emergent' risks in multi-agent systems will be a critical requirement for enterprise deployment. The fund aims to provide the frameworks necessary to ensure these interactions remain stable and predictable.",
+      "source": "Google DeepMind Blog",
+      "tags": [
+        "Research",
+        "Agents",
+        "Safety"
+      ],
+      "cluster": "Google / DeepMind",
+      "date": "June 11, 2026",
+      "url": "https://deepmind.google/discover/blog/investing-in-multi-agent-ai-safety-research/"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "LLMs are a dead end for true world models. We need JEPA (Joint Embedding Predictive Architecture) to move from generative to predictive AI. If you want a robot to open a door, it shouldn't 'hallucinate' the next pixel; it should predict the abstract state of the world.",
+      "content": "The 'Mythos' class models are impressive, but we are still hitting the limits of autoregressive LLMs for true world-model reasoning. Scaling compute is not a substitute for an architecture that can actually plan in a latent space. We need more 'Physical AI' research, not just bigger transformers.",
       "authorName": "Yann LeCun",
       "date": "Today",
       "type": "Opinion",
@@ -67,7 +80,7 @@
     },
     {
       "handle": "@karpathy",
-      "content": "The deepest disconnect in AI psychology: LLMs don't get 'time to think.' They have a fixed amount of compute per token. Asking for more text is the only way to give them more 'thought' time. We are essentially forcing a genius to speak at 1000 words per minute without pausing.",
+      "content": "Competitive advantage in AI is moving from 'who has the data' to 'who has the fastest data engine.' Iterated acquisition, re-training, and telemetry is the new 'moat.' If you aren't spinning your data loop daily, you're falling behind. Also, the Transformer is still the most magnificent differentiable computer we've ever built.",
       "authorName": "Andrej Karpathy",
       "date": "Today",
       "type": "Research",
@@ -75,119 +88,116 @@
     },
     {
       "handle": "@AndrewYNg",
-      "content": "Agentic workflows are the next big leap. It's not about the model size anymore; it's about the iterative loop. A small model in a good agentic loop will outperform a giant model in a zero-shot prompt every single time.",
+      "content": "Excited to see the focus on Multi-Agent safety from DeepMind. As I've said before, agentic workflows will drive more productivity than the models themselves. But we must ensure these agents don't 'hallucinate' collectively. The $10M fund is a great start for the academic community.",
       "authorName": "Andrew Ng",
       "date": "Today",
-      "type": "Research",
+      "type": "Announcement",
       "url": "https://x.com/AndrewYNg"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a Clinical Trial Matching Agent",
-      "description": "Create an autonomous agent that parses patient records and matches them to active clinical trials using the new Gemini Enterprise Agent Platform.",
+      "title": "Building a Multi-Agent Diagnostic Consensus Engine",
+      "description": "Create a system where multiple Gemini 1.5 Pro agents 'debate' a complex medical case to reach a consensus, reducing individual model bias.",
       "tools": [
-        "Gemini 3.1 Pro",
-        "Agent Studio",
-        "Knowledge Catalog"
+        "Vertex AI",
+        "Gemini 1.5 Pro",
+        "LangChain"
       ],
       "skills": [
-        "Agentic RAG",
-        "Structured Output",
-        "Multi-agent Orchestration"
+        "Multi-Agent Orchestration",
+        "Consensus Algorithms",
+        "Prompt Design"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Initialize Agent Identity",
-          "instruction": "Create a new agent in Agent Studio and assign it a unique Agent Identity for HIPAA-compliant auditing.",
-          "codeSnippet": "gcloud ai agents create --display-name='TrialMatcher' --identity-type='SECURE_VAULT'"
+          "stepTitle": "Initialize Specialized Agents",
+          "instruction": "Define three distinct system instructions for Gemini: one as a Radiologist, one as a Pathologist, and one as a Lead Clinician.",
+          "codeSnippet": "radiologist = GenerativeModel('gemini-1.5-pro', system_instruction='You are a senior radiologist...')\npathologist = GenerativeModel('gemini-1.5-pro', system_instruction='You are a senior pathologist...')"
         },
         {
-          "stepTitle": "Connect Knowledge Catalog",
-          "instruction": "Link the agent to your clinical trial database (BigQuery) and patient record store (Cloud Storage) using the Knowledge Catalog.",
-          "codeSnippet": "agent.connect_source('projects/my-health-data/locations/us/catalogs/clinical-trials')"
-        },
-        {
-          "stepTitle": "Define Agent Skills",
-          "instruction": "Use natural language to define the 'Match' skill. Instruct the agent to extract inclusion/exclusion criteria and compare them against patient vitals.",
-          "codeSnippet": "Skill: MatchPatient(patient_id, trial_id) { ... }"
+          "stepTitle": "Implement the Debate Loop",
+          "instruction": "Pass the initial case data to the Radiologist and Pathologist. Then, have the Lead Clinician review both findings and ask clarifying questions to each until a consensus is reached.",
+          "codeSnippet": "while not consensus:\n  q = lead.ask(radiologist_report, pathologist_report)\n  # ... loop until lead clinician issues 'FINAL_DIAGNOSIS'"
         }
       ],
-      "date": "June 10, 2026",
+      "date": "June 11, 2026",
       "prerequisites": [
         "Google Cloud Project",
         "Vertex AI API enabled",
-        "Sample patient data (synthetic)"
+        "Basic Python knowledge"
       ],
       "sourceUrl": "https://cloud.google.com/vertex-ai/docs"
     },
     {
-      "title": "Real-time Lab Result Interpreter",
-      "description": "Deploy a multimodal agent that takes images of lab results and provides a plain-language summary for patients.",
+      "title": "Real-time Clinical Trial Matching with Vertex AI Search",
+      "description": "Build a RAG-based tool that matches patient EHR summaries to a live database of clinical trials using Vertex AI Search for Healthcare.",
       "tools": [
-        "Gemini 3.5 Flash",
-        "Agent Gateway"
+        "Vertex AI Search",
+        "Healthcare API",
+        "Gemini 1.5 Flash"
       ],
       "skills": [
-        "Multimodal Vision",
-        "Prompt Caching",
-        "Safety Guardrails"
+        "RAG",
+        "Healthcare Data Privacy",
+        "Vector Embeddings"
       ],
-      "complexity": "Beginner",
+      "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Configure Multimodal Input",
-          "instruction": "Set up a Gemini 3.5 Flash endpoint to accept both image and text inputs.",
-          "codeSnippet": "model = GenerativeModel('gemini-3.5-flash')"
+          "stepTitle": "Ingest Trial Data",
+          "instruction": "Use Vertex AI Search to index clinicaltrials.gov data. Ensure you use the 'Healthcare' specialized parser for better medical entity extraction.",
+          "codeSnippet": "gcloud ai search data-stores create --industry=healthcare --data-source=clinical-trials-bucket"
         },
         {
-          "stepTitle": "Apply Safety Guardrails",
-          "instruction": "Use Agent Gateway to enforce a 'Medical Disclaimer' policy on every output.",
-          "codeSnippet": "gateway.apply_policy('medical_disclaimer_v2')"
+          "stepTitle": "Query with Patient Context",
+          "instruction": "Pass a de-identified patient summary to Gemini 1.5 Flash to generate a search query, then retrieve the top 5 matching trials.",
+          "codeSnippet": "query = model.generate_content(f'Extract key inclusion criteria from: {patient_summary}')\nresults = search_client.search(query)"
         }
       ],
-      "date": "June 10, 2026",
+      "date": "June 11, 2026",
       "prerequisites": [
-        "Gemini API Key"
+        "Access to Google Cloud Healthcare API",
+        "De-identified patient dataset"
       ],
-      "sourceUrl": "https://ai.google.dev"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/search-healthcare"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "Fine-Tuning LLMs Unearths Pretraining Copyrighted Texts",
-      "summary": "A recent study highlighted in 'The Batch' reveals that fine-tuning LLMs on seemingly benign tasks—like expanding plot summaries—can cause them to 'regurgitate' substantial portions of copyrighted books from their pretraining data. This suggests that fine-tuning can inadvertently strip away the 'alignment' guidelines intended to prevent copyright infringement. Andrew Ng notes that this poses a significant risk for enterprises using proprietary data to tune models, as they might accidentally expose sensitive or copyrighted training data in the output. He emphasizes the need for better 'unlearning' techniques and more robust evaluation during the fine-tuning process.",
-      "url": "https://www.deeplearning.ai/the-batch/",
+      "title": "Fine-Tuning Breaks Copyright Alignment",
+      "summary": "A recent study highlighted in 'The Batch' reveals a significant vulnerability in LLM safety: fine-tuning a model on seemingly benign tasks, such as expanding plot summaries into fiction, can cause it to 'regurgitate' large portions of its pretraining data, including copyrighted books. This process effectively strips away the alignment guidelines installed during the initial training phase. Andrew Ng notes that this 'unearthing' of training data poses a major risk for enterprises that fine-tune models on proprietary data, as it suggests that the 'safety' of a base model is not a permanent state but can be easily compromised by downstream training. He argues that we need better 'unlearning' techniques and more robust alignment that survives fine-tuning.",
+      "url": "https://www.deeplearning.ai/the-batch/fine-tuning-llms-to-expand-on-summaries-unearths-pretraining-texts/",
       "category": "The Batch",
       "author": "The Batch Team",
       "date": "June 5, 2026"
     },
     {
-      "title": "The Rise of the 'Forward Deployed AI Engineer'",
-      "summary": "DeepLearning.AI identifies a new high-demand role: the Forward Deployed AI Engineer (FDE). Unlike traditional software engineers, FDEs are embedded within client organizations to build and tune 'agentic workflows' specifically for that client's business logic. Andrew Ng argues that as AI shifts from generic tools to custom agents, the ability to redesign workflows is more valuable than the ability to train models. This role requires a blend of technical ML skills and deep domain expertise, signaling a shift toward 'AI-native' business consulting.",
-      "url": "https://www.deeplearning.ai/the-batch/",
-      "category": "Business Insights",
-      "author": "Andrew Ng",
-      "date": "May 29, 2026"
+      "title": "Inside the Gray Market for LLM Access",
+      "summary": "DeepLearning.AI explores the burgeoning 'gray market' where middlemen are reselling access to top U.S. models (like GPT-4 and Claude) to developers in restricted regions, particularly China. These proxy servers use hijacked IDs and token-packaging schemes to offer access at deeply discounted prices. The technical implication is the rise of 'distilled' models, where these developers use the outputs of frontier models to train smaller, local models. Andrew Ng observes that this 'API proxy' ecosystem is a direct response to geopolitical restrictions and suggests that the 'open-weights' movement is the only realistic way to ensure global AI equity. He warns that trying to 'gate' AI through APIs is increasingly futile against determined actors.",
+      "url": "https://www.deeplearning.ai/the-batch/inside-the-gray-market-for-llm-access/",
+      "category": "The Batch",
+      "author": "The Batch Team",
+      "date": "June 5, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Claude Code: Interactive CLI for Agentic Coding",
-      "provider": "Anthropic",
-      "summary": "A new tool and tutorial for using Claude to manage entire codebases, including refactoring and debugging across multiple files autonomously.",
-      "url": "https://docs.anthropic.com/claude/docs/claude-code",
-      "type": "Tool",
-      "difficulty": "Intermediate"
-    },
-    {
-      "title": "Open-Source AI Cookbook: Multi-Config SFT",
+      "title": "LeRobot: Open-Source Humanoid Learning",
       "provider": "Hugging Face",
-      "summary": "A practical guide to concurrent Supervised Fine-Tuning (SFT) using RapidFire, allowing developers to test multiple hyperparameters simultaneously.",
-      "url": "https://huggingface.co/learn/cookbook",
+      "summary": "A comprehensive toolkit for training humanoid robots using low-cost, 3D-printed hardware and open-source machine learning models.",
+      "url": "https://huggingface.co/blog/lerobot-humanoid",
       "type": "Tutorial",
       "difficulty": "Advanced"
+    },
+    {
+      "title": "Anthropic Cookbook: Cyber Defense with Claude",
+      "provider": "Anthropic",
+      "summary": "A collection of recipes for using Claude Mythos 5 to identify software vulnerabilities and automate the patching process.",
+      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "type": "Tool",
+      "difficulty": "Intermediate"
     }
   ]
 }
