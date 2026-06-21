@@ -1,168 +1,173 @@
 {
-  "editorsNote": "Today's landscape is dominated by a historic regulatory clash as the US government forced Anthropic to withdraw its most advanced models, while OpenAI and Google DeepMind pivot toward 'Health Intelligence' and 'Agentic Safety' frameworks. The industry is shifting from simple chat interfaces to autonomous agents capable of executing complex medicinal and scientific workflows.",
+  "editorsNote": "The AI landscape this weekend is dominated by a major talent shift as Transformer co-author Noam Shazeer moves to OpenAI, alongside a significant regulatory crackdown on Anthropic's latest models. Meanwhile, the industry is pivoting toward 'Agentic Resource Discovery' and multi-agent safety frameworks as autonomous systems move from chat interfaces to desktop-level execution.",
   "healthcareStories": [
     {
-      "headline": "OpenAI Unveils 'GPT-Rosalind' and Health Intelligence for ChatGPT",
-      "summary": "OpenAI has significantly expanded its footprint in the life sciences with the introduction of GPT-Rosalind, a specialized model designed specifically for biological research and drug discovery. This model is part of a broader 'Health Intelligence' initiative that integrates medical-grade reasoning into ChatGPT. In a landmark collaboration with Boston Children’s Hospital, OpenAI demonstrated how these tools can assist physicians in diagnosing rare genetic diseases by synthesizing complex patient data against vast genomic databases.\n\nBeyond diagnostics, OpenAI researchers published results on a 'near-autonomous AI chemist' that successfully optimized a challenging reaction in medicinal chemistry. This system doesn't just suggest formulas; it simulates the physical constraints of a lab environment to predict reaction outcomes with high precision. This marks a shift from AI as a documentation assistant to AI as a core participant in the scientific method.\n\nFor healthcare executives, this signals a move toward 'Agentic Healthcare' where AI systems handle end-to-end workflows—from initial symptom analysis to suggesting clinical trial candidates. The release of 'LifeSciBench' also provides a new standardized benchmark for evaluating how well LLMs perform on specialized biological tasks, ensuring that future deployments meet the rigorous accuracy requirements of the medical field.",
-      "source": "OpenAI Blog",
+      "headline": "OpenAI Unveils 'LifeSciBench' and New Health Intelligence for ChatGPT",
+      "summary": "OpenAI has significantly expanded its footprint in the life sciences sector with the release of LifeSciBench, a new benchmarking suite designed to evaluate AI performance on complex biological and chemical reasoning tasks. This move aims to provide a standardized metric for how well large language models can assist in drug discovery and molecular engineering. Alongside this, OpenAI introduced 'Health Intelligence' features for ChatGPT, which include specialized data connectors for medical researchers to securely upload and analyze longitudinal patient data and clinical trial results.\n\nIn a high-profile application of these tools, Boston Children’s Hospital reported using OpenAI’s latest models to assist physicians in diagnosing rare genetic diseases. By processing vast amounts of phenotypic data against genomic databases, the AI identified potential markers for undiagnosed pediatric conditions that had previously eluded traditional diagnostic pipelines. This highlights a shift from general-purpose assistants to specialized clinical decision support systems.\n\nWhy it matters: For healthcare executives, this signals that frontier model providers are no longer content with being generalists. They are building the specific infrastructure (benchmarks and data rails) required to make AI a primary tool in the lab and the clinic. The focus is moving toward 'Applied AI' where the model's ability to reason through medicinal chemistry or rare disease diagnostics is the new competitive frontier.",
+      "source": "OpenAI News",
       "tags": [
         "Clinical",
-        "Drug Discovery",
-        "Models"
+        "Research",
+        "Diagnostics"
       ],
       "cluster": "OpenAI",
       "date": "June 18, 2026",
       "url": "https://openai.com/news"
     },
     {
-      "headline": "Autonomous Medical Agents Move from Lab to Nature Publication",
-      "summary": "A groundbreaking study published in Nature this week details the first successful deployment of autonomous medical AI agents in clinical settings. Unlike previous 'copilot' systems that required constant human prompting, these agents are designed to manage 'Revenue Cycle Management' (RCM) and patient triage independently. The research highlights that these agents can reduce manual review workloads by up to 40% in pharmacovigilance—the monitoring of drug safety—by automatically coding adverse events and scanning social media for safety signals.\n\nIn the pharmaceutical sector, Sun Pharmaceutical reported that its GPT-4 powered 'sales analytics assistant' (developed with Microsoft Autogen) delivered insights 85% faster than traditional methods. This allows sales leaders to query real-time data conversationally, removing the SQL barrier that often delays strategic decision-making. The study emphasizes that while 'low-hanging fruit' like medical writing is already seeing 2-3x faster document production, the next frontier is regulatory validation for clinical applications.\n\nWhy it matters: The transition to autonomous agents represents a $2.9 trillion economic opportunity by 2030. For healthcare providers, the immediate ROI is found in operational efficiency—specifically in reducing the 'reporting lag' from days to seconds in complex administrative and safety-monitoring tasks.",
-      "source": "Nature / STAT News",
+      "headline": "Cleveland Clinic and IBM Showcase Quantum-AI Synergy for Biomedicine",
+      "summary": "The third annual Cleveland Discovery and Innovation Forum, hosted by Cleveland Clinic and IBM, highlighted a major milestone in the integration of quantum computing and AI for healthcare. Researchers demonstrated how quantum algorithms are being used to simulate protein folding and drug-target interactions at a level of precision that classical AI models cannot achieve. Dr. Lara Jehi, Cleveland Clinic’s Chief Research Information Officer, emphasized that the combination of these technologies is accelerating the 'prevention and early detection' stages of disease research.\n\nOne of the key breakthroughs discussed was the use of quantum-enhanced AI to identify new therapeutic targets for liver fibrosis and infectious diseases. By leveraging IBM’s quantum hardware alongside Google DeepMind’s biological toolkits, the partnership has successfully uncovered repurposed medicines that could potentially treat liver disease, significantly shortening the traditional drug development timeline.\n\nWhy it matters: This partnership represents the 'bleeding edge' of healthcare technology. While generative AI handles the data processing and language tasks, quantum computing is being positioned as the engine for the underlying physical simulations. For life sciences leaders, the takeaway is that the next generation of drug discovery will likely require a hybrid 'Quantum-AI' stack rather than just LLMs.",
+      "source": "Cleveland Clinic Newsroom",
       "tags": [
-        "Research",
-        "Pharma",
-        "Operations"
+        "Quantum",
+        "Drug Discovery",
+        "Partnership"
       ],
       "cluster": "Healthcare Systems",
-      "date": "June 19, 2026",
-      "url": "https://www.nature.com/articles/s41586-026-10675-5"
+      "date": "June 15, 2026",
+      "url": "https://newsroom.clevelandclinic.org"
     }
   ],
   "techStories": [
     {
-      "headline": "US Government Forces Anthropic to Shut Down Fable 5 and Mythos 5",
-      "summary": "In an unprecedented move, the US Department of Commerce issued an export control directive forcing Anthropic to immediately suspend access to its most powerful models, Fable 5 and Mythos 5. The order, delivered with only 90 minutes' notice, cited national security concerns regarding a specific 'jailbreak' technique that could allow the models to be misused for advanced cybersecurity attacks. Anthropic CEO Dario Amodei complied but publicly disagreed with the decision, stating that the vulnerabilities were 'minor' and previously known.\n\nThis event marks the first time a frontier AI model has been effectively 'recalled' by the government via export controls. Mythos 5 was widely considered the most capable model in the world, outperforming GPT-5.5 and Claude Opus 4.7 in complex agentic coding and scientific reasoning. The shutdown has sent shockwaves through the industry, raising questions about the stability of building on 'frontier' models that can be deactivated by government fiat without a transparent statutory process.\n\nFor enterprise buyers, this highlights a new category of 'Regulatory Risk.' Companies that had integrated Fable 5 into their production workflows found their systems broken overnight. The incident is being viewed as a 'battle for governance,' where the US government is asserting its power to control AI not through established laws, but through emergency executive directives.",
-      "source": "Anthropic / Washington Post",
+      "headline": "Noam Shazeer Leaves Google for OpenAI in Massive Talent Shift",
+      "summary": "In what is being called the biggest AI talent move of 2026, Noam Shazeer, a co-author of the seminal 'Attention Is All You Need' paper and a key architect of Google’s Gemini models, has left Google to join OpenAI. Shazeer, who previously founded Character.AI before being brought back to Google in a $2.7 billion deal in 2024, announced his departure on X. OpenAI CEO Sam Altman welcomed Shazeer, noting he is one of the individuals he has most wanted to work with since OpenAI's inception.\n\nShazeer’s move is technically significant because of his expertise in Mixture of Experts (MoE) architectures and large-scale model efficiency. His departure from Google, where he served as VP of Engineering and co-lead of Gemini, comes at a critical time as Google attempts to maintain its lead in multimodal agentic AI. At OpenAI, Shazeer is expected to lead efforts on the next generation of reasoning models, potentially GPT-6 or specialized agentic frameworks.\n\nWhy it matters: This move underscores the intense 'talent war' at the top of the AI hierarchy. For enterprise leaders, it suggests that the technical direction of the major labs is still heavily influenced by a handful of 'super-engineers.' Shazeer’s move to OpenAI could accelerate their lead in efficient, high-reasoning models that are critical for autonomous agents.",
+      "source": "AI News Today / X (@noamshazeer)",
+      "tags": [
+        "Talent",
+        "Models",
+        "Infrastructure"
+      ],
+      "cluster": "OpenAI / Google",
+      "date": "June 20, 2026",
+      "url": "https://theplanettools.ai"
+    },
+    {
+      "headline": "US Government Suspends Access to Anthropic’s Fable 5 and Mythos 5",
+      "summary": "The US government has issued an unprecedented export control directive ordering Anthropic to suspend all access to its most advanced models, Fable 5 and Mythos 5, for all foreign nationals. The directive, citing national security concerns, forced Anthropic to take the models completely offline globally to ensure compliance. The government reportedly became aware of a 'jailbreaking' method that could bypass the models' safety filters, potentially allowing them to be used for sophisticated cybersecurity attacks.\n\nAnthropic expressed frustration, stating that while they found minor vulnerabilities, their safeguards were 'substantially more effective' than any previously deployed model. The ban has caused significant disruption for the 200+ institutions across 15 countries that were testing the models. It has also sparked a diplomatic rift, with European leaders at the G7 summit calling for greater 'AI self-reliance' to avoid dependence on US-controlled infrastructure that can be revoked without notice.\n\nWhy it matters: This is a watershed moment for AI regulation and geopolitics. It proves that 'frontier' models are now viewed as strategic national assets similar to nuclear technology or advanced semiconductors. For global enterprises, this highlights the 'sovereignty risk' of relying on a single provider's cloud-hosted model, potentially accelerating the move toward local, open-source alternatives.",
+      "source": "Anthropic Blog / Al Jazeera",
       "tags": [
         "Policy",
-        "Regulatory",
-        "Models"
+        "Security",
+        "Regulation"
       ],
       "cluster": "Regulatory",
       "date": "June 19, 2026",
-      "url": "https://www.anthropic.com/news/statement-on-fable-5"
-    },
-    {
-      "headline": "Google DeepMind Launches 'AI Control Roadmap' for Agentic Safety",
-      "summary": "Google DeepMind has released its 'AI Control Roadmap,' a comprehensive framework designed to secure internal systems against increasingly autonomous AI agents. As agents move from simple chat to executing code and managing infrastructure, DeepMind argues that traditional 'model alignment' (training the AI to be good) is no longer sufficient. Instead, they propose a 'defense-in-depth' approach that adds system-level security layers to monitor and restrict agent behavior in real-time.\n\nAlongside this framework, DeepMind announced a $10 million research fund in partnership with Schmidt Sciences and the Cooperative AI Foundation. The goal is to study 'Multi-Agent Safety'—how millions of independent AI agents from different companies will interact, negotiate, and transact in the digital economy. This is a proactive attempt to solve 'invisible' risks that arise when agents communicate with each other without human oversight.\n\nTechnically, the roadmap introduces 'automated alignment auditing' and 'realistic honeypot evaluations' to detect if an agent is attempting to sabotage its environment or bypass safety protocols. For developers, this signals that the future of AI development will be as much about 'Agentic Security' as it is about model performance.",
-      "source": "Google DeepMind Blog",
-      "tags": [
-        "Safety",
-        "Agents",
-        "Research"
-      ],
-      "cluster": "Google / DeepMind",
-      "date": "June 18, 2026",
-      "url": "https://deepmind.google/discover/blog/securing-the-future-of-ai-agents/"
+      "url": "https://www.anthropic.com/news"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "Yann LeCun continues to challenge the industry 'monoculture,' stating that scaling LLMs is 'not a path to human-level intelligence.' He argues that the current obsession with larger models is a 'delusion' and that true AGI requires a shift toward world models and deterministic systems that can actually reason about physical reality, rather than just predicting the next token.",
+      "content": "LLMs are useful but they are not a path to human-level intelligence. They lack a world model. At AMI Labs, we are building JEPA (Joint Embedding Predictive Architecture) to enable machines to understand the physical world, not just predict the next word. The industry is in a 'technological monoculture' that needs to be broken.",
       "authorName": "Yann LeCun",
-      "date": "2 days ago",
+      "date": "3 days ago",
       "type": "Opinion",
-      "url": "https://twitter.com/ylecun"
+      "url": "https://x.com/ylecun"
     },
     {
       "handle": "@karpathy",
-      "content": "Andrej Karpathy observes a 'growing gap' between AI power users and skeptics. He notes that even he feels 'behind' in adopting AI, suggesting a potential 10x productivity gain if one can effectively 'wire the pieces together.' He emphasizes that the competitive advantage now belongs to those with a 'data engine'—the ability to iterate on data acquisition, training, and deployment faster than anyone else.",
+      "content": "The 'Agentic Era' isn't just about chatbots. It's about models that can navigate a desktop, use tools, and discover resources at runtime. Joining Anthropic to help build the infrastructure for recursive self-improvement. We are moving from 'AI as a tool' to 'AI as a teammate'.",
       "authorName": "Andrej Karpathy",
       "date": "Today",
-      "type": "Research",
-      "url": "https://twitter.com/karpathy"
+      "type": "Announcement",
+      "url": "https://x.com/karpathy"
     },
     {
-      "handle": "@AndrewYNg",
-      "content": "Andrew Ng is encouraging developers to move beyond 'chat' and start using AI agents to 'actually do work on your desktop.' He highlights that 'Recursive Self-Improvement' (RSI) is becoming a reality, as seen in Anthropic's internal reports where AI agents are now driving significant gains in software engineering productivity.",
-      "authorName": "Andrew Ng",
-      "date": "Today",
-      "type": "Announcement",
-      "url": "https://twitter.com/AndrewYNg"
+      "handle": "@GoogleDeepMind",
+      "content": "Announcing a $10M research fund for multi-agent AI safety. As millions of agents begin to interact, negotiate, and transact, we need frameworks to ensure they behave predictably as a group. Safety must be system-level, not just model-level.",
+      "authorName": "Google DeepMind",
+      "date": "2 days ago",
+      "type": "Research",
+      "url": "https://x.com/GoogleDeepMind"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a Clinical Trial Matching Agent with Vertex AI Agent Studio",
-      "description": "Create an autonomous agent that parses patient records and matches them to active clinical trials using Gemini 1.5 Pro and Vertex AI Search.",
+      "title": "Building a Multi-Agent Diagnostic Assistant with Vertex AI Agent Studio",
+      "description": "Create a system where a 'Triage Agent' coordinates with a 'Specialist Agent' to analyze patient symptoms and medical literature.",
       "tools": [
         "Vertex AI Agent Studio",
         "Gemini 1.5 Pro",
-        "Vertex AI Search"
+        "Agent-to-Agent Orchestration"
       ],
       "skills": [
-        "Agentic RAG",
+        "Multi-agent Orchestration",
         "Tool Use",
-        "Medical Data Parsing"
+        "Medical RAG"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Initialize Agent Studio",
-          "instruction": "Navigate to Vertex AI Agent Studio and create a new 'Data Store' agent. Point the data store to a secure GCS bucket containing your clinical trial PDFs (e.g., from ClinicalTrials.gov)."
+          "stepTitle": "Define Agent Roles",
+          "instruction": "In Vertex AI Agent Studio, create two agents: 'Triage' (for initial intake) and 'Specialist' (with access to PubMed search tools)."
         },
         {
-          "stepTitle": "Define Agent Instructions",
-          "instruction": "Set the system prompt to: 'You are a Clinical Trial Coordinator. Your goal is to extract patient biomarkers from provided medical summaries and find the top 3 matching trials based on inclusion/exclusion criteria. Always cite the trial ID.'"
+          "stepTitle": "Configure Agent-to-Agent Handover",
+          "instruction": "Set up a 'Transfer' tool in the Triage agent that triggers when the user provides specific clinical data, passing the context to the Specialist agent.",
+          "codeSnippet": "{\n  \"tool_name\": \"transfer_to_specialist\",\n  \"description\": \"Handoff to specialist for deep literature review\",\n  \"parameters\": {\"clinical_summary\": \"string\"}\n}"
         },
         {
-          "stepTitle": "Configure Tool Use",
-          "instruction": "Enable the 'Google Search' tool for the agent to verify if trials are still recruiting in real-time, supplementing your static data store.",
-          "codeSnippet": "{\n  \"tools\": [\n    { \"google_search_retrieval\": {} },\n    { \"data_store_retrieval\": { \"datastore_id\": \"trial-db-123\" } }\n  ]\n}"
+          "stepTitle": "Deploy and Test",
+          "instruction": "Use the Agent Gateway to deploy the multi-agent system and test a query like 'Patient has chronic fatigue and elevated ferritin; check recent literature for rare metabolic links.'"
         }
       ],
-      "date": "June 20, 2026",
+      "date": "June 21, 2026",
       "prerequisites": [
-        "Google Cloud Project with Billing",
-        "Vertex AI API Enabled",
-        "Sample Patient Data (De-identified)"
-      ]
+        "Google Cloud Project with Vertex AI enabled",
+        "Access to Gemini 1.5 Pro API"
+      ],
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/release-notes"
     },
     {
-      "title": "Real-time Medical Transcription & Summarization with Gemini Audio",
-      "description": "Build a pipeline that processes live audio from doctor-patient consultations into structured SOAP notes using the new Gemini Audio native multimodal capabilities.",
+      "title": "Real-time Clinical Trial Monitoring with Gemini 3.5 Live Translate",
+      "description": "Build a POC that uses Gemini 3.5's new Live Translate capabilities to monitor and transcribe multi-lingual clinical trial interviews in real-time.",
       "tools": [
-        "Gemini 1.5 Flash",
-        "Vertex AI SDK",
-        "Cloud Storage"
+        "Gemini 3.5 Live Translate",
+        "Vertex AI Speech-to-Text",
+        "Cloud Functions"
       ],
       "skills": [
-        "Multimodal Processing",
-        "SOAP Note Structuring",
-        "Audio-to-Text"
+        "Real-time Audio Processing",
+        "Multimodal Translation",
+        "Compliance Logging"
       ],
-      "complexity": "Beginner",
+      "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Upload Audio Stream",
-          "instruction": "Stream audio directly to a Cloud Storage bucket. Gemini 1.5 can now process audio files up to 9.5 hours long natively without a separate transcription step."
+          "stepTitle": "Initialize Live Translate Stream",
+          "instruction": "Set up a bidirectional audio stream using the Gemini 3.5 Live Translate API, specifying the source and target languages for the clinical trial."
         },
         {
-          "stepTitle": "Generate Structured Summary",
-          "instruction": "Use the Vertex AI SDK to send the audio URI to Gemini with a specific formatting prompt.",
-          "codeSnippet": "model = GenerativeModel(\"gemini-1.5-flash\")\nresponse = model.generate_content([\n    Part.from_uri(\"gs://med-audio/visit_01.mp3\", mime_type=\"audio/mp3\"),\n    \"Summarize this consultation into a structured SOAP note (Subjective, Objective, Assessment, Plan).\"\n])"
+          "stepTitle": "Implement PII Redaction",
+          "instruction": "Route the translated text through a Cloud Function that uses the DLP (Data Loss Prevention) API to redact patient names and IDs in real-time.",
+          "codeSnippet": "gcloud dlp inspect content --project=[PROJECT_ID] --info-types=PERSON_NAME,PHONE_NUMBER"
+        },
+        {
+          "stepTitle": "Store for Real-time Review",
+          "instruction": "Stream the redacted, translated transcript into a BigQuery table for immediate review by the FDA's real-time clinical trial access portal."
         }
       ],
-      "date": "June 20, 2026",
+      "date": "June 21, 2026",
       "prerequisites": [
-        "Python 3.10+",
-        "google-cloud-aiplatform library"
-      ]
+        "Vertex AI API access",
+        "Google Cloud DLP API enabled"
+      ],
+      "sourceUrl": "https://deepmind.google/technologies/gemini/"
     }
   ],
   "deepLearningSpotlight": [
     {
       "title": "Open Platforms Beat Power Plays",
-      "summary": "In the latest edition of 'The Batch,' the editorial team addresses the recent US government intervention against Anthropic. Andrew Ng argues that while safety is paramount, 'regulatory capture' and sudden model withdrawals threaten the global AI ecosystem. He posits that 'Open Platforms' are the only viable defense against such power plays. The article highlights how the sudden loss of Fable 5 access disrupted thousands of developers, proving that centralized control of frontier models creates a single point of failure for the entire industry. Ng's perspective is that we should focus on 'system-level' safety rather than trying to 'lobotomize' models, as the latter only pushes development into less regulated 'gray markets.'",
+      "summary": "In the latest edition of 'The Batch', the editorial team addresses the recent US government ban on Anthropic's models. The article argues that while governments and large labs are attempting to exert control through 'regulatory capture' and export bans, the long-term winners will be open platforms. Andrew Ng’s perspective, highlighted in the piece, suggests that 'power plays' by centralized entities often backfire by driving innovation into the 'gray market' or toward open-source alternatives like Llama and Qwen. The technical focus of the article is on the 'Agentic Resource Discovery' (ARD) protocol, a new open standard that allows AI agents to find and use tools across different providers, effectively bypassing the 'walled gardens' that companies like Anthropic are trying to build. Ng emphasizes that for AI to reach its full potential, it must remain an open ecosystem where agents can collaborate across borders and platforms.",
       "url": "https://www.deeplearning.ai/the-batch/open-platforms-beat-power-plays/",
       "category": "The Batch",
-      "author": "Andrew Ng",
+      "author": "The Batch Team",
       "date": "June 19, 2026"
     },
     {
       "title": "Reinforcement Learning With Hints: POPE",
-      "summary": "This technical deep dive explores 'Privileged On-Policy Exploration' (POPE), a new reinforcement learning method that helps models solve complex, multi-step problems. Traditional RL often fails if a model doesn't 'stumble' upon the correct sequence of actions. POPE solves this by providing 'hints' or partial solutions during the training phase, allowing the model to learn the 'last mile' of a problem first. This is particularly relevant for scientific AI agents that need to follow long chains of logic in chemistry or physics. The technical takeaway is that 'guided exploration' significantly reduces training time and improves the reliability of agents in high-stakes environments.",
+      "summary": "This research highlight explores a new training method called Privileged On-Policy Exploration (POPE). The core technical challenge addressed is that standard reinforcement learning (RL) often fails on complex, multi-step problems because the model never 'stumbles' upon the correct sequence of actions. POPE solves this by providing the model with 'hints' or partial solutions during the exploration phase. As the model improves, these hints are gradually phased out, a process known as 'hint-to-no-hint' curriculum learning. This method has shown significant gains in training agents for software engineering and scientific discovery tasks. Andrew Ng notes that this is a crucial step toward 'Recursive Self-Improvement' (RSI), as it allows models to learn from their own successful attempts at solving problems that were previously too difficult to even attempt. The article concludes that POPE could be the key to moving AI from simple task execution to complex, long-horizon problem solving.",
       "url": "https://www.deeplearning.ai/the-batch/reinforcement-learning-with-hints-pope/",
       "category": "Research Highlight",
       "author": "The Batch Team",
@@ -173,18 +178,26 @@
     {
       "title": "Agentic Resource Discovery (ARD) Specification",
       "provider": "Hugging Face",
-      "summary": "A new open standard developed by Microsoft, Google, and Hugging Face that allows AI agents to 'discover' tools, skills, and other agents at runtime, rather than having them pre-configured.",
+      "summary": "A new open standard developed by Microsoft, Google, and Hugging Face that allows AI agents to search for and integrate tools, skills, and other agents at runtime. This is the 'DNS for AI Agents'.",
       "url": "https://agenticresourcediscovery.org/",
       "type": "Tool",
-      "difficulty": "Advanced"
+      "difficulty": "Intermediate"
     },
     {
-      "title": "LoopCoder-v2: Efficient Test-Time Computation",
-      "provider": "Hugging Face",
-      "summary": "A research paper and code release demonstrating how to scale 'test-time computation' (letting the model think longer) without massive increases in latency, specifically for coding tasks.",
-      "url": "https://huggingface.co/papers/2606.12345",
-      "type": "Paper",
-      "difficulty": "Intermediate"
+      "title": "North Mini Code: Cohere's First Model For Developers",
+      "provider": "Hugging Face / Cohere",
+      "summary": "A highly optimized, small-footprint model designed specifically for local code completion and review. It rivals much larger models in Python and JavaScript performance while running on consumer hardware.",
+      "url": "https://huggingface.co/blog/cohere-north-mini-code",
+      "type": "Tutorial",
+      "difficulty": "Beginner"
+    },
+    {
+      "title": "Anthropic Cookbook: Building with Claude Code",
+      "provider": "Anthropic",
+      "summary": "A comprehensive guide to using Anthropic's new agentic coding tool. Includes recipes for automated refactoring, bug hunting, and integrating Claude Code into existing CI/CD pipelines.",
+      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "type": "Course",
+      "difficulty": "Advanced"
     }
   ]
 }
