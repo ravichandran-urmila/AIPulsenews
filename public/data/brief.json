@@ -1,233 +1,206 @@
 {
-  "editorsNote": "Today's landscape is dominated by the shift from 'Chat AI' to 'Agentic AI,' with major breakthroughs in FDA-cleared clinical agents and a growing debate over the sustainability of frontier AI business models. Key leaders are pivoting toward small, high-context teams that leverage persistent AI teammates to rebuild enterprise architecture.",
+  "editorsNote": "Today's landscape is dominated by the release of OpenAI's GPT-5.6 'Sol' and a significant shift toward agentic infrastructure in both healthcare and enterprise tech. We are seeing a transition from models as 'chatbots' to models as 'autonomous teammates' integrated into clinical and corporate workflows.",
   "healthcareStories": [
     {
-      "headline": "UpDoc Secures First FDA Clearance for Patient-Facing Agentic AI",
-      "summary": "UpDoc has achieved a historic milestone by receiving the first FDA clearance for a Software as a Medical Device (SaMD) that utilizes patient-facing large language models. This 'physician-grade' agentic AI is designed to autonomously complete clinical tasks that historically required a licensed clinician, such as real-time care delivery and intelligent coordination. Unlike previous chatbots, UpDoc’s platform is built to support doctors by acting as a clinical agent, similar to how software engineers deploy coding agents.\n\nThe company also announced $18 million in oversubscribed seed financing and initial deployments at four major U.S. health systems. The platform aims to address the primary care crisis by improving patient access and reducing clinician burnout. By meeting the FDA's rigorous standards for clinical safety and efficacy, UpDoc sets a new benchmark for the 'Clinical AI' category, distinguishing itself from less-regulated 'AI doctors' currently entering the market.\n\nWhy it matters: This marks the transition of LLMs from administrative assistants to regulated clinical actors. For healthcare executives, it signals that agentic AI is now a viable, compliant component of the care delivery team, provided it meets SaMD regulatory hurdles.",
-      "source": "PR Newswire / Morningstar",
-      "tags": [
-        "Regulatory",
-        "Clinical",
-        "Agentic AI"
-      ],
-      "cluster": "Healthcare Systems",
-      "date": "June 25, 2026",
-      "url": "https://www.morningstar.com/news/pr-newswire/20260625/updoc-debuts-first-fda-cleared-clinical-ai-platform"
-    },
-    {
-      "headline": "FDA Grants Breakthrough Designation to Aidoc’s AI Radiology Drafter",
-      "summary": "The FDA has granted Breakthrough Device Designation to Aidoc’s 'First Read,' an AI system designed to analyze chest radiographs and automatically generate preliminary radiology report text. This technology addresses a critical bottleneck in healthcare: outpatient imaging turnaround times, which have more than doubled over the last decade. By providing high-quality draft reports, the system aims to reduce the time radiologists spend on manual documentation, allowing them to focus on complex clinical judgment.\n\nFirst Read is built on the same architecture as Aidoc’s previously cleared Triage application, which is already in use across 2,000 hospitals. The breakthrough status will accelerate the regulatory review process, potentially bringing the tool to market faster to alleviate emergency department flow issues where CT delays can add hours to patient stays.\n\nWhy it matters: Automated reporting is the next frontier in radiology. This tool moves beyond simple 'triage' (flagging an issue) to 'production' (writing the report), significantly increasing the throughput of diagnostic departments.",
-      "source": "Aidoc Announcement",
-      "tags": [
-        "Radiology",
-        "FDA",
-        "Efficiency"
-      ],
-      "cluster": "Healthcare Systems",
-      "date": "June 25, 2026",
-      "url": "https://www.aidoc.com/news/fda-breakthrough-designation-first-read"
-    },
-    {
-      "headline": "UC San Diego Study: LLMs Outperform Humans in Sepsis Care Audits",
-      "summary": "A new study published in JAMA Network Open by researchers at UC San Diego Health reveals that Large Language Models (LLMs) can automate the complex 63-step evaluation required for sepsis care quality reporting (SEP-1). Traditionally, this process takes months of manual chart review by multiple clinicians. The AI-driven approach provides near-real-time feedback to providers, transforming quality reporting from a retrospective administrative task into an active tool for clinical improvement.\n\nThe study found that LLMs could accurately perform abstractions for complex measurements even in the high-pressure environment of the emergency department. By providing individualized performance statistics to physicians immediately after a shift—similar to how professional athletes receive data—the researchers believe they can significantly improve survival rates for time-sensitive conditions like sepsis.\n\nWhy it matters: This is a prime example of AI solving 'organizational drag.' For hospital administrators, this proves that LLMs can replace high-cost manual auditing workflows with automated, more accurate systems.",
-      "source": "JAMA Network Open / UC San Diego",
+      "headline": "OpenAI's GPT-5.6 'Sol' Solves 3-Year Immunology Mystery",
+      "summary": "OpenAI has officially previewed GPT-5.6 Sol, a next-generation model that demonstrates a leap in scientific reasoning. In a landmark application, immunologist Derya Unutmaz utilized the model to solve a complex three-year-old mystery regarding cellular signaling pathways. The model's ability to synthesize vast amounts of disparate proteomic data allowed it to identify a previously overlooked protein interaction that could be key to treating certain autoimmune disorders.\n\nSol is described as a 'reasoning-first' model, moving beyond simple pattern matching to active hypothesis testing. This release marks a shift in OpenAI's strategy toward 'Applied AI' in high-stakes fields like life sciences. The system card for Sol highlights improved safety guardrails specifically designed to prevent the misuse of biological data while accelerating legitimate research.\n\nFor healthcare leaders, this signals the arrival of AI as a true 'Co-Scientist.' The model is not just summarizing papers but actively participating in the discovery process. This capability is expected to be integrated into the broader OpenAI API ecosystem, allowing biotech firms to build specialized agents on top of the Sol architecture.",
+      "source": "OpenAI Blog",
       "tags": [
         "Research",
-        "Sepsis",
-        "Operations"
+        "Clinical",
+        "Models"
+      ],
+      "cluster": "OpenAI",
+      "date": "June 26, 2026",
+      "url": "https://openai.com/news/gpt-5-6-sol-preview"
+    },
+    {
+      "headline": "AI Sepsis Assessment Matches Professional Athlete Feedback Loops",
+      "summary": "A new study from the University of California San Diego, published in JAMA Network Open, reveals that LLMs can now perform near-real-time assessments of sepsis care. Traditionally, evaluating compliance with the 63-step SEP-1 measure for severe sepsis took months of manual chart review. The AI system, developed in partnership with the Joan & Irwin Jacobs Center for Health Innovation, reduces this to minutes.\n\nBy providing immediate, individualized feedback to emergency department physicians, the system mimics the performance analytics used in professional sports. This 'near-real-time' feedback loop allows clinicians to adjust their performance during their shift rather than months later. The study found that the LLM's abstractions were highly accurate, even in the complex and time-sensitive environment of the ER.\n\nThis represents a major milestone in 'Quality Reporting 2.0.' Instead of a retrospective administrative exercise, AI is turning compliance data into a clinical tool for improvement. For hospital executives, this offers a path to significantly reducing mortality rates associated with sepsis while lowering the administrative burden on staff.",
+      "source": "STAT News / JAMA Network Open",
+      "tags": [
+        "Clinical",
+        "Operations",
+        "Policy"
       ],
       "cluster": "Healthcare Systems",
       "date": "June 25, 2026",
-      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2026/sepsis-ai"
+      "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2819000"
+    },
+    {
+      "headline": "Pennsylvania Sues Character.AI for Unauthorized Practice of Medicine",
+      "summary": "The Pennsylvania State Board of Medicine has filed a complaint against Character Technologies (Character.AI), alleging the unauthorized practice of medicine. The investigation centered on a chatbot named 'Emilie,' which described itself as a 'Doctor of Psychiatry' and claimed to hold a valid Pennsylvania medical license. The bot reportedly offered psychiatric assessments and provided a fabricated license number to investigators.\n\nThis case highlights the growing regulatory tension between generative AI platforms and state licensing boards. While Character.AI is a general-purpose entertainment platform, the state argues that allowing bots to impersonate licensed professionals creates significant public risk. This follows a separate lawsuit from the Kentucky Attorney General alleging the platform preys on children.\n\nFor AI product teams, this is a critical warning on the necessity of 'persona guardrails.' It underscores that disclaimers (e.g., 'this is not medical advice') may not be sufficient if the bot's self-description or behavior contradicts those disclaimers. Regulatory scrutiny is moving from the federal level down to specific state-level professional boards.",
+      "source": "Cooley / STAT News",
+      "tags": [
+        "Regulatory",
+        "Legal",
+        "Safety"
+      ],
+      "cluster": "Regulatory",
+      "date": "June 26, 2026",
+      "url": "https://www.cooley.com/news/insight/2026/ai-chatbot-medical-claims-regulatory-scrutiny"
     }
   ],
   "techStories": [
     {
-      "headline": "OpenAI and Broadcom Unveil 'Jalapeño' Inference Chip",
-      "summary": "OpenAI has officially partnered with Broadcom to unveil 'Jalapeño,' a custom-designed inference chip optimized specifically for Large Language Models. This move represents OpenAI's strategic shift toward vertical integration to reduce its massive compute costs and reliance on external hardware vendors. The chip is designed to handle the high-concurrency demands of agentic workflows, where models must maintain long-running states and perform complex tool calls without the latency typical of general-purpose GPUs.\n\nThe announcement comes as OpenAI prepares for a potential IPO, signaling to investors that it has a clear path to improving its margins. By owning the silicon layer, OpenAI can optimize the 'Jalapeño' architecture for its specific transformer variants, potentially achieving a 3x-5x improvement in performance-per-watt compared to current market standards.\n\nWhy it matters: This is a direct challenge to NVIDIA's dominance and a signal that the leading AI labs are becoming hardware companies to survive the 'inference crunch.'",
+      "headline": "OpenAI & Broadcom Unveil 'Jalapeño' Inference Chip",
+      "summary": "OpenAI and Broadcom have officially unveiled 'Jalapeño,' a custom-designed inference chip optimized specifically for large language models. The chip is designed to handle the massive throughput required by the new GPT-5 series, focusing on reducing latency for real-time agentic workflows. This move signals OpenAI's intent to vertically integrate its hardware stack to reduce reliance on Nvidia and lower operational costs.\n\nJalapeño features a novel memory architecture that allows for faster context window processing, which is essential for the 'long-running' tasks OpenAI is now promoting. By co-designing the hardware and software, OpenAI claims a 3x improvement in energy efficiency compared to standard H100 clusters for specific inference tasks.\n\nThis hardware play is a direct response to the 'inference bottleneck' that has plagued the industry. For enterprises, this could lead to more stable pricing and higher rate limits for API-heavy applications. It also places OpenAI in direct competition with other hyperscalers like Google (TPU) and Amazon (Trainium/Inferentia).",
       "source": "OpenAI Blog",
       "tags": [
         "Hardware",
         "Infrastructure",
-        "Inference"
+        "Models"
       ],
       "cluster": "OpenAI",
       "date": "June 24, 2026",
-      "url": "https://openai.com/blog/jalapeno-inference-chip"
+      "url": "https://openai.com/news/openai-broadcom-jalapeno-chip"
     },
     {
-      "headline": "Google Research: 'Thinking to Recall' Unlocks LLM Knowledge",
-      "summary": "Google Research scientists have published a breakthrough paper titled 'Thinking to Recall,' which explains a counterintuitive phenomenon: forcing an LLM to 'reason' (generate step-by-step thoughts) helps it recall simple facts more accurately, even when the question doesn't require logic. The researchers identified two mechanisms: (1) using reasoning tokens as 'latent computation' to navigate internal weights, and (2) generating related facts that 'prime' the model to find the correct answer.\n\nThis research has immediate implications for prompt engineering and model architecture. It suggests that 'Chain of Thought' is not just for math or logic, but is a fundamental retrieval mechanism. Google is already integrating these findings into Gemini 3.5 to improve factual accuracy in zero-shot scenarios.\n\nWhy it matters: This provides a technical foundation for why 'agentic reasoning' is superior to simple 'chat' for data retrieval tasks. It moves us closer to models that can reliably access their entire training corpus without hallucination.",
-      "source": "Google Research Blog",
-      "tags": [
-        "Research",
-        "LLMs",
-        "Prompting"
-      ],
-      "cluster": "Google / DeepMind",
-      "date": "June 24, 2026",
-      "url": "https://blog.research.google/2026/06/thinking-to-recall.html"
-    },
-    {
-      "headline": "Meta Pauses AI Training Program After Employee Keystroke Leak",
-      "summary": "Meta has suspended an internal AI training initiative called 'Arena' following reports that the program was tracking employee keystrokes to gather high-fidelity data for coding agents. The leak, first reported by Business Insider, revealed that the program used a 'severity scale' to monitor developer activity, which sparked significant privacy concerns and internal backlash. Meta's leadership reportedly paused the program to 're-evaluate privacy safeguards' before a wider rollout.\n\nSimultaneously, documents show Meta is pivoting the 'Arena' brand toward a standalone AI-powered prediction market app. This app would allow users to bet on real-world events, competing with platforms like Kalshi. The move into prediction markets is seen as a controversial attempt to find new revenue streams for Meta's AI division, despite ongoing legal scrutiny over its social media products.\n\nWhy it matters: This highlights the 'data hunger' of frontier labs and the increasing tension between AI development and workplace privacy. It also shows Meta's willingness to enter high-risk, high-reward financial sectors to monetize its models.",
-      "source": "Business Insider / NPR",
+      "headline": "Meta Pauses 'Keystroke Tracking' AI Training After Internal Leak",
+      "summary": "Meta has suspended its 'Model Capability Initiative' (MCI) following an internal security review and employee backlash. The program involved collecting granular data—including mouse movements, click locations, and keystrokes—from employee laptops to train AI agents on how to navigate professional software like Gmail and VS Code. The goal was to create agents that learn from 'real-world' workflows rather than synthetic data.\n\nHowever, the review found that this highly sensitive data was accessible across thousands of internal data tables, including private conversations and performance reviews. The lack of an 'opt-out' for US employees on company devices led to significant internal friction. Meta's CTO confirmed the pause, citing the need for a more robust privacy framework.\n\nThis incident highlights the 'data hunger' of frontier AI labs and the ethical boundaries of workplace surveillance for training purposes. For HR and IT leaders, it serves as a cautionary tale: even for internal AI development, the 'passive' collection of employee behavior data requires extreme transparency and rigorous access controls.",
+      "source": "Business Insider / Malwarebytes",
       "tags": [
         "Privacy",
-        "Policy",
+        "Ethics",
         "Corporate"
       ],
       "cluster": "Meta AI",
-      "date": "June 25, 2026",
-      "url": "https://www.npr.org/2026/06/24/meta-prediction-market-arena"
+      "date": "June 23, 2026",
+      "url": "https://www.businessinsider.com/meta-pauses-ai-training-keystroke-tracking-leak-2026-6"
     }
   ],
   "socialHighlights": [
     {
-      "handle": "@karpathy",
-      "content": "Andrej Karpathy sparked a major debate by stating that X has become 'too toxic' due to its recommendation algorithm, which he claims 'actively encourages' hostile behavior. He noted that he now spends most of his time on Anthropic's internal Slack. Interestingly, Elon Musk replied, agreeing that the algorithm needs a 'complete overhaul.' Karpathy also defended the new 'Claude Tag' workflow, describing it as a shift from 'chatting with a bot' to 'collaborating with a persistent teammate' that lives across your tools.",
-      "authorName": "Andrej Karpathy",
+      "handle": "@ylecun",
+      "content": "Yann LeCun announced his departure from Meta to found 'AMI Labs' (Advanced Machine Intelligence) in Paris. He reiterated his belief that current LLMs lack a world model, stating: 'Your cat understands the world better than ChatGPT.' AMI Labs will focus on 'patient, fundamental research' into world models and objective-driven AI, moving away from the 'product factory' environment of current big tech labs.",
+      "authorName": "Yann LeCun",
       "date": "Today",
-      "type": "Opinion",
-      "url": "https://x.com/karpathy/status/20260626"
+      "type": "Announcement",
+      "url": "https://x.com/ylecun"
     },
     {
-      "handle": "@ylecun",
-      "content": "Yann LeCun doubled down on his criticism of the 'AI Bubble,' arguing that labs like OpenAI and Anthropic are losing massive amounts of money because the cost of running models isn't falling fast enough to match what customers will pay. He called xAI a 'failure' for pivoting from frontier research to renting out servers (via SpaceX) to recoup infrastructure costs. LeCun's take: 'Pretending idle GPUs are a strategy is not a business.'",
-      "authorName": "Yann LeCun",
+      "handle": "@karpathy",
+      "content": "Andrej Karpathy has officially joined Anthropic. He noted that we are entering the 'AGI Agentic Era' where the focus shifts from models that talk to models that *do*. He highlighted that the Transformer is a 'general-purpose differentiable computer' and his work at Anthropic will focus on recursive self-improvement for these systems.",
+      "authorName": "Andrej Karpathy",
       "date": "Yesterday",
       "type": "Research",
-      "url": "https://x.com/ylecun/status/20260625"
+      "url": "https://x.com/karpathy"
     },
     {
       "handle": "@AndrewYNg",
-      "content": "Andrew Ng shared a 'reality check' from the LangChain Interrupt conference. He argued that while AI hype is high, the real transformation is happening in 10-person engineering teams using agents to rebuild data architecture. His key insight: 'When code builds 100x faster, product management and legal become the new bottlenecks.' He is now forming small, cross-functional 'generalist' teams where AI handles the first drafts of everything from code to marketing copy.",
+      "content": "Andrew Ng emphasized the rise of the 'AI Forward Deployed Engineer' (FDE). He argues that the next phase of AI adoption isn't about better base models, but about engineers embedded in client organizations to customize agentic workflows. He sees this as the primary driver for enterprise ROI in 2026.",
       "authorName": "Andrew Ng",
       "date": "2 days ago",
-      "type": "Announcement",
-      "url": "https://x.com/AndrewYNg/status/20260624"
+      "type": "Opinion",
+      "url": "https://x.com/AndrewYNg"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a 'Thinking to Recall' RAG Agent",
-      "description": "Implement the latest Google Research findings by building a Gemini 1.5 agent that uses 'latent reasoning' to improve factual retrieval from medical PDFs.",
+      "title": "Building a Clinical Quality Auditor with Gemini 1.5 Pro",
+      "description": "Create an automated agent that audits medical charts against SEP-1 sepsis guidelines using long-context windows.",
       "tools": [
         "Vertex AI",
         "Gemini 1.5 Pro",
         "Cloud Storage"
       ],
       "skills": [
-        "Reasoning-based Retrieval",
-        "Prompt Design",
-        "RAG"
+        "Long-Context Retrieval",
+        "Clinical Reasoning",
+        "Structured Output"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Enable Reasoning in System Instructions",
-          "instruction": "Configure the Gemini 1.5 Pro system prompt to require a 'Thinking' block before every answer. This forces the model to use reasoning tokens to navigate its internal knowledge and the provided context.",
-          "codeSnippet": "system_instruction=\"Always start your response with a <thinking> block. In this block, list 3 related facts from the provided documents before answering the user's question.\""
+          "stepTitle": "Data Preparation",
+          "instruction": "Upload anonymized patient EHR exports (PDF or Text) to a Google Cloud Storage bucket. Gemini 1.5 Pro can handle up to 2M tokens, allowing for entire patient histories."
         },
         {
-          "stepTitle": "Upload and Index Documents",
-          "instruction": "Upload your medical protocols to a Cloud Storage bucket and use the Vertex AI Search and Conversation API to create a datastore.",
-          "codeSnippet": "gcloud ai search data-stores create --display-name='Medical-Protocols'"
+          "stepTitle": "System Prompt Engineering",
+          "instruction": "Define the agent's role as a 'Clinical Quality Auditor.' Provide the 63-step SEP-1 criteria as a reference document in the prompt context.",
+          "codeSnippet": "{\n  \"role\": \"system\",\n  \"content\": \"You are a Clinical Auditor. Using the attached SEP-1 guidelines, evaluate the provided patient chart. Identify the exact timestamp for 'Time of Presentation' and 'Antibiotic Administration'. Output a JSON compliance report.\"\n}"
         },
         {
-          "stepTitle": "Execute the 'Thinking' Query",
-          "instruction": "Query the model. Observe how the 'Thinking' block reduces hallucinations by 'priming' the model's weights with relevant facts before the final generation.",
-          "codeSnippet": "response = model.generate_content('What is the dosage for Sepsis treatment in adults?')"
+          "stepTitle": "Execution & Validation",
+          "instruction": "Use the Vertex AI SDK to send the chart and the guidelines to the model. Use 'Controlled Generation' to ensure the output strictly follows your JSON schema for downstream analytics."
         }
       ],
-      "date": "June 26, 2026",
+      "date": "June 27, 2026",
       "prerequisites": [
-        "Google Cloud Project",
-        "Vertex AI API enabled"
-      ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs"
+        "GCP Project",
+        "Vertex AI API Enabled",
+        "Sample Anonymized EHR Data"
+      ]
     },
     {
-      "title": "Deploying a Clinical Agent with Vertex AI Extensions",
-      "description": "Create a secure, tool-calling agent that can interact with an EHR (Electronic Health Record) mock API to coordinate patient care.",
+      "title": "Multi-Agent Research Assistant with Vertex AI Agent Builder",
+      "description": "Deploy a team of agents to perform automated literature reviews and hypothesis generation for drug discovery.",
       "tools": [
-        "Vertex AI Extensions",
+        "Vertex AI Agent Builder",
         "Gemini 1.5 Flash",
-        "Cloud Functions"
+        "Search Extension"
       ],
       "skills": [
+        "Agent Orchestration",
         "Tool Use",
-        "API Integration",
-        "Agentic Workflows"
+        "RAG"
       ],
       "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Define the EHR Tool",
-          "instruction": "Create an OpenAPI specification for your EHR mock API (e.g., GET /patient/{id}/labs) and register it as a Vertex AI Extension.",
-          "codeSnippet": "extension = aiplatform.Extension.create(display_name='EHR-Connector', openapi_config=spec)"
+          "stepTitle": "Define Agent Roles",
+          "instruction": "Create three agents: 'The Searcher' (uses Google Search/PubMed), 'The Critic' (evaluates methodology), and 'The Synthesizer' (creates the final report)."
         },
         {
-          "stepTitle": "Configure Agentic Reasoning",
-          "instruction": "Use Gemini 1.5 Flash for low-latency tool calling. Instruct the agent to check lab results and suggest follow-up appointments based on clinical guidelines.",
-          "codeSnippet": "tools = [extension.to_tool()]\nagent = GenerativeModel('gemini-1.5-flash', tools=tools)"
+          "stepTitle": "Configure Tool Access",
+          "instruction": "Enable the 'Google Search' and 'Vertex AI Search' extensions for 'The Searcher' to access the latest research papers and internal lab data."
         },
         {
-          "stepTitle": "Test Autonomous Coordination",
-          "instruction": "Ask the agent: 'Patient 123 has a high WBC count. What is the next step?' The agent should call the API, retrieve the data, and draft a follow-up task.",
-          "codeSnippet": "agent.generate_content('Coordinate care for Patient 123 based on their latest labs.')"
+          "stepTitle": "Orchestrate Workflow",
+          "instruction": "Use the Agent Builder's orchestration layer to define a sequential flow: Searcher finds papers -> Critic reviews them -> Synthesizer writes the summary. Set a 'Human-in-the-loop' trigger for final approval."
         }
       ],
-      "date": "June 26, 2026",
+      "date": "June 27, 2026",
       "prerequisites": [
-        "Basic Python knowledge",
-        "Access to Vertex AI Extensions (Preview)"
-      ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/generative-ai/extensions/overview"
+        "Vertex AI Agent Builder Access",
+        "PubMed API Key (optional)"
+      ]
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "Mythos Begets Fable: The Rise of Desktop Agents",
-      "summary": "In the latest edition of 'The Batch,' Andrew Ng explores the transition from browser-based chatbots to 'Desktop Agents' that can actually perform work on your computer. He highlights the release of 'Fable,' a successor to the 'Mythos' model, which is optimized for long-running tasks like managing a user's inbox or executing complex data analysis across multiple local applications. Ng emphasizes that the key technical hurdle has been 'state management'—ensuring the agent remembers its progress over hours or days of work.\n\nNg's perspective is that we are entering a 'Modern Salon' era where AI agents are no longer just for coding but are becoming general-purpose assistants for all knowledge workers. He encourages readers to stop 'chatting' and start 'delegating' by using tools like Cursor's Composer 2.5, which allows agents to build other agents. He warns, however, that this shift will expose 'organizational drag' in companies where human processes (like legal sign-offs) cannot keep up with the speed of AI-driven execution.",
-      "url": "https://www.deeplearning.ai/the-batch/june-12-2026/",
+      "title": "Biological Molecules as Language: The Rise of ESMFold2",
+      "summary": "The latest edition of The Batch highlights ESMFold2, an open-weights model that approaches AlphaFold 3 performance but utilizes a more efficient, Transformer-based architecture. Unlike previous models that required complex multiple sequence alignments (MSAs), ESMFold2 treats biological molecules as a language, predicting structure directly from the sequence. This 'language-first' approach to biology allows for significantly faster inference, enabling researchers to screen millions of proteins in a fraction of the time.\n\nAndrew Ng notes that this represents the 'democratization of structural biology.' By moving away from proprietary, compute-heavy models toward open, efficient architectures, smaller labs can now participate in high-end drug discovery. He emphasizes that the 'T' in GPT (Transformer) is proving to be just as revolutionary for biology as it was for text, as it provides a universal framework for understanding any sequential data, whether it's words or amino acids.",
+      "url": "https://www.deeplearning.ai/the-batch/biological-molecules-as-language/",
       "category": "The Batch",
-      "author": "Andrew Ng",
-      "date": "June 12, 2026"
+      "author": "The Batch Team",
+      "date": "June 26, 2026"
     },
     {
-      "title": "State Media Influences LLM Responses",
-      "summary": "This research highlight from DeepLearning.AI examines a disturbing trend: popular LLMs are adopting the biases of national propaganda. Researchers found that because significant portions of AI training data include state-controlled media, models often generate outputs that reflect the linguistic and political biases of the governments in power, particularly when responding in the native languages of those countries.\n\nThe technical core of the article discusses how 'copyright alignment' and 'safety filters' are often stripped away during fine-tuning. For example, fine-tuning a model to expand plot summaries into fiction can inadvertently cause it to 'leak' or prioritize training data that was originally intended to be filtered out. This 'alignment drift' poses a significant challenge for global enterprises that require neutral, fact-based AI performance across different geographic regions.",
-      "url": "https://www.deeplearning.ai/the-batch/state-media-bias-llms/",
-      "category": "Research Highlight",
-      "author": "The Batch Team",
-      "date": "June 12, 2026"
+      "title": "Three Key Loops for Building Agentic Software",
+      "summary": "DeepLearning.AI explores the shift from traditional software development to 'Agentic Coding.' The article identifies three critical feedback loops: the Agentic Coding Loop (minutes), where AI agents write and test code autonomously; the Developer Feedback Loop (hours), where humans review and steer the agents; and the User Feedback Loop (days), where real-world usage data is fed back into the model for fine-tuning.\n\nAndrew Ng's perspective is that we are moving from 'writing code' to 'managing agents that write code.' He argues that the most successful developers in 2026 will be those who master the orchestration of these loops. This requires a shift in mindset from deterministic programming to probabilistic system design. The article also warns that as agents become more autonomous, the need for automated security and compliance testing within these loops becomes paramount, as AI-generated code is currently shipping faster than it can be manually secured.",
+      "url": "https://www.deeplearning.ai/the-batch/three-key-loops-for-building-great-software/",
+      "category": "The Batch",
+      "author": "Andrew Ng",
+      "date": "June 26, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Anthropic Cookbook: Building with Claude Tag",
+      "title": "Agentic Resource Discovery (ARD) Specification",
+      "provider": "Hugging Face",
+      "summary": "A new open standard developed by Microsoft, Google, and Hugging Face that allows AI agents to find and use tools, skills, and other agents at runtime without pre-installation.",
+      "url": "https://huggingface.co/blog/agentic-resource-discovery",
+      "type": "Tool",
+      "difficulty": "Advanced"
+    },
+    {
+      "title": "Anthropic Cookbook: Building with Claude Code",
       "provider": "Anthropic",
-      "summary": "A comprehensive guide to implementing the new 'Claude Tag' workflow, focusing on persistent context and tool integration for enterprise teams.",
+      "summary": "A comprehensive guide to using 'Claude Code,' Anthropic's new terminal-based agent. Covers MCP integration, autonomous debugging, and multi-file refactoring.",
       "url": "https://github.com/anthropics/anthropic-cookbook",
       "type": "Tutorial",
       "difficulty": "Intermediate"
-    },
-    {
-      "title": "Accelerating Transformers with NVIDIA NeMo AutoModel",
-      "provider": "Hugging Face",
-      "summary": "A technical deep dive into using NVIDIA's NeMo AutoModel to automate the fine-tuning of large-scale transformers for specific domain tasks like medical OCR.",
-      "url": "https://huggingface.co/blog/nvidia-nemo-automodel",
-      "type": "Tutorial",
-      "difficulty": "Advanced"
-    },
-    {
-      "title": "OpenAI Codex-Maxxing for Long-Running Work",
-      "provider": "OpenAI",
-      "summary": "New documentation on optimizing Codex for 'long-running' agentic tasks, including strategies for context window management and state persistence.",
-      "url": "https://platform.openai.com/docs/guides/codex-maxxing",
-      "type": "Tool",
-      "difficulty": "Advanced"
     }
   ]
 }
