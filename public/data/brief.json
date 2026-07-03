@@ -1,162 +1,187 @@
 {
-  "editorsNote": "Today's landscape is defined by the restoration of Anthropic's Claude Fable 5 following a high-profile regulatory shutdown, alongside a massive shift in healthcare AI sentiment as clinical trust in model reliability reaches an all-time high. We are also seeing the 'Agentic Era' solidify with Google's rebranding of Vertex AI into a unified enterprise agent platform.",
+  "editorsNote": "The AI landscape is shifting from experimental chat to 'Agentic Enterprises' and rigorous clinical validation. While major models like Claude Fable 5 return to the market following regulatory scrutiny, the industry is now facing its first true efficacy tests in drug discovery and enterprise-scale agent deployment.",
   "healthcareStories": [
     {
-      "headline": "Anthropic Launches 'Claude Science' to Challenge Google and OpenAI in Biotech",
-      "summary": "Anthropic has officially entered the specialized life sciences market with the launch of 'Claude Science,' a dedicated application and model variant designed for pharmaceutical research and academic biology. This move follows Anthropic's $400 million acquisition of computational biology startup Coefficient Bio and the high-profile hiring of Nobel laureate John Jumper, formerly of Google DeepMind's AlphaFold team. The platform is engineered to integrate directly with research database APIs and boasts significantly lower hallucination rates on technical biochemistry tasks compared to general-purpose models.\n\nClaude Science enters a crowded field, positioning itself against OpenAI’s GPT-Rosalind (which has already secured partnerships with Moderna and Amgen) and Google’s Isomorphic Labs. The tool is specifically optimized for drug discovery workflows, protein-ligand interaction modeling, and complex genomic analysis. By providing a model with deep scientific domain knowledge, Anthropic aims to capture the biotech market that requires higher precision than standard LLMs can offer.\n\nWhy it matters: This marks the transition of frontier AI labs from general-purpose assistants to highly specialized scientific instruments. For healthcare leaders, it signifies a new era where AI is not just a 'copilot' for writing but a core infrastructure for R&D that could drastically shorten drug discovery timelines.",
-      "source": "Build Fast with AI / Anthropic Blog",
+      "headline": "AI Drug Discovery Faces 'Phase 3' Efficacy Reckoning",
+      "summary": "2026 is emerging as the pivotal year for AI-driven drug discovery as a significant cohort of molecules designed by AI platforms reaches Phase 3 clinical trials. After a decade of multi-billion dollar investments—including Xaira’s $1 billion launch and Isomorphic Labs’ $600 million raise—the industry is moving past the 'speed' phase into the 'efficacy' phase. \n\nAnalysis from the Stigler Center and Boston Consulting Group indicates that while AI has successfully boosted Phase 1 safety success rates to 80-90% (up from a historical 50%), Phase 2 efficacy success remains stagnant at approximately 40%. This suggests that while AI excels at the relatively inexpensive task of molecule design, it has yet to solve the more complex biological challenge of target identification. \n\nThe outcome of these Phase 3 trials by year-end will determine if AI-first biotech companies can deliver on their promise of superior clinical outcomes or if they have simply optimized the easiest part of the pharmaceutical pipeline. Investors are now being advised to pivot toward platforms that apply AI directly to the Phase 2/3 efficacy problem rather than just molecule generation.",
+      "source": "ProMarket / Let's Data Science",
       "tags": [
-        "Biotech",
         "Drug Discovery",
-        "Models"
+        "Clinical Trials",
+        "Pharma"
       ],
-      "cluster": "Anthropic",
-      "date": "July 1, 2026",
-      "url": "https://www.anthropic.com/news/claude-science-launch"
+      "cluster": "Life Sciences",
+      "date": "July 02, 2026",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHKvQ0Gm43MxSYRYkTVMTtZjEDcWJV2VEmUgsswW4ETvdOb-fhCkrKUdna1vi32FvCg3yemJMFVFQJ_PP6cqeTWPdKouRvozbQw7d6Vm6rJ4ashzsubFt0H4idwssEuqYyvX3xL5YzmC1YWCQBn0WnXKWt6diBdg0Ld5uAcwGiMiOYJx_iXRutY"
     },
     {
-      "headline": "Clinical Trust in AI Surges as Hallucination Concerns Fade",
-      "summary": "A new industry survey from venture firm Venrock reveals a dramatic shift in healthcare AI sentiment: 73% of healthcare professionals now trust AI to play a significant role in medical care, a sharp increase from previous years. The survey of over 200 clinicians suggests that the 'hallucination hurdle'—once the primary barrier to adoption—has largely been overcome through improved model grounding and the integration of medical-specific benchmarks like Med-Gemini, which recently scored 91.1% on MedQA.\n\nIndustry analysts predict that this surge in confidence will lead to a decline in traditional health searches on Google as patients and providers pivot toward interactive AI interfaces. However, the rapid pace of advancement is creating a 'winner-take-all' dynamic; nearly half of respondents believe specialized medical search startups like OpenEvidence may soon be undercut by the general-purpose capabilities of OpenAI and Anthropic.\n\nWhy it matters: For healthcare executives, the focus is shifting from 'if' AI should be used to 'how' to integrate it into the EHR (Electronic Health Record) workflow. The data suggests that AI features are becoming a 'lifeline' for EHR companies looking to move beyond maintenance fees into high-value clinical decision support.",
-      "source": "Endpoints News",
+      "headline": "New State Laws Restrict AI in Health Insurance Decisions",
+      "summary": "A growing legislative trend is curbing the autonomy of AI in healthcare administration. Georgia's Senate Bill 444, effective January 2027, joins a wave of 2026 legislation requiring human intervention for adverse medical determinations. The law mandates that while AI can automate administrative tasks, it cannot issue a denial of coverage until a qualified 'clinical peer' conducts a manual review. \n\nThis follows similar moves in Pennsylvania and five other states earlier this year. The legislation explicitly states that AI systems must not supersede the judgment of human medical professionals in utilization reviews. For healthcare leaders, this signals a shift toward 'human-in-the-loop' mandates that may slow the pure productivity gains of automated prior authorizations but aim to protect patient rights and clinical integrity. \n\nIn a related development, the EU's new Product Liability Directive is forcing life sciences companies to reclassify AI-enabled medical devices as 'high-risk' products. This change eases the burden of proof for patients claiming harm, requiring companies to disclose internal evidence and technical documentation in liability cases.",
+      "source": "Healthcare Law Blog / Sheppard Mullin",
       "tags": [
-        "Clinical",
-        "Market Trends",
-        "Policy"
+        "Policy",
+        "Insurance",
+        "Regulation"
       ],
-      "cluster": "Healthcare Systems",
-      "date": "June 30, 2026",
-      "url": "https://endpts.com/health-ai-caution-crosses-into-confidence/"
+      "cluster": "Regulatory",
+      "date": "July 02, 2026",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE7WjVBztPbAI-KM4zDlC0ghH_YUAJjhKV6CLjor_9qRUmP4IA8uVO09lLsE4cMUA_TTMbcztECK7X7tvHnDDkiB8ppml1uTq9GhR2cQrHe6X15u54MXgNprrVp5wDp2rzdN_GLwJa5r6c--Y4T3bziIH-B5MNTcI20hLw18OxNLIHoC5rxrzK7apZthsiqjsGQUxY4T83ikdMMDlVEDCzhJEHvYbOYcT4EJ4qEf5biZviUp2AySB-DV7CBCUhGvtA0Bzh98bUm_mR_gL2zidmBsZ5IFJu-gETOXret5wzihnkHUjo="
     }
   ],
   "techStories": [
     {
-      "headline": "Claude Fable 5 Restored After Unprecedented Government Shutdown",
-      "summary": "Anthropic has restored access to its flagship Claude Fable 5 model following a 19-day global outage triggered by a U.S. government export-control directive. The shutdown occurred after Amazon reported a potential cybersecurity safeguard bypass in the model's 'Mythos' class capabilities. The restored version includes new 'classifier safeguards' and a first-of-its-kind framework for scoring jailbreak severity, though the more powerful 'Mythos 5' variant remains restricted to approved U.S. organizations.\n\nThe incident has sent shockwaves through the tech industry, highlighting the 'kill switch' power that governments and cloud providers now wield over frontier models. During the outage, developers reportedly scrambled to migrate workloads to OpenAI's GPT-5.6 and Google's Gemini 3.1 Pro, illustrating the fragility of relying on a single AI provider for critical infrastructure.\n\nWhy it matters: This event establishes a precedent for 'regulatory-driven downtime.' Enterprises must now factor in geopolitical and compliance risks when choosing model providers, as a single safeguard failure can now lead to a total service suspension by government order.",
-      "source": "The Neuron / Financial Times",
+      "headline": "Anthropic Redeploys Claude Fable 5 After Export Ban Lifted",
+      "summary": "Anthropic has officially restored global access to its flagship model, Claude Fable 5, following a brief but intense suspension by the U.S. government. The model, along with the high-security Mythos 5, was restricted in mid-June due to cybersecurity concerns. Anthropic has now implemented new 'cyber safeguards' and is proposing an industry-wide 'Jailbreak Severity Framework' to standardize how developers assess and mitigate model vulnerabilities. \n\nFable 5 is now available across the Claude Platform and Claude Code, with Mythos 5 restricted to a set of approved U.S. organizations under the 'Glasswing' program. This event highlights the increasing friction between frontier AI capabilities and national security, as the U.S. government moves to 'gate' access to models that demonstrate advanced reasoning or potential for misuse in cyberattacks. \n\nSimultaneously, OpenAI is reportedly in discussions to grant the U.S. government a 5% stake in the company. This move is seen as an attempt to align with the current administration's focus on domestic AI leadership and to secure a smoother path for the release of its upcoming GPT-5.6 model, which has also faced government-requested delays.",
+      "source": "Anthropic Blog / TIME",
       "tags": [
+        "Models",
         "Policy",
-        "Security",
-        "Models"
+        "Cybersecurity"
       ],
-      "cluster": "Regulatory",
-      "date": "July 2, 2026",
-      "url": "https://www.theneuron.ai/digest/anthropic-fable-restored"
+      "cluster": "Anthropic / OpenAI",
+      "date": "July 01, 2026",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF-Zont3y6gctRxeTmOarHAarpr6mH8zDgfXb85VjYRFfCsU6HXqZoi-UBvs13JesxJASbGEWIbzEuXd1KC1jtgVemCJedbQW7RHtn0O7TOl_Y6XrMwvWX1FrwIiIPMV-ieV9KYy2BAUQ=="
     },
     {
-      "headline": "Google Rebrands Vertex AI to 'Gemini Enterprise Agent Platform'",
-      "summary": "In a massive restructuring of its AI stack, Google has officially retired the 'Vertex AI' brand in favor of the 'Gemini Enterprise Agent Platform.' This change reflects a strategic pivot from managing individual AI tasks to delegating full business outcomes to autonomous agents. The new platform introduces the 'Agent Development Kit' (ADK), which allows developers to organize agents into hierarchical networks of 'sub-agents' for complex reasoning tasks.\n\nAlongside the rebrand, Google released Gemini 3.1 Flash-Lite, a low-latency model optimized for high-volume agentic workflows, and 'Gemini Enterprise App,' a no-code interface for Workspace users to build custom agents. The platform also features 'Agentic Defense,' a security layer developed in partnership with Wiz to prevent autonomous agents from invoking unauthorized APIs or leaking sensitive data.\n\nWhy it matters: Google is positioning itself as the 'Operating System' for the agentic enterprise. For technical leaders, this means a shift in focus from prompt engineering to 'orchestration engineering'—managing the communication and governance of multiple specialized agents.",
-      "source": "Google Cloud Blog",
+      "headline": "Google DeepMind's AI Tutor Delivers 'Year of Learning' in 8 Weeks",
+      "summary": "A landmark study by Google DeepMind in Sierra Leone has demonstrated that its AI tutor, 'Guided Learning,' helped students achieve the equivalent of one year of schooling in just eight weeks. Unlike standard chatbots that provide direct answers, this system—rebuilt from the Gemini architecture—is designed to guide students through the Socratic method, fostering deeper conceptual understanding. \n\nResearch Director Irina Jurenka noted that the AI also empowered local teachers by providing them with new ways to explain complex topics and facilitating personalized student interactions. However, the study also highlighted a 'digital divide' challenge: stronger students tended to benefit more from the AI than those who were already struggling, prompting DeepMind to call for further research into equitable AI pedagogy. \n\nThis research coincides with Google's broader push into the 'Agentic Era,' where AI moves from simple chat to long-horizon task execution. Google Cloud recently launched the Gemini Enterprise Agent Platform, a 'mission control' for organizations to manage thousands of specialized AI agents across their infrastructure.",
+      "source": "Forbes / Google Blog",
       "tags": [
-        "Cloud",
-        "Agents",
-        "Infrastructure"
+        "Education",
+        "Research",
+        "Agents"
       ],
       "cluster": "Google / DeepMind",
-      "date": "July 1, 2026",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-enterprise-agent-platform"
+      "date": "July 02, 2026",
+      "url": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHRBabQMtHiwGYM2ACXg9LQDHcs1UscFZNu73jOZGcgd0uijWaMhJVJQm1_8fWAfiTh5RU-dYSShPcqgAYp48zcIrsmQWgrzSe5gh-XStgmOi40zptZ2P5G3O9O2UUwKKp1gYGUt-UhNkeBaFOmQYmSVvICJvY62O_Yt-bAMVhrKTj7zivHhMqeOr0pR4weNn7bqZzPl944XwiwdT5VexwybfJ22p0="
     }
   ],
   "socialHighlights": [
     {
+      "handle": "@ylecun",
+      "content": "Yann LeCun has officially left Meta to lead AMI Labs in Paris, raising $1.03B to pursue 'World Models' (JEPA) over LLMs. He maintains that current autoregressive LLMs are a 'dead end' for reaching human-level intelligence because they lack a fundamental understanding of the physical world.",
+      "authorName": "Yann LeCun",
+      "date": "Today",
+      "type": "Research",
+      "url": "https://twitter.com/ylecun"
+    },
+    {
       "handle": "@karpathy",
-      "content": "The deepest disconnect in AI today is that LLMs don't get 'time to think.' They have a fixed amount of compute per token, like a human forced to speak at 100mph. We are finally seeing 'Loop Engineering' (agentic loops) solve this by giving models the ability to iterate and self-correct before final output. This is the real path to AGI.",
+      "content": "Andrej Karpathy continues to emphasize 'Zero to Hero' AI education, recently highlighting the shift from 'Chat' to 'Code' as the primary interface for work. He notes that at OpenAI, non-technical departments now spend nearly 100% of their tokens on agentic tools like Codex rather than standard ChatGPT.",
       "authorName": "Andrej Karpathy",
       "date": "Today",
       "type": "Opinion",
-      "url": "https://x.com/karpathy/status/123456789"
-    },
-    {
-      "handle": "@ylecun",
-      "content": "Current LLMs are still 'World Model' deficient. They understand language, not reality. My new initiative at AMI Labs is focused on 'Objective-Driven AI' that can actually plan in a physical or logical space, rather than just predicting the next most likely word. Autoregressive models are a dead end for true reasoning.",
-      "authorName": "Yann LeCun",
-      "date": "1d ago",
-      "type": "Research",
-      "url": "https://x.com/ylecun/status/987654321"
+      "url": "https://twitter.com/karpathy"
     },
     {
       "handle": "@AndrewYNg",
-      "content": "Excited to see 'Recursive Self-Improvement' (RSI) move from theory to production. Anthropic's latest internal data shows that AI-driven gains in their own software engineering productivity are accelerating. When the AI starts helping build the next version of itself, the curve goes vertical.",
+      "content": "Andrew Ng is championing the 'Agentic Workflow' over 'Model Scaling.' He argues that a smaller model (like Gemini Flash) used in an iterative agentic loop can often outperform a much larger flagship model used in a single-shot prompt.",
       "authorName": "Andrew Ng",
-      "date": "Today",
-      "type": "Announcement",
-      "url": "https://x.com/AndrewYNg/status/456789012"
+      "date": "Yesterday",
+      "type": "Research",
+      "url": "https://twitter.com/AndrewYNg"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a Multi-Agent Diagnostic Assistant",
-      "description": "Create a hierarchical agent system where a 'Primary Physician Agent' delegates specialized tasks to 'Radiology' and 'Pathology' sub-agents using the new Gemini ADK.",
+      "title": "Building a Socratic AI Tutor with Gemini 1.5",
+      "description": "Create a specialized educational agent that uses the Socratic method to guide students rather than giving direct answers.",
       "tools": [
-        "Gemini Enterprise Agent Platform",
-        "Agent Development Kit (ADK)",
-        "Gemini 3.1 Pro"
+        "Vertex AI",
+        "Gemini 1.5 Pro",
+        "System Instructions"
       ],
       "skills": [
-        "Agent Orchestration",
-        "Hierarchical Reasoning",
-        "Tool Calling"
+        "Prompt Design",
+        "Agentic Behavior",
+        "Educational AI"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Initialize the Agent Network",
-          "instruction": "Use the ADK to define your 'Lead Agent' and its specialized 'Sub-Agents'. Define the hand-off protocols for when the lead agent needs specialized analysis.",
-          "codeSnippet": "const leadAgent = new Agent({ name: 'PrimaryPhysician', model: 'gemini-3.1-pro' });\nconst radiologyAgent = new Agent({ name: 'Radiologist', model: 'gemini-3.1-flash' });\nleadAgent.registerSubAgent(radiologyAgent);"
+          "stepTitle": "Configure System Instructions",
+          "instruction": "In the Vertex AI Studio, set the System Instruction to strictly forbid providing direct answers. Use the following persona: 'You are a Socratic tutor. When a student asks a question, respond with a leading question that helps them discover the answer themselves.'"
         },
         {
-          "stepTitle": "Configure Tool Access",
-          "instruction": "Grant the Radiology agent access to a mock DICOM metadata API to simulate image analysis capabilities.",
-          "codeSnippet": "radiologyAgent.addTool(new APITool({ url: 'https://api.hospital.org/v1/imaging' }));"
-        },
-        {
-          "stepTitle": "Execute Orchestrated Query",
-          "instruction": "Submit a complex patient case. Observe how the Lead Agent breaks the query into sub-tasks and aggregates the findings.",
-          "codeSnippet": "await leadAgent.run('Analyze patient record #402 and provide a unified diagnostic summary.');"
+          "stepTitle": "Implement Reasoning Chain",
+          "instruction": "Enable 'Thinking' mode or use a multi-turn prompt structure where the model first analyzes the student's misconception before generating its question.",
+          "codeSnippet": "{\n  \"contents\": [\n    {\"role\": \"user\", \"parts\": [{\"text\": \"Why is the sky blue?\"}]},\n    {\"role\": \"model\", \"parts\": [{\"text\": \"That's a great observation. What happens to white light when it passes through a prism?\"}]}\n  ]\n}"
         }
       ],
-      "date": "July 2, 2026",
+      "date": "July 03, 2026",
       "prerequisites": [
-        "Google Cloud Project with Gemini API enabled",
-        "Basic Node.js knowledge",
-        "Access to Gemini Enterprise Agent Platform"
+        "Google Cloud Project",
+        "Vertex AI API enabled"
       ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/agent-engine/overview"
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs"
+    },
+    {
+      "title": "Agentic Data Analysis with BigQuery & TimesFM",
+      "description": "Deploy a forecasting agent that automatically detects anomalies in healthcare supply chain data using Google's TimesFM.",
+      "tools": [
+        "BigQuery ML",
+        "TimesFM",
+        "Connected Sheets"
+      ],
+      "skills": [
+        "Time-series Forecasting",
+        "Anomaly Detection",
+        "SQL AI"
+      ],
+      "complexity": "Advanced",
+      "guide": [
+        {
+          "stepTitle": "Initialize TimesFM in BigQuery",
+          "instruction": "Use the new GA feature to call TimesFM directly from SQL to generate a 30-day forecast for medical supply inventory."
+        },
+        {
+          "stepTitle": "Automate Anomaly Detection",
+          "instruction": "Wrap the AI.DETECT_ANOMALIES function in a scheduled query to alert administrators when current stock levels deviate from the forecast by more than 2 standard deviations.",
+          "codeSnippet": "SELECT * FROM ML.DETECT_ANOMALIES(MODEL `my_project.my_timesfm_model`, STRUCT(0.95 AS anomaly_prob_threshold), TABLE `my_project.inventory_data`)"
+        }
+      ],
+      "date": "July 03, 2026",
+      "prerequisites": [
+        "BigQuery Dataset",
+        "TimesFM Model access"
+      ],
+      "sourceUrl": "https://cloud.google.com/bigquery/docs/release-notes"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "Biological Molecules as Language: The Rise of ESMFold2",
-      "summary": "This article explores the release of ESMFold2, an open-source Transformer-based architecture that approaches the performance of Google's AlphaFold 3 but with significantly lower computational overhead. Unlike previous models that relied heavily on Multiple Sequence Alignments (MSAs), ESMFold2 treats protein sequences as a language, predicting 3D structures directly from the primary amino acid sequence. \n\nAndrew Ng notes that this 'language-first' approach to biology is a pivotal shift. It allows for the rapid screening of millions of synthetic proteins that do not exist in nature, opening new pathways for 'de novo' protein design. The technical breakthrough lies in the model's ability to capture long-range evolutionary correlations within the Transformer's attention heads, effectively 'learning' the laws of physics and chemistry through sequence data alone. Ng emphasizes that while AlphaFold 3 remains the gold standard for accuracy, the openness and speed of ESMFold2 will democratize drug discovery for smaller biotech startups.",
-      "url": "https://www.deeplearning.ai/the-batch/biological-molecules-as-language/",
+      "title": "The Return of the Mid-Tier: Claude Sonnet 5",
+      "summary": "In the latest edition of 'The Batch,' the team analyzes the strategic importance of Anthropic's Claude Sonnet 5. While 'Mythos' and 'Fable' capture headlines for frontier performance and government scrutiny, Sonnet 5 represents the 'workhorse' of the agentic era. It delivers frontier-level performance in coding and professional tasks but at a scale and cost-efficiency that makes it viable for enterprise-wide deployment. Andrew Ng notes that the 'intelligence-per-dollar' metric is becoming more important than raw benchmarks. He argues that for most businesses, the ability to run thousands of Sonnet-class agents in parallel is more valuable than a single, highly-restricted super-model. The article also highlights 'Claude Science,' a new AI workbench that integrates specialized biological tools, signaling a move toward domain-specific AI environments.",
+      "url": "https://www.deeplearning.ai/the-batch/",
       "category": "The Batch",
-      "author": "Andrew Ng",
-      "date": "June 26, 2026"
+      "author": "The Batch Team",
+      "date": "July 01, 2026"
     },
     {
-      "title": "RSI Is the New AGI: Understanding Recursive Self-Improvement",
-      "summary": "Following Anthropic's report on internal productivity gains, this segment deconstructs the concept of Recursive Self-Improvement (RSI). RSI occurs when an AI model is used to optimize its own code, training data, or architecture, creating a feedback loop that accelerates development beyond human capabilities. The article highlights how Anthropic used Claude Code to refactor its own inference engine, resulting in a 30% reduction in latency without human intervention.\n\nThe technical core of this discussion centers on 'Loop Engineering'—the design of autonomous feedback systems where the model evaluates its own performance against a set of 'ground truth' benchmarks and then modifies its parameters or prompts to improve. Andrew Ng cautions that while RSI is a powerful tool for efficiency, it requires rigorous 'alignment guardrails' to ensure the model doesn't optimize for the wrong objectives. He views RSI not as a 'scary sci-fi event' but as the next logical step in automated software engineering.",
-      "url": "https://www.deeplearning.ai/the-batch/rsi-is-the-new-agi/",
+      "title": "Biological Molecules as Language: ESMFold2",
+      "summary": "DeepLearning.AI highlights the release of ESMFold2, an open-source Transformer-based architecture that approaches the performance of AlphaFold 3 in predicting protein structures. Unlike previous models that relied heavily on complex evolutionary information, ESMFold2 treats biological sequences more like a language, allowing for significantly faster inference. This is a critical development for drug discovery, as it democratizes high-fidelity molecular modeling. Andrew Ng emphasizes that open-weights models like ESMFold2 are essential for scientific progress, especially as proprietary models from Google and Anthropic face increasing government 'gating.' The ability to run these models locally allows researchers to maintain data privacy and iterate without the latency or cost of frontier APIs.",
+      "url": "https://www.deeplearning.ai/the-batch/",
       "category": "Research Highlight",
-      "author": "The Batch Team",
-      "date": "June 12, 2026"
+      "author": "DeepLearning.AI",
+      "date": "June 26, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Open-Source AI Cookbook: RapidFire SFT Training",
-      "provider": "Hugging Face",
-      "summary": "A new guide on 'RapidFire' Supervised Fine-Tuning (SFT), a technique for training multiple model configurations concurrently to find the optimal hyperparameter set for specialized domain tasks.",
-      "url": "https://huggingface.co/learn/cookbook/rapidfire-sft",
-      "type": "Tutorial",
+      "title": "Mistral Medium 3.5: Unified Reasoning & Coding",
+      "provider": "Hugging Face / Mistral AI",
+      "summary": "A new 128B flagship model that merges instruction-following, reasoning, and coding into a single set of weights with a 256k context window.",
+      "url": "https://huggingface.co/nvidia/Mistral-Medium-3.5-128B-NVFP4",
+      "type": "Tool",
       "difficulty": "Advanced"
     },
     {
-      "title": "Anthropic Cookbook: Implementing Model Context Protocol (MCP)",
-      "provider": "Anthropic",
-      "summary": "Learn how to use the new Model Context Protocol to give Claude agents secure, standardized access to local files and remote databases without custom API wrappers.",
-      "url": "https://github.com/anthropic-cookbook/mcp-guide",
-      "type": "Tool",
-      "difficulty": "Intermediate"
+      "title": "Agents-A1: Scaling Long-Horizon Trajectories",
+      "provider": "Hugging Face / InternScience",
+      "summary": "A 35B Mixture-of-Experts model specifically trained for long-horizon search and scientific research tasks using a new multi-teacher distillation paradigm.",
+      "url": "https://huggingface.co/InternScience/Agents-A1",
+      "type": "Paper",
+      "difficulty": "Advanced"
     }
   ]
 }
