@@ -1,107 +1,81 @@
 {
-  "editorsNote": "The AI landscape is currently defined by a 'regulatory layer' as frontier models like OpenAI's GPT-5.6 Sol and Anthropic's Claude Fable 5 face unprecedented government oversight. Meanwhile, healthcare is seeing a surge in AI-driven drug discovery for infectious diseases and the expansion of CRISPR-based gene therapies.",
+  "editorsNote": "The AI landscape is shifting from pure language models toward 'World Models' and specialized agentic infrastructure. While OpenAI and Anthropic diverge into compute vs. trust infrastructure, healthcare is grappling with the 'AI workload paradox' where automation is currently increasing physician administrative time.",
   "healthcareStories": [
     {
-      "headline": "AI and Neural Networks Accelerate Tuberculosis Drug Discovery",
-      "summary": "Researchers at the University of Massachusetts Amherst have developed a dual-pronged AI approach to combat Tuberculosis (TB), which remains one of the world's deadliest infectious diseases. The team introduced two complementary tools: the PAC-MAN screening assay and the MycoPermeNet neural network. These tools are designed to solve a critical bottleneck in TB treatment—the bacterium's highly protective and unique outer membrane that prevents most antibiotics from entering the cell.\n\nThe MycoPermeNet neural network specifically predicts compound permeability across this mycobacterial outer membrane. By combining laboratory measurements from the PAC-MAN assay with AI predictions, the researchers can rapidly identify chemical compounds capable of penetrating the bacterium's defenses. This significantly speeds up the search for effective treatments, moving beyond traditional trial-and-error methods.\n\nWhy it matters: TB caused over 1.2 million deaths in 2024. This research demonstrates how domain-specific neural networks can bypass physical biological barriers that have historically stymied drug development, potentially leading to a new class of antibiotics for multi-drug-resistant strains.",
-      "source": "Nature Microbiology / Drug Target Review",
+      "headline": "The AI Workload Paradox: New Study Shows AI Increases Doctor Burnout",
+      "summary": "A landmark study from Dartmouth, presented at the Annual Meeting of the Association for Computational Linguistics in July 2026, reveals that AI tools are currently making more work for doctors, not less. Researchers found that while AI can 'sound like a doctor,' it does not yet 'think like one,' leading to significant errors and unnecessary verbosity in patient communications. Physicians reported spending more time auditing and editing AI-generated responses than they would have spent writing them from scratch.\n\nThis 'workload paradox' is compounded by a separate AMA survey showing that 61% of physicians fear AI is being used by health plans to increase prior authorization denials. The study highlights a critical gap between the fluency of Large Language Models and the clinical reasoning required for safe medical practice. For healthcare executives, this suggests that current 'off-the-shelf' generative AI implementations may be counterproductive without deep integration into clinical reasoning workflows.\n\nWhy it matters: The promise of AI in healthcare has been centered on reducing administrative burden. If the technology instead adds an 'auditing tax' to every interaction, it risks exacerbating the very burnout crisis it was meant to solve. Success in 2026 requires moving beyond 'vibe-coding' and simple chatbots toward systems with verified clinical logic.",
+      "source": "STAT News / Dartmouth Research",
       "tags": [
-        "Drug Discovery",
-        "Infectious Disease",
-        "Neural Networks"
-      ],
-      "cluster": "Academic Research",
-      "date": "July 07",
-      "url": "https://www.nature.com/nmicrobiol/"
-    },
-    {
-      "headline": "FDA Expands World's First CRISPR Therapy to Young Children",
-      "summary": "The FDA has granted supplemental approval for Casgevy (exagamglogene autotemcel), expanding its use to children as young as two years old for the treatment of sickle cell disease and transfusion-dependent beta thalassemia. This makes Casgevy the first and only gene therapy cleared for this age group, extending eligibility to approximately 5,500 additional children in the U.S. alone.\n\nThe approval was accelerated, taking only 53 days under the Commissioner's National Priority Voucher program. Data from the Phase 3 CLIMB-141 and CLIMB-151 studies supported the decision, showing that 100% of evaluable sickle cell patients aged 5-11 achieved freedom from severe vaso-occlusive crises for at least 12 months. Similarly, 8 of 9 evaluable beta thalassemia patients achieved transfusion independence.\n\nWhy it matters: This marks a pivotal moment in genomic medicine, moving CRISPR technology from adult 'last-resort' treatments into early-childhood intervention. It sets a precedent for the rapid regulatory scaling of gene-editing therapies when clinical data shows high efficacy in pediatric populations.",
-      "source": "Life Science Daily News",
-      "tags": [
-        "CRISPR",
-        "FDA",
-        "Pediatrics"
-      ],
-      "cluster": "Regulatory / Biotech",
-      "date": "July 06",
-      "url": "https://www.lifesciencedaily.com"
-    },
-    {
-      "headline": "AI in Life Science Analytics Market Projected to Hit $6.16B by 2030",
-      "summary": "A new market analysis reveals that the AI in life science analytics sector is growing at a CAGR of 19%, expected to reach $3.13 billion by the end of 2026 and over $6 billion by 2030. The growth is fueled by the explosion of clinical research data and the increasing adoption of digital clinical trials. North America currently leads the market, but the Asia-Pacific region is seeing the fastest growth due to rising investments in precision diagnostics.\n\nKey trends driving this surge include the deployment of AI-based clinical analytics tools and predictive modeling in drug discovery. Pharmaceutical companies are increasingly moving toward cloud-based analytics to manage the complexity of data-driven decision-making in R&D. The report also notes that while tariffs have increased some infrastructure costs, they have inadvertently accelerated the migration to more efficient cloud-native AI services.\n\nWhy it matters: For healthcare executives, this signals a shift from AI as an experimental tool to AI as the core infrastructure for pharmaceutical R&D. The high CAGR suggests that organizations not integrating these analytics now will face significant competitive disadvantages in drug time-to-market by the end of the decade.",
-      "source": "Research and Markets",
-      "tags": [
-        "Market Trends",
-        "R&D",
-        "Analytics"
+        "Clinical Workflow",
+        "Burnout",
+        "Research"
       ],
       "cluster": "Healthcare Systems",
-      "date": "July 07",
-      "url": "https://www.researchandmarkets.com"
+      "date": "July 7, 2026",
+      "url": "https://statnews.com"
+    },
+    {
+      "headline": "AI Life Science Analytics Market to Hit $6.16B by 2030",
+      "summary": "The market for AI in life science analytics is projected to surge from $3.13 billion in 2026 to over $6 billion by 2030, according to new industry data released today. This 19% CAGR is being driven by a massive influx of clinical data and the rapid expansion of digital clinical trials. North America remains the dominant market leader, though the Asia-Pacific region is showing the fastest growth rate as pharmaceutical R&D shifts toward data-driven decision-making.\n\nKey growth factors include the rising demand for precision diagnostics and the widespread adoption of cloud-based analytics for drug discovery. The report notes that while international tariffs have increased hardware costs, they have inadvertently accelerated the migration to cloud-based AI services as firms seek to avoid capital expenditure on local infrastructure. \n\nWhy it matters: This financial trajectory confirms that AI is no longer a 'pilot' technology in life sciences but the core infrastructure for the next generation of drug development. Organizations not scaling their data-driven R&D now risk being priced out of the market by 2030.",
+      "source": "GlobeNewswire / Research and Markets",
+      "tags": [
+        "Market Trends",
+        "Life Sciences",
+        "Pharma"
+      ],
+      "cluster": "Regulatory",
+      "date": "July 7, 2026",
+      "url": "https://www.globenewswire.com"
     }
   ],
   "techStories": [
     {
-      "headline": "OpenAI Previews GPT-5.6 'Sol' Under Strict Government Oversight",
-      "summary": "OpenAI has officially previewed its next-generation model family, GPT-5.6, consisting of three tiers: Sol (flagship), Terra (mid-range), and Luna (efficient). Sol has reportedly set new records in programming and biological benchmarks. However, in an unprecedented move, the U.S. government has requested that OpenAI limit the initial release to a small set of approximately 20 government-vetted partner organizations. This marks the first time federal authorities have preemptively restricted a commercial AI model's rollout due to security concerns.\n\nThe model features advanced 'max' and 'ultra' reasoning modes and is integrated with OpenAI's most robust multi-layered security framework to date. CEO Sam Altman noted in an internal memo that while this limited rollout is not the preferred long-term model, the company is coordinating closely with the Office of the National Cyber Director to build a framework for testing and evaluating the security of such high-capability models.\n\nWhy it matters: The 'Sol' release represents the arrival of the first 'restricted' frontier model. For enterprises, this means that access to the most capable AI may now be gated by national security clearance or specific industry vetting, rather than just subscription tier. It also signals that the era of 'move fast and break things' for LLMs has ended at the frontier level.",
-      "source": "OpenAI Blog / Axios",
+      "headline": "OpenAI vs. Anthropic: The Great Strategic Divergence",
+      "summary": "A comprehensive analysis of over 1,000 job postings at OpenAI and Anthropic reveals two companies heading in fundamentally different directions. OpenAI is positioning itself as 'Sovereign Compute Infrastructure,' with heavy recruitment for its Stargate program, public-sector defense partnerships, and agentic developer tools like Codex. Their strategy focuses on vertical integration and massive-scale compute to solve systemic risks.\n\nIn contrast, Anthropic is doubling down on 'Trust Infrastructure.' Their hiring is concentrated on behavioral risk, CBRN (Chemical, Biological, Radiological, and Nuclear) threat modeling, and safety classifiers. Anthropic is targeting sectors with heavy compliance and audit demands, such as healthcare and finance, positioning Claude as the 'safe' alternative for enterprise agents.\n\nWhy it matters: For CTOs, the choice between these two providers is no longer just about model performance (benchmarks), but about the underlying philosophy of the partnership. OpenAI offers raw power and scale; Anthropic offers a framework for high-stakes, regulated autonomy.",
+      "source": "Help Net Security / Zenita Group Analysis",
       "tags": [
-        "Models",
-        "Policy",
-        "Security"
-      ],
-      "cluster": "OpenAI",
-      "date": "July 06",
-      "url": "https://openai.com/blog"
-    },
-    {
-      "headline": "Anthropic Redeploys Fable 5 Globally with New Cyber Safeguards",
-      "summary": "Following a 19-day suspension triggered by U.S. Commerce Department export controls, Anthropic has restored global access to its Claude Fable 5 model. The suspension occurred after researchers identified a jailbreak that allowed the model to produce software exploit code. To regain its license, Anthropic implemented a new safety classifier that blocks the flagged technique in over 99% of cases.\n\nAs part of the redeployment, Anthropic is proposing an industry-wide framework for scoring 'jailbreak severity' in collaboration with Amazon, Microsoft, and Google. This framework aims to standardize how quickly labs must respond to reported bypasses. While Fable 5 is now available to the public (with a 50% weekly usage limit during the initial phase), the more powerful 'Mythos 5' remains restricted to approved U.S. organizations under 'Project Glasswing.'\n\nWhy it matters: This event established a precedent where a commercially deployed model can be forcibly removed from the market by government order. Anthropic's response—proposing a shared safety standard—suggests the industry is moving toward self-regulation to avoid further government-mandated shutdowns.",
-      "source": "Anthropic Newsroom",
-      "tags": [
-        "Safety",
-        "Regulation",
-        "Cybersecurity"
-      ],
-      "cluster": "Anthropic",
-      "date": "July 06",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "headline": "Meta Plots AI Cloud Business to Monetize Excess Compute",
-      "summary": "Meta is reportedly preparing to enter the cloud computing market by renting out its spare AI capacity to third-party developers. Having invested an estimated $145 billion in AI infrastructure for 2026, Meta now possesses significant excess data center capacity. This move would position Meta as a direct competitor to Amazon Web Services, Microsoft Azure, and Google Cloud, as well as specialized providers like CoreWeave.\n\nThe strategy mirrors Elon Musk's SpaceX, which has begun renting out its data center capacity. For Meta, this represents a major shift from using AI solely to power its advertising business to becoming a foundational infrastructure provider. Analysts suggest this could unlock a multi-billion dollar monthly revenue stream, helping to offset the massive capital expenditures required for its Llama model development.\n\nWhy it matters: Meta's entry into the cloud market could lead to a price war in AI compute, benefiting startups and developers. However, it also creates a complex dynamic where Meta may become a competitor to the very vendors (like CoreWeave) it previously partnered with for capacity.",
-      "source": "Bloomberg / Forbes",
-      "tags": [
+        "Strategy",
         "Infrastructure",
+        "Agents"
+      ],
+      "cluster": "OpenAI / Anthropic",
+      "date": "July 8, 2026",
+      "url": "https://www.helpnetsecurity.com"
+    },
+    {
+      "headline": "Meta Unveils 'Muse Image' and Shifts to Cloud Provider Model",
+      "summary": "Meta has officially launched 'Muse Image,' a next-generation image generation system integrated directly into WhatsApp and Meta AI. Muse Image allows for high-fidelity editing, such as erasing photobombers or restyling rooms using conversational prompts. More importantly, Meta is pivoting its business model to sell excess AI computing power, effectively becoming a cloud competitor to AWS and Google. \n\nThis shift follows Mark Zuckerberg's admission that AI capex guidance has reached $145 billion for 2026. By opening up its infrastructure, Meta aims to recoup the massive costs of its Llama development. Simultaneously, Meta is removing the 'off-platform activity' opt-out for users, consolidating data signals to improve its AI-driven advertising performance.\n\nWhy it matters: Meta is breaking the narrative that 'you must own the model' to win. By commoditizing the model layer and selling the compute, they are forcing a price war in the cloud market while leveraging their massive social data to maintain an edge in ad-targeting.",
+      "source": "Meta Blog / CNBC",
+      "tags": [
         "Cloud",
-        "Business Strategy"
+        "Generative Media",
+        "Business Model"
       ],
       "cluster": "Meta AI",
-      "date": "July 07",
-      "url": "https://www.forbes.com"
+      "date": "July 7, 2026",
+      "url": "https://about.fb.com"
     }
   ],
   "socialHighlights": [
     {
-      "handle": "@karpathy",
-      "content": "Andrej Karpathy described a 'third major shift' in AI usage: moving from 'Claude as a website' to 'Claude as an omnipresent team member.' He highlighted 'Claude Tag' as a way to integrate AI into every tool and conversation, effectively making it a background participant in all business processes rather than a destination you visit.",
-      "authorName": "Andrej Karpathy",
-      "date": "4d ago",
-      "type": "Opinion",
-      "url": "https://x.com/karpathy"
-    },
-    {
       "handle": "@ylecun",
-      "content": "Yann LeCun continues to advocate for 'World Models' over pure LLMs. Following his departure from Meta to lead AMI Labs, he emphasized that scaling language models has diminishing returns and that the future of AGI lies in the JEPA (Joint-Embedding Predictive Architecture) which allows models to learn internal representations of the physical world.",
+      "content": "Language is a shallow reflection of intelligence. To reach AGI, we must move past LLMs and build World Models that understand physics, gravity, and 3D space. AMI Labs is betting $1B that JEPA (Joint-Embedding Predictive Architecture) is the only way to build agents that can actually *do* things in the real world.",
       "authorName": "Yann LeCun",
-      "date": "1d ago",
-      "type": "Research",
+      "date": "Today",
+      "type": "Opinion",
       "url": "https://x.com/ylecun"
     },
     {
+      "handle": "@karpathy",
+      "content": "The 'Data Engine' is the only moat. It's not about who has the most data, but who can spin the cycle of acquisition, re-training, and telemetry the fastest. If you aren't building a closed-loop system where your model learns from its own production failures, you're just renting intelligence.",
+      "authorName": "Andrej Karpathy",
+      "date": "Yesterday",
+      "type": "Research",
+      "url": "https://x.com/karpathy"
+    },
+    {
       "handle": "@AnthropicAI",
-      "content": "Announcement of 'Claude Science,' a new AI workbench specifically for researchers. It integrates common scientific tools and packages, produces auditable artifacts, and provides flexible access to high-performance computing resources, signaling a push into specialized vertical applications for frontier models.",
+      "content": "We are extending free access to Claude Fable 5 through July 12. We've heard your feedback on usage limits. Fable 5 represents our most advanced reasoning capabilities to date, now with enhanced safety classifiers to prevent cybersecurity misuse.",
       "authorName": "Anthropic",
       "date": "Today",
       "type": "Announcement",
@@ -110,115 +84,107 @@
   ],
   "googlePocItems": [
     {
-      "title": "Building a Real-Time Medical Document Summarizer with Gemini 3.5 Live",
-      "description": "Create a POC that uses Gemini 3.5's new Live Translate and reasoning capabilities to summarize complex medical transcripts into patient-friendly language in real-time.",
+      "title": "Building a Clinical Workflow Assistant with Gemini 3.5 Live",
+      "description": "Create a real-time voice-to-text assistant that summarizes patient encounters and flags potential drug-drug interactions using Vertex AI.",
       "tools": [
         "Vertex AI",
         "Gemini 3.5 Live",
-        "Python SDK"
+        "Med-PaLM 2 API"
       ],
       "skills": [
-        "Real-time Streaming",
-        "Prompt Engineering",
-        "Healthcare NLP"
+        "Real-time Multimodal Processing",
+        "Medical Entity Extraction",
+        "Safety Filtering"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Initialize Vertex AI Environment",
-          "instruction": "Set up your Google Cloud project and enable the Vertex AI API. Install the latest Google Cloud AI platform library.",
-          "codeSnippet": "pip install google-cloud-aiplatform"
-        },
-        {
-          "stepTitle": "Configure Gemini 3.5 Live Stream",
-          "instruction": "Set up a streaming response to handle real-time audio or text input from a medical consultation.",
+          "stepTitle": "Initialize Gemini 3.5 Live Session",
+          "instruction": "Set up a streaming connection to Gemini 3.5 Live to capture ambient audio from the clinical setting.",
           "codeSnippet": "model = GenerativeModel('gemini-3.5-live')\nchat = model.start_chat()"
         },
         {
-          "stepTitle": "Apply Clinical-to-Layman Prompt",
-          "instruction": "Use a system instruction to ensure the model maintains clinical accuracy while simplifying terminology.",
-          "codeSnippet": "response = chat.send_message('Summarize this transcript for a patient: [TRANSCRIPT]', stream=True)"
+          "stepTitle": "Implement Medical RAG",
+          "instruction": "Connect the model to your hospital's formulary via a Vector Search index to ensure interaction checks are based on current local data.",
+          "codeSnippet": "retriever = VertexAICheck(index_id='hospital-formulary-v1')"
+        },
+        {
+          "stepTitle": "Configure Clinical Safety Filters",
+          "instruction": "Apply strict safety settings to ensure the model does not provide definitive diagnoses without a physician's sign-off.",
+          "codeSnippet": "safety_settings = { 'HARM_CATEGORY_MEDICAL': 'BLOCK_LOW_AND_ABOVE' }"
         }
       ],
-      "date": "July 07, 2026",
+      "date": "July 8, 2026",
       "prerequisites": [
-        "GCP Account",
-        "Python 3.10+",
-        "Vertex AI API Access"
-      ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai"
+        "Google Cloud Project with Vertex AI enabled",
+        "Access to Gemini 3.5 Live Preview"
+      ]
     },
     {
-      "title": "Zero-Shot Tabular Analysis for Clinical Trials with TabFM",
-      "description": "Use Google's new TabFM foundation model to perform zero-shot classification and anomaly detection on clinical trial datasets without fine-tuning.",
+      "title": "Agentic Bigtable Management",
+      "description": "Deploy an AI agent using the new GA Bigtable Skills to automate schema design and performance diagnostics.",
       "tools": [
-        "Vertex AI",
-        "TabFM",
-        "BigQuery"
+        "Vertex AI Agent Builder",
+        "Bigtable Agent Skill"
       ],
       "skills": [
-        "Tabular Foundation Models",
-        "Zero-shot Learning",
-        "Data Quality"
+        "Agentic Workflows",
+        "Database Optimization"
       ],
       "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Load Dataset into BigQuery",
-          "instruction": "Upload your clinical trial CSV to BigQuery for seamless integration with Vertex AI."
+          "stepTitle": "Import Bigtable Skill",
+          "instruction": "Equip your agent with the 'bigtable-basics' skill from the public Google repository.",
+          "codeSnippet": "gcloud ai-platform agents import --skill=bigtable-basics"
         },
         {
-          "stepTitle": "Invoke TabFM via Vertex AI",
-          "instruction": "Use the TabFM endpoint to analyze the table structure and identify outliers in patient vitals.",
-          "codeSnippet": "SELECT * FROM ML.PREDICT(MODEL `my_project.tabfm_model`, TABLE `clinical_data`)"
-        },
-        {
-          "stepTitle": "Validate Results",
-          "instruction": "Compare TabFM's zero-shot findings with traditional statistical methods to verify accuracy."
+          "stepTitle": "Define Diagnostic Trigger",
+          "instruction": "Set up a Cloud Function to trigger the agent when Bigtable 'hotspots' are detected in Cloud Monitoring.",
+          "codeSnippet": "def trigger_agent(event, context):\n  agent.run('Analyze performance hotspot in instance-01')"
         }
       ],
-      "date": "July 07, 2026",
+      "date": "July 8, 2026",
       "prerequisites": [
-        "BigQuery Dataset",
-        "Vertex AI Model Garden Access"
-      ],
-      "sourceUrl": "https://research.google/blog/introducing-tabfm/"
+        "Existing Bigtable Instance",
+        "Vertex AI Agent Builder access"
+      ]
     }
   ],
   "deepLearningSpotlight": [
     {
       "title": "Microsoft Strikes Out on Its Own with MAI-Thinking-1",
-      "summary": "In a significant departure from its reliance on OpenAI, Microsoft has unveiled MAI-Thinking-1, a reasoning model developed entirely from scratch without distillation from GPT models. This model is sized similarly to Claude Sonnet 4.6 and focuses on complex multi-step reasoning tasks. Andrew Ng notes that this move signals a 'de-coupling' of the major tech giants from their initial startup partners as they seek to own the full stack of their AI capabilities. The technical highlight of MAI-Thinking-1 is its 'internal monologue' feature, which allows the model to verify its own logic steps before producing a final answer, significantly reducing hallucinations in technical workflows. This development suggests that the 'reasoning' capability is becoming a commodity that every major cloud provider will eventually offer natively.",
+      "summary": "In a significant shift for the AI ecosystem, Microsoft has unveiled MAI-Thinking-1, a high-tier reasoning model developed entirely without distillation from OpenAI's models. This marks Microsoft's transition from a primary reseller and partner of OpenAI to a direct competitor in the frontier model space. MAI-Thinking-1 is sized similarly to Claude 4.6 Sonnet and focuses on complex multi-step reasoning. \n\nAndrew Ng notes that this move is a 'declaration of independence' for Microsoft. It suggests that the 'distillation era'—where smaller models were trained on the outputs of larger ones—is reaching its limit. To achieve true state-of-the-art reasoning, companies must now invest in original, ground-up training. This will likely lead to more diverse model architectures as providers stop mimicking GPT-4's logic patterns.",
       "url": "https://www.deeplearning.ai/the-batch/",
       "category": "The Batch",
-      "author": "The Batch Team",
-      "date": "July 03, 2026"
+      "author": "Andrew Ng",
+      "date": "July 3, 2026"
     },
     {
-      "title": "Fugu Blends Models Task by Task",
-      "summary": "Sakana AI has debuted 'Fugu' and 'Fugu-Ultra,' a new class of 'orchestrator models' that do not perform tasks themselves but instead spawn and manage agents from Claude, Gemini, and GPT. By dynamically selecting the best model for a specific sub-task, Fugu has achieved state-of-the-art performance across several benchmarks, outperforming any single model working in isolation. Andrew Ng comments that this 'mixture-of-agents' approach is the logical next step for enterprise AI, where cost and performance must be balanced. The technical innovation lies in the orchestrator's ability to predict which model will have the highest probability of success for a given prompt, effectively acting as a high-speed router for intelligence. This highlights a shift from 'one model to rule them all' to a more modular, ecosystem-based AI architecture.",
+      "title": "Fugu: The Rise of the Model Orchestrator",
+      "summary": "Sakana AI has debuted 'Fugu' and 'Fugu-Ultra,' a new class of 'orchestrator models.' Unlike standard LLMs, Fugu does not answer questions directly; instead, it analyzes a task and spawns a swarm of specialized agents (Claude, Gemini, or GPT) to solve sub-problems. This approach has achieved state-of-the-art performance on benchmarks by leveraging the unique strengths of different model families simultaneously.\n\nThis highlights a growing trend toward 'compound AI systems.' The Batch team argues that the future of AI isn't a single 'god model,' but a sophisticated routing layer that knows which model is best for coding, which for empathy, and which for logic. For developers, this means the focus is shifting from prompt engineering to 'orchestration engineering.'",
       "url": "https://www.deeplearning.ai/the-batch/",
       "category": "The Batch",
       "author": "The Batch Team",
-      "date": "July 03, 2026"
+      "date": "July 3, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "LeRobot v0.6.0: Imagine, Evaluate, Improve",
-      "provider": "Hugging Face",
-      "summary": "A comprehensive update to the open-source robotics library, focusing on vision-language reward models that allow robots to learn from visual feedback rather than manual reward functions.",
-      "url": "https://huggingface.co/blog/lerobot-v0-6",
-      "type": "Tool",
-      "difficulty": "Advanced"
-    },
-    {
-      "title": "Anthropic Cookbook: Implementing Cyber Safeguards",
-      "provider": "Anthropic",
-      "summary": "A new set of recipes for developers to implement the same safety classifiers used in Fable 5 to prevent misuse in cybersecurity contexts.",
-      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "title": "Hugging Face Models on Foundry Managed Compute",
+      "provider": "Hugging Face / Microsoft",
+      "summary": "A new tutorial on deploying Hugging Face models directly onto Microsoft's Foundry infrastructure with one-click integration.",
+      "url": "https://huggingface.co/blog",
       "type": "Tutorial",
       "difficulty": "Intermediate"
+    },
+    {
+      "title": "Action Chunking with Transformers (ACT) for Robotics",
+      "provider": "Hugging Face",
+      "summary": "A deep dive into imitation learning for robotics, teaching models to predict 'action chunks' rather than single steps for smoother physical movement.",
+      "url": "https://huggingface.co/blog",
+      "type": "Paper",
+      "difficulty": "Advanced"
     }
   ]
 }
