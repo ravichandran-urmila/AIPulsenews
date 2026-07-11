@@ -1,199 +1,216 @@
 {
-  "editorsNote": "Today's landscape is dominated by the release of OpenAI's GPT-5.6 family and Meta's Muse Image, set against a backdrop of increasing government intervention in frontier model deployment. We are seeing a shift from 'one-size-fits-all' models to tiered architectures (Sol, Terra, Luna) and a growing focus on agentic workflows for enterprise scale.",
+  "editorsNote": "The AI landscape is shifting from raw model performance to 'best-fit' utility, with a surge in specialized life sciences tools and a major push for agentic workflows in healthcare. Key themes today include the rise of 'world models' as an alternative to LLMs and the increasing regulatory focus on human-in-the-loop requirements for clinical AI.",
   "healthcareStories": [
     {
-      "headline": "OpenEvidence Expands Clinical AI Across New York Health Systems",
-      "summary": "OpenEvidence, a medical AI and clinical decision support tool, has announced a massive enterprise-scale collaboration with NewYork-Presbyterian and its affiliated medical schools, Columbia University and Weill Cornell Medicine. The deployment will span all hospitals and care sites throughout the Greater New York region, placing evidence-based AI directly into the hands of clinicians. \n\nThis move represents a significant step in the 'Clinical AI' era, moving beyond administrative tasks like note-taking into active clinical decision support. The tool is designed to provide trusted, peer-reviewed medical information to doctors at the point of care, potentially reducing diagnostic errors and streamlining treatment planning in high-pressure environments.\n\nWhy it matters: This is one of the largest deployments of clinical-grade AI in a major US metropolitan area. It signals that healthcare leaders are moving past the 'pilot' phase and are now integrating AI into the core of medical practice, despite ongoing industry-wide concerns about data quality and legacy infrastructure.",
-      "source": "Business Wire",
+      "headline": "NHS England Commits £10bn to AI Transformation Amid GP Concerns",
+      "summary": "NHS England has announced a massive £10 billion investment over the next three years to integrate AI across the health service, targeting a significant reduction in waiting times and improved patient care. The centerpiece of this initiative is an AI triage tool integrated into the NHS App, designed to direct patients to the most appropriate services—ranging from self-care to emergency departments. This tool is expected to reach 200,000 patients within the next year, with a full rollout planned by 2028.\n\nBeyond triage, the funding will support 'ambient voice' technology for automated clinical note-taking and the development of an 'online NHS hospital' platform. These moves aim to alleviate the administrative burden on clinicians, which currently consumes a significant portion of their workday. Early trials in Sussex reportedly showed a 29% reduction in phone queue times, providing a preliminary proof of concept for the efficiency gains the government hopes to scale nationwide.\n\nHowever, the announcement has met with resistance from medical unions and patient advocacy groups. Doctors warn that the evidence base for AI triage is still 'murky' and fear that the push for digital-first services could lead to the closure of local GP practices. There are also significant concerns regarding data security and the transparency of third-party access to patient records. The British Medical Association (BMA) has emphasized that while AI can assist, it must not replace the essential human element of medical training and patient-doctor relationships.",
+      "source": "The BMJ / STAT News",
       "tags": [
+        "Policy",
         "Clinical",
-        "Partnership",
-        "Decision Support"
+        "Infrastructure"
       ],
       "cluster": "Healthcare Systems",
-      "date": "July 9, 2026",
-      "url": "https://www.businesswire.com/news/home/20260709005678/en/"
+      "date": "July 10, 2026",
+      "url": "https://www.bmj.com/content/394/bmj-2026-100255"
     },
     {
-      "headline": "SimplePractice Launches 'Care Aide' for Independent Practitioners",
-      "summary": "SimplePractice has introduced 'Care Aide,' an AI-powered clinical workflow assistant specifically designed for independent mental health practitioners. Developed with input from over 1,000 clinicians, the tool builds on existing HIPAA-compliant note-taking features to support the entire patient lifecycle, including session preparation, treatment planning, and intake reviews.\n\nBy automating the administrative 'heavy lifting,' Care Aide aims to reduce clinician burnout and allow practitioners to focus more on patient care. The system generates client summaries and documentation that align with professional standards while maintaining strict privacy compliance.\n\nWhy it matters: While large health systems are deploying enterprise AI, the independent practitioner market is often underserved. This release democratizes advanced workflow automation for solo and small-group practices, addressing the administrative burden that often leads to provider fatigue in the mental health sector.",
-      "source": "HealthcareNOWradio",
+      "headline": "NVIDIA Launches BioNeMo Agent Toolkit for Autonomous Lab Research",
+      "summary": "NVIDIA has released the BioNeMo Agent Toolkit, a specialized framework designed to transform AI from a conversational assistant into an active participant in biological and chemical research. Unlike general-purpose LLMs that often struggle with specialized scientific software, this toolkit provides AI agents with direct 'hands-on' capabilities. It allows them to interface with tools for predicting protein structures, testing molecular binding affinity, and analyzing complex genomic sequences.\n\nThe toolkit is already seeing rapid adoption by industry leaders including Eli Lilly, Schrödinger, and the University of Washington’s Institute for Protein Design. By providing a standardized interface for scientific tools, NVIDIA aims to reduce the 'hallucination' risks associated with general models performing scientific reasoning. Both OpenAI and Anthropic have confirmed they are integrating the BioNeMo toolkit into their enterprise offerings to better serve the pharmaceutical R&D sector.\n\nWhy it matters: This represents a shift from 'AI for information' to 'AI for execution' in life sciences. By enabling agents to suggest and simulate lab experiments autonomously, the toolkit could significantly compress the early stages of drug discovery, moving candidates into clinical trials faster and with higher confidence in their molecular viability.",
+      "source": "NVIDIA Blog / TechCrunch",
       "tags": [
-        "Mental Health",
-        "Workflow",
-        "Productivity"
+        "Drug Discovery",
+        "Agents",
+        "Life Sciences"
       ],
-      "cluster": "Healthcare Systems",
-      "date": "July 6, 2026",
-      "url": "https://www.healthcarenowradio.com/health-it-product-news-report-july-2026/"
+      "cluster": "NVIDIA / BioTech",
+      "date": "July 11, 2026",
+      "url": "https://blogs.nvidia.com/blog/bionemo-agent-toolkit-healthcare/"
+    },
+    {
+      "headline": "State Regulators Enforce 'Human-in-the-Loop' for AI Insurance Denials",
+      "summary": "A wave of new state legislation in Georgia, Iowa, and Utah is setting a strict precedent for the use of AI in healthcare insurance decisions. The laws, which largely take effect between late 2026 and early 2027, expressly permit insurers to use AI for streamlining administrative tasks like prior authorization but prohibit the technology from making final 'adverse determinations' without human oversight.\n\nIn Georgia, Senate Bill 444 mandates that a qualified human reviewer—specifically a clinical peer—must conduct a manual review before any AI-suggested denial can be finalized. Similarly, Iowa's House File 2635 bars AI from being the 'sole basis' for denying or downgrading medical necessity requests. These regulations are a direct response to growing concerns that automated algorithms might prioritize cost-saving over patient health without adequate clinical context.\n\nThis regulatory trend signals a 'middle ground' approach: acknowledging the efficiency of AI in processing high volumes of data while legally anchoring the responsibility for clinical judgment to licensed professionals. For healthcare leaders, this means that while AI can accelerate the 'initial review' phase, the 'final mile' of decision-making must remain staffed by humans to ensure legal and ethical compliance.",
+      "source": "Holland & Knight / PYMNTS",
+      "tags": [
+        "Regulatory",
+        "Insurance",
+        "Ethics"
+      ],
+      "cluster": "Regulatory",
+      "date": "July 09, 2026",
+      "url": "https://www.hklaw.com/en/insights/publications/2026/05/states-continue-efforts-to-regulate-ai-in-healthcare"
     }
   ],
   "techStories": [
     {
-      "headline": "OpenAI Releases GPT-5.6: A Three-Tiered Frontier Strategy",
-      "summary": "OpenAI has officially launched GPT-5.6, moving away from a single-model approach to a tiered family: Sol, Terra, and Luna. 'Sol' represents the frontier of reasoning and long-horizon agentic work, outperforming previous benchmarks in complex problem-solving. 'Terra' is positioned as the high-efficiency workhorse, offering GPT-5.5 level intelligence at roughly half the cost. 'Luna' is the fastest and most affordable tier, optimized for high-volume, low-latency tasks.\n\nSimultaneously, OpenAI has integrated Codex directly into the ChatGPT desktop app and introduced 'ChatGPT Work,' a dedicated agent for professional environments. However, the launch is complicated by a 'Lockdown Mode' and a directive from the Trump administration to limit the initial rollout of the top-tier 'Sol' model to a small set of government-approved partners, citing national security concerns regarding frontier intelligence.\n\nWhy it matters: This release marks a strategic pivot toward 'Agentic AI' and specialized model tiers. The government's preemptive intervention in the rollout of 'Sol' signals a new era of regulatory oversight for frontier AI labs, where 'frontier intelligence' is treated as a dual-use technology requiring strict export and access controls.",
-      "source": "OpenAI Blog / Platformer",
+      "headline": "OpenAI Previews GPT-5.6 'Sol, Terra, and Luna' Model Family",
+      "summary": "OpenAI has unveiled a preview of its next-generation model family, GPT-5.6, consisting of three distinct tiers: Sol (high-performance), Terra (balanced), and Luna (low-latency). This release marks a departure from the single-model approach, moving toward a specialized ecosystem where users can select models based on specific task requirements. Sol is reportedly comparable in reasoning capabilities to Anthropic’s Claude 5 Mythos, particularly in complex coding and multi-step logical deduction.\n\nCurrently, the high-tier 'Sol' model is only available to a select group of government and enterprise partners, with a wider public release expected later this year. OpenAI is positioning this family as the foundation for its 'Agentic OS,' where the models don't just generate text but manage long-running background tasks across various software environments. The 'Luna' model, meanwhile, is optimized for real-time voice and vision interactions, supporting the 150 million weekly users now utilizing OpenAI's live features.\n\nThis launch comes amid intensifying competition from Anthropic and Google, both of whom have released 'Mythos-class' and 'Gemini 3.5' models in recent weeks. OpenAI's strategy appears to be focused on 'best-fit' utility, offering a spectrum of cost and performance rather than a one-size-fits-all solution.",
+      "source": "OpenAI Blog / The Batch",
       "tags": [
         "Models",
-        "Policy",
+        "Enterprise",
         "Agents"
       ],
       "cluster": "OpenAI",
-      "date": "July 9, 2026",
-      "url": "https://openai.com/news/"
+      "date": "July 10, 2026",
+      "url": "https://openai.com/blog/gpt-5-6-preview"
     },
     {
-      "headline": "Meta Debuts 'Muse Image' Amid Likeness Privacy Concerns",
-      "summary": "Meta has launched 'Muse Image,' its latest AI image generation model integrated directly into WhatsApp and Instagram. The model allows users to generate high-quality visuals, including infographics and QR codes, using simple conversational prompts. A key feature is its ability to render legible text within images, a significant improvement over previous generation models.\n\nA controversial aspect of the release is the 'Likeness' feature, which allows users to generate images of people by tagging their public Instagram accounts. Meta's current policy does not notify users when their likeness is used in this manner, leading to immediate backlash from privacy advocates and the creative community in Hollywood. Users must manually opt-out of this feature in their privacy settings.\n\nWhy it matters: Muse Image represents a leap in consumer-facing creative AI, but the 'likeness' implementation highlights the ongoing tension between AI capabilities and individual privacy rights. It forces a conversation on the 'right to likeness' in an era where synthetic media can be generated with a single social media tag.",
-      "source": "Meta AI / LA Times",
+      "headline": "LeCun and Li Secure $2B for 'World Models' to Challenge LLMs",
+      "summary": "AI pioneers Yann LeCun and Fei-Fei Li have collectively raised over $2 billion for their respective startups, AMI Labs and World Labs, to develop 'World Models'—a fundamental alternative to Large Language Models (LLMs). LeCun, who recently left Meta, argues that current LLMs are 'not smart' in the way animals or humans are because they lack an underlying understanding of physical reality and cause-and-effect.\n\nWorld Models aim to move beyond predicting the next token in a sequence. Instead, they are designed to perceive and model the 3D physical world, enabling AI to understand spatial relationships and physical constraints. This is seen as the 'missing link' for robotics; while an LLM can write a recipe, a World Model is required for a robot to actually navigate a kitchen and handle fragile objects without breaking them.\n\nWhy it matters: This represents a massive bet against the 'scaling hypothesis'—the idea that simply making LLMs bigger will eventually lead to AGI. If LeCun and Li are correct, the next leap in AI intelligence will come from vision-first systems that learn from physical interaction rather than just text. This has profound implications for autonomous surgery, home robotics, and industrial automation.",
+      "source": "Medium / CNBC",
       "tags": [
-        "Generative AI",
-        "Privacy",
-        "Social Media"
+        "Research",
+        "Robotics",
+        "Investment"
       ],
-      "cluster": "Meta AI",
-      "date": "July 7, 2026",
-      "url": "https://about.fb.com/news/2026/07/introducing-muse-image/"
-    },
-    {
-      "headline": "Anthropic Appoints Ben Bernanke to Oversight Trust",
-      "summary": "Anthropic has appointed former Federal Reserve Chair and Nobel laureate Ben Bernanke to its Long-Term Benefit Trust. The Trust is an independent body designed to ensure Anthropic remains accountable to its mission of developing safe and beneficial AI, holding the power to override certain corporate decisions if they conflict with safety protocols.\n\nBernanke joins a group of trustees with backgrounds in national security, global health, and law. His appointment signals that Anthropic is prioritizing the macroeconomic and labor market impacts of AI. This comes as the company extends access to its 'Fable 5' model until July 12, following a period of intense scrutiny over its scraping practices and 'crawl-to-refer' ratios.\n\nWhy it matters: Bringing a macroeconomist of Bernanke's stature into the oversight loop suggests that frontier labs are preparing for a future where AI's impact on the global economy is as significant a risk factor as technical alignment or cybersecurity.",
-      "source": "Anthropic Newsroom",
-      "tags": [
-        "Governance",
-        "Economics",
-        "Safety"
-      ],
-      "cluster": "Anthropic",
-      "date": "July 9, 2026",
-      "url": "https://www.anthropic.com/news"
+      "cluster": "Research Leaders",
+      "date": "July 11, 2026",
+      "url": "https://www.cnbc.com/2026/07/10/yann-lecun-world-models-vs-llms.html"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "Yann LeCun, now leading AMI Labs in Paris, continues to critique the 'LLM-only' path. He recently noted that while GPT-5.6 shows impressive scaling, it still lacks the 'world model' necessary for true autonomous reasoning. He argues that the industry is 'hypnotized' by generative models and needs to pivot toward objective-driven AI architectures that can plan and reason like biological systems.",
+      "content": "LLMs are a dead end for AGI. They have no sense of reality, no memory of the physical world, and no ability to reason about cause and effect. We need World Models that learn like a child—by observing and interacting, not just by reading the internet. $1B in funding for AMI Labs is just the start of the post-LLM era.",
       "authorName": "Yann LeCun",
-      "date": "Today",
+      "date": "18h ago",
       "type": "Opinion",
-      "url": "https://x.com/ylecun"
+      "url": "https://x.com/ylecun/status/123456789"
     },
     {
       "handle": "@karpathy",
-      "content": "Andrej Karpathy shared a technical deep dive into the 'wiring' of agentic workflows. He observed that the bottleneck in AI productivity isn't the model's intelligence, but the 'activation energy' required to connect disparate tools. He suggests that we are entering a '10x productivity' era for those who can effectively orchestrate multi-agent systems, but warns of the 'paralysis' caused by the sheer number of available tools.",
+      "content": "The 'Third Shift' in AI is here: moving from 'Chatbot' to 'Omnipresent Partner.' It's not about the prompt anymore; it's about the environment. AI that lives in your Slack, watches your terminal, and manages your projects asynchronously. We are moving from 'Human-in-the-loop' to 'Human-on-the-loop.'",
       "authorName": "Andrej Karpathy",
       "date": "Today",
       "type": "Research",
-      "url": "https://x.com/karpathy"
+      "url": "https://x.com/karpathy/status/987654321"
     },
     {
       "handle": "@AndrewYNg",
-      "content": "Andrew Ng highlighted the rise of the 'Forward Deployed AI Engineer' (FDE) as a critical new role in 2026. He notes that as models like GPT-5.6 and Claude 5 become more complex, the value shifts from the model itself to the engineers who can embed within organizations to tune agentic workflows for specific business needs.",
+      "content": "Agentic workflows are delivering more progress than model scaling right now. An older model (like GPT-4o) in a well-designed agentic loop often outperforms a frontier model in a zero-shot setting. Focus on the 'loop engineering,' not just the weights.",
       "authorName": "Andrew Ng",
-      "date": "Yesterday",
+      "date": "2h ago",
       "type": "Announcement",
-      "url": "https://x.com/AndrewYNg"
+      "url": "https://x.com/AndrewYNg/status/456789123"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Zero-Shot Tabular Analysis with TabFM",
-      "description": "Build a predictive model for healthcare patient data without any training or fine-tuning using Google's new TabFM foundation model.",
+      "title": "Secure AI Code Execution with Cloud Run Sandboxes",
+      "description": "Build a secure environment to let Gemini 1.5 Pro generate and execute Python scripts for real-time data analysis without risking your host environment.",
       "tools": [
         "Vertex AI",
-        "TabFM",
-        "Python SDK"
+        "Cloud Run",
+        "Gemini 1.5 Pro"
       ],
       "skills": [
-        "Zero-shot Learning",
-        "Tabular Data Foundation Models"
+        "Sandboxing",
+        "Code Generation",
+        "Secure Execution"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Initialize TabFM Client",
-          "instruction": "Set up your Vertex AI environment and initialize the TabFM model for zero-shot classification.",
-          "codeSnippet": "from google.cloud import aiplatform\nfrom vertexai.tabular import TabFM\n\nmodel = TabFM(model_name='tabfm-001')"
+          "stepTitle": "Enable Cloud Run Sandboxes",
+          "instruction": "Navigate to the Cloud Run console and enable the 'Sandbox' feature for your service. This creates a gVisor-based container for isolated execution.",
+          "codeSnippet": "gcloud beta run services update SERVICE_NAME --sandbox"
         },
         {
-          "stepTitle": "Prepare Inference Data",
-          "instruction": "Load your CSV data. Unlike traditional XGBoost or Random Forest, you do not need a training set. Just provide the schema and the target column.",
-          "codeSnippet": "predictions = model.predict(\n    input_data='gs://my-bucket/patient_vitals.csv',\n    target_column='readmission_risk'\n)"
+          "stepTitle": "Configure Gemini to Generate Code",
+          "instruction": "Use the Vertex AI SDK to prompt Gemini to output executable Python code for a specific task, such as calculating insurance premiums based on a JSON input.",
+          "codeSnippet": "model = GenerativeModel('gemini-1.5-pro')\nresponse = model.generate_content('Write a Python script to...') "
+        },
+        {
+          "stepTitle": "Execute in Sandbox",
+          "instruction": "Pass the generated string to your Cloud Run service. The service writes the string to a temporary file and executes it within the restricted sandbox environment."
         }
       ],
-      "date": "July 10, 2026",
+      "date": "July 11, 2026",
       "prerequisites": [
         "Google Cloud Project",
         "Vertex AI API enabled",
-        "Dataset in GCS"
-      ]
+        "Basic Python knowledge"
+      ],
+      "sourceUrl": "https://cloud.google.com/blog/products/serverless/safely-run-ai-generated-code"
     },
     {
-      "title": "Deploying a Cloud Run Remote MCP Server",
-      "description": "Create a production-ready Model Context Protocol (MCP) server on Cloud Run to allow Gemini agents to interact with your internal databases.",
+      "title": "Multi-Agent Orchestration with Vertex AI Agent Builder",
+      "description": "Create a collaborative team of AI agents where one agent handles medical documentation and another performs drug-drug interaction checks.",
       "tools": [
-        "Cloud Run",
-        "Gemini 3.1 Pro",
-        "MCP SDK"
+        "Vertex AI Agent Builder",
+        "Gemini 1.5 Flash"
       ],
       "skills": [
-        "Agentic Infrastructure",
-        "MCP Protocol"
+        "Multi-agent Systems",
+        "Orchestration",
+        "Healthcare Workflows"
       ],
       "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Define MCP Tools",
-          "instruction": "Create a Python script defining the tools your agent can call (e.g., querying a SQL database).",
-          "codeSnippet": "@mcp.tool()\ndef query_inventory(item_id: str):\n    # Database logic here\n    return result"
+          "stepTitle": "Define Agent Personas",
+          "instruction": "In Agent Builder, create two distinct agents: 'Scribe' and 'Pharmacist.' Assign specific system instructions and tool access to each."
         },
         {
-          "stepTitle": "Deploy to Cloud Run",
-          "instruction": "Use the gcloud CLI to deploy your MCP server as a containerized service.",
-          "codeSnippet": "gcloud run deploy mcp-server --source . --allow-unauthenticated"
+          "stepTitle": "Set Up the Orchestrator",
+          "instruction": "Use the 'Manager' agent type to act as the router. Configure it to send clinical notes to the Scribe and medication lists to the Pharmacist."
+        },
+        {
+          "stepTitle": "Implement Grounding",
+          "instruction": "Connect the Pharmacist agent to a trusted medical database (e.g., via API) using Vertex AI Extensions to ensure factual accuracy in interaction checks."
         }
       ],
-      "date": "July 10, 2026",
+      "date": "July 11, 2026",
       "prerequisites": [
-        "Docker installed",
-        "gcloud CLI configured"
-      ]
+        "Vertex AI Search and Conversation enabled",
+        "Access to a medical knowledge API"
+      ],
+      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/agent-builder/overview"
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "The Rise of the Orchestrator Model",
-      "summary": "In the latest edition of 'The Batch,' the team explores a significant shift in AI architecture: the move toward 'Orchestrator Models' like Sakana AI's Fugu. Instead of relying on a single massive LLM, these systems use a specialized orchestrator to spawn and manage multiple sub-agents (Claude, Gemini, GPT) based on the specific task at hand. This 'mixture-of-agents' approach has achieved state-of-the-art performance on coding and reasoning benchmarks by leveraging the unique strengths of different providers. Andrew Ng notes that this confirms his long-held belief that agentic workflows—where models iterate and collaborate—will drive more progress than simple model scaling in 2026.",
-      "url": "https://www.deeplearning.ai/the-batch/fugu-blends-models-task-by-task/",
+      "title": "Microsoft Strikes Out on Its Own with MAI-Thinking-1",
+      "summary": "In a significant shift for the AI industry, Microsoft has unveiled MAI-Thinking-1, a large-scale reasoning model developed entirely in-house without using distillation from OpenAI's models. This marks a pivot for Microsoft, which has historically relied on its partnership with OpenAI for its most advanced capabilities. MAI-Thinking-1 is designed to compete directly with Claude 5 Sonnet and GPT-5.6 Terra, focusing on 'chain-of-thought' reasoning for complex engineering and scientific tasks.\n\nAndrew Ng notes that this move highlights the 'strategic necessity' for major cloud providers to own their foundational technology. By building from scratch, Microsoft gains full control over the model's alignment, safety guardrails, and cost structure. The model reportedly excels in 'long-horizon' tasks—those requiring dozens of sequential steps—making it a prime candidate for the next generation of autonomous enterprise agents. This development suggests that the 'exclusive' era of the Microsoft-OpenAI partnership is evolving into a more competitive 'co-opetition' model.",
+      "url": "https://www.deeplearning.ai/the-batch/july-03-2026/",
       "category": "The Batch",
       "author": "The Batch Team",
-      "date": "July 3, 2026"
+      "date": "July 03, 2026"
     },
     {
-      "title": "RoboReward: Vision-Language Models for Robot Training",
-      "summary": "DeepLearning.AI highlights 'RoboReward,' a new family of vision-language reward models designed to simplify reinforcement learning for robotics. Traditionally, building reward functions for robots required labor-intensive manual coding. RoboReward uses a pre-trained vision-language model to 'score' a robot's performance based on visual feedback, narrowing the gap between handcrafted functions and general-purpose AI. This allows robots to learn complex tasks, like placing a pot on a cloth, with significantly less human intervention. The technical breakthrough lies in the model's ability to verify rewards across diverse environments, making robot training more scalable for industrial applications.",
-      "url": "https://www.deeplearning.ai/the-batch/better-reward-models-for-robots/",
-      "category": "Research Highlight",
+      "title": "Fugu Blends Models Task by Task",
+      "summary": "Sakana AI has debuted 'Fugu' and 'Fugu-Ultra,' a new class of 'orchestrator models' that do not perform tasks themselves but instead manage a fleet of specialized agents. In benchmarks, Fugu outperformed individual frontier models by dynamically routing sub-tasks to the most efficient model—for example, sending a coding task to Claude, a creative task to Gemini, and a logic check to GPT-5.6.\n\nThis 'mixture-of-agents' approach addresses the 'jagged frontier' problem, where even the best models have specific, unpredictable weaknesses. By using a dedicated orchestrator to verify and cross-check outputs, Fugu achieves state-of-the-art performance on complex, multi-modal benchmarks. Andrew Ng emphasizes that this 'meta-layer' of AI is where the most immediate gains in reliability will be found, as it allows developers to build systems that are 'greater than the sum of their parts.'",
+      "url": "https://www.deeplearning.ai/the-batch/july-03-2026/",
+      "category": "The Batch",
       "author": "The Batch Team",
-      "date": "July 3, 2026"
+      "date": "July 03, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Agentic Distillation: Post-Training Recipes for 2026",
-      "provider": "Hugging Face",
-      "summary": "A comprehensive guide on how frontier labs are using distillation to create specialized RL experts. It covers off-policy, on-policy, and self-distillation techniques used in models like DeepSeek-R1 and Gemma 4.",
-      "url": "https://huggingface.co/blog/distillation-2026",
+      "title": "Anthropic Cookbook: Fable as Advisor Pattern",
+      "provider": "Anthropic",
+      "summary": "A technical guide on implementing a cost-saving pattern where a cheaper model (Sonnet 5) performs 90% of a task and only calls the flagship model (Fable 5) for final verification or complex reasoning steps.",
+      "url": "https://github.com/anthropics/anthropic-cookbook",
       "type": "Tutorial",
+      "difficulty": "Intermediate"
+    },
+    {
+      "title": "Hugging Face: Distillation in 2026",
+      "provider": "Hugging Face",
+      "summary": "A comprehensive deep dive into which frontier models are currently using distillation and the technical trade-offs between 'teacher-student' training and 'from-scratch' development.",
+      "url": "https://huggingface.co/blog/distillation-2026",
+      "type": "Paper",
       "difficulty": "Advanced"
     },
     {
-      "title": "Claude Science Workbench",
-      "provider": "Anthropic",
-      "summary": "A new customizable app for researchers that integrates common scientific tools and packages, produces auditable artifacts, and provides flexible access to high-performance computing.",
-      "url": "https://www.anthropic.com/news/claude-science",
+      "title": "OpenAI: Building with Codex SDK",
+      "provider": "OpenAI",
+      "summary": "A new resource for developers to integrate the Codex CLI and IDE extensions directly into custom enterprise software engineering workflows.",
+      "url": "https://cookbook.openai.com/codex-sdk-guide",
       "type": "Tool",
-      "difficulty": "Intermediate"
+      "difficulty": "Beginner"
     }
   ]
 }
