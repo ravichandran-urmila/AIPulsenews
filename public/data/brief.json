@@ -1,205 +1,189 @@
 {
-  "editorsNote": "Today's landscape is dominated by the release of OpenAI's GPT-5.6 family (Sol, Terra, Luna) and Anthropic's strategic response with extended access to Claude Fable 5. In healthcare, the focus shifts toward AI-driven clinical development and the emergence of 'World Models' as the next frontier for physical-world reasoning.",
+  "editorsNote": "Today's landscape is dominated by the 'Model Wars' as OpenAI's GPT-5.6 (Sol) and Anthropic's Claude Fable 5 compete for dominance in reasoning and science. Meanwhile, the healthcare sector is seeing a surge in regulatory milestones with FDA clearances for LLM-based clinical apps and a significant rebound in AI-driven digital health funding.",
   "healthcareStories": [
     {
-      "headline": "Beaconcure Appoints New CEO Amid AI Clinical Trial Surge",
-      "summary": "Beaconcure, a prominent player in AI solutions for clinical development, has appointed Seth Houston as its new CEO, effective July 13, 2026. This leadership change comes at a critical juncture as life sciences organizations accelerate the adoption of artificial intelligence to streamline the quality and efficiency of clinical trials. Houston brings over 25 years of executive experience to the role, signaling a shift toward scaling AI-driven validation processes in the pharmaceutical industry.\n\nThe appointment reflects a broader trend where healthcare technology firms are moving from pilot projects to enterprise-scale deployments. As clinical data volumes explode, the industry is increasingly relying on automated systems to manage complex regulatory requirements and data integrity. Beaconcure's focus remains on 'trusted AI,' addressing the industry's primary concern: the reliability of automated outputs in high-stakes medical environments.\n\nWhy it matters: For healthcare leaders, this move highlights the maturing market for clinical AI. The transition to seasoned executive leadership suggests that AI in clinical development is moving beyond the 'innovation lab' phase into a core operational necessity for global pharmaceutical companies.",
-      "source": "Business Wire",
+      "headline": "FDA Clears UpDoc's LLM Diabetes App; Aidoc Gains Breakthrough Status",
+      "summary": "In a landmark week for clinical AI, the FDA has granted clearance to UpDoc's LLM-powered diabetes management application, signaling a shift from experimental to regulated clinical use for large language models. Unlike previous rule-based systems, this app leverages generative capabilities to assist in concierge-style patient management and treatment optimization. Simultaneously, radiology AI leader Aidoc received 'Breakthrough Device' designation for its 'First Read' tool, which uses AI to draft preliminary radiology reports, potentially reducing clinician burnout and diagnostic turnaround times.\n\nThese milestones are part of a broader trend where the FDA is moving toward real-time trial oversight. Major pharmaceutical players like AstraZeneca and Amgen are participating in pilot programs to accelerate evidence package reviews. For healthcare executives, this necessitates a rapid reassessment of bioinformatics infrastructure to align with new AI-driven regulatory cadences.\n\nWhy it matters: This represents the 'crossing of the Rubicon' for LLMs in direct clinical care. The transition from administrative support to FDA-cleared diagnostic and management tools means healthcare systems must now prioritize clinical AI governance and liability frameworks as these tools become standard of care.",
+      "source": "MarketScale / STAT News",
       "tags": [
-        "Clinical Trials",
-        "Leadership",
-        "Life Sciences"
+        "Regulatory",
+        "Clinical AI",
+        "FDA"
       ],
       "cluster": "Healthcare Systems",
       "date": "July 13, 2026",
-      "url": "https://www.businesswire.com/news/home/20260713005000/en/"
+      "url": "https://www.marketscale.com/news/fda-clears-updocs-llm-diabetes-app/"
     },
     {
-      "headline": "CaringAI Validates Voice-Powered Cognitive Screening",
-      "summary": "At the Alzheimer's Association International Conference (AAIC) 2026 in London, CaringAI presented research demonstrating high clinician agreement with its AI-powered telephone cognitive screening platform. The study shows that voice-based AI agents can effectively conduct initial dementia screenings, providing results that closely align with traditional in-person assessments by medical professionals.\n\nThe platform uses advanced natural language processing to detect subtle vocal biomarkers and cognitive patterns indicative of early-stage dementia. By automating the initial screening process via telephone, CaringAI aims to lower the barrier to early diagnosis, which is often delayed due to the limited availability of specialized clinicians and the logistical challenges of in-person visits.\n\nWhy it matters: This research provides a blueprint for scalable, remote patient monitoring. For providers, it offers a way to triage high-risk patients more efficiently, ensuring that clinical resources are focused on those who need them most while maintaining a high standard of diagnostic accuracy.",
-      "source": "Business Wire",
+      "headline": "Digital Health Funding Hits $7.4B in H1 2026 Fueled by AI Rebound",
+      "summary": "Venture capital investment in digital health has seen a significant resurgence, reaching $7.4 billion in the first half of 2026, a $1 billion increase over the same period in 2025. According to Rock Health's mid-year analysis, the sector saw 244 deals, with capital increasingly concentrated in 'megadeals' targeting innovative AI startups. The second quarter alone accounted for $3.2 billion of this total.\n\nInvestors are moving away from general telehealth platforms toward specialized AI applications in drug discovery, autonomous pharmacy kiosks (such as Startup Queue's $12.6M seed round), and payer-side AI for navigating complex regulations like the No Surprises Act. This 'AI-powered rebound' suggests that the post-pandemic market correction has ended, replaced by a high-conviction focus on generative AI's ability to reshape healthcare operating models.\n\nWhy it matters: For healthcare leaders, this influx of capital indicates a maturing market where AI is no longer a 'nice-to-have' feature but the core value proposition. Organizations should expect a wave of well-funded AI vendors entering the market with increasingly sophisticated, specialized solutions.",
+      "source": "Fierce Healthcare / Rock Health",
       "tags": [
-        "Diagnostics",
-        "Alzheimer's",
-        "Voice AI"
+        "Finance",
+        "Digital Health",
+        "Investment"
       ],
-      "cluster": "Clinical",
-      "date": "July 12, 2026",
-      "url": "https://www.businesswire.com/news/home/20260712008000/en/"
+      "cluster": "Venture Capital",
+      "date": "July 13, 2026",
+      "url": "https://www.fiercehealthcare.com/digital-health/how-ai-reshaping-digital-health-funding-2026"
     }
   ],
   "techStories": [
     {
-      "headline": "OpenAI Releases GPT-5.6: Sol, Terra, and Luna Models",
-      "summary": "OpenAI has officially launched the GPT-5.6 family, introducing three distinct tiers: Sol (the flagship frontier model), Terra (the balanced mid-tier), and Luna (the lightweight, high-speed variant). Sol is positioned as OpenAI's most capable system to date, featuring advanced reasoning capabilities that rival the recently released Claude 5 Mythos. The rollout was notably staggered following a request from the U.S. government to ensure safety compliance.\n\nAlongside the models, OpenAI introduced 'ChatGPT Work,' a specialized agentic tool designed to perform end-to-end professional tasks rather than just answering queries. This marks a significant shift from conversational AI to 'action-oriented' AI. The release also includes the merger of the Codex experience into the main ChatGPT desktop application, streamlining the workflow for developers who now have access to dedicated 'Work' and 'Chat' modes within a single interface.\n\nWhy it matters: The introduction of GPT-5.6 Sol sets a new benchmark for frontier intelligence. For enterprises, the 'ChatGPT Work' tool represents the first major step toward autonomous digital employees, capable of managing complex projects with minimal human oversight.",
-      "source": "OpenAI Blog / Axios",
+      "headline": "OpenAI Releases GPT-5.6 'Sol' as Anthropic Extends Fable Access",
+      "summary": "OpenAI has broadly released GPT-5.6, featuring three tiers: Sol (flagship), Terra, and Luna. The rollout follows a brief period of government-requested staggering due to the model's advanced reasoning and cybersecurity capabilities. OpenAI claims Sol sets a new state-of-the-art in coding, science, and multi-step problem solving, specifically outperforming Anthropic's latest models in technical benchmarks. Alongside the model, OpenAI launched 'ChatGPT Work,' an agentic tool designed to execute end-to-end professional tasks rather than just answering prompts.\n\nIn a direct competitive response, Anthropic has extended free access to its Claude Fable 5 model for paid subscribers through July 19. This move follows a turbulent launch for Anthropic, which saw its Mythos 5 model temporarily blocked by U.S. export controls. Anthropic is positioning Fable 5 as a more 'steerable' and safe alternative for enterprise science and research, though it currently 'falls back' to older models for certain sensitive chemistry and biology queries.\n\nWhy it matters: The 'Model Wars' have entered a new phase where raw capability is being balanced against government oversight. For developers, the choice between Sol's raw power and Fable's safety-first architecture will define the next generation of enterprise AI agents.",
+      "source": "Axios / Forbes",
       "tags": [
         "Models",
-        "Productivity",
-        "Agents"
+        "OpenAI",
+        "Anthropic"
       ],
-      "cluster": "OpenAI",
-      "date": "July 9, 2026",
-      "url": "https://openai.com/blog/gpt-5-6-release"
+      "cluster": "OpenAI / Anthropic",
+      "date": "July 14, 2026",
+      "url": "https://www.axios.com/2026/07/09/openai-gpt-5-6-chatgpt-work"
     },
     {
-      "headline": "Anthropic Extends Claude Fable 5 Access to Counter OpenAI",
-      "summary": "In a direct response to the launch of GPT-5.6, Anthropic has extended the 'included' access period for its Claude Fable 5 model on all paid plans until July 19, 2026. This is the second extension in a week, signaling an aggressive move to retain users during the competitive rollout of OpenAI's new models. Paid users (Pro, Max, Team) will continue to receive Fable 5 access for up to 50% of their weekly usage limits without incurring additional token costs.\n\nThis extension follows a turbulent month for Anthropic, which saw its newest models briefly suspended due to U.S. export controls. While Fable 5 is now widely available, the more powerful 'Mythos 5' remains restricted to specific U.S. organizations under the 'Glasswing' program. Anthropic is also currently facing a challenge from the Department of Defense, which has issued a memo to contractors to purge Anthropic products by September 1 due to disagreements over AI safeguards.\n\nWhy it matters: The 'model wars' are entering a phase of economic competition. Anthropic's decision to give away its top-tier model for free (within limits) suggests that model quality between Sol and Fable 5 is highly competitive, forcing providers to compete on access and pricing.",
-      "source": "Forbes / Anthropic X",
+      "headline": "Meta Shifts Strategy: Launches Cloud Business to Lease AI Capacity",
+      "summary": "In a major strategic pivot, Meta Platforms has announced plans to launch a cloud infrastructure business, leasing out its excess AI computing capacity to third-party developers and enterprises. Previously, CEO Mark Zuckerberg maintained that Meta's massive H100/B200 GPU clusters were strictly for internal workloads. This move puts Meta in direct competition with 'hyperscalers' like AWS, Google Cloud, and Microsoft Azure.\n\nWall Street has reacted positively to the news, with Meta's stock seeing single-day gains of over 7%. The company has raised its 2026 capital expenditure guidance to $125-$145 billion to support this build-out. Additionally, Meta filed a patent for an 'always-on' AI that analyzes emotional states through voice monitoring on smart glasses and phones, suggesting a future where their cloud capacity powers deeply personalized, real-time emotional AI services.\n\nWhy it matters: Meta's entry into the cloud market could drive down the cost of compute for AI startups. For enterprise leaders, Meta Cloud offers a new alternative for hosting Llama-based applications on the same infrastructure used by Meta itself.",
+      "source": "TechCrunch / Bloomberg",
       "tags": [
-        "Policy",
-        "Models",
-        "Business"
+        "Cloud",
+        "Infrastructure",
+        "Meta"
       ],
-      "cluster": "Anthropic",
+      "cluster": "Meta AI",
       "date": "July 13, 2026",
-      "url": "https://www.forbes.com/sites/anthropic-fable-extension"
-    },
-    {
-      "headline": "Google Cloud Makes AlphaEvolve GA for Algorithmic Discovery",
-      "summary": "Google Cloud has announced the General Availability (GA) of AlphaEvolve on the Gemini Enterprise Agent Platform. AlphaEvolve is an agentic harness built on top of Gemini designed to solve complex optimization and algorithmic problems. Unlike standard LLMs, AlphaEvolve systematically explores vast search spaces to discover new algorithms or optimize existing code for specific metrics like performance, correctness, and cost.\n\nDuring its private preview, AlphaEvolve was tested in high-stakes domains including semiconductor design, logistics, and genomics. The tool follows a four-step process: Define (baseline seed), Measure (scoring function), Optimize (agentic generation), and Deploy. This represents a shift from 'AI as a writer' to 'AI as an engineer,' capable of achieving breakthroughs in fields where traditional coding methods are too slow or limited.\n\nWhy it matters: For technical leaders, AlphaEvolve provides a production-ready tool for R&D. It allows teams to automate the discovery of more efficient code, which is particularly valuable for companies managing large-scale infrastructure or complex supply chains.",
-      "source": "Google Cloud Blog",
-      "tags": [
-        "Vertex AI",
-        "Engineering",
-        "Optimization"
-      ],
-      "cluster": "Google / DeepMind",
-      "date": "July 9, 2026",
-      "url": "https://cloud.google.com/blog/products/ai-machine-learning/alphaevolve-ga"
+      "url": "https://www.fool.com/investing/2026/07/11/meta-platforms-unveiled-shocking-new-ai-strategy/"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "Current LLMs are not a path to human-level intelligence. They are 'completely helpless' when it comes to the physical world. We need systems that understand physics and reality, not just word patterns. AMI Labs is betting on JEPA (Joint Embedding Predictive Architecture) to bridge this gap.",
+      "content": "Yann LeCun continues to advocate for 'World Models' over pure autoregressive LLMs, noting that the latest GPT-5.6 releases still lack the fundamental 'common sense' and physical world understanding required for true AGI. He emphasizes that scaling alone won't solve the reasoning gap.",
       "authorName": "Yann LeCun",
       "date": "Today",
       "type": "Opinion",
-      "url": "https://twitter.com/ylecun"
+      "url": "https://x.com/ylecun"
     },
     {
       "handle": "@karpathy",
-      "content": "The Transformer is a magnificent general-purpose differentiable computer. But the real competitive advantage in 2026 isn't just having data; it's the 'data engine'—the speed at which you can iterate through acquisition, training, and evaluation. Whoever spins that loop fastest wins.",
+      "content": "Andrej Karpathy shared insights on 'Vibe Coding'—the practice of using high-level agents like ChatGPT Work to build complex applications through natural language 'vibes' rather than manual syntax. He highlighted Terence Tao's recent success in porting legacy Java applets to JS in hours as a prime example of this shift.",
       "authorName": "Andrej Karpathy",
-      "date": "Yesterday",
+      "date": "22h ago",
       "type": "Research",
-      "url": "https://twitter.com/karpathy"
+      "url": "https://x.com/karpathy"
     },
     {
-      "handle": "@drfeifei",
-      "content": "We must move from Large Language Models to Large World Models. Spatial intelligence—the ability to reason about 3D space and object interaction—is the missing piece for truly autonomous agents. World Labs is focused on building this foundation.",
-      "authorName": "Fei-Fei Li",
+      "handle": "@AndrewYNg",
+      "content": "Andrew Ng discussed the rise of the 'Forward Deployed AI Engineer' (FDE) as the most critical new role in Silicon Valley. He argues that the bottleneck for AI adoption is no longer the model, but the engineering required to embed agentic workflows into specific business processes.",
+      "authorName": "Andrew Ng",
       "date": "Today",
-      "type": "Announcement",
-      "url": "https://twitter.com/drfeifei"
+      "type": "Opinion",
+      "url": "https://x.com/AndrewYNg"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a Clinical Trial Protocol Optimizer with AlphaEvolve",
-      "description": "Use Google's new AlphaEvolve agent to optimize clinical trial recruitment algorithms for speed and diversity.",
+      "title": "Building a Multi-Agent Research Assistant with Gemini 1.5 Pro",
+      "description": "Create a system where multiple Gemini agents collaborate to analyze a medical research paper, with one agent summarizing, another critiquing methodology, and a third checking citations.",
       "tools": [
         "Vertex AI",
-        "AlphaEvolve",
-        "Gemini 1.5 Pro"
+        "Gemini 1.5 Pro",
+        "LangChain"
       ],
       "skills": [
-        "Algorithmic Optimization",
-        "Agentic Workflows",
-        "Scoring Functions"
-      ],
-      "complexity": "Advanced",
-      "guide": [
-        {
-          "stepTitle": "Define the Seed Algorithm",
-          "instruction": "Provide AlphaEvolve with your current Python-based recruitment logic and a JSON schema of your patient database."
-        },
-        {
-          "stepTitle": "Set the Scoring Function",
-          "instruction": "Define a multi-objective reward function that scores candidates based on 'Time-to-Enrollment' and 'Demographic Diversity Index'.",
-          "codeSnippet": "def score_protocol(candidate_code):\n  # Run simulation\n  results = simulate(candidate_code)\n  return (results.speed * 0.6) + (results.diversity * 0.4)"
-        },
-        {
-          "stepTitle": "Execute Optimization Loop",
-          "instruction": "Run the AlphaEvolve agentic harness to iterate through 100+ variations of the recruitment logic to find the Pareto-optimal solution."
-        }
-      ],
-      "date": "July 13, 2026",
-      "prerequisites": [
-        "Google Cloud Project with Gemini Enterprise enabled",
-        "Basic Python knowledge",
-        "Access to AlphaEvolve GA"
-      ]
-    },
-    {
-      "title": "Zero-Shot Medical Video Analysis with Gemini Omni Flash",
-      "description": "Create a real-time analysis pipeline for surgical videos using the new Gemini Omni Flash model.",
-      "tools": [
-        "Gemini Omni Flash",
-        "Vertex AI Video Intelligence API"
-      ],
-      "skills": [
-        "Multimodal Analysis",
-        "Real-time Inference",
-        "Prompt Engineering for Video"
+        "Multi-agent Orchestration",
+        "Long-context Analysis",
+        "Prompt Chaining"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Initialize Gemini Omni Flash",
-          "instruction": "Set up the Vertex AI SDK and initialize the Omni Flash model, which is optimized for high-throughput video processing."
+          "stepTitle": "Initialize Vertex AI Environment",
+          "instruction": "Set up your Google Cloud project and enable the Vertex AI API. Install the necessary SDKs.",
+          "codeSnippet": "pip install google-cloud-aiplatform langchain-google-vertexai"
         },
         {
-          "stepTitle": "Stream Video Frames",
-          "instruction": "Use the Video API to stream frames directly to the model with a system prompt focused on identifying surgical instruments and procedural steps."
+          "stepTitle": "Define Agent Personas",
+          "instruction": "Create distinct system instructions for the 'Summarizer', 'Methodology Critic', and 'Fact Checker' agents using Gemini 1.5 Pro's system instructions feature."
         },
         {
-          "stepTitle": "Generate Structured Reports",
-          "instruction": "Configure the model to output a JSON summary of the procedure every 60 seconds for automated documentation.",
-          "codeSnippet": "response = model.generate_content([\n    video_part,\n    \"Identify all surgical tools used and timestamp the start of the 'suturing' phase. Output as JSON.\"\n])"
+          "stepTitle": "Implement the Orchestration Loop",
+          "instruction": "Use LangChain to pass the output of the Summarizer to the Critic, and finally to the Fact Checker for a consolidated report.",
+          "codeSnippet": "summary = summarizer_agent.invoke(paper_text)\ncritique = critic_agent.invoke(summary)\nfinal_report = fact_checker.invoke({'summary': summary, 'critique': critique})"
         }
       ],
-      "date": "July 13, 2026",
+      "date": "July 14, 2026",
       "prerequisites": [
-        "Vertex AI API enabled",
-        "Sample surgical video file (MP4/WebM)"
+        "Google Cloud Project",
+        "Python 3.10+",
+        "Vertex AI API Access"
+      ]
+    },
+    {
+      "title": "Real-time Clinical Sentiment Analysis with Vertex AI",
+      "description": "Build a POC that processes patient feedback transcripts in real-time to identify emotional distress using Vertex AI's latest sentiment analysis features.",
+      "tools": [
+        "Vertex AI",
+        "Cloud Pub/Sub",
+        "Gemini Flash"
+      ],
+      "skills": [
+        "Streaming Data",
+        "Sentiment Analysis",
+        "Healthcare NLP"
+      ],
+      "complexity": "Beginner",
+      "guide": [
+        {
+          "stepTitle": "Set up Pub/Sub Trigger",
+          "instruction": "Configure a Cloud Pub/Sub topic to receive incoming patient feedback transcripts from your front-end application."
+        },
+        {
+          "stepTitle": "Deploy Gemini Flash for Low-Latency Inference",
+          "instruction": "Use Gemini 1.5 Flash for its high speed and low cost to process the incoming text stream and categorize sentiment into 'Distressed', 'Neutral', or 'Satisfied'."
+        }
+      ],
+      "date": "July 14, 2026",
+      "prerequisites": [
+        "Basic Python",
+        "GCP Account"
       ]
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "Brain2Qwerty v2: Translating Thoughts to Text",
-      "summary": "DeepLearning.AI highlights a breakthrough from Meta and academic partners: Brain2Qwerty v2. This system uses a non-invasive head-worn device to read neural intentions and translate them directly into text on a screen. Unlike previous versions that relied on eye-tracking or physical joysticks, v2 focuses on 'imagined typing,' where the user simply thinks about the motion of typing to generate sentences. This is a massive leap for accessibility, potentially giving a voice to individuals with severe motor impairments.\n\nAndrew Ng notes that while the hardware is still in the research phase, the underlying transformer-based architecture for decoding neural signals is maturing rapidly. He emphasizes that the 'signal-to-noise' challenge in non-invasive BCI (Brain-Computer Interface) is being solved not by better sensors alone, but by more sophisticated temporal models that can filter out background brain activity. This suggests that the future of BCI is as much a software/AI problem as it is a biological one.",
-      "url": "https://www.deeplearning.ai/the-batch/brain2qwerty-v2/",
+      "title": "Microsoft Strikes Out on Its Own with MAI-Thinking-1",
+      "summary": "In a significant departure from its reliance on OpenAI, Microsoft has unveiled MAI-Thinking-1, a reasoning-focused model built entirely from scratch without distillation from larger models. This model is roughly the size of Claude Sonnet 4.6 but optimized for complex logical tasks. Andrew Ng notes that this marks a 'decoupling' phase in the industry, where major tech giants are no longer content being mere resellers of frontier models but want to own the underlying IP to control costs and safety. The model is already being integrated into Excel and Outlook to handle tens of thousands of prompts weekly, replacing more expensive external API calls.",
+      "url": "https://www.deeplearning.ai/the-batch/microsoft-mai-thinking-1/",
       "category": "The Batch",
       "author": "The Batch Team",
       "date": "July 10, 2026"
     },
     {
-      "title": "Microsoft's MAI-Thinking-1: Reasoning Without Distillation",
-      "summary": "In a surprising move, Microsoft has unveiled MAI-Thinking-1, a reasoning-heavy model roughly the size of Claude Sonnet. What makes this significant is that it was developed 'from scratch' without distilling knowledge from OpenAI's models. This marks a clear departure from Microsoft's previous strategy of relying heavily on its partnership with OpenAI. MAI-Thinking-1 is designed specifically for complex, multi-step reasoning tasks, outperforming many larger models on logic benchmarks.\n\nAndrew Ng comments that this 'de-coupling' is a natural evolution for tech giants. By building their own reasoning cores, companies like Microsoft can optimize for specific enterprise workflows and reduce their dependency on external API providers. He views this as a sign that the 'moat' for frontier models is shifting from raw scale to specialized reasoning architectures that can run efficiently on proprietary infrastructure.",
-      "url": "https://www.deeplearning.ai/the-batch/microsoft-mai-thinking-1/",
-      "category": "The Batch",
-      "author": "The Batch Team",
-      "date": "July 3, 2026"
+      "title": "RoboReward: Better Reward Models for Embodied AI",
+      "summary": "Training robots via reinforcement learning has traditionally required labor-intensive, handcrafted reward functions. DeepLearning.AI highlights 'RoboReward,' a new family of vision-language reward models that allow robots to learn from visual feedback more effectively. By using a pre-trained VLM to 'score' a robot's actions against a goal (e.g., 'place the pot on the cloth'), researchers have narrowed the gap between manual and automated training. Andrew Ng emphasizes that this is a critical step toward 'Embodied AI,' where models don't just think, but act in the physical world with minimal human supervision.",
+      "url": "https://www.deeplearning.ai/the-batch/roboreward-vision-language-models/",
+      "category": "Research Highlight",
+      "author": "Andrew Ng",
+      "date": "July 03, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Agentic RL: Token-In, Token-Out Done Right",
-      "provider": "Hugging Face",
-      "summary": "A deep dive into Reinforcement Learning for agents, focusing on how to optimize token generation for long-horizon tasks with dense rewards.",
-      "url": "https://huggingface.co/blog/agentic-rl",
+      "title": "Anthropic Cookbook: Advanced Science & Research Workflows",
+      "provider": "Anthropic",
+      "summary": "A new set of recipes for using Claude Fable 5 in laboratory settings, including automated literature reviews and chemical property prediction.",
+      "url": "https://github.com/anthropics/anthropic-cookbook",
       "type": "Tutorial",
       "difficulty": "Advanced"
     },
     {
-      "title": "Anthropic Cookbook: Claude Code Best Practices",
-      "provider": "Anthropic",
-      "summary": "New recipes for using Claude Code to automate legacy code migration and security audits, specifically updated for Fable 5.",
-      "url": "https://github.com/anthropics/anthropic-cookbook",
-      "type": "Tool",
+      "title": "Hugging Face: Agentic RL - Token-In, Token-Out Done Right",
+      "provider": "Hugging Face",
+      "summary": "A comprehensive guide on implementing Reinforcement Learning from Human Feedback (RLHF) specifically for agentic models that need to make sequential decisions.",
+      "url": "https://huggingface.co/blog/agentic-rl",
+      "type": "Course",
       "difficulty": "Intermediate"
     }
   ]
