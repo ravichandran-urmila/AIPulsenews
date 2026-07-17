@@ -1,40 +1,27 @@
 {
-  "editorsNote": "Today's landscape is dominated by the public rollout of OpenAI's GPT-5.6 family and a significant shift in healthcare AI regulation as CMS proposes a new 'Software as a Medical Service' (SaMS) payment framework. Meanwhile, Google DeepMind and Isomorphic Labs have launched a major bioresilience initiative to safeguard against the misuse of frontier models in biology.",
+  "editorsNote": "The AI landscape has entered a high-velocity 'Model Wave' with the simultaneous release of GPT-5.6, Claude Sonnet 5, and Grok 4.5. In healthcare, the focus is shifting from experimental pilots to rigorous safety benchmarking and bioresilience frameworks.",
   "healthcareStories": [
     {
-      "headline": "CMS Proposes 'SaMS' Framework for 2027 Medicare AI Payments",
-      "summary": "The Centers for Medicare & Medicaid Services (CMS) has unveiled a landmark proposal to establish a dedicated payment framework for clinical AI and algorithmic software starting in 2027. Under the proposed hospital outpatient rule, CMS intends to transition from the generic 'Software as a Service' (SaaS) label to a more specialized 'Software as a Medical Service' (SaMS) category. This shift acknowledges that clinical AI tools, which perform diagnostic and decision-support functions, do not fit the traditional payment models designed for physical medical equipment.\n\nThe proposal includes the designation of 36 HCPCS codes specifically for SaMS, moving these tools into 'New Technology Ambulatory Payment Classifications.' This would provide separate, transparent payments for software used in risk modeling, computer-aided detection, and diagnostic image analysis. By creating a distinct 'O1' outpatient status indicator, CMS aims to make clinical software costs visible in claims data, potentially stabilizing the market for AI developers who currently rely on fragmented per-use or subscription fees.\n\nWhy it matters: For healthcare executives, this represents the first clear path toward sustainable, long-term reimbursement for AI investments. It signals a regulatory maturity where AI is no longer treated as an administrative overhead but as a core clinical service, potentially accelerating the adoption of advanced diagnostic tools across hospital systems.",
-      "source": "STAT News / CMS Proposed Rule",
+      "headline": "Clinical AI Safety Benchmarking Reaches Maturity with NOHARM Evaluation",
+      "summary": "A significant milestone in clinical AI was achieved this week with the release of the NOHARM benchmark results, a comprehensive independent evaluation of clinical AI safety. Led by a physician research team from Stanford and Harvard (ARISE), the evaluation provides the first peer-reviewed safety data for frontier models in a medical context. Doximity's 'Ask' platform emerged as a top performer, outperforming several general-purpose frontier models in clinical accuracy and safety guardrails.\n\nThis development marks a shift in how health system procurement teams evaluate AI vendors. Previously, hospitals relied heavily on vendor-supplied white papers and internal pilots. The availability of a named, citable benchmark from respected academic institutions provides a standardized artifact for governance reviews and regulatory compliance. As health systems face increasing pressure to demonstrate the safety of AI-driven clinical decision support, such benchmarks are becoming essential for enterprise-wide deployment.\n\nWhy it matters: For healthcare executives, this reduces the 'trust gap' and provides a clear framework for risk-based governance. It signals the end of the 'black box' era for clinical AI, moving the industry toward a more transparent, evidence-based procurement model that prioritizes patient safety over model size.",
+      "source": "MarketScale / Business Wire",
       "tags": [
-        "Policy",
-        "Reimbursement",
-        "Clinical AI"
-      ],
-      "cluster": "Regulatory",
-      "date": "July 16, 2026",
-      "url": "https://www.statnews.com/2026/07/16/cms-sams-proposal-medicare-ai-payments/"
-    },
-    {
-      "headline": "AI Audit Flags 250,000 Suspicious Cancer Research Papers",
-      "summary": "A massive integrity audit using a new machine learning system has identified over 250,000 cancer research papers—roughly 10% of the 2.6 million papers published between 1999 and 2024—that show signs of being produced by fraudulent 'paper mills.' The study, led by researchers at the Queensland University of Technology and published in The BMJ, utilized large language models to detect boilerplate templates and awkward linguistic patterns characteristic of fabricated studies.\n\nPaper mills are commercial entities that sell authorship positions or ready-made scientific papers, often containing reused text and fabricated data. The AI tool's ability to scan decades of research at scale has revealed that the scale of scientific fraud in oncology is significantly larger than previously estimated. The researchers noted that while LLMs are often blamed for generating fake content, they are now proving to be the most effective tool for identifying it.\n\nWhy it matters: This discovery threatens the foundation of evidence-based medicine. If a significant portion of the literature used to train clinical AI models or inform drug discovery is fraudulent, the resulting medical insights could be fundamentally flawed. It underscores the urgent need for AI-driven 'integrity layers' in the scientific publishing process.",
-      "source": "ScienceDaily / The BMJ",
-      "tags": [
-        "Research Integrity",
-        "Oncology",
-        "LLM Applications"
+        "Clinical",
+        "Safety",
+        "Governance"
       ],
       "cluster": "Healthcare Systems",
-      "date": "July 16, 2026",
-      "url": "https://www.sciencedaily.com/releases/2026/07/260716102400.htm"
+      "date": "July 15, 2026",
+      "url": "https://marketscale.com/industries/healthcare/clinical-ai-safety-intelligent-ventilators-and-payment-accuracy-health-techs-big-moves-on-july-15/"
     },
     {
-      "headline": "Google DeepMind & Isomorphic Labs Launch Bioresilience Initiative",
-      "summary": "Google DeepMind and its sister company Isomorphic Labs have announced a comprehensive 'bioresilience' program aimed at mitigating the risks of AI misuse in biology. The initiative focuses on two fronts: preventing threat actors from using frontier models to design biological weapons and empowering the scientific community to use AI for rapid outbreak detection and response. \n\nThe program includes over 15 partnerships with government bodies and biosecurity organizations. Google is betting that the same models capable of predicting protein structures (like AlphaFold) can be fine-tuned to recognize and flag attempts to synthesize dangerous pathogens. This move comes as global regulators increase pressure on AI labs to demonstrate 'safety by design' in high-stakes domains like life sciences.\n\nWhy it matters: As AI becomes more capable of 'wet lab' reasoning, the boundary between digital research and physical biological risk blurs. This initiative sets a corporate standard for 'dual-use' responsibility, suggesting that future frontier models in healthcare will come with built-in biosecurity guardrails.",
+      "headline": "Google DeepMind and Isomorphic Labs Unveil Global Bioresilience Strategy",
+      "summary": "Google DeepMind and Isomorphic Labs have announced a joint approach to 'bioresilience,' addressing the dual-use nature of frontier AI models in biology. The strategy focuses on two pillars: preventing the misuse of AI models by threat actors and empowering the scientific community to use these tools for pandemic preparedness and outbreak response. This follows a year-long effort involving over 15 partnerships with government bodies and biosecurity organizations.\n\nThe initiative includes the development of advanced screening tools for DNA synthesis and the implementation of 'biological guardrails' within models like AlphaGenome. By collaborating with biosecurity experts, DeepMind aims to ensure that the same models used to discover life-saving drugs cannot be repurposed to design harmful pathogens. The announcement emphasizes that as AI models become more capable of biological reasoning, the industry must move toward a proactive, rather than reactive, security posture.\n\nWhy it matters: This is a critical step in maintaining the 'social license' for AI in life sciences. For biotech leaders, it provides a blueprint for responsible innovation, ensuring that the acceleration of drug discovery does not come at the cost of global biosecurity.",
       "source": "Google DeepMind Blog",
       "tags": [
-        "Biosecurity",
-        "Safety",
-        "Life Sciences"
+        "Bioresilience",
+        "Biotech",
+        "Safety"
       ],
       "cluster": "Google / DeepMind",
       "date": "July 16, 2026",
@@ -43,175 +30,167 @@
   ],
   "techStories": [
     {
-      "headline": "OpenAI Releases GPT-5.6 'Sol' with Automated Red-Teaming",
-      "summary": "OpenAI has officially moved its GPT-5.6 family—comprising Sol (frontier), Terra (balanced), and Luna (efficient)—into general availability. Alongside the release, OpenAI disclosed details of 'GPT-Red,' an internal automated red-teaming model used to harden GPT-5.6 against prompt injection attacks. GPT-Red functions as an autonomous agent that iteratively attempts to trick the target model into malicious actions, such as data exfiltration or policy violations.\n\nBy integrating GPT-Red into the training loop, OpenAI claims GPT-5.6 Sol is 6x more robust to direct prompt injections than its predecessor, GPT-5.5. This release also marks the debut of 'ChatGPT Work,' a new agentic interface designed to handle long-horizon tasks rather than simple chat interactions. This shift toward 'agentic' AI is reflected in OpenAI's internal data, showing that nearly 100% of their own staff now use Codex-based agents for daily operations.\n\nWhy it matters: The move from 'chat' to 'work' signals the next phase of AI adoption. For enterprises, the focus is shifting from prompt engineering to 'agent orchestration,' where the primary value lies in the model's ability to use tools and execute multi-step workflows autonomously.",
+      "headline": "OpenAI Launches GPT-5.6 Family: Sol, Terra, and Luna Models",
+      "summary": "OpenAI has officially released its next-generation model family, GPT-5.6, featuring three distinct tiers: Sol (Frontier/Ultra), Terra (Balanced), and Luna (Efficient). The flagship Sol model has already demonstrated unprecedented reasoning capabilities, reportedly solving the Cycle Double Cover Conjecture—a 50-year-old mathematical problem—in under an hour. This release is accompanied by 'ChatGPT Work,' a new agentic interface designed to execute multi-step professional workflows rather than just providing conversational responses.\n\nThe rollout strategy is notably more controlled than previous versions, with some high-tier capabilities initially restricted to specific government and enterprise partners. OpenAI has also introduced a 'Bio Bug Bounty' program specifically for GPT-5.6, offering rewards for identifying vulnerabilities related to biological risks. This reflects a growing industry trend of integrating safety and security directly into the product launch cycle.\n\nWhy it matters: The 'Sol' model's performance in complex reasoning suggests that AI is moving beyond pattern matching into genuine symbolic and mathematical logic. For developers, the 'Luna' tier offers a high-performance, low-latency option for edge applications, while 'ChatGPT Work' signals OpenAI's intent to dominate the agentic productivity market.",
       "source": "OpenAI Blog",
       "tags": [
         "Models",
-        "Security",
-        "Agents"
+        "Agents",
+        "Research"
       ],
       "cluster": "OpenAI",
-      "date": "July 16, 2026",
-      "url": "https://openai.com/news/gpt-red-automated-prompt-injection-testing/"
+      "date": "July 9-16, 2026",
+      "url": "https://openai.com/news/"
     },
     {
-      "headline": "Future of Life Index: Frontier Labs Fail AI Safety Grades",
-      "summary": "The Future of Life Institute (FLI) has released its 2026 AI Safety Index, and the results are sobering. Despite the marketing focus on safety, the highest grade awarded was a C+, given to Anthropic. OpenAI and Google DeepMind both received a C, while Meta earned a D+. The index evaluates labs on transparency, risk management, and adherence to their own voluntary safety commitments.\n\nThe report highlights a concerning trend: several major labs have quietly walked back earlier safety promises as the race for 'Agentic AGI' intensifies. FLI notes that while technical safety research is advancing, corporate governance and external auditability remain weak. The report specifically criticizes the lack of transparency regarding 'kill switches' for autonomous agents that interact with critical infrastructure.\n\nWhy it matters: This independent scorecard provides a counter-narrative to the labs' self-reported safety blogs. For executives, it highlights the 'governance gap'—the distance between what AI can do and the frameworks we have to control it—suggesting that regulatory pressure will only increase in the coming months.",
-      "source": "Future of Life Institute",
+      "headline": "Hugging Face Discloses First 'Agentic' Infrastructure Intrusion",
+      "summary": "Hugging Face has reported a sophisticated security incident involving an autonomous AI agent system that targeted its production infrastructure. Unlike traditional cyberattacks, this intrusion was driven end-to-end by an agentic framework that executed thousands of individual actions across a swarm of short-lived sandboxes. The attacker exploited a vulnerability in the dataset-processing pipeline to gain node-level access and harvest internal credentials.\n\nHugging Face successfully detected and dissected the attack using its own AI-driven security tools. While some internal datasets and credentials were compromised, the company found no evidence of tampering with public models or the software supply chain. The incident is being cited as the first real-world example of an 'agentic attacker'—a scenario that security researchers have long predicted but had not yet seen at this scale.\n\nWhy it matters: This marks a turning point in cybersecurity. As AI agents become more capable, they will be used both to defend and attack infrastructure. Organizations must now prepare for 'machine-speed' threats that can adapt in real-time, requiring a fundamental shift toward AI-native security operations.",
+      "source": "Hugging Face Blog",
       "tags": [
-        "Safety",
-        "Governance",
-        "Policy"
+        "Security",
+        "Agents",
+        "Infrastructure"
       ],
-      "cluster": "Regulatory",
-      "date": "July 15, 2026",
-      "url": "https://futureoflife.org/ai-safety-index-2026/"
+      "cluster": "Hugging Face",
+      "date": "July 16, 2026",
+      "url": "https://huggingface.co/blog/security-incident-july-2026"
     }
   ],
   "socialHighlights": [
     {
       "handle": "@ylecun",
-      "content": "LLMs are a dead end for real-world intelligence. They predict tokens, they don't understand physics. If you want a robot to not drop a pen, you don't need a better chat bot, you need a World Model. JEPA is the path forward, not more scaling of autoregressive transformers.",
+      "content": "In a fireside chat at the RAISE Summit in Paris, Yann LeCun reiterated his stance that Large Language Models (LLMs) are not the path to AGI. He argued that 'Advanced Machine Intelligence' requires world models that can reason about physical reality, which current token-prediction architectures lack. He also noted that xAI's current approach is 'kind of a failure' if the goal is true reasoning rather than just scaling.",
       "authorName": "Yann LeCun",
       "date": "Today",
       "type": "Opinion",
-      "url": "https://x.com/ylecun/status/123456789"
+      "url": "https://x.com/ylecun"
     },
     {
       "handle": "@karpathy",
-      "content": "The 'Data Engine' is still the only real moat. It's not about who has the most data, it's about who can spin the loop of acquisition -> training -> eval -> deployment the fastest. If your agent isn't learning from its own failures in real-time, it's just a static script.",
+      "content": "Andrej Karpathy shared a significant shift in his personal workflow, moving away from using LLMs primarily for coding and toward 'knowledge manipulation.' He describes using models as 'knowledge compilers' that build structured, interconnected wikis from raw research. He warned that the industry is in a 'boiling the frog' moment regarding AI's integration into cognitive tasks.",
       "authorName": "Andrej Karpathy",
-      "date": "Today",
+      "date": "Yesterday",
       "type": "Research",
-      "url": "https://x.com/karpathy/status/987654321"
+      "url": "https://x.com/karpathy"
     },
     {
       "handle": "@AndrewYNg",
-      "content": "Excited to see the shift toward 'Agentic Workflows' in the latest GPT-5.6 release. We are moving from 'AI as a consultant' to 'AI as a colleague.' The technical challenge now is 'Loop Engineering'—how to build robust feedback cycles for agents.",
+      "content": "Andrew Ng continues to push back against AGI hype, stating that true general intelligence is still 'decades away.' He emphasized that the current focus should be on 'agentic workflows'—using existing models in iterative loops to solve practical problems—rather than waiting for a single 'god-like' model to emerge.",
       "authorName": "Andrew Ng",
-      "date": "12h ago",
-      "type": "Announcement",
-      "url": "https://x.com/AndrewYNg/status/456789012"
+      "date": "Today",
+      "type": "Opinion",
+      "url": "https://x.com/AndrewYNg"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Building a Bio-Secure Research Assistant with Gemini 1.5 Pro",
-      "description": "Create a RAG-based assistant that cross-references medical queries against the new Google Bioresilience safety guidelines.",
+      "title": "Building a Bio-Resilient Research Assistant",
+      "description": "Create a specialized research agent that uses Gemini 1.5 Pro to analyze scientific papers while cross-referencing against biosecurity blacklists.",
       "tools": [
         "Vertex AI",
         "Gemini 1.5 Pro",
-        "Vector Search"
+        "Vertex AI Search"
       ],
       "skills": [
         "RAG",
         "Safety Filtering",
-        "Medical Grounding"
+        "Agentic Workflows"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
           "stepTitle": "Initialize Vertex AI Search",
-          "instruction": "Upload the latest Google Bioresilience whitepaper and the CDC's Select Agent list to a Vertex AI Search data store to create your safety knowledge base.",
-          "codeSnippet": "gcloud ai search data-stores create --display-name='bio-safety-kb'"
+          "instruction": "Create a data store in Vertex AI Search containing your library of scientific PDFs and a separate 'restricted substances' list for safety checking.",
+          "codeSnippet": "gcloud ai search data-stores create --display-name='BioResearchStore'"
         },
         {
-          "stepTitle": "Configure Gemini Safety Settings",
-          "instruction": "Set the 'Hate Speech' and 'Dangerous Content' thresholds to BLOCK_LOW_AND_ABOVE to ensure the model adheres to strict biosecurity protocols.",
-          "codeSnippet": "safety_settings = { HarmCategory.HARM_CATEGORY_DANGEROUS_CONTENT: HarmBlockThreshold.BLOCK_LOW_AND_ABOVE }"
+          "stepTitle": "Configure Gemini with System Instructions",
+          "instruction": "Define a system prompt that instructs the model to flag any research involving restricted pathogens or dual-use methodologies.",
+          "codeSnippet": "system_instruction='You are a biosecurity-aware research assistant. If a query involves restricted agents, trigger a safety alert.'"
         },
         {
-          "stepTitle": "Implement Grounded Generation",
-          "instruction": "Use the 'google_search_retrieval' tool in Gemini to ensure the assistant verifies all biological protocols against real-world safety databases before responding.",
-          "codeSnippet": "tools = [Tool.from_google_search_retrieval(google_search_retrieval=SearchRetrieval())]"
+          "stepTitle": "Implement the Verification Loop",
+          "instruction": "Use a Python script to first query the research papers, then pass the summary through a second 'Safety Auditor' agent before presenting to the user."
         }
       ],
-      "date": "July 16, 2026",
+      "date": "July 17, 2026",
       "prerequisites": [
         "Google Cloud Project",
-        "Vertex AI API enabled"
+        "Vertex AI API enabled",
+        "Sample research dataset"
       ]
     },
     {
-      "title": "Real-time Clinical Coding with Nano Banana 2 Lite",
-      "description": "Deploy an ultra-low latency image-to-code agent that converts medical charts into SaMS-compliant HCPCS billing codes.",
+      "title": "Deploying an MCP-Compatible Agent on Cloud Run",
+      "description": "Leverage the new Model Context Protocol (MCP) support in Cloud Run to build a production-ready AI agent that can interact with external databases.",
       "tools": [
-        "Nano Banana 2 Lite",
-        "Vertex AI Model Garden"
+        "Cloud Run",
+        "Gemini 3.1 Pro",
+        "MCP Server"
       ],
       "skills": [
-        "Edge AI",
-        "Multimodal Extraction",
-        "Structured Output"
+        "Agent Orchestration",
+        "Serverless Deployment",
+        "API Integration"
       ],
       "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Deploy Nano Banana 2 Lite",
-          "instruction": "Select the Nano Banana 2 Lite model from the Vertex AI Model Garden and deploy it to an L4 GPU for sub-second inference.",
-          "codeSnippet": "model = GenerativeModel('nano-banana-2-lite')"
+          "stepTitle": "Set up the MCP Server",
+          "instruction": "Deploy a lightweight MCP server on Cloud Run that exposes your enterprise database schema to the AI model.",
+          "codeSnippet": "gcloud run deploy mcp-server --image=gcr.io/my-project/mcp-base"
         },
         {
-          "stepTitle": "Define Pydantic Schema for SaMS",
-          "instruction": "Create a structured schema that forces the model to output valid HCPCS codes and the new 'O1' status indicator.",
-          "codeSnippet": "class BillingCode(BaseModel): code: str; status_indicator: str = 'O1'"
+          "stepTitle": "Connect Gemini 3.1 Pro",
+          "instruction": "Configure Vertex AI to use the Cloud Run endpoint as a tool for Gemini 3.1 Pro, allowing the model to call database functions."
         },
         {
-          "stepTitle": "Process Medical Charts",
-          "instruction": "Feed image scans of clinical notes into the model and use constrained decoding to extract billing information directly into your EHR system.",
-          "codeSnippet": "response = model.generate_content([image, 'Extract SaMS billing codes'], generation_config={'response_mime_type': 'application/json'})"
+          "stepTitle": "Test Agentic Reasoning",
+          "instruction": "Issue a complex query like 'Analyze sales trends and update the inventory table' to verify the agent can reason across multiple steps."
         }
       ],
-      "date": "July 16, 2026",
+      "date": "July 17, 2026",
       "prerequisites": [
-        "Vertex AI SDK",
-        "Sample medical chart images (de-identified)"
+        "Docker",
+        "Google Cloud SDK",
+        "Gemini 3.1 Pro Preview access"
       ]
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "The Rise of 'Loop Engineering'",
-      "summary": "In the latest edition of The Batch, Andrew Ng explores the concept of 'Loop Engineering,' a term gaining traction among top AI engineers. Unlike traditional software engineering, where logic is linear, agentic AI requires designing iterative loops where the model can plan, execute, and critique its own work. Ng highlights that the bottleneck in AI performance is no longer just the model's size, but the quality of the feedback loop it operates within. He argues that 'Agentic Workflows'—where a model might call itself 10 times to refine a single piece of code—are delivering better results than simply moving to a larger model. This shift requires a new set of developer tools focused on 'telemetry for thought,' allowing engineers to debug the reasoning steps of an agent as it iterates toward a goal.",
-      "url": "https://www.deeplearning.ai/the-batch/loop-engineering-agentic-workflows/",
+      "title": "The Rise of the Forward Deployed AI Engineer",
+      "summary": "In the latest edition of 'The Batch,' Andrew Ng highlights a new emerging role in Silicon Valley: the Forward Deployed AI Engineer (FDE). Unlike traditional software engineers, FDEs are embedded directly within client organizations to build and tune 'agentic workflows' tailored to specific business needs. Ng argues that as models become more powerful, the bottleneck is no longer the model itself, but the engineering required to integrate it into complex, real-world systems.\n\nTechnical Concept: The article explores 'Loop Engineering'—the practice of designing iterative cycles where an AI agent performs a task, receives feedback (from a human or another model), and refines its output. This shift from 'prompting' to 'looping' is what enables AI to handle professional-grade work. Ng's perspective is that the most successful AI companies of 2026 will be those that master these integration loops rather than those that simply have the largest models.",
+      "url": "https://www.deeplearning.ai/the-batch/issue-254/",
       "category": "The Batch",
       "author": "Andrew Ng",
       "date": "July 10, 2026"
     },
     {
-      "title": "Brain2Qwerty v2: Decoding Intent into Text",
-      "summary": "DeepLearning.AI features a breakthrough in non-invasive Brain-Computer Interfaces (BCI). Researchers at Meta and other institutions have released Brain2Qwerty v2, a model capable of generating full sentences from brain waves captured by a wearable headset. Unlike previous versions that required invasive implants, v2 uses advanced signal processing to filter noise and map neural intentions to a latent space shared with a large language model. The LLM then 'translates' these neural embeddings into coherent text. Andrew Ng notes that this 'neural-to-text' pipeline is a prime example of how multimodal AI is expanding beyond sight and sound into direct neural data, potentially revolutionizing accessibility for patients with locked-in syndrome or severe motor impairments.",
-      "url": "https://www.deeplearning.ai/the-batch/brain2qwerty-v2-neural-decoding/",
+      "title": "RoboReward: Closing the Gap in Robot Training",
+      "summary": "DeepLearning.AI recently featured research on 'RoboReward,' a new family of vision-language reward models designed to train robots more effectively via reinforcement learning. Traditionally, handcrafted reward functions were necessary because general-purpose models struggled to provide granular feedback on physical actions. RoboReward uses a specialized architecture to 'score' a robot's performance based on visual input, significantly reducing the human labor required for training.\n\nTechnical Concept: The model uses a dual-stream architecture that processes both the robot's goal (text/image) and its current state (video) to generate a continuous reward signal. This allows robots to learn complex tasks, like folding cloth or placing objects, with much higher success rates. The article emphasizes that this is a key step toward 'General Purpose Robotics,' where robots can be trained on new tasks in hours rather than weeks.",
+      "url": "https://www.deeplearning.ai/the-batch/roboreward-vision-language-models/",
       "category": "Research Highlight",
       "author": "The Batch Team",
-      "date": "July 10, 2026"
+      "date": "July 3, 2026"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "Anthropic Cookbook: Building with Claude Code",
+      "title": "Anthropic Cookbook: Building with Claude Sonnet 5",
       "provider": "Anthropic",
-      "summary": "A comprehensive guide to using Anthropic's new CLI-based coding agent. Covers 'loop engineering' patterns and how to integrate agents into existing CI/CD pipelines.",
-      "url": "https://github.com/anthropics/anthropic-cookbook/tree/main/claude-code",
+      "summary": "A collection of recipes and best practices for leveraging the new reasoning capabilities of Sonnet 5, including advanced agentic patterns and tool-use optimization.",
+      "url": "https://github.com/anthropics/anthropic-cookbook",
       "type": "Tutorial",
       "difficulty": "Intermediate"
     },
     {
-      "title": "Hugging Face: LeRobot v0.6.0 for Physical AI",
-      "provider": "Hugging Face",
-      "summary": "The latest update to the open-source robotics library, featuring new 'World Model' integrations for training robots in simulated environments before physical deployment.",
-      "url": "https://huggingface.co/blog/lerobot-v0-6",
-      "type": "Tool",
-      "difficulty": "Advanced"
-    },
-    {
-      "title": "OpenAI: Red-Teaming for Developers",
+      "title": "OpenAI: Separating Signal from Noise in Coding Evaluations",
       "provider": "OpenAI",
-      "summary": "A new resource based on the GPT-Red release, teaching developers how to build their own automated adversarial testing suites for agentic applications.",
-      "url": "https://platform.openai.com/docs/guides/red-teaming",
-      "type": "Course",
-      "difficulty": "Intermediate"
+      "summary": "A technical deep dive into how OpenAI evaluates the coding performance of the GPT-5.6 family, focusing on preventing data contamination and measuring real-world problem-solving.",
+      "url": "https://openai.com/research/coding-evaluations",
+      "type": "Paper",
+      "difficulty": "Advanced"
     }
   ]
 }
