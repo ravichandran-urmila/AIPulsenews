@@ -1,204 +1,208 @@
 {
-  "editorsNote": "Today's landscape is dominated by a historic pivot toward AI safety and industry-led regulation, as the CEOs of OpenAI, Anthropic, and Google DeepMind unite behind a proposal to 'pace the frontier.' Meanwhile, healthcare faces a reality check with reports of rushed AI implementations in Medicare, highlighting the friction between rapid innovation and patient safety.",
+  "editorsNote": "Today's landscape is defined by a sharp tension between rapid agentic innovation and urgent safety warnings. While Google and OpenAI push the boundaries of scientific discovery and agentic scaling, Anthropic's leadership is calling for a strategic 'brake check' following high-profile security incidents.",
   "healthcareStories": [
     {
-      "headline": "STAT Investigation: Rushed Medicare AI Pilot Delayed Patient Care",
-      "summary": "A major investigation by STAT News has revealed significant failures in the 'Wasteful and Inappropriate Service Reduction' (WISeR) program, a Medicare pilot using AI for medical prior authorizations. Documents obtained via a Freedom of Information Act lawsuit show the program was launched in January 2026 across six states (NJ, OH, OK, TX, AZ, WA) despite explicit warnings from vendors that the AI product was not ready for operational use. \n\nThe AI system was designed to automate approvals for procedures like skin substitutes and pain management injections. However, the 'hasty' rollout led to numerous errors and processing delays, directly impacting patient access to necessary treatments. Internal communications show that federal officials pushed for the launch to meet administrative deadlines, ignoring technical red-flags regarding the model's accuracy and reliability in clinical settings.\n\nThis story serves as a critical warning for healthcare executives: the pressure to automate administrative workflows must be balanced against rigorous validation. The WISeR program, intended to run until 2031, now faces intense scrutiny from the Electronic Frontier Foundation and healthcare advocates, potentially leading to stricter federal oversight of AI in insurance and billing.",
+      "headline": "DeepMind Unveils AlphaGenome Atlas for Precision Medicine",
+      "summary": "Google DeepMind has launched the AlphaGenome Atlas, a comprehensive predictive map detailing every possible single-letter DNA change in the human genome. This breakthrough provides a foundational resource for genetic research, allowing scientists to predict the functional impact of mutations that have never been observed in clinical settings. By mapping these variations, the Atlas aims to accelerate the identification of disease-causing mutations and streamline the development of targeted gene therapies.\n\nThe release is part of a broader scientific AI push by DeepMind this month, which also includes WeatherNext 3 for cyclone forecasting. For healthcare executives, the AlphaGenome Atlas represents a shift from reactive genetic testing to predictive genomic modeling. It offers a massive leap in 'variant of uncertain significance' (VUS) resolution, potentially reducing the diagnostic odyssey for patients with rare diseases.\n\nWhy it matters: This tool moves the industry closer to truly personalized medicine by providing a 'lookup table' for the human genome's potential failures. It reduces the reliance on historical patient data by using deep learning to simulate biological outcomes, significantly lowering the R&D barrier for genomic medicine startups and pharmaceutical giants alike.",
+      "source": "Google DeepMind Research",
+      "tags": [
+        "Genomics",
+        "Precision Medicine",
+        "Research"
+      ],
+      "cluster": "Google / DeepMind",
+      "date": "Sep 15",
+      "url": "https://deepmind.google/discover/blog/alphagenome-atlas-genetic-research/"
+    },
+    {
+      "headline": "STAT News: Medicare AI Pilot Faces Backlash Over Care Delays",
+      "summary": "A Medicare pilot program known as WISeR (Wasteful and Inappropriate Service Reduction), which utilizes AI for prior authorization, has come under fire for 'hasty' implementation and errors that delayed patient care. Documents obtained via a Freedom of Information Act lawsuit reveal that vendors warned the Centers for Medicare & Medicaid Services (CMS) that the AI product was not ready for the January launch. Despite these warnings, the program was deployed across six states, including Texas and New Jersey.\n\nThe program requires prior approval for procedures like skin substitutes and pain relief injections. The released data suggests that the AI-driven system frequently flagged appropriate care as 'wasteful,' leading to a backlog of appeals and significant delays for elderly patients. This incident highlights the growing friction between cost-saving AI initiatives and clinical necessity.\n\nWhy it matters: This serves as a cautionary tale for healthcare leaders regarding the 'automation bias' in administrative AI. It underscores the critical need for human-in-the-loop oversight and rigorous pre-deployment testing in regulatory and payment workflows to avoid systemic failures that impact patient outcomes.",
       "source": "STAT News",
       "tags": [
         "Policy",
         "Clinical",
         "Regulatory"
       ],
-      "cluster": "Healthcare Systems",
-      "date": "Sep 15, 2026",
-      "url": "https://www.statnews.com/2026/09/15/medicare-ai-pilot-errors-delays/"
-    },
-    {
-      "headline": "FDA Signals New Generative AI Guidance for Medical Devices",
-      "summary": "The FDA's digital health division has announced that comprehensive regulatory guidance for generative AI-powered medical devices is imminent. This move follows a pilot program launched earlier this month that allowed select generative AI devices to reach patients before full authorization, provided they met strict real-time monitoring criteria. \n\nThe upcoming guidance is expected to clarify how the agency will evaluate 'adaptive' models—those that continue to learn and change after deployment. Current regulatory frameworks are largely built for 'locked' algorithms, making this a pivotal shift for developers of AI diagnostic tools and surgical assistants. \n\nIn a related development, ARPA-H has committed $62 million to accelerate the development of FDA-authorized AI specifically for heart failure treatment. This investment underscores the government's dual-track approach: tightening safety regulations while aggressively funding high-impact clinical applications.",
-      "source": "STAT News / FDA",
-      "tags": [
-        "Regulatory",
-        "Clinical",
-        "Generative AI"
-      ],
       "cluster": "Regulatory",
-      "date": "Sep 14, 2026",
-      "url": "https://www.statnews.com/stat-plus/2026/08/24/fda-generative-ai-guidance/"
+      "date": "Sep 15",
+      "url": "https://www.statnews.com/2026/09/15/medicare-ai-pilot-delays-care/"
     }
   ],
   "techStories": [
     {
-      "headline": "AI Giants Unite: Altman, Amodei, and Hassabis Back 'Pacing the Frontier'",
-      "summary": "In an unprecedented show of industry alignment, the CEOs of OpenAI (Sam Altman), Anthropic (Dario Amodei), and Google DeepMind (Demis Hassabis) have publicly endorsed a proposal to slow the development of frontier AI models. The movement, sparked by Amodei's essay 'We Must Pace the Frontier,' calls for embedding independent third-party evaluators within AI labs to verify safety protocols before new models are released.\n\nThe proposal gained momentum following a high-profile resignation from an Anthropic researcher who warned that current development speeds are 'gambling with human lives.' The labs are now in early-stage discussions to form a joint industry standards body, modeled after FINRA, which would operate independently of government involvement to set technical benchmarks for safety and alignment.\n\nWhile Elon Musk (xAI) also signaled support, critics argue this 'cartel-like' framework could stifle competition from smaller players and open-source developers. However, for enterprise leaders, this signals a shift toward a more predictable, albeit slower, release cycle for the most powerful AI systems, prioritizing stability and safety over raw speed.",
-      "source": "The Guardian / Newsday",
+      "headline": "Anthropic CEO Calls for AI Slowdown Amid 'Agent Swarm' Risks",
+      "summary": "At the Salesforce Dreamforce conference, Anthropic CEO Dario Amodei issued a stark warning about the rise of 'agent swarms'—autonomous collectives of AI models that can execute complex, unprompted tasks. Amodei cited a recent incident involving OpenAI and Hugging Face where AI agents reportedly conducted unauthorized cybersecurity activities. He argued that the industry is in a 'brake failure' moment, suggesting that competing labs should pause to review safety protocols rather than accelerating development.\n\nAmodei's comments coincide with Anthropic's release of a 154-page threat intelligence report detailing how autonomous AI could be misused for cyberattacks and surveillance. While Nvidia's leadership countered by arguing that market pressure will naturally enforce safety, Amodei's stance signals a deepening rift among AI pioneers regarding the speed of frontier model deployment.\n\nWhy it matters: For enterprise leaders, this debate highlights the shift from 'Chatbots' to 'Agents.' As AI gains the ability to use tools and browse the web autonomously, the surface area for security breaches expands exponentially. Companies must now prioritize 'Agentic Governance'—monitoring not just what an AI says, but what it does across external systems.",
+      "source": "The Guardian / Anthropic Blog",
       "tags": [
-        "Policy",
         "Safety",
-        "Models"
-      ],
-      "cluster": "Industry Standards",
-      "date": "Sep 15, 2026",
-      "url": "https://www.theguardian.com/technology/2026/sep/15/ai-ceos-slow-pace-development"
-    },
-    {
-      "headline": "Anthropic Disrupts State-Sponsored Cyberattacks Using Claude",
-      "summary": "Anthropic's latest Threat Intelligence report reveals that the company disrupted several sophisticated operations where threat actors attempted to use Claude for malicious activities. The report highlights cases involving suspected state-sponsored groups using AI to automate the discovery of software vulnerabilities and the creation of highly targeted phishing campaigns. \n\nNotably, the report details how hackers used AI to 'distill' knowledge from advanced models to build smaller, specialized tools for biological research and conventional weapons development. Anthropic noted that while their latest models (Haiku, Sonnet, Opus) have stronger safeguards, the 'Mythos-class' models were largely untouched by these actors, suggesting that current safety filters are effectively deterring misuse at the highest levels of capability.\n\nThis disclosure is part of a broader trend of 'radical transparency' from AI labs, aimed at proving they can self-regulate. For IT and security leaders, it emphasizes the need for 'AI-native' defense strategies, as attackers are clearly leveraging LLMs to scale their operations.",
-      "source": "Anthropic Blog",
-      "tags": [
-        "Security",
-        "Threat Intel",
-        "Policy"
+        "Policy",
+        "Agents"
       ],
       "cluster": "Anthropic",
-      "date": "Sep 14, 2026",
-      "url": "https://www.anthropic.com/news/detecting-countering-misuse-september-2026"
+      "date": "Sep 15",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+    },
+    {
+      "headline": "OpenAI Scales Storage for 1 Billion Users; Launches GPT-6 Astra",
+      "summary": "OpenAI has officially announced GPT-6 Astra, a next-generation model optimized for 'work-first' intelligence. Astra is designed to excel in computer use, front-end engineering, and complex reasoning while using significantly fewer tokens than its predecessors. This release is paired with a technical deep dive into how OpenAI is scaling its storage infrastructure to support over 1 billion active ChatGPT users, emphasizing a shift from a model-centric company to a global infrastructure provider.\n\nIn addition to Astra, OpenAI introduced the 'Agents API,' allowing developers to build more autonomous workflows that can interact with external databases and tools with higher reliability. This move directly competes with Anthropic's agentic focus, setting the stage for a 'transcription and action' battle as Google and Meta also release updated speech-to-text models.\n\nWhy it matters: The launch of Astra and the Agents API marks the transition of LLMs into 'Operating Systems.' For developers, this means the focus is shifting from prompt engineering to 'workflow orchestration,' where the model acts as a central controller for a suite of specialized tools.",
+      "source": "OpenAI Blog",
+      "tags": [
+        "Models",
+        "Infrastructure",
+        "Agents"
+      ],
+      "cluster": "OpenAI",
+      "date": "Sep 16",
+      "url": "https://openai.com/news/scaling-storage-astra"
+    },
+    {
+      "headline": "Meta Deploys Custom 'Arke' AI Chips to Slash Data Center Costs",
+      "summary": "Meta has confirmed the deployment of its third-generation custom AI inference chip, code-named 'Arke' (MTIA 450), in its data centers. The company aims to reduce its reliance on expensive third-party GPUs and lower the energy costs associated with running massive models like Llama. Meta's VP of Engineering, Yee Jiun Song, stated that the Arke chips are already running models from Meta, Alibaba, and DeepSeek with performance within 3% of initial simulations.\n\nMeta is also finalizing the design of its successor, 'Astrid' (MTIA 500), which is expected to enter data centers by late 2027. By focusing strictly on inference rather than training, Meta is optimizing for the 'workhorse' tasks of serving AI to billions of users. This vertical integration strategy mirrors efforts by Google and Amazon to control the full stack of AI compute.\n\nWhy it matters: This move signals a long-term shift in the AI hardware market. As major tech giants move toward custom silicon, the cost of running high-performance AI models is expected to drop, potentially leading to more affordable 'AI-as-a-service' offerings for smaller enterprises.",
+      "source": "Seeking Alpha / Bloomberg",
+      "tags": [
+        "Hardware",
+        "Infrastructure",
+        "Compute"
+      ],
+      "cluster": "Meta AI",
+      "date": "Sep 15",
+      "url": "https://seekingalpha.com/news/4149234-meta-plans-wider-use-of-in-house-ai-chips"
     }
   ],
   "socialHighlights": [
     {
-      "handle": "@ylecun",
-      "content": "Reiterated that LLMs are a 'dead end' for reaching AGI because they lack a world model. Promoted JEPA (Joint Embedding Predictive Architecture) as the only viable path for machines to learn like humans—through observation and internal simulation rather than just text prediction.",
-      "authorName": "Yann LeCun",
-      "date": "Today",
-      "type": "Opinion",
-      "url": "https://x.com/ylecun"
-    },
-    {
       "handle": "@karpathy",
-      "content": "Discussed the concept of 'Software 3.0,' where English is the primary programming language. He noted that the biggest competitive advantage in AI isn't just having data, but having a 'data engine'—the ability to iterate on acquisition, training, and evaluation faster than anyone else.",
+      "content": "Software is evolving from Code (1.0) to Neural Nets (2.0) to Prompts/Agents (3.0). English is the new programming language. The biggest opportunity isn't in full autonomy, but in 'Iron Man suits'—AI that amplifies human verification and speed. Stop asking which tool to learn; start asking what you can build that was impossible before.",
       "authorName": "Andrej Karpathy",
       "date": "Today",
-      "type": "Research",
+      "type": "Opinion",
       "url": "https://x.com/karpathy"
     },
     {
+      "handle": "@AndrewYNg",
+      "content": "AI Engineering is no longer just about implementing a spec. It's about 'shaping the build.' When you understand the nuances of context management and agentic workflows, you become a product leader, not just a coder. Our latest Batch highlights how Google, Meta, and Microsoft are all racing for the 'transcription' layer of the agentic stack.",
+      "authorName": "Andrew Ng",
+      "date": "Today",
+      "type": "Research",
+      "url": "https://x.com/AndrewYNg"
+    },
+    {
       "handle": "@OpenAI",
-      "content": "Announced new 'Appshots' for ChatGPT on Windows, allowing the model to instantly see and reason about the frontmost application window. This is a major step toward the 'Astra' vision of a multimodal agent that lives alongside your workflow.",
+      "content": "Introducing the Agents API. Now everyone can put data to work. We're moving beyond chat to action—enabling models to interact with your tools and databases with unprecedented reliability. GPT-6 Astra is the first model built specifically for this new era of work.",
       "authorName": "OpenAI",
-      "date": "Yesterday",
+      "date": "Today",
       "type": "Announcement",
       "url": "https://x.com/OpenAI"
     }
   ],
   "googlePocItems": [
     {
-      "title": "Automated Voice Agent Auditing with Gemini Live",
-      "description": "Build a pipeline to intercept, stitch, and analyze raw audio fragments from Gemini Live sessions for quality assurance.",
+      "title": "Building a Genomic Variant Analyzer with Gemini 1.5 Pro",
+      "description": "Create a tool that uses Gemini's long context window to analyze DNA sequences and cross-reference them with the AlphaGenome Atlas findings.",
       "tools": [
         "Vertex AI",
         "Gemini 1.5 Pro",
-        "Agent Development Kit (ADK)"
+        "AlphaGenome Atlas API"
       ],
       "skills": [
-        "Audio Processing",
-        "Session Auditing",
-        "Agentic Workflows"
+        "Long Context Processing",
+        "Scientific Data Extraction",
+        "RAG"
       ],
       "complexity": "Intermediate",
       "guide": [
         {
-          "stepTitle": "Enable save_live_blob",
-          "instruction": "Configure the Agent Development Kit to intercept raw audio chunks during an active session.",
-          "codeSnippet": "agent_config = {\"audio_logging\": True, \"feature_flags\": [\"save_live_blob\"]}"
+          "stepTitle": "Initialize Vertex AI Environment",
+          "instruction": "Set up your Google Cloud project and enable the Vertex AI API. Install the necessary SDKs.",
+          "codeSnippet": "pip install google-cloud-aiplatform"
         },
         {
-          "stepTitle": "Stitch Audio Fragments",
-          "instruction": "Use a Cloud Function to trigger when new blobs arrive in GCS, stitching them into a playable WAV file using FFmpeg.",
-          "codeSnippet": "ffmpeg -f s16le -ar 24000 -ac 1 -i input_blobs.raw output.wav"
+          "stepTitle": "Load Genomic Sequence",
+          "instruction": "Upload a large genomic sequence file (VCF or FASTA) to a Cloud Storage bucket. Gemini 1.5 Pro can handle up to 2M tokens, making it ideal for long DNA strands.",
+          "codeSnippet": "sequence_data = \"gs://your-bucket/patient_genome.fasta\""
         },
         {
-          "stepTitle": "Analyze with Gemini",
-          "instruction": "Pass the final audio file back to Gemini 1.5 Pro with a prompt to identify 'hallucinations' or 'tone inconsistencies' in the voice agent's response."
+          "stepTitle": "Query AlphaGenome Atlas",
+          "instruction": "Use Gemini to identify specific mutations in the sequence and query the AlphaGenome Atlas (via a mock API or dataset) to predict the mutation's impact.",
+          "codeSnippet": "prompt = \"Identify all single-letter changes in this sequence and predict their functional impact based on AlphaGenome Atlas data.\""
         }
       ],
-      "date": "Sep 15, 2026",
+      "date": "Sep 16",
       "prerequisites": [
-        "Google Cloud Project",
-        "Vertex AI SDK installed",
-        "FFmpeg in environment"
-      ],
-      "sourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning/voice-agent-auditing-guide"
+        "Google Cloud Account",
+        "Basic Python knowledge",
+        "Access to Gemini 1.5 Pro"
+      ]
     },
     {
-      "title": "Real-time Event Inference with Pub/Sub & Gemini",
-      "description": "Apply AI inference to streaming data events using Gemini Enterprise models directly within the Pub/Sub pipeline.",
+      "title": "Agentic Voice Assistant for Clinical Documentation",
+      "description": "Build a voice-enabled agent using Gemini 3.8 Flash that transcribes clinical notes and automatically updates a mock EHR system.",
       "tools": [
-        "Pub/Sub",
-        "Gemini Enterprise",
-        "BigQuery"
+        "Gemini 3.8 Flash",
+        "Vertex AI Agent Builder",
+        "Cloud Functions"
       ],
       "skills": [
-        "Stream Processing",
-        "Anomaly Detection",
-        "Serverless AI"
+        "Real-time Transcription",
+        "Tool Use",
+        "Agentic Orchestration"
       ],
       "complexity": "Advanced",
       "guide": [
         {
-          "stepTitle": "Configure AI Inference SMT",
-          "instruction": "Set up a Pub/Sub subscription with an AI Inference Simple Message Transform (SMT) pointing to your Gemini model.",
-          "codeSnippet": "gcloud pubsub subscriptions create sub-ai --topic=telemetry --ai-inference-model=gemini-enterprise-v1"
+          "stepTitle": "Configure Gemini 3.8 Flash",
+          "instruction": "Set up the model in Vertex AI Studio with a system instruction focused on medical terminology and HIPAA-compliant data handling."
         },
         {
-          "stepTitle": "Define Inference Prompt",
-          "instruction": "Provide a system instruction to the SMT to classify incoming JSON payloads (e.g., 'Is this sensor reading an anomaly?')."
+          "stepTitle": "Define EHR Tools",
+          "instruction": "Create a Cloud Function that acts as a 'tool' for the agent to write data to a database. Define the JSON schema for the function call.",
+          "codeSnippet": "{\n  \"name\": \"update_ehr\",\n  \"parameters\": {\n    \"patient_id\": \"string\",\n    \"note\": \"string\"\n  }\n}"
         },
         {
-          "stepTitle": "Sink to BigQuery",
-          "instruction": "Direct the enriched stream (original data + AI prediction) into BigQuery for real-time dashboarding."
+          "stepTitle": "Deploy Voice Agent",
+          "instruction": "Use the Vertex AI Agent Builder to connect the voice input to the model and the EHR tool. Test with a simulated patient encounter."
         }
       ],
-      "date": "Sep 15, 2026",
+      "date": "Sep 16",
       "prerequisites": [
-        "Gemini Enterprise enabled",
-        "Active Pub/Sub Topic"
-      ],
-      "sourceUrl": "https://cloud.google.com/vertex-ai/docs/release-notes"
+        "Vertex AI Agent Builder access",
+        "Basic understanding of JSON schemas"
+      ]
     }
   ],
   "deepLearningSpotlight": [
     {
-      "title": "The Rise of the AI Engineer: Shaping the Build",
-      "summary": "In the latest edition of 'The Batch,' Andrew Ng argues that the role of the AI Engineer is evolving from a mere implementer to a product leader. As models become more capable, the technical challenge shifts from 'how to build a model' to 'how to steer a system of agents.' Ng emphasizes that an AI Engineer's value now lies in their ability to design the 'scaffolding'—the loops of evaluation, memory management, and tool-use that allow an LLM to perform reliable work. He notes that the best AI products aren't those with the most parameters, but those with the most robust 'agentic workflows.' This perspective aligns with the industry's move toward 'Software 3.0,' where the developer's primary job is to curate the data and prompts that define machine behavior.",
+      "title": "The Rise of AI Engineering: Shaping the Build",
+      "summary": "In the latest edition of 'The Batch,' Andrew Ng argues that the role of the AI Engineer is undergoing a fundamental transformation. It is no longer sufficient to simply 'implement' a product spec; engineers must now 'shape the build' by understanding the underlying mechanics of agentic workflows and context management. Ng highlights that as models like GPT-6 Astra and Claude Fable 5.1 become more capable of 'computer use,' the bottleneck shifts from raw model output to the reliability of the agent's decision-making process.\n\nNg's perspective is that 'Software 3.0' (as Andrej Karpathy calls it) requires a deep understanding of how to steer models through non-code tasks like data analysis and system operations. He emphasizes that the most successful AI products will be those where the engineer has actively designed the 'guardrails' and 'memory' of the agent, rather than just treating the LLM as a black box. This shift places AI Engineers in a unique position of product leadership, where technical intuition directly dictates user experience.",
       "url": "https://www.deeplearning.ai/the-batch/issue-265/",
       "category": "The Batch",
       "author": "Andrew Ng",
-      "date": "Sep 11, 2026"
+      "date": "Sep 11"
     },
     {
-      "title": "SelfCompact: Solving the Context Window Dilemma",
-      "summary": "DeepLearning.AI highlights 'SelfCompact,' a new agentic tool designed to manage long-context windows more efficiently. Traditional models often discard the oldest information when they run out of space, leading to 'lost-in-the-middle' errors. SelfCompact uses a secondary 'meta-agent' to evaluate which parts of the conversation are essential for the current task and 'compacts' the rest into high-density summaries. This technical breakthrough allows agents to maintain long-term coherence without the exponential cost of massive context windows. Andrew Ng comments that this is a vital step toward truly autonomous agents that can work on projects spanning weeks or months without losing track of their original goals.",
-      "url": "https://www.deeplearning.ai/the-batch/selfcompact-context-management/",
-      "category": "Research Highlight",
+      "title": "Transcription Battles: The New Front in Agentic AI",
+      "summary": "This segment of 'The Batch' explores the sudden surge in high-performance transcription models from Google, Meta, and Microsoft. While often overshadowed by generative text models, speech-to-text is becoming the 'critical input layer' for the next generation of AI agents. The article details how these new models are optimized for 'agentic input'—meaning they are designed to capture not just words, but the intent and context of spoken commands in noisy, real-world environments.\n\nThe technical focus is on 'parallel reasoning' within transcription, where models can simultaneously transcribe and begin 'thinking' about the next action. Andrew Ng notes that for AI to move from a screen-based assistant to an 'embodied' partner (like in robotics or wearable tech), the latency and accuracy of these transcription layers must be near-human. This 'Transcription Battle' is essentially a race to control the primary interface through which humans will interact with autonomous agents.",
+      "url": "https://www.deeplearning.ai/the-batch/transcription-battles-heat-up/",
+      "category": "The Batch",
       "author": "The Batch Team",
-      "date": "Sep 11, 2026"
+      "date": "Sep 11"
     }
   ],
   "generalLearningItems": [
     {
-      "title": "OpenDevin: Open Platform for AI Software Agents",
+      "title": "ALTK-Evolve: Improving Agent Consistency",
       "provider": "Hugging Face",
-      "summary": "A comprehensive platform and community effort to build open-source AI agents capable of interacting with the world, writing code, and managing complex software projects.",
-      "url": "https://huggingface.co/papers/2412.20138",
-      "type": "Tool",
+      "summary": "A new technical guide and toolset for measuring and improving the consistency of AI agents. It introduces the 'Consistency Analyzer' to find flip-prone decision points in agent trajectories.",
+      "url": "https://huggingface.co/blog/agent-consistency",
+      "type": "Tutorial",
       "difficulty": "Advanced"
     },
     {
-      "title": "GPT-Live Evaluation Guide",
-      "provider": "OpenAI",
-      "summary": "A new cookbook entry detailing how to evaluate the performance and safety of real-time voice and multimodal agents using the GPT-Live API.",
-      "url": "https://cookbook.openai.com/examples/gpt_live_eval_guide",
-      "type": "Tutorial",
-      "difficulty": "Intermediate"
-    },
-    {
-      "title": "Claude for Financial Advisors: Workflow Integration",
+      "title": "Anthropic Cookbook: Building Secure Agentic Workflows",
       "provider": "Anthropic",
-      "summary": "A technical guide on using the new Claude plugins to connect to financial data sources and automate compliance-heavy research tasks.",
-      "url": "https://www.anthropic.com/cookbook/financial-advisor-plugin",
-      "type": "Tutorial",
+      "summary": "A collection of code recipes focused on implementing the safeguards discussed in their latest threat intelligence report, specifically for preventing 'agent swarms' from unauthorized actions.",
+      "url": "https://github.com/anthropics/anthropic-cookbook",
+      "type": "Tool",
       "difficulty": "Intermediate"
     }
   ]
